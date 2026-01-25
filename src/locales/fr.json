@@ -1,0 +1,215 @@
+{
+    "nav": {
+        "about": "Notre Club",
+        "courses": "Disciplines",
+        "planning": "Planning",
+        "subscriptions": "Abonnements",
+        "shop": "Boutique",
+        "team": "Équipe",
+        "events": "Événements",
+        "contact": "Contact",
+        "open_menu": "Ouvrir le menu",
+        "close_menu": "Fermer le menu",
+        "menu_description": "Menu de navigation principal du site."
+    },
+    "hero": {
+        "location": "Arts Martiaux · Guadeloupe",
+        "brand": "HAND FIGHT — THE BROTHERS INTERNATIONAL",
+        "tagline": "Où la discipline rencontre la passion. Pour tous âges, tous niveaux.",
+        "cta_trial": "Essai Gratuit sur WhatsApp",
+        "cta_subscriptions": "Voir les Abonnements"
+    },
+    "about": {
+        "welcome_title": "Bienvenue chez Hand Fight",
+        "welcome_text": "Notre club, dirigé par le champion international Handu (ceinture noire depuis 2019), forme des athlètes de tous âges dans les disciplines du Jiu-Jitsu Brésilien (JJB) et des Arts Martiaux Mixtes (MMA). Basé à Le Gosier, Guadeloupe, nous proposons un environnement d'entraînement professionnel où la discipline, le respect et l'excellence sont au cœur de notre approche pédagogique.",
+        "mission_title": "Notre Mission",
+        "mission1": "Former des athlètes complets sur le plan technique et mental",
+        "mission2": "Développer la confiance en soi et le respect des autres",
+        "mission3": "Préparer aux compétitions nationales et internationales",
+        "mission4": "Créer une communauté soudée autour des valeurs martiales",
+        "image_alt": "Le dojo de Hand Fight avec des pratiquants en entraînement"
+    },
+    "trial_cta": {
+        "title": "Nouveau chez nous ? Profitez d'une séance d'essai gratuite !",
+        "text": "Contactez-nous dès maintenant sur WhatsApp pour réserver votre place et découvrir notre club.",
+        "button_reserve": "Réserver un Essai Gratuit",
+        "button_subscriptions": "Voir les Abonnements"
+    },
+    "disciplines": {
+        "title": "Nos Disciplines",
+        "jjb": {
+            "title": "Jiu-Jitsu Brésilien",
+            "description": "Le JJB est un art martial qui développe la coordination, la confiance en soi, le respect et la stratégie. Accessible à tous, il permet de maîtriser des techniques de contrôle et de soumission efficaces.",
+            "image_alt": "Deux personnes pratiquant le Jiu-Jitsu Brésilien",
+            "features_title": "Pour Qui ?",
+            "feature1": "Enfants (4–12 ans) : apprentissage ludique et développement psychomoteur",
+            "feature2": "Ados & Adultes : perfectionnement technique et préparation aux compétitions",
+            "feature3": "Kimono & No-Gi (Grappling) : deux approches complémentaires"
+        },
+        "mma": {
+            "title": "MMA (Mixed Martial Arts)",
+            "description": "Les Arts Martiaux Mixtes combinent frappes, projections et soumissions pour un combat complet. Notre programme MMA est conçu pour développer des athlètes polyvalents et préparés mentalement.",
+            "image_alt": "Deux athlètes s'affrontant dans une cage de MMA",
+            "features_title": "Programme Complet",
+            "feature1": "Sparring contrôlé : sécurité et progression garanties",
+            "feature2": "Préparation physique : conditionnement et endurance",
+            "feature3": "Niveaux intermédiaires et avancés : technique et tactique avancées"
+        }
+    },
+    "planning": {
+        "title": "Planning des Entraînements",
+        "subtitle": "Nos cours sont organisés tout au long de la semaine pour s'adapter à vos disponibilités. Que vous soyez débutant ou confirmé, enfant ou adulte, vous trouverez le créneau qui vous convient.",
+        "days": {
+            "monday": "Lundi",
+            "tuesday": "Mardi",
+            "wednesday": "Mercredi",
+            "thursday": "Jeudi",
+            "friday": "Vendredi",
+            "saturday": "Samedi"
+        },
+        "courses": {
+            "jjb_kimono": "JJB Kimono",
+            "grappling": "Grappling",
+            "jjb_kids": "JJB Enfants",
+            "jjb_ado": "JJB Ado",
+            "mma_handfight": "MMA Salle HandFight",
+            "mma_makasi": "MMA Salle Makasi",
+            "open_mat_grappling": "Open Mat / Grappling"
+        },
+        "no_class": "Aucun cours prévu ce jour-là.",
+        "trial_title": "Séance d'essai gratuite !",
+        "trial_text": "Contactez-nous via WhatsApp pour réserver votre première séance sans engagement.",
+        "trial_button": "Réserver via WhatsApp"
+    },
+    "subscriptions": {
+        "title": "Nos Abonnements",
+        "subtitle": "Rejoignez notre communauté et bénéficiez de tarifs adaptés à tous les profils. Choisissez la formule qui correspond à vos objectifs et engagez-vous dans votre parcours martial dès aujourd'hui.",
+        "secure_payment": "Tous les paiements sont sécurisés via HelloAsso.",
+        "validity": "Validité : Toutes les adhésions sont valables jusqu'au 31/12/2031 (sauf offres courtes).",
+        "help": "Besoin d'aide pour choisir ? Contactez-nous !",
+        "cta_button": "S'inscrire Maintenant",
+        "cta_contact": "Questions ? WhatsApp",
+        "categories": {
+            "kids": "Enfants (4–12 ans)",
+            "students": "Étudiants",
+            "adults_jjb": "Adultes – JJB",
+            "mma_jjb": "MMA + JJB",
+            "family_jjb": "Forfaits Famille - JJB"
+        },
+        "plans": {
+            "kids_annual": { "name": "JJB Enfants – Annuel", "price": "40 €", "description": "Meilleur prix !" },
+            "kids_premium": { "name": "JJB Enfants Premium", "price": "70 €", "description": "Stages inclus" },
+            "kids_info": "Des cours adaptés pour développer la coordination, la discipline et la confiance en soi dès le plus jeune âge.",
+            "student_annual": { "name": "JJB Étudiant – Annuel", "price": "50 €" },
+            "student_info": "Tarif spécial pour les étudiants avec justificatif. Un investissement accessible pour votre développement personnel.",
+            "adult_1m": { "name": "1 Mois", "price": "90 €" },
+            "adult_6m": { "name": "6 Mois", "price": "70 €" },
+            "adult_annual": { "name": "Annuel", "price": "60 €", "description": "Offre la plus avantageuse !" },
+            "adult_info": "Formules flexibles pour s'adapter à votre engagement et vos objectifs sportifs.",
+            "mma_only_annual": { "name": "MMA Seul – Annuel", "price": "60 €" },
+            "mma_jjb_annual": { "name": "MMA + JJB – Annuel", "price": "110 €" },
+            "mma_jjb_6m": { "name": "MMA + JJB – 6 Mois", "price": "135 €" },
+            "mma_info": "Combinez les disciplines pour devenir un combattant complet avec un excellent rapport qualité-prix.",
+            "family_2": { "name": "2 membres (1 adulte, 1 enfant)", "price": "92 € / an" },
+            "family_3": { "name": "3 membres (1 adulte, 2 enfants)", "price": "125 € / an" },
+            "family_info": "Partagez votre passion en famille avec nos tarifs préférentiels. Entraînez-vous ensemble et progressez ensemble !"
+        }
+    },
+    "shop": {
+        "title": "Boutique Officielle",
+        "subtitle": "Équipez-vous avec nos produits officiels Hand Fight ! Tous les articles sont disponibles sur place au club ou sur commande via WhatsApp.",
+        "cta_button": "Commander via WhatsApp",
+        "product1": { "name": "Leggings HANDFIGHT", "price": "40" },
+        "product2": { "name": "Rashguard HANDFIGHT", "price": "45" },
+        "product3": { "name": "T-Shirt Jiu-Jitsu", "price": "35" },
+        "product4": { "name": "Short HANDFIGHT", "price": "45" },
+        "enlarged_view": "Vue agrandie du produit"
+    },
+    "team": {
+        "handu": {
+            "name": "Handu — Professeur & Ceinture Noire",
+            "role": "Professeur & Ceinture Noire",
+            "bio": "Champion international, Handu a obtenu sa ceinture noire en 2019 et s'est installé en Guadeloupe en 2023 avec une mission claire : former des champions, sur le tatami et dans la vie. Avec plus de 15 ans d'expérience en compétition et en enseignement, il apporte une expertise technique de haut niveau et une approche pédagogique qui allie exigence et bienveillance.",
+            "philosophy_title": "Philosophie d'Entraînement",
+            "philosophy1": "Excellence technique et progression continue",
+            "philosophy2": "Développement de la confiance et du mental de champion",
+            "philosophy3": "Respect des valeurs martiales traditionnelles",
+            "philosophy4": "Préparation complète : physique, technique et psychologique",
+            "records_title": "Palmarès International de Handu",
+            "team_records_title": "Palmarès de l'Équipe",
+            "records_before_2023": "Avant 2023",
+            "record1": { "achievement": "Fortaleza Open IBJJF", "description": "1er Place Absoluto — Victoire toutes catégories au prestigieux tournoi de l'IBJJF au Brésil" },
+            "record2": { "achievement": "Salvador Fall Open", "description": "1er Place Médio — Champion dans sa catégorie de poids à Salvador" },
+            "record3": { "achievement": "European IBJJF No-Gi", "description": "3e Place — Médaille de bronze au Championnat d'Europe No-Gi" },
+            "record4": { "achievement": "Circuit Brésilien", "description": "Multiples titres à São Paulo, Brasilia, Salvador et autres grandes compétitions nationales brésiliennes" },
+            "records_since_2022": "Europe & Caraïbes",
+            "record5": { "achievement": "Open Toulon & Open Caraïbes", "description": "1er No-Gi dans les deux" },
+            "record6": { "achievement": "Championnat de France", "description": "3e Place et multiples podiums en circuit national" },
+            "record7": { "achievement": "AJP Rome & AJP Paris", "description": "1er Gi & No-Gi dans les deux" },
+            "record8": { "achievement": "Championnat d'Europe", "description": "1 Or, 2 Argent, 4 Bronze" },
+            "records_europe": "Europe",
+            "records_south_america": "Amérique du Sud",
+            "record_europe_2022": { "achievement": "Championnat d'Europe 2022 (Rome)", "description": "Or: Harold. Argent: Erickson, Mathieu. Bronze: Diana, Cedrick, Mathieu B., Geoffrey." },
+            "record_europe_2023": { "achievement": "Championnat d'Europe 2023 (Rome)", "description": "Bronze: Sebastien, Emerick, Yannis, Harold B." },
+            "record_sa_2019": { "achievement": "Sul Americano 2019 (São Paulo)", "description": "Or (Gi & No-Gi): Kevin. Argent (Gi) & Bronze (No-Gi): Diana. Bronze (Gi & No-Gi): Cedrick." }
+        },
+        "champions_title": "Nos Élèves Champions",
+        "champions_subtitle": "Chez Hand Fight, nous sommes fiers de former la prochaine génération de champions. Nos élèves brillent sur les podiums nationaux et internationaux, prouvant l'excellence de notre méthode d'entraînement.",
+        "champion_records_title": "Palmarès Impressionnant",
+        "champion1": {
+            "name": "Erickson \"Bebê\" Lafeuille",
+            "title": "Champion de France 2025",
+            "description": "Double médaille d'or : 1er dans sa catégorie et 1er en open class. À seulement 16 ans, Bebê démontre un talent exceptionnel et une détermination sans faille.",
+            "record1": { "achievement": "Son Parcours", "description": "Débute le JJB en 2021 à l'âge de 12 ans" },
+            "record2": { "achievement": "Progression fulgurante", "description": "Grâce à un travail acharné" },
+            "record3": { "achievement": "Avenir du JJB", "description": "Représente l'avenir du JJB en Guadeloupe" }
+        },
+        "champion2": {
+            "name": "Mathieu Peraste",
+            "title": "Multiple Médaillé",
+            "description": "Un technicien redoutable connu pour son jeu de garde, Mathieu enchaîne les podiums internationaux.",
+            "record1": { "achievement": "Vice-Champion Pan Américain 2024", "description": "Performance majeure sur le continent américain" },
+            "record2": { "achievement": "Vice-Champion d'Europe 2023 (Rome)", "description": "Confirme son statut sur la scène européenne" },
+            "record3": { "achievement": "Champion d'Europe 2022 (Rome)", "description": "Domine le circuit AJP Rome & Paris avec l'or" }
+        },
+        "cta_button": "Vous aussi, écrivez votre histoire !"
+    },
+    "gallery": {
+        "title": "Galerie des Compétitions",
+        "subtitle": "Revivez les moments forts de nos athlètes sur les podiums nationaux et internationaux. Ces images témoignent de l'excellence technique et de l'esprit combatif qui règnent au sein de Hand Fight.",
+        "alt1": "Athlète sur un podium",
+        "alt2": "Combattant pendant un match"
+    },
+    "events": {
+        "title": "Événements & Actualités",
+        "upcoming_title": "Prochains Événements Majeurs",
+        "upcoming1": { "date": "13–14 Juin 2026", "title": "Championnat de France JJB", "location": "Paris — Porte de Versailles" },
+        "upcoming2": { "date": "Début Novembre 2026", "title": "Open Caraïbes", "location": "Guadeloupe" },
+        "upcoming3": { "date": "Printemps 2026", "title": "Stage Intensif \"Soumissions Avancées\"", "location": "Workshop avec Handu" },
+        "news_title": "Dernières Actualités",
+        "news1": { "date": "Mars 2026", "title": "Bebê Champion de France !", "description": "Erickson \"Bebê\" Lafeuille remporte le titre de Champion de France 2025 avec deux médailles d'or. Une performance exceptionnelle !" },
+        "news2": { "date": "Mai 2026", "title": "Préparation Championnat de France", "description": "Notre équipe intensifie les entraînements en vue du Championnat de France de juin. Sessions techniques supplémentaires et sparring de haut niveau au programme." },
+        "connect_button": "Restez connecté !"
+    },
+    "contact": {
+        "title": "Contactez-Nous",
+        "subtitle": "Prêt(e) pour un nouveau défi ? Contactez l'équipe Hand Fight pour le JJB ou le MMA. Démarrez votre aventure dès aujourd'hui !",
+        "get_in_touch": "Nous contacter",
+        "address_title": "Notre Adresse",
+        "address_line1": "Ancien Royal Riviera",
+        "address_line2": "Riviera de Gosier, Poucet",
+        "address_line3": "97190 Le Gosier, Guadeloupe",
+        "whatsapp_title": "WhatsApp",
+        "whatsapp_action": "Message pour une réponse rapide",
+        "email_title": "Email",
+        "email_action": "Email pour requêtes détaillées",
+        "socials_title": "Suivez nos actualités",
+        "map_alt": "Enfants du club de JJB"
+    },
+    "footer": {
+        "association": "Association loi 1901",
+        "hq": "Siège social : Ancien Royal Riviera, 97190 Le Gosier",
+        "copyright": "Hand Fight — The Brothers International. Tous droits réservés.",
+        "editor": "Responsable éditorial"
+    }
+}
