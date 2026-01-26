@@ -19,11 +19,11 @@ export default function HeroSection() {
         <div className="max-w-4xl">
           <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-start gap-6">
             <Image
-                src="https://i.postimg.cc/0jHWNcsR/brothers2.png"
+                src="https://i.postimg.cc/9MtCvfnC/brothers2.png"
                 alt="Hand Fight Club Emblem"
                 width={150}
                 height={150}
-                className="flex-shrink-0 invert"
+                className="flex-shrink-0"
                 priority
             />
             <h1 className="font-headline text-5xl sm:text-6xl md:text-7xl">

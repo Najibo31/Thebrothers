@@ -29,7 +29,7 @@ const PlanCard = ({ title, price, description, features, highlight, cta, info }:
         </CardContent>
         <CardFooter>
             <Button className="w-full" variant={highlight ? 'default' : 'secondary'} asChild>
-              <a href="https://wa.me/590691275351" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.helloasso.com/associations/the-brothers-handfight-international" target="_blank" rel="noopener noreferrer">
                 {cta}
               </a>
             </Button>
@@ -53,6 +53,8 @@ const Section = ({ title, icon: Icon, children }: { title: string, icon: React.E
 export default function SubscriptionsPage() {
     const { t } = useI18n();
 
+    const plans = t('subscriptions.plans');
+
     return (
         <div className="flex flex-col min-h-screen bg-secondary/50">
             <Header />
@@ -63,100 +65,113 @@ export default function SubscriptionsPage() {
                         <p className="mt-4 text-xl text-muted-foreground max-w-2xl mx-auto">{t('subscriptions.subtitle')}</p>
                     </div>
 
+                    <div className="mb-12 rounded-lg overflow-hidden shadow-2xl">
+                       <div style={{position: 'relative', paddingBottom: '56.25%', height: 0}}><iframe id="js_video_iframe" src="https://jumpshare.com/embed/tJkhschbBrZQQXCdYvHY" frameBorder="0" allowFullScreen style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}></iframe></div>
+                    </div>
+
+
                     <Section title={t('subscriptions.categories.kids')} icon={Star}>
                          <PlanCard 
-                            title={t('subscriptions.plans.kids_annual.name')}
-                            price={t('subscriptions.plans.kids_annual.price')}
-                            description={t('subscriptions.plans.kids_annual.description')}
-                            info={t('subscriptions.plans.kids_info')}
+                            title={plans.kids_annual.name}
+                            price={plans.kids_annual.price}
+                            description={plans.kids_annual.description}
+                            info={plans.kids_info}
                             cta={t('subscriptions.cta_button')}
                             highlight
                         />
                          <PlanCard 
-                            title={t('subscriptions.plans.kids_premium.name')}
-                            price={t('subscriptions.plans.kids_premium.price')}
-                            description={t('subscriptions.plans.kids_premium.description')}
-                            info={t('subscriptions.plans.kids_info')}
+                            title={plans.kids_premium.name}
+                            price={plans.kids_premium.price}
+                            description={plans.kids_premium.description}
+                            info={plans.kids_info_premium}
+                            cta={t('subscriptions.cta_button')}
+                        />
+                         <PlanCard 
+                            title={plans.adhesion.name}
+                            price={plans.adhesion.price}
+                            description={plans.adhesion.description}
+                            info={plans.adhesion.info}
                             cta={t('subscriptions.cta_button')}
                         />
                     </Section>
 
                      <Section title={t('subscriptions.categories.students')} icon={GraduationCap}>
                         <PlanCard 
-                            title={t('subscriptions.plans.student_annual.name')}
-                            price={t('subscriptions.plans.student_annual.price')}
-                            info={t('subscriptions.plans.student_info')}
+                            title={plans.student_annual.name}
+                            price={plans.student_annual.price}
+                            info={plans.student_info}
                             cta={t('subscriptions.cta_button')}
                         />
                     </Section>
 
                      <Section title={t('subscriptions.categories.adults_jjb')} icon={User}>
                          <PlanCard 
-                            title={t('subscriptions.plans.adult_annual.name')}
-                            price={t('subscriptions.plans.adult_annual.price')}
-                            description={t('subscriptions.plans.adult_annual.description')}
-                             info={t('subscriptions.plans.adult_info')}
+                            title={plans.adult_annual.name}
+                            price={plans.adult_annual.price}
+                            description={plans.adult_annual.description}
+                             info={plans.adult_info}
                             cta={t('subscriptions.cta_button')}
                             highlight
                         />
                          <PlanCard 
-                            title={t('subscriptions.plans.adult_6m.name')}
-                            price={t('subscriptions.plans.adult_6m.price')}
-                             info={t('subscriptions.plans.adult_info')}
+                            title={plans.adult_6m.name}
+                            price={plans.adult_6m.price}
+                             info={plans.adult_info}
                             cta={t('subscriptions.cta_button')}
                         />
                         <PlanCard 
-                            title={t('subscriptions.plans.adult_1m.name')}
-                            price={t('subscriptions.plans.adult_1m.price')}
-                             info={t('subscriptions.plans.adult_info')}
+                            title={plans.adult_1m.name}
+                            price={plans.adult_1m.price}
+                             info={plans.adult_info}
                             cta={t('subscriptions.cta_button')}
                         />
                     </Section>
                     
                     <Section title={t('subscriptions.categories.mma_jjb')} icon={Briefcase}>
                          <PlanCard 
-                            title={t('subscriptions.plans.mma_jjb_annual.name')}
-                            price={t('subscriptions.plans.mma_jjb_annual.price')}
-                             info={t('subscriptions.plans.mma_info')}
+                            title={plans.mma_jjb_annual.name}
+                            price={plans.mma_jjb_annual.price}
+                            info={plans.mma_info}
                             cta={t('subscriptions.cta_button')}
                             highlight
                         />
                          <PlanCard 
-                            title={t('subscriptions.plans.mma_jjb_6m.name')}
-                            price={t('subscriptions.plans.mma_jjb_6m.price')}
-                             info={t('subscriptions.plans.mma_info')}
+                            title={plans.mma_jjb_6m.name}
+                            price={plans.mma_jjb_6m.price}
+                            info={plans.mma_info}
                             cta={t('subscriptions.cta_button')}
                         />
                         <PlanCard 
-                            title={t('subscriptions.plans.mma_only_annual.name')}
-                            price={t('subscriptions.plans.mma_only_annual.price')}
-                             info={t('subscriptions.plans.mma_info')}
+                            title={plans.mma_only_annual.name}
+                            price={plans.mma_only_annual.price}
+                            info={plans.mma_info}
                             cta={t('subscriptions.cta_button')}
                         />
                     </Section>
 
                     <Section title={t('subscriptions.categories.family_jjb')} icon={Users}>
                          <PlanCard 
-                            title={t('subscriptions.plans.family_2.name')}
-                            price={t('subscriptions.plans.family_2.price')}
-                             info={t('subscriptions.plans.family_info')}
+                            title={plans.family_2.name}
+                            price={plans.family_2.price}
+                            info={plans.family_info}
                             cta={t('subscriptions.cta_button')}
                         />
                          <PlanCard 
-                            title={t('subscriptions.plans.family_3.name')}
-                            price={t('subscriptions.plans.family_3.price')}
-                             info={t('subscriptions.plans.family_info')}
+                            title={plans.family_3.name}
+                            price={plans.family_3.price}
+                            info={plans.family_info}
                             cta={t('subscriptions.cta_button')}
                         />
                     </Section>
 
                      <Card className="mt-16 text-center p-6 bg-background">
                         <CardHeader>
-                            <CardTitle>{t('subscriptions.help')}</CardTitle>
+                            <CardTitle>{t('subscriptions.help_title')}</CardTitle>
                         </CardHeader>
                         <CardContent>
                              <p className="text-muted-foreground">{t('subscriptions.validity')}</p>
-                            <p className="text-muted-foreground">{t('subscriptions.secure_payment')}</p>
+                             <p className="text-muted-foreground">{t('subscriptions.renewal')}</p>
+                            <p className="text-muted-foreground">{t('subscriptions.payment_info')}</p>
                            
                         </CardContent>
                          <CardFooter className="flex justify-center">

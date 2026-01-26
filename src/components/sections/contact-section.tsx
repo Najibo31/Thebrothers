@@ -32,6 +32,13 @@ export default function ContactSection() {
                     </div>
                      <div className="flex items-center gap-4">
                         <Smartphone className="h-6 w-6 text-primary flex-shrink-0"/>
+                         <div>
+                           <h4 className="font-semibold text-foreground">{t('contact.phone_title')}</h4>
+                           <a href="tel:0691275351" className="hover:text-primary transition-colors">{t('contact.phone_number')}</a>
+                        </div>
+                    </div>
+                     <div className="flex items-center gap-4">
+                        <Smartphone className="h-6 w-6 text-primary flex-shrink-0"/>
                         <div>
                            <h4 className="font-semibold text-foreground">{t('contact.whatsapp_title')}</h4>
                            <a href="https://wa.me/590691275351" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">{t('contact.whatsapp_action')}</a>

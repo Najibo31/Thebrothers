@@ -19,7 +19,6 @@ export default function Footer() {
                 alt="Hand Fight Logo" 
                 width={80} 
                 height={80}
-                className="dark:invert"
               />
             </Link>
             <p className="text-sm text-muted-foreground max-w-xs">{t('footer.association')}</p>
@@ -36,6 +35,18 @@ export default function Footer() {
 
         <div className="mt-8 pt-6 border-t flex flex-col sm:flex-row justify-between items-center text-xs text-muted-foreground">
           <p>&copy; {currentYear} {t('footer.copyright')}</p>
+          <div className="flex items-center gap-2">
+            <p>{t('footer.made_by')}</p>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <Image 
+                src="https://i.postimg.cc/J4dnF46r/Digitale-Recupere.png" 
+                alt="Croissance Digitale Logo" 
+                width={20} 
+                height={20}
+                className=""
+              />
+            </a>
+          </div>
           <p>{t('footer.editor')}: Diana Penalva Camacho</p>
         </div>
       </div>

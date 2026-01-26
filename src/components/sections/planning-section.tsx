@@ -8,39 +8,7 @@ import { Phone } from 'lucide-react';
 export default function PlanningSection() {
   const { t, locale } = useI18n();
   
-  // Define schedule data directly
-  const schedule = {
-    monday: [
-      { time: '12H30', course: t('planning.courses.jjb_kimono') },
-      { time: '18h00', course: t('planning.courses.jjb_kimono') },
-      { time: '19h00', course: t('planning.courses.mma_makasi') }
-    ],
-    tuesday: [
-      { time: '12H30', course: t('planning.courses.grappling') },
-      { time: '17h30', course: t('planning.courses.jjb_ado') },
-      { time: '19h00', course: t('planning.courses.grappling') }
-    ],
-    wednesday: [
-      { time: '12H30', course: t('planning.courses.jjb_kimono') },
-      { time: '15h30', course: t('planning.courses.jjb_kids') },
-      { time: '18h00', course: t('planning.courses.open_mat_grappling') },
-      { time: '19h00', course: t('planning.courses.jjb_kimono') }
-    ],
-    thursday: [
-      { time: '12H30', course: t('planning.courses.grappling') },
-      { time: '17h00', course: t('planning.courses.jjb_ado') },
-      { time: '18h00', course: t('planning.courses.mma_handfight') },
-      { time: '19h00', course: t('planning.courses.mma_handfight') }
-    ],
-    friday: [
-      { time: '12H30', course: t('planning.courses.jjb_kimono') },
-      { time: '18h00', course: t('planning.courses.jjb_kimono') },
-      { time: '19h00', course: t('planning.courses.mma_makasi') }
-    ],
-    saturday: [
-      { time: '12H30', course: t('planning.courses.jjb_kids') }
-    ]
-  };
+  const schedule = t('planning.schedule');
 
   const days = [
     { key: 'monday', label: t('planning.days.monday') },
@@ -74,7 +42,7 @@ export default function PlanningSection() {
                 <CardContent className="pt-6">
                   {schedule[day.key as keyof typeof schedule]?.length > 0 ? (
                     <div className="space-y-4">
-                      {schedule[day.key as keyof typeof schedule].map((session, index) => (
+                      {schedule[day.key as keyof typeof schedule].map((session: any, index: number) => (
                         <div key={index} className="flex flex-col items-center gap-2 text-center sm:flex-row sm:justify-between sm:text-left p-4 bg-background rounded-lg border">
                           <p className="font-bold text-base sm:text-lg">{session.time}</p>
                           <p className="text-primary font-semibold text-sm sm:text-base">{session.course}</p>

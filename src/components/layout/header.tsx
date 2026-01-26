@@ -66,12 +66,12 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           <Link href="/" className="flex items-center gap-2">
             <Image 
-              src="https://i.postimg.cc/66DjvGX9/brothers.png"
+              src="https://i.postimg.cc/9MtCvfnC/brothers2.png"
               alt="Hand Fight Logo"
               width={60}
               height={60}
-              className="dark:invert"
               priority
+              className='dark:invert-0'
             />
           </Link>
 
@@ -83,8 +83,13 @@ export default function Header() {
             ))}
           </nav>
           
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1">
             <div className='hidden lg:flex items-center gap-1'>
+              <LanguageSwitcher />
+              <ThemeToggleButton />
+            </div>
+
+            <div className="flex items-center lg:hidden">
               <LanguageSwitcher />
               <ThemeToggleButton />
             </div>
@@ -109,7 +114,6 @@ export default function Header() {
                         alt="Hand Fight Logo"
                         width={50}
                         height={50}
-                        className="dark:invert"
                       />
                     </Link>
                     <SheetClose asChild>
@@ -122,9 +126,19 @@ export default function Header() {
                   <div className="flex flex-col gap-4 py-6">
                     <NavLinksContent />
                   </div>
-                  <div className="mt-auto border-t pt-4 flex items-center justify-center gap-2">
-                     <LanguageSwitcher />
-                     <ThemeToggleButton />
+                  <div className="mt-auto pt-6 text-center text-xs text-muted-foreground">
+                    <div className="flex items-center justify-center gap-2">
+                       <p>{t('footer.made_by')}</p>
+                       <a href="#" target="_blank" rel="noopener noreferrer">
+                        <Image 
+                          src="https://i.postimg.cc/J4dnF46r/Digitale-Recupere.png" 
+                          alt="Croissance Digitale Logo" 
+                          width={20} 
+                          height={20}
+                          className=""
+                        />
+                      </a>
+                    </div>
                   </div>
                 </nav>
               </SheetContent>

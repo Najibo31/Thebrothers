@@ -1,7 +1,7 @@
 'use client';
 import { useI18n } from '@/contexts/i18n-provider';
 import { Card } from '@/components/ui/card';
-import { Target, ShieldCheck, Heart, Users } from 'lucide-react';
+import { Target, ShieldCheck, Award, Users } from 'lucide-react';
 import Image from 'next/image';
 
 export default function AboutSection() {
@@ -10,7 +10,7 @@ export default function AboutSection() {
   const missions = [
     { icon: Target, text: t('about.mission1') },
     { icon: ShieldCheck, text: t('about.mission2') },
-    { icon: Heart, text: t('about.mission3') },
+    { icon: Award, text: t('about.mission3') },
     { icon: Users, text: t('about.mission4') },
   ];
 
@@ -44,7 +44,7 @@ export default function AboutSection() {
                 alt={t('about.image_alt')}
                 width={800}
                 height={600}
-                className="w-full h-auto"
+                className="w-full h-auto object-cover"
                 data-ai-hint="entraînement jjb"
                />
             </Card>

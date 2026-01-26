@@ -53,7 +53,7 @@ export default function DisciplinesSection() {
                     src={discipline.image}
                     alt={discipline.image_alt}
                     fill
-                    className="object-contain"
+                    className="object-cover"
                     data-ai-hint={discipline.ai_hint}
                   />
                 </div>
