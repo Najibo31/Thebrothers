@@ -116,21 +116,21 @@
             "family_jjb": "Forfaits Famille - JJB"
         },
         "plans": {
-            "adhesion": { "name": "Adhésion", "price": "30 € / an", "description": "1 fois", "info": "Assurance et licence incluses." },
-            "kids_annual": { "name": "JJB Enfants – Annuel", "price": "40 €", "description": "Meilleur prix !", "info": "2 fois par semaine." },
-            "kids_premium": { "name": "JJB Enfants Premium", "price": "70 €", "description": "Stages inclus", "info": "2 fois par semaine." },
-            "student_annual": { "name": "JJB Étudiant/Jeune – Annuel", "price": "50 €", "info": "" },
+            "adhesion": { "name": "JJB Enfants – Annuel", "price": "30 € / mois", "description": "1 fois par semaine", "info": "" },
+            "kids_annual": { "name": "JJB Enfants – Annuel", "price": "40 € / mois", "description": "Meilleur prix !", "info": "2 fois par semaine." },
+            "kids_premium": { "name": "JJB Enfants (2 enfants)", "price": "70 € / mois", "description": "", "info": "2 fois par semaine." },
+            "student_annual": { "name": "JJB Étudiant/Jeune – Annuel", "price": "50 € / mois", "info": "" },
             "student_info": "Tarif spécial pour les étudiants et jeunes. Un investissement accessible pour votre développement personnel.",
-            "adult_1m": { "name": "1 Mois", "price": "90 €", "info": "" },
-            "adult_6m": { "name": "6 Mois", "price": "70 €", "info": "" },
-            "adult_annual": { "name": "Annuel", "price": "60 €", "description": "Offre la plus avantageuse !", "info": "" },
+            "adult_1m": { "name": "1 Mois", "price": "90 € / mois", "info": "" },
+            "adult_6m": { "name": "6 Mois", "price": "70 € / mois", "info": "" },
+            "adult_annual": { "name": "Annuel", "price": "60 € / mois", "description": "Offre la plus avantageuse !", "info": "" },
             "adult_info": "Formules flexibles pour s’adapter à votre engagement et vos objectifs sportifs.",
-            "mma_only_annual": { "name": "MMA Seul – Annuel", "price": "60 €", "info": "" },
-            "mma_jjb_annual": { "name": "MMA + JJB – Annuel", "price": "110 €", "info": "" },
-            "mma_jjb_6m": { "name": "MMA + JJB – 6 Mois", "price": "135 €", "info": "" },
+            "mma_only_annual": { "name": "MMA Seul – Annuel", "price": "60 € / mois", "info": "" },
+            "mma_jjb_annual": { "name": "MMA + JJB – Annuel", "price": "110 € / mois", "info": "" },
+            "mma_jjb_6m": { "name": "MMA + JJB – 6 Mois", "price": "135 € / mois", "info": "" },
             "mma_info": "Combinez les disciplines pour devenir un combattant complet avec un excellent rapport qualité-prix.",
-            "family_2": { "name": "2 membres (1 adulte + 1 enfant)", "price": "92 € / an", "info": "" },
-            "family_3": { "name": "3 membres (2 adultes + enfants)", "price": "125 € / an", "info": "" },
+            "family_2": { "name": "2 membres (1 adulte + 1 enfant)", "price": "92 € / mois", "info": "" },
+            "family_3": { "name": "3 membres (1 adulte + 2 enfants)", "price": "125 € / mois", "info": "" },
             "family_info": "Partagez votre passion en famille avec des tarifs préférentiels. Entraînez-vous ensemble et progressez ensemble !"
         }
     },
@@ -172,7 +172,7 @@
              "gallery": [
                 { "src": "https://i.postimg.cc/W3TRQNjJ/prise88.jpg", "alt": "Handu Professeur" },
                 { "src": "https://i.postimg.cc/rmQY0dnb/Whats_App_Image_2026-01-26_at_01_41_12.jpg", "alt": "Handu en enseignement" },
-                { "src": "https://i.postimg.cc/T11NrRFS/Whats_App_Image_2026-01_26_at-01_41_11.jpg", "alt": "Handu en compétition" },
+                { "src": "https://i.postimg.cc/T11NrRFS/Whats_App_Image_2026_01_26_at-01_41_11.jpg", "alt": "Handu en compétition" },
                 { "src": "https://i.postimg.cc/T11NrRF4/handu.jpg", "alt": "Portrait de Handu" }
             ]
         },
@@ -287,7 +287,7 @@
         "upcoming2": { "date": "Début Novembre 2026", "title": "Open Caraïbes", "location": "Guadeloupe" },
         "upcoming3": { "date": "Printemps 2026", "title": "Stage Intensif \"Soumissions Avancées\"", "location": "Workshop avec Handu" },
         "news_title": "Dernières Actualités",
-        "news1": { "date": "Mars 2025", "title": "Bebê Champion de France !", "description": "Erickson \"Bebê\" Lafeuille remporte le titre de Champion de France 2025 avec deux médailles d'or. Une performance exceptionnelle !", "image": "https://i.postimg.cc/Y993Ym9Z/Whats_App_Image_2026-01-26-at-01_34_43.jpg" },
+        "news1": { "date": "Mars 2025", "title": "Bebê Champion de France !", "description": "Erickson \"Bebê\" Lafeuille remporte le titre de Champion de France 2025 avec deux médailles d'or. Une performance exceptionnelle !", "image": "https://i.postimg.cc/Y993Ym9Z/Whats_App_Image_2026-01-26-at_01_34_43.jpg" },
         "news2": { "date": "Mai 2026", "title": "Préparation Championnat de France", "description": "Notre équipe intensifie les entraînements en vue du Championnat de France de juin. Sessions techniques supplémentaires et sparring de haut niveau au programme." },
         "news3": { "date": "Janvier 2026", "title": "Jessica Gabriel, Championne d'Europe !", "description": "Jessica Gabriel remporte la médaille d'or au championnat d'Europe de JJB. Une performance incroyable qui confirme son statut d'athlète de haut niveau.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" },
         "connect_button": "Restez connecté !"

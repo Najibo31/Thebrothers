@@ -116,21 +116,21 @@
             "family_jjb": "Family Plans - BJJ"
         },
         "plans": {
-            "adhesion": { "name": "Membership", "price": "30 € / year", "description": "1 time", "info": "" },
-            "kids_annual": { "name": "BJJ Kids – Annual", "price": "40 €", "description": "Best price!", "info": "2 times a week." },
-            "kids_premium": { "name": "BJJ Kids Premium", "price": "70 €", "description": "Camps included", "info": "2 times a week." },
-            "student_annual": { "name": "BJJ Student – Annual", "price": "50 €", "info": "" },
+            "adhesion": { "name": "BJJ Kids - Annual", "price": "30 € / month", "description": "1 time a week", "info": "" },
+            "kids_annual": { "name": "BJJ Kids – Annual", "price": "40 € / month", "description": "Best price!", "info": "2 times a week." },
+            "kids_premium": { "name": "BJJ Kids (2 children)", "price": "70 € / month", "description": "", "info": "2 times a week." },
+            "student_annual": { "name": "BJJ Student – Annual", "price": "50 € / month", "info": "" },
             "student_info": "Special rate for students. An accessible investment for your personal development.",
-            "adult_1m": { "name": "1 Month", "price": "90 €", "info": "" },
-            "adult_6m": { "name": "6 Months", "price": "70 €", "info": "" },
-            "adult_annual": { "name": "Annual", "price": "60 €", "description": "Most advantageous offer!", "info": "" },
+            "adult_1m": { "name": "1 Month", "price": "90 € / month", "info": "" },
+            "adult_6m": { "name": "6 Months", "price": "70 € / month", "info": "" },
+            "adult_annual": { "name": "Annual", "price": "60 € / month", "description": "Most advantageous offer!", "info": "" },
             "adult_info": "Flexible plans to adapt to your commitment and sports goals.",
-            "mma_only_annual": { "name": "MMA Only – Annual", "price": "60 €", "info": "" },
-            "mma_jjb_annual": { "name": "MMA + BJJ – Annual", "price": "110 €", "info": "" },
-            "mma_jjb_6m": { "name": "MMA + BJJ – 6 Months", "price": "135 €", "info": "" },
+            "mma_only_annual": { "name": "MMA Only – Annual", "price": "60 € / month", "info": "" },
+            "mma_jjb_annual": { "name": "MMA + BJJ – Annual", "price": "110 € / month", "info": "" },
+            "mma_jjb_6m": { "name": "MMA + BJJ – 6 Months", "price": "135 € / month", "info": "" },
             "mma_info": "Combine disciplines to become a complete fighter with excellent value for money.",
-            "family_2": { "name": "2 members (1 adult, 1 child)", "price": "92 € / year", "info": "" },
-            "family_3": { "name": "3 members (2 adults + children)", "price": "125 € / year", "info": "" },
+            "family_2": { "name": "2 members (1 adult, 1 child)", "price": "92 € / month", "info": "" },
+            "family_3": { "name": "3 members (1 adult + 2 children)", "price": "125 € / month", "info": "" },
             "family_info": "Share your passion with your family with our preferential rates. Train together and progress together!"
         }
     },
@@ -171,7 +171,7 @@
             "palmares_2022": { "year": "2022", "items": [{ "title": "European Championship", "result": "1 Gold, 2 Silver, 4 Bronze" }, { "title": "Exceptional multi-medal performance", "result": "" }] },
             "gallery": [
                 { "src": "https://i.postimg.cc/W3TRQNjJ/prise88.jpg", "alt": "Handu Professor" },
-                { "src": "https://i.postimg.cc/rmQY0dnb/Whats_App_Image_2026-01-26-at-01_41_12.jpg", "alt": "Handu teaching" },
+                { "src": "https://i.postimg.cc/rmQY0dnb/Whats_App_Image_2026-01-26_at_01_41_12.jpg", "alt": "Handu teaching" },
                 { "src": "https://i.postimg.cc/T11NrRFS/Whats_App_Image_2026_01_26_at-01_41_11.jpg", "alt": "Handu in competition" },
                 { "src": "https://i.postimg.cc/T11NrRF4/handu.jpg", "alt": "Handu portrait" }
             ]
@@ -287,7 +287,7 @@
         "upcoming2": { "date": "Early November 2026", "title": "Caribbean Open", "location": "Guadeloupe" },
         "upcoming3": { "date": "Spring 2026", "title": "Intensive Camp \"Advanced Submissions\"", "location": "Workshop with Handu" },
         "news_title": "Latest News",
-        "news1": { "date": "March 2025", "title": "Bebê is French Champion!", "description": "Erickson \"Bebê\" Lafeuille wins the French Champion title with two gold medals. An exceptional performance!", "image": "https://i.postimg.cc/Y993Ym9Z/Whats_App_Image_2026-01-26-at-01_34_43.jpg" },
+        "news1": { "date": "March 2025", "title": "Bebê is French Champion!", "description": "Erickson \"Bebê\" Lafeuille wins the French Champion title with two gold medals. An exceptional performance!", "image": "https://i.postimg.cc/Y993Ym9Z/Whats_App_Image_2026-01-26-at_01_34_43.jpg" },
         "news2": { "date": "May 2026", "title": "French Championship Prep", "description": "Our team is intensifying training for the upcoming French Championship. Extra technical sessions and high-level sparring on the agenda." },
         "news3": { "date": "January 2026", "title": "Jessica Gabriel, European Champion!", "description": "Jessica Gabriel wins the gold medal at the European BJJ Championship. An incredible performance that confirms her status as a top-level athlete.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" },
         "connect_button": "Stay Connected!"

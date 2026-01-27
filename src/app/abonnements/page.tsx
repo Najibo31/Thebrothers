@@ -66,8 +66,8 @@ export default function SubscriptionsPage() {
                         <p className="mt-4 text-xl text-muted-foreground max-w-3xl mx-auto">{t('subscriptions.subtitle')}</p>
                     </div>
 
-                    <div className="mb-12 rounded-lg overflow-hidden shadow-2xl max-w-md mx-auto">
-                       <div style={{position: 'relative', paddingBottom: '177.77%', height: 0}}><iframe id="js_video_iframe" src="https://jumpshare.com/embed/tJkhschbBrZQQXCdYvHY" frameBorder="0" allowFullScreen style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}></iframe></div>
+                    <div className="mb-12 rounded-lg overflow-hidden shadow-2xl max-w-2xl mx-auto">
+                       <div style={{position: 'relative', paddingBottom: '56.25%', height: 0}}><iframe src="https://app.videas.fr/embed/media/2cafe511-ce86-4e42-a869-cc93cbb2b8ae/" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}></iframe></div>
                     </div>
 
 
@@ -78,7 +78,7 @@ export default function SubscriptionsPage() {
                             description={plans.adhesion.description}
                             info={plans.adhesion.info}
                             cta={t('subscriptions.cta_button')}
-                            href={default_href}
+                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/enfants-jjb-4-ans-jusqu-a-12-ans-inclus-1-semaine"
                         />
                          <PlanCard 
                             title={plans.kids_annual.name}
