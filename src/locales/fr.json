@@ -171,8 +171,8 @@
             "palmares_2022": { "year": "2022", "items": [{ "title": "Championnat d’Europe", "result": "1 Or, 2 Argent, 4 Bronze" }, { "title": "Exceptional multi-medal performance", "result": "" }] },
              "gallery": [
                 { "src": "https://i.postimg.cc/W3TRQNjJ/prise88.jpg", "alt": "Handu Professeur" },
-                { "src": "https://i.postimg.cc/rmQY0dnb/Whats_App_Image_2026-01-26-at-01_41_12.jpg", "alt": "Handu en enseignement" },
-                { "src": "https://i.postimg.cc/T11NrRFS/Whats_App_Image_2026-01_26-at-01_41_11.jpg", "alt": "Handu en compétition" },
+                { "src": "https://i.postimg.cc/rmQY0dnb/Whats_App_Image_2026-01-26_at_01_41_12.jpg", "alt": "Handu en enseignement" },
+                { "src": "https://i.postimg.cc/T11NrRFS/Whats_App_Image_2026-01_26_at-01_41_11.jpg", "alt": "Handu en compétition" },
                 { "src": "https://i.postimg.cc/T11NrRF4/handu.jpg", "alt": "Portrait de Handu" }
             ]
         },
@@ -218,7 +218,7 @@
                 "name": "Mathieu Peraste",
                 "title": "Multiple Médaillé",
                 "description": "Un technicien redoutable connu pour son jeu de garde, Mathieu enchaîne les podiums internationaux.",
-                "image": "https://i.postimg.cc/76nrBYBB/Whats_App_Image_2026-01-26-at-01_34_04.jpg", "alt": "Mathieu Peraste", "ai_hint": "athlete jjb",
+                "image": "https://i.postimg.cc/76nrBYBB/Whats_App_Image_2026-01-26_at_01_34_04.jpg", "alt": "Mathieu Peraste", "ai_hint": "athlete jjb",
                 "records": [
                     { "achievement": "Vice-champion pan américain 2024", "description": "" },
                     { "achievement": "Vice-champion d’Europe 2023 a rome", "description": "" },
@@ -229,7 +229,7 @@
                 "name": "Harold Beaugendre",
                 "title": "Champion d'Europe",
                 "description": "Pilier de l'équipe, Harold est reconnu pour sa puissance et son palmarès impressionnant au niveau européen.",
-                "image": "https://i.postimg.cc/1XX7p92L/Whats_App_Image_2026-01-26-at-01_32_58.jpg", "alt": "Harold Beaugendre", "ai_hint": "compétiteur jjb",
+                "image": "https://i.postimg.cc/1XX7p92L/Whats_App_Image_2026-01-26_at_01_32_58.jpg", "alt": "Harold Beaugendre", "ai_hint": "compétiteur jjb",
                 "records": [
                     { "achievement": "Champion d'Europe 2022 (Rome)", "description": "" },
                     { "achievement": "Médaillé d'argent AJP Paris 2021", "description": "" },
@@ -240,7 +240,7 @@
                 "name": "Diana Penalva",
                 "title": "Compétitrice Internationale",
                 "description": "Compétitrice aguerrie, Diana se distingue par sa technique et sa régularité sur le circuit international.",
-                "image": "https://i.postimg.cc/3Rnb4ySz/Whats_App_Image_2026-01_26-at-01_42_15.jpg", "alt": "Diana Penalva", "ai_hint": "compétitrice jjb femme",
+                "image": "https://i.postimg.cc/3Rnb4ySz/Whats_App_Image_2026-01-26_at_01_42_15.jpg", "alt": "Diana Penalva", "ai_hint": "compétitrice jjb femme",
                 "records": [
                     { "achievement": "Médaillée de bronze Championnat d'Europe 2022", "description": "" },
                     { "achievement": "Médaillée d'argent & bronze Sul Americano 2021", "description": "" },
@@ -287,7 +287,7 @@
         "upcoming2": { "date": "Début Novembre 2026", "title": "Open Caraïbes", "location": "Guadeloupe" },
         "upcoming3": { "date": "Printemps 2026", "title": "Stage Intensif \"Soumissions Avancées\"", "location": "Workshop avec Handu" },
         "news_title": "Dernières Actualités",
-        "news1": { "date": "Mars 2026", "title": "Bebê Champion de France !", "description": "Erickson \"Bebê\" Lafeuille remporte le titre de Champion de France 2025 avec deux médailles d'or. Une performance exceptionnelle !" },
+        "news1": { "date": "Mars 2025", "title": "Bebê Champion de France !", "description": "Erickson \"Bebê\" Lafeuille remporte le titre de Champion de France 2025 avec deux médailles d'or. Une performance exceptionnelle !", "image": "https://i.postimg.cc/Y993Ym9Z/Whats_App_Image_2026-01-26-at-01_34_43.jpg" },
         "news2": { "date": "Mai 2026", "title": "Préparation Championnat de France", "description": "Notre équipe intensifie les entraînements en vue du Championnat de France de juin. Sessions techniques supplémentaires et sparring de haut niveau au programme." },
         "news3": { "date": "Janvier 2026", "title": "Jessica Gabriel, Championne d'Europe !", "description": "Jessica Gabriel remporte la médaille d'or au championnat d'Europe de JJB. Une performance incroyable qui confirme son statut d'athlète de haut niveau.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" },
         "connect_button": "Restez connecté !"
@@ -317,3 +317,5 @@
         "made_by": "Créé et imaginé par Croissance Digitale."
     }
 }
+
+    

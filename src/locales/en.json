@@ -172,7 +172,7 @@
             "gallery": [
                 { "src": "https://i.postimg.cc/W3TRQNjJ/prise88.jpg", "alt": "Handu Professor" },
                 { "src": "https://i.postimg.cc/rmQY0dnb/Whats_App_Image_2026-01-26-at-01_41_12.jpg", "alt": "Handu teaching" },
-                { "src": "https://i.postimg.cc/T11NrRFS/Whats_App_Image_2026-01_26-at-01_41_11.jpg", "alt": "Handu in competition" },
+                { "src": "https://i.postimg.cc/T11NrRFS/Whats_App_Image_2026_01_26_at-01_41_11.jpg", "alt": "Handu in competition" },
                 { "src": "https://i.postimg.cc/T11NrRF4/handu.jpg", "alt": "Handu portrait" }
             ]
         },
@@ -218,7 +218,7 @@
                 "name": "Mathieu Peraste",
                 "title": "Multiple Medalist",
                 "description": "A formidable technician known for his guard game, Mathieu consistently reaches international podiums.",
-                "image": "https://i.postimg.cc/76nrBYBB/Whats_App_Image_2026-01-26-at-01_34_04.jpg", "alt": "Mathieu Peraste", "ai_hint": "athlete jjb",
+                "image": "https://i.postimg.cc/76nrBYBB/Whats_App_Image_2026-01-26_at_01_34_04.jpg", "alt": "Mathieu Peraste", "ai_hint": "athlete jjb",
                 "records": [
                     { "achievement": "2024 Pan American Vice-Champion", "description": "" },
                     { "achievement": "2023 European Vice-Champion (Rome)", "description": "" },
@@ -229,7 +229,7 @@
                 "name": "Harold Beaugendre",
                 "title": "European Champion",
                 "description": "A pillar of the team, Harold is known for his power and his impressive track record at the European level.",
-                "image": "https://i.postimg.cc/1XX7p92L/Whats_App_Image_2026-01-26-at-01_32_58.jpg", "alt": "Harold Beaugendre", "ai_hint": "jjb competitor",
+                "image": "https://i.postimg.cc/1XX7p92L/Whats_App_Image_2026-01-26_at_01_32_58.jpg", "alt": "Harold Beaugendre", "ai_hint": "jjb competitor",
                 "records": [
                     { "achievement": "2022 European Champion (Rome)", "description": "" },
                     { "achievement": "2021 AJP Paris Silver Medalist", "description": "" },
@@ -240,7 +240,7 @@
                 "name": "Diana Penalva",
                 "title": "International Competitor",
                 "description": "A seasoned competitor, Diana stands out for her technique and consistency on the international circuit.",
-                "image": "https://i.postimg.cc/3Rnb4ySz/Whats_App_Image_2026-01_26-at-01_42_15.jpg", "alt": "Diana Penalva", "ai_hint": "female jjb competitor",
+                "image": "https://i.postimg.cc/3Rnb4ySz/Whats_App_Image_2026-01-26_at_01_42_15.jpg", "alt": "Diana Penalva", "ai_hint": "female jjb competitor",
                 "records": [
                     { "achievement": "2022 European Championship Bronze Medalist", "description": "" },
                     { "achievement": "2021 Sul Americano Silver & Bronze Medalist", "description": "" },
@@ -287,7 +287,7 @@
         "upcoming2": { "date": "Early November 2026", "title": "Caribbean Open", "location": "Guadeloupe" },
         "upcoming3": { "date": "Spring 2026", "title": "Intensive Camp \"Advanced Submissions\"", "location": "Workshop with Handu" },
         "news_title": "Latest News",
-        "news1": { "date": "March 2026", "title": "Bebê is French Champion!", "description": "Erickson \"Bebê\" Lafeuille wins the French Champion title with two gold medals. An exceptional performance!" },
+        "news1": { "date": "March 2025", "title": "Bebê is French Champion!", "description": "Erickson \"Bebê\" Lafeuille wins the French Champion title with two gold medals. An exceptional performance!", "image": "https://i.postimg.cc/Y993Ym9Z/Whats_App_Image_2026-01-26-at-01_34_43.jpg" },
         "news2": { "date": "May 2026", "title": "French Championship Prep", "description": "Our team is intensifying training for the upcoming French Championship. Extra technical sessions and high-level sparring on the agenda." },
         "news3": { "date": "January 2026", "title": "Jessica Gabriel, European Champion!", "description": "Jessica Gabriel wins the gold medal at the European BJJ Championship. An incredible performance that confirms her status as a top-level athlete.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" },
         "connect_button": "Stay Connected!"
@@ -317,3 +317,5 @@
         "made_by": "Created and designed by Croissance Digitale."
     }
 }
+
+    
