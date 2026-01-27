@@ -35,18 +35,16 @@ export default function Footer() {
 
         <div className="mt-8 pt-6 border-t flex flex-col sm:flex-row justify-between items-center text-xs text-muted-foreground">
           <p>&copy; {currentYear} {t('footer.copyright')}</p>
-          <div className="flex items-center gap-2">
+          <a href="https://www.croissancedigitale.pro/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary transition-colors">
             <p>{t('footer.made_by')}</p>
-            <a href="https://www.croissancedigitale.pro/" target="_blank" rel="noopener noreferrer">
-              <Image 
-                src="https://i.postimg.cc/J4dnF46r/Digitale-Recupere.png" 
-                alt="Croissance Digitale Logo" 
-                width={20} 
-                height={20}
-                className=""
-              />
-            </a>
-          </div>
+            <Image 
+              src="https://i.postimg.cc/J4dnF46r/Digitale-Recupere.png" 
+              alt="Croissance Digitale Logo" 
+              width={20} 
+              height={20}
+              className=""
+            />
+          </a>
           <p>{t('footer.editor')}: Diana Penalva Camacho</p>
         </div>
       </div>

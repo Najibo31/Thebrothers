@@ -64,8 +64,8 @@
         },
         "schedule": {
             "monday": [
-                { "time": "12:30 PM", "course": "BJJ Gi" },
-                { "time": "6:00 PM", "course": "BJJ Gi" }
+                { "time": "12:30 PM", "course": "MMA Makasi Gym" },
+                { "time": "7:00 PM", "course": "MMA Makasi Gym" }
             ],
             "tuesday": [
                 { "time": "12:30 PM", "course": "Grappling" },
@@ -172,7 +172,7 @@
             "gallery": [
                 { "src": "https://i.postimg.cc/W3TRQNjJ/prise88.jpg", "alt": "Handu Professor" },
                 { "src": "https://i.postimg.cc/rmQY0dnb/Whats_App_Image_2026-01-26-at-01_41_12.jpg", "alt": "Handu teaching" },
-                { "src": "https://i.postimg.cc/T11NrRFS/Whats_App_Image_2026_01_26-at-01_41_11.jpg", "alt": "Handu in competition" },
+                { "src": "https://i.postimg.cc/T11NrRFS/Whats_App_Image_2026-01_26-at-01_41_11.jpg", "alt": "Handu in competition" },
                 { "src": "https://i.postimg.cc/T11NrRF4/handu.jpg", "alt": "Handu portrait" }
             ]
         },
@@ -181,6 +181,7 @@
             "europe": {
                 "title": "Europe",
                 "items": [
+                    { "achievement": "2026 European Championship (Paris) - Gold", "description": "Jessica Gabriel wins gold in Brazilian Jiu-Jitsu." },
                     { "achievement": "2023 European Championship (Rome)", "description": "Bronze: Sebastien Cnudde, Emerick, Yannis Marie Joseph, Harold Beaugendre." },
                     { "achievement": "2022 European Championship (Rome) - 7 medals", "description": "Gold: Harold Beaugendre. Silver: Erickson Lafeuille, Mathieu Peraste. Bronze: Diana Penalva, Cedrick, Mathieu Balagne, Geoffrey Marie Joseph." },
                     { "achievement": "AJP Paris 2022", "description": "Bronze: Jessica Gabriel, Jade Boisnard." },
@@ -239,7 +240,7 @@
                 "name": "Diana Penalva",
                 "title": "International Competitor",
                 "description": "A seasoned competitor, Diana stands out for her technique and consistency on the international circuit.",
-                "image": "https://i.postimg.cc/3Rnb4ySz/Whats_App_Image_2026_01_26-at-01_42_15.jpg", "alt": "Diana Penalva", "ai_hint": "female jjb competitor",
+                "image": "https://i.postimg.cc/3Rnb4ySz/Whats_App_Image_2026-01_26-at-01_42_15.jpg", "alt": "Diana Penalva", "ai_hint": "female jjb competitor",
                 "records": [
                     { "achievement": "2022 European Championship Bronze Medalist", "description": "" },
                     { "achievement": "2021 Sul Americano Silver & Bronze Medalist", "description": "" },
@@ -252,6 +253,18 @@
                 "description": "A promising athlete who has already made her mark on the international stage, proving her technique and determination.",
                 "records": [
                     { "achievement": "Brazil Vice-Champion 2025", "description": "" }
+                ]
+            },
+            {
+                "name": "Jessica Gabriel",
+                "title": "European Champion 2026",
+                "description": "Gold medalist at the European BJJ Championship in January 2026. An incredible performance that confirms her status as a top-level athlete.",
+                "image": "https://i.postimg.cc/zGWNnVMg/Whats_App_Image_2026_01_25_at_14_47_39.jpg",
+                "alt": "Jessica Gabriel",
+                "ai_hint": "female jjb champion",
+                "records": [
+                    { "achievement": "European Champion 2026", "description": "Gold Medal in Brazilian Jiu-Jitsu" },
+                    { "achievement": "Elite Competitor", "description": "Known for her technique and determination" }
                 ]
             }
         ],
@@ -276,6 +289,7 @@
         "news_title": "Latest News",
         "news1": { "date": "March 2026", "title": "Bebê is French Champion!", "description": "Erickson \"Bebê\" Lafeuille wins the French Champion title with two gold medals. An exceptional performance!" },
         "news2": { "date": "May 2026", "title": "French Championship Prep", "description": "Our team is intensifying training for the upcoming French Championship. Extra technical sessions and high-level sparring on the agenda." },
+        "news3": { "date": "January 2026", "title": "Jessica Gabriel, European Champion!", "description": "Jessica Gabriel wins the gold medal at the European BJJ Championship. An incredible performance that confirms her status as a top-level athlete.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" },
         "connect_button": "Stay Connected!"
     },
     "contact": {

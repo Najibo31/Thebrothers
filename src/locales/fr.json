@@ -22,7 +22,7 @@
     },
     "about": {
         "welcome_title": "Bienvenue chez Hand Fight",
-        "welcome_text": "Notre club, dirigé par le champion international Handu (ceinture noire depuis 2019), forme des athlètes de tous âges dans les disciplines du Jiu-Jitsu Brésilien (JJB) et des Arts Martiaux Mixtes (MMA). Installé en Guadeloupe depuis 2020, nous proposons un environnement d'entraînement professionnel où la discipline, le respect et l'excellence sont au cœur de notre approche pédagogique.",
+        "welcome_text": "Notre club, dirigé par le champion international Handu (ceinture noire depuis 2019), forme des athlètes de tous âges dans les disciplines du Jiu-Jitsu Brésilien (JJB) et des Arts Martiaux Mixtes (MMA). Installé au Gosier, Guadeloupe depuis 2020, nous proposons un environnement d'entraînement professionnel où la discipline, le respect et l'excellence sont au cœur de notre approche pédagogique.",
         "mission_title": "Notre Mission",
         "mission1": "Former des athlètes complets sur le plan technique et mental",
         "mission2": "Développer la confiance en soi et le respect des autres",
@@ -64,8 +64,8 @@
         },
         "schedule": {
             "monday": [
-                { "time": "12H30", "course": "JJB Kimono" },
-                { "time": "18h00", "course": "JJB Kimono" }
+                { "time": "12h30", "course": "MMA Salle Makasi" },
+                { "time": "19h00", "course": "MMA Salle Makasi" }
             ],
             "tuesday": [
                 { "time": "12H30", "course": "Grappling" },
@@ -172,7 +172,7 @@
              "gallery": [
                 { "src": "https://i.postimg.cc/W3TRQNjJ/prise88.jpg", "alt": "Handu Professeur" },
                 { "src": "https://i.postimg.cc/rmQY0dnb/Whats_App_Image_2026-01-26-at-01_41_12.jpg", "alt": "Handu en enseignement" },
-                { "src": "https://i.postimg.cc/T11NrRFS/Whats_App_Image_2026_01_26-at-01_41_11.jpg", "alt": "Handu en compétition" },
+                { "src": "https://i.postimg.cc/T11NrRFS/Whats_App_Image_2026-01_26-at-01_41_11.jpg", "alt": "Handu en compétition" },
                 { "src": "https://i.postimg.cc/T11NrRF4/handu.jpg", "alt": "Portrait de Handu" }
             ]
         },
@@ -181,6 +181,7 @@
             "europe": {
                 "title": "Europe",
                 "items": [
+                    { "achievement": "Championnat d'Europe 2026 (Paris) - Or", "description": "Jessica Gabriel remporte la médaille d'or en Jiu-Jitsu Brésilien." },
                     { "achievement": "Championnat d'Europe 2023 (Rome)", "description": "Bronze: Sebastien Cnudde, Emerick, Yannis Marie Joseph, Harold Beaugendre." },
                     { "achievement": "Championnat d'Europe 2022 (Rome) - 7 médailles", "description": "Or: Harold Beaugendre. Argent: Erickson Lafeuille, Mathieu Peraste. Bronze: Diana Penalva, Cedrick, Mathieu Balagne, Geoffrey Marie Joseph." },
                     { "achievement": "AJP Paris 2022", "description": "Bronze: Jessica Gabriel, Jade Boisnard." },
@@ -239,7 +240,7 @@
                 "name": "Diana Penalva",
                 "title": "Compétitrice Internationale",
                 "description": "Compétitrice aguerrie, Diana se distingue par sa technique et sa régularité sur le circuit international.",
-                "image": "https://i.postimg.cc/3Rnb4ySz/Whats_App_Image_2026_01_26-at-01_42_15.jpg", "alt": "Diana Penalva", "ai_hint": "compétitrice jjb femme",
+                "image": "https://i.postimg.cc/3Rnb4ySz/Whats_App_Image_2026-01_26-at-01_42_15.jpg", "alt": "Diana Penalva", "ai_hint": "compétitrice jjb femme",
                 "records": [
                     { "achievement": "Médaillée de bronze Championnat d'Europe 2022", "description": "" },
                     { "achievement": "Médaillée d'argent & bronze Sul Americano 2021", "description": "" },
@@ -252,6 +253,18 @@
                 "description": "Une athlète prometteuse qui s'est déjà illustrée sur la scène internationale, prouvant sa technique et sa détermination.",
                 "records": [
                     { "achievement": "Vice-championne du Brésil 2025", "description": "" }
+                ]
+            },
+            {
+                "name": "Jessica Gabriel",
+                "title": "Championne d'Europe 2026",
+                "description": "Médaillée d'or au championnat d'Europe de JJB en janvier 2026. Une performance incroyable qui confirme son statut d'athlète de haut niveau.",
+                "image": "https://i.postimg.cc/zGWNnVMg/Whats_App_Image_2026_01_25_at_14_47_39.jpg",
+                "alt": "Jessica Gabriel",
+                "ai_hint": "compétitrice jjb femme",
+                "records": [
+                    { "achievement": "Championne d'Europe 2026", "description": "Médaille d'or en Jiu-Jitsu Brésilien" },
+                    { "achievement": "Compétitrice d'élite", "description": "Reconnue pour sa technique et sa détermination" }
                 ]
             }
         ],
@@ -276,6 +289,7 @@
         "news_title": "Dernières Actualités",
         "news1": { "date": "Mars 2026", "title": "Bebê Champion de France !", "description": "Erickson \"Bebê\" Lafeuille remporte le titre de Champion de France 2025 avec deux médailles d'or. Une performance exceptionnelle !" },
         "news2": { "date": "Mai 2026", "title": "Préparation Championnat de France", "description": "Notre équipe intensifie les entraînements en vue du Championnat de France de juin. Sessions techniques supplémentaires et sparring de haut niveau au programme." },
+        "news3": { "date": "Janvier 2026", "title": "Jessica Gabriel, Championne d'Europe !", "description": "Jessica Gabriel remporte la médaille d'or au championnat d'Europe de JJB. Une performance incroyable qui confirme son statut d'athlète de haut niveau.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" },
         "connect_button": "Restez connecté !"
     },
     "contact": {

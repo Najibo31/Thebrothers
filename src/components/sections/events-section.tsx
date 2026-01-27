@@ -15,9 +15,11 @@ export default function EventsSection() {
   ];
 
   const latestNews = [
-    { date: t('events.news1.date'), title: t('events.news1.title'), description: t('events.news1.description'), image: 'https://i.postimg.cc/Y993Ym9Z/Whats-App-Image-2026-01-26-at-01_34_43.jpg' },
     { date: t('events.news2.date'), title: t('events.news2.title'), description: t('events.news2.description') },
-  ];
+    { date: t('events.news1.date'), title: t('events.news1.title'), description: t('events.news1.description'), image: 'https://i.postimg.cc/Y993Ym9Z/Whats_App_Image_2026-01-26-at-01_34_43.jpg' },
+    { date: t('events.news3.date'), title: t('events.news3.title'), description: t('events.news3.description'), image: 'https://i.postimg.cc/Hk5mQVK7/Jessica.jpg' }
+  ].filter(item => item.date && item.title);
+
 
   return (
     <section id="events" className="py-16 md:py-24 bg-secondary">
@@ -62,12 +64,12 @@ export default function EventsSection() {
                 <CardContent>
                   <CardDescription>{news.description}</CardDescription>
                   {news.image && (
-                    <div className="mt-4 relative aspect-video rounded-lg overflow-hidden">
+                    <div className="mt-4 relative aspect-video rounded-lg overflow-hidden bg-black">
                        <Image
                           src={news.image}
                           alt={news.title}
                           fill
-                          className="object-cover"
+                          className="object-contain"
                         />
                     </div>
                   )}
