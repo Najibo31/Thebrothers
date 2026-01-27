@@ -6,8 +6,7 @@ export default function GallerySection() {
   const { t } = useI18n();
 
   const images = [
-    { src: 'https://i.postimg.cc/FzzCj98w/Whats_App_Image_2026-01-26-at-01_34_43.jpg', alt: t('gallery.alt_eriksson'), hint: 'eriksson bebe la feuille' },
-    { src: 'https://i.postimg.cc/J00Yb1vF/Whats_App_Image_2026-01-26-at-01_40_27.jpg', alt: t('gallery.alt_harold1'), hint: 'Harold Beaugendre' },
+    { src: 'https://i.postimg.cc/J00Yb1vF/Whats_App_Image_2026-01-26_at_01_40_27.jpg', alt: t('gallery.alt_harold1'), hint: 'Harold Beaugendre' },
     { src: 'https://i.postimg.cc/PJJVmt99/Whats_App_Image_2026_01-26-at-01_39_37.jpg', alt: t('gallery.alt_harold2'), hint: 'Harold Beaugendre podium' },
     { src: 'https://i.postimg.cc/hjp3zJyk/Whats_App_Image_2026_01_26_at_02_33_57.jpg', alt: t('gallery.alt_joe'), hint: 'Joe champion' },
     { src: 'https://i.postimg.cc/KYZSWcmK/tournoi.jpg', alt: t('gallery.alt1'), hint: 'tournoi jjb' },
@@ -23,7 +22,7 @@ export default function GallerySection() {
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto">
             {images.map((image, index) => (
-                <div key={index} className="relative overflow-hidden rounded-lg shadow-lg group">
+                <div key={index} className="relative overflow-hidden rounded-lg shadow-lg group bg-black">
                     <Image
                         src={image.src}
                         alt={image.alt}

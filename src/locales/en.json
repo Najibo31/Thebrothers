@@ -64,34 +64,33 @@
         },
         "schedule": {
             "monday": [
-                { "time": "12H30", "course": "BJJ Gi" },
-                { "time": "18h00", "course": "BJJ Gi" }
+                { "time": "12:30 PM", "course": "BJJ Gi" },
+                { "time": "6:00 PM", "course": "BJJ Gi" }
             ],
             "tuesday": [
-                { "time": "12H30", "course": "Grappling" },
-                { "time": "17h30", "course": "BJJ Teens" },
-                { "time": "19h00", "course": "Grappling" }
+                { "time": "12:30 PM", "course": "Grappling" },
+                { "time": "5:00 PM", "course": "MMA" },
+                { "time": "6:00 PM", "course": "Grappling" }
             ],
             "wednesday": [
-                { "time": "12H30", "course": "BJJ Gi" },
-                { "time": "15h30", "course": "BJJ Kids" },
-                { "time": "18h00", "course": "Open Mat / Grappling" },
-                { "time": "19h00", "course": "BJJ Gi" }
+                { "time": "12:30 PM", "course": "BJJ Gi" },
+                { "time": "3:30 PM", "course": "BJJ Kids" },
+                { "time": "5:00 PM", "course": "Open Mat / Grappling" },
+                { "time": "6:00 PM", "course": "BJJ Gi" }
             ],
             "thursday": [
-                { "time": "12H30", "course": "Grappling" },
-                { "time": "17h00", "course": "BJJ Teens" },
-                { "time": "18h00", "course": "MMA HandFight Gym" },
-                { "time": "19h00", "course": "MMA HandFight Gym" }
+                { "time": "12:30 PM", "course": "Grappling" },
+                { "time": "6:00 PM", "course": "MMA HandFight Gym" },
+                { "time": "7:00 PM", "course": "No-Gi" }
             ],
             "friday": [
-                { "time": "12H30", "course": "BJJ Gi" },
-                { "time": "17h30", "course": "BJJ Teens" },
-                { "time": "18h30", "course": "BJJ Gi" }
+                { "time": "12:30 PM", "course": "BJJ Gi" },
+                { "time": "5:30 PM", "course": "BJJ Gi (Teens)" },
+                { "time": "6:30 PM", "course": "BJJ Gi" }
             ],
             "saturday": [
-                { "time": "8h30", "course": "BJJ Kids" },
-                { "time": "9h30", "course": "BJJ Gi" }
+                { "time": "8:30 AM", "course": "BJJ Kids" },
+                { "time": "9:30 AM", "course": "BJJ Gi" }
             ]
         },
         "no_class": "No classes scheduled for this day.",
@@ -108,9 +107,10 @@
         "help_title": "Need help choosing? Contact us!",
         "cta_button": "Sign Up Now",
         "cta_contact": "Questions? WhatsApp",
+        "cta_all_offers": "See All Offers",
         "categories": {
             "kids": "Kids (4–12 years)",
-            "students": "Students",
+            "students": "Students (12-25 years)",
             "adults_jjb": "Adults – BJJ",
             "mma_jjb": "MMA + BJJ",
             "family_jjb": "Family Plans - BJJ"
@@ -119,10 +119,8 @@
             "adhesion": { "name": "Membership", "price": "30 € / year", "description": "1 time", "info": "" },
             "kids_annual": { "name": "BJJ Kids – Annual", "price": "40 €", "description": "Best price!", "info": "2 times a week." },
             "kids_premium": { "name": "BJJ Kids Premium", "price": "70 €", "description": "Camps included", "info": "2 times a week." },
-            "kids_info": "Courses adapted to develop coordination, discipline, and self-confidence from a young age.",
-            "kids_info_premium": "The premium formula includes all training camps organized during the year.",
-            "student_annual": { "name": "BJJ Student – Annual (12-25 years)", "price": "50 €", "info": "" },
-            "student_info": "Special rate for students with proof. An accessible investment for your personal development.",
+            "student_annual": { "name": "BJJ Student – Annual", "price": "50 €", "info": "" },
+            "student_info": "Special rate for students. An accessible investment for your personal development.",
             "adult_1m": { "name": "1 Month", "price": "90 €", "info": "" },
             "adult_6m": { "name": "6 Months", "price": "70 €", "info": "" },
             "adult_annual": { "name": "Annual", "price": "60 €", "description": "Most advantageous offer!", "info": "" },

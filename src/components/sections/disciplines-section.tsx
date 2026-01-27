@@ -48,12 +48,12 @@ export default function DisciplinesSection() {
           {disciplines.map((discipline) => (
             <Card key={discipline.id} className="overflow-hidden shadow-lg border-2 border-transparent hover:border-primary transition-all duration-300">
               <CardHeader className="p-0">
-                <div className="relative aspect-video">
+                <div className="relative aspect-video bg-black">
                   <Image 
                     src={discipline.image}
                     alt={discipline.image_alt}
                     fill
-                    className="object-cover"
+                    className="object-contain"
                     data-ai-hint={discipline.ai_hint}
                   />
                 </div>

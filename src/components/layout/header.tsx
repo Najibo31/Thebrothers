@@ -129,7 +129,7 @@ export default function Header() {
                   <div className="mt-auto pt-6 text-center text-xs text-muted-foreground">
                     <div className="flex items-center justify-center gap-2">
                        <p>{t('footer.made_by')}</p>
-                       <a href="#" target="_blank" rel="noopener noreferrer">
+                       <a href="https://www.croissancedigitale.pro/" target="_blank" rel="noopener noreferrer">
                         <Image 
                           src="https://i.postimg.cc/J4dnF46r/Digitale-Recupere.png" 
                           alt="Croissance Digitale Logo" 

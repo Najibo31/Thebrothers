@@ -7,7 +7,7 @@ import { Button } from '@/components/ui/button';
 import { Check, Star, User, Users, GraduationCap, Building, Briefcase } from 'lucide-react';
 import Link from 'next/link';
 
-const PlanCard = ({ title, price, description, features, highlight, cta, info }: { title: string, price: string, description?: string, features?: string[], highlight?: boolean, cta: string, info: string }) => (
+const PlanCard = ({ title, price, description, features, highlight, cta, info, href }: { title: string, price: string, description?: string, features?: string[], highlight?: boolean, cta: string, info: string, href: string }) => (
     <Card className={`flex flex-col ${highlight ? 'border-primary border-2 shadow-primary/20' : ''}`}>
         <CardHeader>
             <CardTitle className="font-headline text-2xl">{title}</CardTitle>
@@ -29,7 +29,7 @@ const PlanCard = ({ title, price, description, features, highlight, cta, info }:
         </CardContent>
         <CardFooter>
             <Button className="w-full" variant={highlight ? 'default' : 'secondary'} asChild>
-              <a href="https://www.helloasso.com/associations/the-brothers-handfight-international" target="_blank" rel="noopener noreferrer">
+              <a href={href} target="_blank" rel="noopener noreferrer">
                 {cta}
               </a>
             </Button>
@@ -54,6 +54,7 @@ export default function SubscriptionsPage() {
     const { t } = useI18n();
 
     const plans = t('subscriptions.plans');
+    const default_href = "https://www.helloasso.com/associations/the-brothers-handfight-international";
 
     return (
         <div className="flex flex-col min-h-screen bg-secondary/50">
@@ -62,36 +63,39 @@ export default function SubscriptionsPage() {
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
                     <div className="text-center mb-16">
                         <h1 className="text-5xl md:text-7xl font-headline text-primary">{t('subscriptions.title')}</h1>
-                        <p className="mt-4 text-xl text-muted-foreground max-w-2xl mx-auto">{t('subscriptions.subtitle')}</p>
+                        <p className="mt-4 text-xl text-muted-foreground max-w-3xl mx-auto">{t('subscriptions.subtitle')}</p>
                     </div>
 
-                    <div className="mb-12 rounded-lg overflow-hidden shadow-2xl">
-                       <div style={{position: 'relative', paddingBottom: '56.25%', height: 0}}><iframe id="js_video_iframe" src="https://jumpshare.com/embed/tJkhschbBrZQQXCdYvHY" frameBorder="0" allowFullScreen style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}></iframe></div>
+                    <div className="mb-12 rounded-lg overflow-hidden shadow-2xl max-w-md mx-auto">
+                       <div style={{position: 'relative', paddingBottom: '177.77%', height: 0}}><iframe id="js_video_iframe" src="https://jumpshare.com/embed/tJkhschbBrZQQXCdYvHY" frameBorder="0" allowFullScreen style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}></iframe></div>
                     </div>
 
 
                     <Section title={t('subscriptions.categories.kids')} icon={Star}>
-                         <PlanCard 
-                            title={plans.kids_annual.name}
-                            price={plans.kids_annual.price}
-                            description={plans.kids_annual.description}
-                            info={plans.kids_info}
-                            cta={t('subscriptions.cta_button')}
-                            highlight
-                        />
-                         <PlanCard 
-                            title={plans.kids_premium.name}
-                            price={plans.kids_premium.price}
-                            description={plans.kids_premium.description}
-                            info={plans.kids_info_premium}
-                            cta={t('subscriptions.cta_button')}
-                        />
                          <PlanCard 
                             title={plans.adhesion.name}
                             price={plans.adhesion.price}
                             description={plans.adhesion.description}
                             info={plans.adhesion.info}
                             cta={t('subscriptions.cta_button')}
+                            href={default_href}
+                        />
+                         <PlanCard 
+                            title={plans.kids_annual.name}
+                            price={plans.kids_annual.price}
+                            description={plans.kids_annual.description}
+                            info={plans.kids_annual.info}
+                            cta={t('subscriptions.cta_button')}
+                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/enfants-jjb-4-ans-jusqu-a-12-ans-inclus-1"
+                            highlight
+                        />
+                         <PlanCard 
+                            title={plans.kids_premium.name}
+                            price={plans.kids_premium.price}
+                            description={plans.kids_premium.description}
+                            info={plans.kids_premium.info}
+                            cta={t('subscriptions.cta_button')}
+                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/enfants-jjb-2-4-ans-jusqu-a-12-ans-inclus"
                         />
                     </Section>
 
@@ -101,6 +105,7 @@ export default function SubscriptionsPage() {
                             price={plans.student_annual.price}
                             info={plans.student_info}
                             cta={t('subscriptions.cta_button')}
+                             href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/etudiant-jjb-annuel-1"
                         />
                     </Section>
 
@@ -111,6 +116,7 @@ export default function SubscriptionsPage() {
                             description={plans.adult_annual.description}
                              info={plans.adult_info}
                             cta={t('subscriptions.cta_button')}
+                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/jjb"
                             highlight
                         />
                          <PlanCard 
@@ -118,12 +124,14 @@ export default function SubscriptionsPage() {
                             price={plans.adult_6m.price}
                              info={plans.adult_info}
                             cta={t('subscriptions.cta_button')}
+                             href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/jjb-6-mois"
                         />
                         <PlanCard 
                             title={plans.adult_1m.name}
                             price={plans.adult_1m.price}
                              info={plans.adult_info}
                             cta={t('subscriptions.cta_button')}
+                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/jjb-1-mois"
                         />
                     </Section>
                     
@@ -133,6 +141,7 @@ export default function SubscriptionsPage() {
                             price={plans.mma_jjb_annual.price}
                             info={plans.mma_info}
                             cta={t('subscriptions.cta_button')}
+                             href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/mma-jjb"
                             highlight
                         />
                          <PlanCard 
@@ -140,12 +149,14 @@ export default function SubscriptionsPage() {
                             price={plans.mma_jjb_6m.price}
                             info={plans.mma_info}
                             cta={t('subscriptions.cta_button')}
+                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/mma-jjb-6-mois"
                         />
                         <PlanCard 
                             title={plans.mma_only_annual.name}
                             price={plans.mma_only_annual.price}
                             info={plans.mma_info}
                             cta={t('subscriptions.cta_button')}
+                             href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/mma-annuel-2"
                         />
                     </Section>
 
@@ -155,12 +166,14 @@ export default function SubscriptionsPage() {
                             price={plans.family_2.price}
                             info={plans.family_info}
                             cta={t('subscriptions.cta_button')}
+                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/jjb-family-2-2"
                         />
                          <PlanCard 
                             title={plans.family_3.name}
                             price={plans.family_3.price}
                             info={plans.family_info}
                             cta={t('subscriptions.cta_button')}
+                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/jjb-family-3"
                         />
                     </Section>
 
@@ -174,10 +187,13 @@ export default function SubscriptionsPage() {
                             <p className="text-muted-foreground">{t('subscriptions.payment_info')}</p>
                            
                         </CardContent>
-                         <CardFooter className="flex justify-center">
+                         <CardFooter className="flex-col sm:flex-row justify-center gap-4">
                               <Button asChild>
                                 <a href="https://wa.me/590691275351" target="_blank" rel="noopener noreferrer">{t('subscriptions.cta_contact')}</a>
-                            </Button>
+                              </Button>
+                              <Button asChild variant="secondary">
+                                <a href={default_href} target="_blank" rel="noopener noreferrer">{t('subscriptions.cta_all_offers')}</a>
+                              </Button>
                          </CardFooter>
                     </Card>
 

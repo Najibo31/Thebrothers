@@ -38,13 +38,13 @@ export default function AboutSection() {
             </div>
           </div>
           <div>
-            <Card className="overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300">
+            <Card className="overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300 bg-black">
                <Image 
                 src="https://i.postimg.cc/hj7TxBNp/entrainement2.jpg"
                 alt={t('about.image_alt')}
                 width={800}
                 height={600}
-                className="w-full h-auto object-cover"
+                className="w-full h-auto object-contain"
                 data-ai-hint="entraînement jjb"
                />
             </Card>

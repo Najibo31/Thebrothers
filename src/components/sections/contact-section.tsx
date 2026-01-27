@@ -65,7 +65,7 @@ export default function ContactSection() {
                 </div>
             </div>
 
-            <div className="relative h-64 lg:h-full">
+            <div className="relative h-96 lg:h-full">
                  <Image 
                     src="https://i.postimg.cc/fb3Pcm8n/enfant.jpg"
                     alt={t('contact.map_alt')}

@@ -34,39 +34,45 @@ export default function TeamSection() {
         {/* Handu Section */}
         <div className="flex flex-col items-center text-center gap-8 lg:gap-12 mb-24">
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-4xl mx-auto">
-            <div className="col-span-2 md:col-span-1">
+            <div className="col-span-2 md:col-span-1 bg-black rounded-lg">
               <Image 
                 src={handu.gallery[0].src}
                 alt={handu.gallery[0].alt}
                 width={600}
                 height={800}
-                className="rounded-lg shadow-2xl w-full h-full object-cover object-center"
+                className="rounded-lg shadow-2xl w-full h-full object-contain object-center"
                 data-ai-hint="professeur jjb"
               />
             </div>
             <div className="grid grid-rows-2 gap-4">
-                <Image 
-                  src={handu.gallery[1].src}
-                  alt={handu.gallery[1].alt}
-                  width={400}
-                  height={400}
-                  className="rounded-lg shadow-lg w-full h-full object-cover"
-                />
-                <Image 
-                  src={handu.gallery[2].src}
-                  alt={handu.gallery[2].alt}
-                  width={400}
-                  height={400}
-                  className="rounded-lg shadow-lg w-full h-full object-cover"
-                />
+                <div className="bg-black rounded-lg">
+                    <Image 
+                    src={handu.gallery[1].src}
+                    alt={handu.gallery[1].alt}
+                    width={400}
+                    height={400}
+                    className="rounded-lg shadow-lg w-full h-full object-contain"
+                    />
+                </div>
+                <div className="bg-black rounded-lg">
+                    <Image 
+                    src={handu.gallery[2].src}
+                    alt={handu.gallery[2].alt}
+                    width={400}
+                    height={400}
+                    className="rounded-lg shadow-lg w-full h-full object-contain"
+                    />
+                </div>
             </div>
+            <div className="bg-black rounded-lg hidden md:block">
              <Image 
               src={handu.gallery[3].src}
               alt={handu.gallery[3].alt}
               width={600}
               height={800}
-              className="rounded-lg shadow-2xl w-full h-full object-cover hidden md:block"
+              className="rounded-lg shadow-2xl w-full h-full object-contain"
             />
+            </div>
           </div>
 
           <div className="space-y-8 max-w-4xl">
@@ -181,12 +187,13 @@ export default function TeamSection() {
             <Card key={index} className="shadow-xl overflow-hidden">
               <div className="grid md:grid-cols-5">
                 {champion.image && (
-                  <div className="md:col-span-2 relative h-64 md:h-full">
+                  <div className="md:col-span-2 relative bg-black">
                     <Image 
                         src={champion.image}
                         alt={champion.alt}
-                        fill
-                        className="object-cover"
+                        width={600}
+                        height={800}
+                        className="w-full h-auto md:w-full md:h-full md:object-contain"
                         data-ai-hint={champion.ai_hint}
                     />
                   </div>

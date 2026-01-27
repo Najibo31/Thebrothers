@@ -69,24 +69,23 @@
             ],
             "tuesday": [
                 { "time": "12H30", "course": "Grappling" },
-                { "time": "17h30", "course": "JJB Ado" },
-                { "time": "19h00", "course": "Grappling" }
+                { "time": "17h00", "course": "MMA" },
+                { "time": "18h00", "course": "Grappling" }
             ],
             "wednesday": [
                 { "time": "12H30", "course": "JJB Kimono" },
                 { "time": "15h30", "course": "JJB Enfants" },
-                { "time": "18h00", "course": "Open Mat / Grappling" },
-                { "time": "19h00", "course": "JJB Kimono" }
+                { "time": "17h00", "course": "Open Mat / Grappling" },
+                { "time": "18h00", "course": "JJB Kimono" }
             ],
             "thursday": [
                 { "time": "12H30", "course": "Grappling" },
-                { "time": "17h00", "course": "JJB Ado" },
                 { "time": "18h00", "course": "MMA Salle HandFight" },
-                { "time": "19h00", "course": "MMA Salle HandFight" }
+                { "time": "19h00", "course": "No-Gi" }
             ],
             "friday": [
                 { "time": "12H30", "course": "JJB Kimono" },
-                { "time": "17h30", "course": "JJB Ado" },
+                { "time": "17h30", "course": "JJB Kimono Ado" },
                 { "time": "18h30", "course": "JJB Kimono" }
             ],
             "saturday": [
@@ -108,6 +107,7 @@
         "help_title": "Besoin d’aide pour choisir ? Contactez-nous !",
         "cta_button": "S'inscrire Maintenant",
         "cta_contact": "Questions ? WhatsApp",
+        "cta_all_offers": "Voir Toutes les Offres",
         "categories": {
             "kids": "Enfants (4-12 ans)",
             "students": "Étudiants & Jeunes (12-25 ans)",
@@ -116,11 +116,9 @@
             "family_jjb": "Forfaits Famille - JJB"
         },
         "plans": {
-            "adhesion": { "name": "Adhésion", "price": "30 € / an", "description": "1 fois", "info": "" },
+            "adhesion": { "name": "Adhésion", "price": "30 € / an", "description": "1 fois", "info": "Assurance et licence incluses." },
             "kids_annual": { "name": "JJB Enfants – Annuel", "price": "40 €", "description": "Meilleur prix !", "info": "2 fois par semaine." },
             "kids_premium": { "name": "JJB Enfants Premium", "price": "70 €", "description": "Stages inclus", "info": "2 fois par semaine." },
-            "kids_info": "Des cours adaptés pour développer la coordination, la discipline et la confiance en soi dès le plus jeune âge.",
-            "kids_info_premium": "La formule premium inclut tous les stages organisés durant l'année.",
             "student_annual": { "name": "JJB Étudiant/Jeune – Annuel", "price": "50 €", "info": "" },
             "student_info": "Tarif spécial pour les étudiants et jeunes. Un investissement accessible pour votre développement personnel.",
             "adult_1m": { "name": "1 Mois", "price": "90 €", "info": "" },
@@ -170,7 +168,7 @@
             "palmares_2025": { "year": "2025", "items": [{ "title": "Open Toulon", "result": "1er No-Gi" }, { "title": "Open Caraibes", "result": "1er No-Gi" }] },
             "palmares_2024": { "year": "2024", "items": [{ "title": "Championnat de France", "result": "3e Place" }, { "title": "Multiples podiums en circuit national", "result": "" }] },
             "palmares_2023": { "year": "2023", "items": [{ "title": "AJP Rome", "result": "1er Gi & No-Gi" }, { "title": "AJP Paris", "result": "1er Gi & No-Gi" }] },
-            "palmares_2022": { "year": "2022", "items": [{ "title": "Championnat d’Europe", "result": "1 Or, 2 Argent, 4 Bronze" }, { "title": "Performance exceptionnelle multi-médailles", "result": "" }] },
+            "palmares_2022": { "year": "2022", "items": [{ "title": "Championnat d’Europe", "result": "1 Or, 2 Argent, 4 Bronze" }, { "title": "Exceptional multi-medal performance", "result": "" }] },
              "gallery": [
                 { "src": "https://i.postimg.cc/W3TRQNjJ/prise88.jpg", "alt": "Handu Professeur" },
                 { "src": "https://i.postimg.cc/rmQY0dnb/Whats_App_Image_2026-01-26-at-01_41_12.jpg", "alt": "Handu en enseignement" },
