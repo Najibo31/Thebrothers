@@ -27,15 +27,13 @@
         "mission1": "Train technically and mentally complete athletes",
         "mission2": "Develop self-confidence and respect for others",
         "mission3": "Prepare for national and international competitions",
-        "mission4": "Create a strong community around martial values",
-        "image_alt": "The Hand Fight dojo with practitioners training"
+        "mission4": "Create a strong community around martial values"
     },
     "disciplines": {
         "title": "Our Disciplines",
         "jjb": {
             "title": "Brazilian Jiu-Jitsu",
             "description": "BJJ is a martial art that develops coordination, self-confidence, respect, and strategy. Accessible to everyone, it allows mastering effective control and submission techniques.",
-            "image_alt": "Two people practicing Brazilian Jiu-Jitsu",
             "features_title": "For Whom?",
             "feature1": "Kids (4–12 years): playful learning and psychomotor development",
             "feature2": "Teens & Adults: technical improvement and competition preparation",
@@ -44,7 +42,6 @@
         "mma": {
             "title": "MMA (Mixed Martial Arts)",
             "description": "Mixed Martial Arts combine striking, takedowns, and submissions for a complete combat system. Our MMA program is designed to develop versatile and mentally prepared athletes.",
-            "image_alt": "Two athletes sparring in an MMA cage",
             "features_title": "Complete Program",
             "feature1": "Controlled sparring: safety and progression guaranteed",
             "feature2": "Physical preparation: conditioning and endurance",
@@ -65,6 +62,7 @@
         "schedule": {
             "monday": [
                 { "time": "12:30 PM", "course": "MMA Makasi Gym" },
+                { "time": "6:00 PM", "course": "BJJ Gi" },
                 { "time": "7:00 PM", "course": "MMA Makasi Gym" }
             ],
             "tuesday": [
@@ -75,13 +73,11 @@
             "wednesday": [
                 { "time": "12:30 PM", "course": "BJJ Gi" },
                 { "time": "3:30 PM", "course": "BJJ Kids" },
-                { "time": "5:00 PM", "course": "Open Mat / Grappling" },
-                { "time": "6:00 PM", "course": "BJJ Gi" }
+                { "time": "5:00 PM", "course": "BJJ Gi (Teens)" }
             ],
             "thursday": [
                 { "time": "12:30 PM", "course": "Grappling" },
-                { "time": "6:00 PM", "course": "MMA HandFight Gym" },
-                { "time": "7:00 PM", "course": "No-Gi" }
+                { "time": "6:00 PM", "course": "MMA & No-Gi" }
             ],
             "friday": [
                 { "time": "12:30 PM", "course": "BJJ Gi" },
@@ -90,7 +86,8 @@
             ],
             "saturday": [
                 { "time": "8:30 AM", "course": "BJJ Kids" },
-                { "time": "9:30 AM", "course": "BJJ Gi" }
+                { "time": "9:30 AM", "course": "BJJ Gi" },
+                { "time": "10:30 AM", "course": "MMA Makasi Gym" }
             ]
         },
         "no_class": "No classes scheduled for this day.",
@@ -116,7 +113,7 @@
             "family_jjb": "Family Plans - BJJ"
         },
         "plans": {
-            "adhesion": { "name": "BJJ Kids - Annual", "price": "30 € / month", "description": "1 time a week", "info": "" },
+            "adhesion": { "name": "BJJ Kids - Annual", "price": "30 € / month", "description": "1 time a week", "info": "Insurance and license included." },
             "kids_annual": { "name": "BJJ Kids – Annual", "price": "40 € / month", "description": "Best price!", "info": "2 times a week." },
             "kids_premium": { "name": "BJJ Kids (2 children)", "price": "70 € / month", "description": "", "info": "2 times a week." },
             "student_annual": { "name": "BJJ Student – Annual", "price": "50 € / month", "info": "" },
@@ -142,7 +139,10 @@
             { "name": "HANDFIGHT Leggings", "price": "40", "image": "https://i.postimg.cc/859nX5nr/pantalon.png", "hint": "legging sport", "description": "Stylish and high-performing for women." },
             { "name": "HANDFIGHT Rashguard", "price": "40", "image": "https://i.postimg.cc/ZR2DsRDW/T_shirt2.png", "hint": "rashguard", "description": "Anti-chafing, quick-drying for No-Gi." },
             { "name": "Jiu-Jitsu T-Shirt", "price": "20", "image": "https://i.postimg.cc/1t2Y7tYq/T_shirt.png", "hint": "t-shirt sport", "description": "Show your passion for BJJ." },
-            { "name": "HANDFIGHT Shorts", "price": "40", "image": "https://i.postimg.cc/Ss3t1st8/short.png", "hint": "short sport", "description": "Comfortable, durable, local Guadeloupe design." }
+            { "name": "HANDFIGHT Shorts", "price": "40", "image": "https://i.postimg.cc/Ss3t1st8/short.png", "hint": "short sport", "description": "Comfortable, durable, local Guadeloupe design." },
+            { "name": "Belt", "price": "20", "image": "https://i.postimg.cc/SKjvV7C4/ceinture.png", "hint": "jjb belt", "description": "Brazilian Jiu-Jitsu belt." },
+            { "name": "Kid's Kimono", "price": "80", "image": "https://i.postimg.cc/q7g5QXyJ/kimono.png", "hint": "kid kimono", "description": "Available in black, white, and blue." },
+            { "name": "Adult's Kimono", "price": "120", "image": "https://i.postimg.cc/q7g5QXyJ/kimono.png", "hint": "adult kimono", "description": "Available in black, white, and blue." }
         ],
         "enlarged_view": "Enlarged view of"
     },
@@ -150,7 +150,7 @@
         "handu": {
             "name": "Handu — Professor & Black Belt",
             "role": "Professor & Black Belt",
-            "bio": "An international champion, Handu earned his black belt in 2019 and settled in Guadeloupe in 2020 with a clear mission: to train champions, on the mat and in life. With over 15 years of experience in competition and teaching, he brings high-level technical expertise and a teaching approach that combines high standards with kindness.",
+            "bio": "An international champion, Handu earned his black belt in 2019 and settled in Guadeloupe in 2020 with a clear mission: to train champions, on the mat and in life. With over 20 years of experience in competition and teaching, he brings high-level technical expertise and a teaching approach that combines high standards with kindness.",
             "philosophy_title": "Training Philosophy",
             "philosophy1": "Technical excellence and continuous progression",
             "philosophy2": "Development of confidence and a champion's mindset",
@@ -182,16 +182,16 @@
                 "title": "Europe",
                 "items": [
                     { "achievement": "2026 European Championship (Paris) - Gold", "description": "Jessica Gabriel wins gold in Brazilian Jiu-Jitsu." },
-                    { "achievement": "2023 European Championship (Rome)", "description": "Bronze: Sebastien Cnudde, Emerick, Yannis Marie Joseph, Harold Beaugendre." },
-                    { "achievement": "2022 European Championship (Rome) - 7 medals", "description": "Gold: Harold Beaugendre. Silver: Erickson Lafeuille, Mathieu Peraste. Bronze: Diana Penalva, Cedrick, Mathieu Balagne, Geoffrey Marie Joseph." },
-                    { "achievement": "AJP Paris 2022", "description": "Bronze: Jessica Gabriel, Jade Boisnard." },
-                    { "achievement": "AJP Paris 2021", "description": "Gold: Joe, Mathieu Balange. Silver: Harold Beaugendre. Bronze: Diana Penalva, Loe sack sioe, Sebastien Cnudde." }
+                    { "achievement": "2023 European Championship (Rome)", "description": "Silver: Harold Beaugendre. Bronze: Sebastien Cnudde, Emerick, Yannis Joseph." },
+                    { "achievement": "2022 European Championship (Rome) - 6 medals", "description": "Gold: Harold Beaugendre. Silver: Erickson Lafeuille. Bronze: Diana Penalva, Cedrick, Mathieu Balagne, Geoffrey Marie Joseph." },
+                    { "achievement": "AJP Paris 2022", "description": "Bronze: Jade Boisnard." },
+                    { "achievement": "AJP Paris 2021", "description": "Gold: Joe, Mathieu Balange. Silver: Harold Beaugendre." }
                 ]
             },
             "south_america": {
                 "title": "South America",
                 "items": [
-                    { "achievement": "2021 Sul Americano (São Paulo) - 3 medals", "description": "Gold (Gi & No-Gi): Kevin. Silver (Gi) & Bronze (No-Gi): Diana. Bronze (Gi & No-Gi): Cedrick." }
+                    { "achievement": "2021 Sul Americano (São Paulo) - 3 medals", "description": "Gold (Gi & No-Gi): Kevin. Silver (Gi) & Bronze (No-Gi): Diana. Bronze (Gi & No-Gi): Cedrick Loe Sack Sioe." }
                 ]
             },
             "caribbean": {
@@ -206,8 +206,8 @@
             {
                 "name": "Erickson \"Bebê\" Lafeuille",
                 "title": "Champion of France 2025",
-                "description": "Double gold medalist: 1st in his category and 1st in the open class. At just 16, Bebê shows exceptional talent and unwavering determination.",
-                "image": "https://i.postimg.cc/fb4kS97r/erickson-lafeuille-(1).jpg", "alt": "Erickson \"Bebê\" Lafeuille", "ai_hint": "champion jjb",
+                "description": "",
+                "image": "https://i.postimg.cc/mrxLGDwd/Whats_App_Image_2026_01_28_at_23_31_05.jpg", "alt": "Erickson \"Bebê\" Lafeuille", "ai_hint": "champion jjb",
                 "records": [
                     { "achievement": "His Journey", "description": "Started BJJ in 2021 at age 12" },
                     { "achievement": "Rapid Progression", "description": "Skyrocketed thanks to hard work" },
@@ -220,20 +220,18 @@
                 "description": "A formidable technician known for his guard game, Mathieu consistently reaches international podiums.",
                 "image": "https://i.postimg.cc/76nrBYBB/Whats_App_Image_2026-01-26_at_01_34_04.jpg", "alt": "Mathieu Peraste", "ai_hint": "athlete jjb",
                 "records": [
-                    { "achievement": "2024 Pan American Vice-Champion", "description": "" },
-                    { "achievement": "2023 European Vice-Champion (Rome)", "description": "" },
-                    { "achievement": "2022 European Champion (Rome) & Gold AJP Rome/Paris 2022", "description": "" }
+                    { "achievement": "3rd place European Championship 2025 (Lisbon)", "description": "" }
                 ]
             },
             {
                 "name": "Harold Beaugendre",
-                "title": "European Champion",
+                "title": "Club's multi-medalist",
                 "description": "A pillar of the team, Harold is known for his power and his impressive track record at the European level.",
-                "image": "https://i.postimg.cc/1XX7p92L/Whats_App_Image_2026-01-26_at_01_32_58.jpg", "alt": "Harold Beaugendre", "ai_hint": "jjb competitor",
+                "image": "https://i.postimg.cc/1XX7p92L/Whats_App_Image_2026_01_26_at_01_32_58.jpg", "alt": "Harold Beaugendre", "ai_hint": "jjb competitor",
                 "records": [
                     { "achievement": "2022 European Champion (Rome)", "description": "" },
                     { "achievement": "2021 AJP Paris Silver Medalist", "description": "" },
-                    { "achievement": "2023 European Championship Bronze Medalist", "description": "" }
+                    { "achievement": "2023 European Championship Silver Medalist", "description": "" }
                 ]
             },
             {
@@ -241,16 +239,15 @@
                 "title": "International Competitor",
                 "description": "A seasoned competitor, Diana stands out for her technique and consistency on the international circuit.",
                 "image": "https://i.postimg.cc/3Rnb4ySz/Whats_App_Image_2026-01-26_at_01_42_15.jpg", "alt": "Diana Penalva", "ai_hint": "female jjb competitor",
-                "records": [
-                    { "achievement": "2022 European Championship Bronze Medalist", "description": "" },
-                    { "achievement": "2021 Sul Americano Silver & Bronze Medalist", "description": "" },
-                    { "achievement": "2021 AJP Paris Bronze Medalist", "description": "" }
-                ]
+                "records": []
             },
             {
                 "name": "Anna Rolland",
                 "title": "Brazil Vice-Champion 2025",
                 "description": "A promising athlete who has already made her mark on the international stage, proving her technique and determination.",
+                "image": "",
+                "alt": "Anna Rolland",
+                "ai_hint": "female jjb competitor",
                 "records": [
                     { "achievement": "Brazil Vice-Champion 2025", "description": "" }
                 ]
@@ -265,6 +262,18 @@
                 "records": [
                     { "achievement": "European Champion 2026", "description": "Gold Medal in Brazilian Jiu-Jitsu" },
                     { "achievement": "Elite Competitor", "description": "Known for her technique and determination" }
+                ]
+            },
+            {
+                "name": "Geoffrey Marie Joseph",
+                "title": "Purple Belt",
+                "description": "Very committed to the group.",
+                "image": "",
+                "alt": "Geoffrey Marie Joseph",
+                "ai_hint": "jjb athlete",
+                "records": [
+                    { "achievement": "Gold AJP Paris 2021", "description": "" },
+                    { "achievement": "Bronze European Championship 2022 (Rome)", "description": "" }
                 ]
             }
         ],
@@ -289,8 +298,7 @@
         "news_title": "Latest News",
         "news1": { "date": "March 2025", "title": "Bebê is French Champion!", "description": "Erickson \"Bebê\" Lafeuille wins the French Champion title with two gold medals. An exceptional performance!", "image": "https://i.postimg.cc/Y993Ym9Z/Whats_App_Image_2026-01-26-at_01_34_43.jpg" },
         "news2": { "date": "May 2026", "title": "French Championship Prep", "description": "Our team is intensifying training for the upcoming French Championship. Extra technical sessions and high-level sparring on the agenda." },
-        "news3": { "date": "January 2026", "title": "Jessica Gabriel, European Champion!", "description": "Jessica Gabriel wins the gold medal at the European BJJ Championship. An incredible performance that confirms her status as a top-level athlete.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" },
-        "connect_button": "Stay Connected!"
+        "news3": { "date": "January 2026", "title": "Jessica Gabriel, European Champion!", "description": "Jessica Gabriel wins the gold medal at the European BJJ Championship. An incredible performance that confirms her status as a top-level athlete.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" }
     },
     "contact": {
         "title": "Contact Us",

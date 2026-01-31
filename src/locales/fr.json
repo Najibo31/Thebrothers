@@ -27,15 +27,13 @@
         "mission1": "Former des athlètes complets sur le plan technique et mental",
         "mission2": "Développer la confiance en soi et le respect des autres",
         "mission3": "Préparer aux compétitions nationales et internationales",
-        "mission4": "Créer une communauté soudée autour des valeurs martiales",
-        "image_alt": "Le dojo de Hand Fight avec des pratiquants en entraînement"
+        "mission4": "Créer une communauté soudée autour des valeurs martiales"
     },
     "disciplines": {
         "title": "Nos Disciplines",
         "jjb": {
             "title": "Jiu-Jitsu Brésilien",
             "description": "Le JJB est un art martial qui développe la coordination, la confiance en soi, le respect et la stratégie. Accessible à tous, il permet de maîtriser des techniques de contrôle et de soumission efficaces.",
-            "image_alt": "Deux personnes pratiquant le Jiu-Jitsu Brésilien",
             "features_title": "Pour Qui ?",
             "feature1": "Enfants (4–12 ans) : apprentissage ludique et développement psychomoteur",
             "feature2": "Ados & Adultes : perfectionnement technique et préparation aux compétitions",
@@ -44,7 +42,6 @@
         "mma": {
             "title": "MMA (Mixed Martial Arts)",
             "description": "Les Arts Martiaux Mixtes combinent frappes, projections et soumissions pour un combat complet. Notre programme MMA est conçu pour développer des athlètes polyvalents et préparés mentalement.",
-            "image_alt": "Deux athlètes s'affrontant dans une cage de MMA",
             "features_title": "Programme Complet",
             "feature1": "Sparring contrôlé : sécurité et progression garanties",
             "feature2": "Préparation physique : conditionnement et endurance",
@@ -65,6 +62,7 @@
         "schedule": {
             "monday": [
                 { "time": "12h30", "course": "MMA Salle Makasi" },
+                { "time": "18h00", "course": "JJB Kimono" },
                 { "time": "19h00", "course": "MMA Salle Makasi" }
             ],
             "tuesday": [
@@ -75,13 +73,11 @@
             "wednesday": [
                 { "time": "12H30", "course": "JJB Kimono" },
                 { "time": "15h30", "course": "JJB Enfants" },
-                { "time": "17h00", "course": "Open Mat / Grappling" },
-                { "time": "18h00", "course": "JJB Kimono" }
+                { "time": "17h00", "course": "JJB Kimono Ado" }
             ],
             "thursday": [
                 { "time": "12H30", "course": "Grappling" },
-                { "time": "18h00", "course": "MMA Salle HandFight" },
-                { "time": "19h00", "course": "No-Gi" }
+                { "time": "18h00", "course": "MMA & No-Gi" }
             ],
             "friday": [
                 { "time": "12H30", "course": "JJB Kimono" },
@@ -90,7 +86,8 @@
             ],
             "saturday": [
                 { "time": "8h30", "course": "JJB Enfants" },
-                { "time": "9h30", "course": "JJB Kimono" }
+                { "time": "9h30", "course": "JJB Kimono" },
+                { "time": "10h30", "course": "MMA Salle Makasi" }
             ]
         },
         "no_class": "Aucun cours prévu ce jour-là.",
@@ -116,7 +113,7 @@
             "family_jjb": "Forfaits Famille - JJB"
         },
         "plans": {
-            "adhesion": { "name": "JJB Enfants – Annuel", "price": "30 € / mois", "description": "1 fois par semaine", "info": "" },
+            "adhesion": { "name": "JJB Enfants – Annuel", "price": "30 € / mois", "description": "1 fois par semaine", "info": "Assurance et licence incluses." },
             "kids_annual": { "name": "JJB Enfants – Annuel", "price": "40 € / mois", "description": "Meilleur prix !", "info": "2 fois par semaine." },
             "kids_premium": { "name": "JJB Enfants (2 enfants)", "price": "70 € / mois", "description": "", "info": "2 fois par semaine." },
             "student_annual": { "name": "JJB Étudiant/Jeune – Annuel", "price": "50 € / mois", "info": "" },
@@ -142,7 +139,10 @@
             { "name": "Leggings HANDFIGHT", "price": "40", "image": "https://i.postimg.cc/859nX5nr/pantalon.png", "hint": "legging sport", "description": "Style et performance pour les femmes." },
             { "name": "Rashguard HANDFIGHT", "price": "40", "image": "https://i.postimg.cc/ZR2DsRDW/T_shirt2.png", "hint": "rashguard", "description": "Anti-frottement, séchage rapide pour le No-Gi." },
             { "name": "T-Shirt Jiu-Jitsu", "price": "20", "image": "https://i.postimg.cc/1t2Y7tYq/T_shirt.png", "hint": "t-shirt sport", "description": "Affichez votre passion pour le JJB." },
-            { "name": "Short HANDFIGHT", "price": "40", "image": "https://i.postimg.cc/Ss3t1st8/short.png", "hint": "short sport", "description": "Confortable, résistant, design local Guadeloupe." }
+            { "name": "Short HANDFIGHT", "price": "40", "image": "https://i.postimg.cc/Ss3t1st8/short.png", "hint": "short sport", "description": "Confortable, résistant, design local Guadeloupe." },
+            { "name": "Ceinture", "price": "20", "image": "https://i.postimg.cc/SKjvV7C4/ceinture.png", "hint": "ceinture jjb", "description": "Ceinture de jiu-jitsu brésilien." },
+            { "name": "Kimono Enfant", "price": "80", "image": "https://i.postimg.cc/q7g5QXyJ/kimono.png", "hint": "kimono enfant", "description": "Disponible en noir, blanc et bleu." },
+            { "name": "Kimono Adulte", "price": "120", "image": "https://i.postimg.cc/q7g5QXyJ/kimono.png", "hint": "kimono adulte", "description": "Disponible en noir, blanc et bleu." }
         ],
         "enlarged_view": "Vue agrandie de"
     },
@@ -150,7 +150,7 @@
         "handu": {
             "name": "Handu — Professeur & Ceinture Noire",
             "role": "Professeur & Ceinture Noire",
-            "bio": "Champion international, Handu a obtenu sa ceinture noire en 2019 et s'est installé en Guadeloupe en 2020 avec une mission claire : former des champions, sur le tatami et dans la vie. Avec plus de 15 ans d'expérience en compétition et en enseignement, il apporte une expertise technique de haut niveau et une approche pédagogique qui allie exigence et bienveillance.",
+            "bio": "Champion international, Handu a obtenu sa ceinture noire en 2019 et s'est installé en Guadeloupe en 2020 avec une mission claire : former des champions, sur le tatami et dans la vie. Avec plus de 20 ans d'expérience en compétition et en enseignement, il apporte une expertise technique de haut niveau et une approche pédagogique qui allie exigence et bienveillance.",
             "philosophy_title": "Philosophie d'Entraînement",
             "philosophy1": "Excellence technique et progression continue",
             "philosophy2": "Développement de la confiance et du mental de champion",
@@ -182,16 +182,16 @@
                 "title": "Europe",
                 "items": [
                     { "achievement": "Championnat d'Europe 2026 (Paris) - Or", "description": "Jessica Gabriel remporte la médaille d'or en Jiu-Jitsu Brésilien." },
-                    { "achievement": "Championnat d'Europe 2023 (Rome)", "description": "Bronze: Sebastien Cnudde, Emerick, Yannis Marie Joseph, Harold Beaugendre." },
-                    { "achievement": "Championnat d'Europe 2022 (Rome) - 7 médailles", "description": "Or: Harold Beaugendre. Argent: Erickson Lafeuille, Mathieu Peraste. Bronze: Diana Penalva, Cedrick, Mathieu Balagne, Geoffrey Marie Joseph." },
-                    { "achievement": "AJP Paris 2022", "description": "Bronze: Jessica Gabriel, Jade Boisnard." },
-                    { "achievement": "AJP Paris 2021", "description": "Or: Joe, Mathieu Balange. Argent: Harold Beaugendre. Bronze: Diana Penalva, Loe sack sioe, Sebastien Cnudde." }
+                    { "achievement": "Championnat d'Europe 2023 (Rome)", "description": "Argent: Harold Beaugendre. Bronze: Sebastien Cnudde, Emerick, Yannis Joseph." },
+                    { "achievement": "Championnat d'Europe 2022 (Rome) - 6 médailles", "description": "Or: Harold Beaugendre. Argent: Erickson Lafeuille. Bronze: Diana Penalva, Cedrick, Mathieu Balagne, Geoffrey Marie Joseph." },
+                    { "achievement": "AJP Paris 2022", "description": "Bronze: Jade Boisnard." },
+                    { "achievement": "AJP Paris 2021", "description": "Or: Joe, Mathieu Balange. Argent: Harold Beaugendre." }
                 ]
             },
             "south_america": {
                 "title": "Amérique du Sud",
                 "items": [
-                    { "achievement": "Sul Americano 2021 (São Paulo) - 3 médailles", "description": "Or (Gi & No-Gi): Kevin. Argent (Gi) & Bronze (No-Gi): Diana. Bronze (Gi & No-Gi): Cedrick." }
+                    { "achievement": "Sul Americano 2021 (São Paulo) - 3 médailles", "description": "Or (Gi & No-Gi): Kevin. Argent (Gi) & Bronze (No-Gi): Diana. Bronze (Gi & No-Gi): Cedrick Loe Sack Sioe." }
                 ]
             },
             "caribbean": {
@@ -206,8 +206,8 @@
             {
                 "name": "Erickson \"Bebê\" Lafeuille",
                 "title": "Champion de France 2025",
-                "description": "Double médaille d'or : 1er dans sa catégorie et 1er en open class. À seulement 16 ans, Bebê démontre un talent exceptionnel et une détermination sans faille.",
-                "image": "https://i.postimg.cc/fb4kS97r/erickson-lafeuille-(1).jpg", "alt": "Erickson \"Bebê\" Lafeuille", "ai_hint": "champion jjb",
+                "description": "",
+                "image": "https://i.postimg.cc/mrxLGDwd/Whats_App_Image_2026_01_28_at_23_31_05.jpg", "alt": "Erickson \"Bebê\" Lafeuille", "ai_hint": "champion jjb",
                 "records": [
                     { "achievement": "Son Parcours", "description": "Débute le JJB en 2021 à l'âge de 12 ans" },
                     { "achievement": "Progression fulgurante", "description": "Grâce à un travail acharné" },
@@ -220,20 +220,18 @@
                 "description": "Un technicien redoutable connu pour son jeu de garde, Mathieu enchaîne les podiums internationaux.",
                 "image": "https://i.postimg.cc/76nrBYBB/Whats_App_Image_2026-01-26_at_01_34_04.jpg", "alt": "Mathieu Peraste", "ai_hint": "athlete jjb",
                 "records": [
-                    { "achievement": "Vice-champion pan américain 2024", "description": "" },
-                    { "achievement": "Vice-champion d’Europe 2023 a rome", "description": "" },
-                    { "achievement": "Champion d’Europe 2022 (Rome) & Or AJP Rome/Paris 2022", "description": "" }
+                    { "achievement": "3ème championnat d'Europe 2025 (Lisbonne)", "description": "" }
                 ]
             },
             {
                 "name": "Harold Beaugendre",
-                "title": "Champion d'Europe",
+                "title": "Multi médaillé du club",
                 "description": "Pilier de l'équipe, Harold est reconnu pour sa puissance et son palmarès impressionnant au niveau européen.",
-                "image": "https://i.postimg.cc/1XX7p92L/Whats_App_Image_2026-01-26_at_01_32_58.jpg", "alt": "Harold Beaugendre", "ai_hint": "compétiteur jjb",
+                "image": "https://i.postimg.cc/1XX7p92L/Whats_App_Image_2026_01_26_at_01_32_58.jpg", "alt": "Harold Beaugendre", "ai_hint": "compétiteur jjb",
                 "records": [
                     { "achievement": "Champion d'Europe 2022 (Rome)", "description": "" },
                     { "achievement": "Médaillé d'argent AJP Paris 2021", "description": "" },
-                    { "achievement": "Médaillé de bronze Championnat d'Europe 2023", "description": "" }
+                    { "achievement": "Médaillé d'argent Championnat d'Europe 2023", "description": "" }
                 ]
             },
             {
@@ -241,16 +239,15 @@
                 "title": "Compétitrice Internationale",
                 "description": "Compétitrice aguerrie, Diana se distingue par sa technique et sa régularité sur le circuit international.",
                 "image": "https://i.postimg.cc/3Rnb4ySz/Whats_App_Image_2026-01-26_at_01_42_15.jpg", "alt": "Diana Penalva", "ai_hint": "compétitrice jjb femme",
-                "records": [
-                    { "achievement": "Médaillée de bronze Championnat d'Europe 2022", "description": "" },
-                    { "achievement": "Médaillée d'argent & bronze Sul Americano 2021", "description": "" },
-                    { "achievement": "Médaillée de bronze AJP Paris 2021", "description": "" }
-                ]
+                "records": []
             },
             {
                 "name": "Anna Rolland",
                 "title": "Vice-Championne du Brésil 2025",
                 "description": "Une athlète prometteuse qui s'est déjà illustrée sur la scène internationale, prouvant sa technique et sa détermination.",
+                "image": "",
+                "alt": "Anna Rolland",
+                "ai_hint": "female jjb competitor",
                 "records": [
                     { "achievement": "Vice-championne du Brésil 2025", "description": "" }
                 ]
@@ -265,6 +262,18 @@
                 "records": [
                     { "achievement": "Championne d'Europe 2026", "description": "Médaille d'or en Jiu-Jitsu Brésilien" },
                     { "achievement": "Compétitrice d'élite", "description": "Reconnue pour sa technique et sa détermination" }
+                ]
+            },
+            {
+                "name": "Geoffrey Marie Joseph",
+                "title": "Ceinture Violette",
+                "description": "Très engagé dans le groupe.",
+                "image": "",
+                "alt": "Geoffrey Marie Joseph",
+                "ai_hint": "jjb athlete",
+                "records": [
+                    { "achievement": "Or AJP Paris 2021", "description": "" },
+                    { "achievement": "Bronze Championnat d'Europe 2022 (Rome)", "description": "" }
                 ]
             }
         ],
@@ -289,8 +298,7 @@
         "news_title": "Dernières Actualités",
         "news1": { "date": "Mars 2025", "title": "Bebê Champion de France !", "description": "Erickson \"Bebê\" Lafeuille remporte le titre de Champion de France 2025 avec deux médailles d'or. Une performance exceptionnelle !", "image": "https://i.postimg.cc/Y993Ym9Z/Whats_App_Image_2026-01-26-at_01_34_43.jpg" },
         "news2": { "date": "Mai 2026", "title": "Préparation Championnat de France", "description": "Notre équipe intensifie les entraînements en vue du Championnat de France de juin. Sessions techniques supplémentaires et sparring de haut niveau au programme." },
-        "news3": { "date": "Janvier 2026", "title": "Jessica Gabriel, Championne d'Europe !", "description": "Jessica Gabriel remporte la médaille d'or au championnat d'Europe de JJB. Une performance incroyable qui confirme son statut d'athlète de haut niveau.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" },
-        "connect_button": "Restez connecté !"
+        "news3": { "date": "Janvier 2026", "title": "Jessica Gabriel, Championne d'Europe !", "description": "Jessica Gabriel remporte la médaille d'or au championnat d'Europe de JJB. Une performance incroyable qui confirme son statut d'athlète de haut niveau.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" }
     },
     "contact": {
         "title": "Contactez-Nous",
@@ -317,5 +325,3 @@
         "made_by": "Créé et imaginé par Croissance Digitale."
     }
 }
-
-    
