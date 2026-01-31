@@ -40,7 +40,7 @@ export default function TeamSection() {
                 alt={handu.gallery[0].alt}
                 width={600}
                 height={800}
-                className="rounded-lg shadow-2xl w-full h-full object-contain object-center"
+                className="w-full h-full object-contain object-center"
                 data-ai-hint="professeur jjb"
               />
             </div>
@@ -205,18 +205,22 @@ export default function TeamSection() {
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground mb-4 text-sm">{champion.description}</p>
-                    <h4 className="font-semibold mb-3">{t('team.champion_records_title')}</h4>
-                    <ul className="space-y-3">
-                        {champion.records.map((record: any, i: number) => (
-                            <li key={i} className="flex items-start gap-3">
-                              <Star className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
-                              <div>
-                                <p className="font-semibold">{record.achievement}</p>
-                                {record.description && <p className="text-sm text-muted-foreground">{record.description}</p>}
-                              </div>
-                            </li>
-                        ))}
-                    </ul>
+                    {champion.records && champion.records.length > 0 && (
+                      <>
+                        <h4 className="font-semibold mb-3">{t('team.champion_records_title')}</h4>
+                        <ul className="space-y-3">
+                            {champion.records.map((record: any, i: number) => (
+                                <li key={i} className="flex items-start gap-3">
+                                  <Star className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
+                                  <div>
+                                    <p className="font-semibold">{record.achievement}</p>
+                                    {record.description && <p className="text-sm text-muted-foreground">{record.description}</p>}
+                                  </div>
+                                </li>
+                            ))}
+                        </ul>
+                      </>
+                    )}
                   </CardContent>
                 </div>
               </div>
