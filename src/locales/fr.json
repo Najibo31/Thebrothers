@@ -73,7 +73,8 @@
             "wednesday": [
                 { "time": "12H30", "course": "JJB Kimono" },
                 { "time": "15h30", "course": "JJB Enfants" },
-                { "time": "17h00", "course": "JJB Kimono Ado" }
+                { "time": "17h00", "course": "JJB Kimono Ado" },
+                { "time": "18h00", "course": "JJB Kimono" }
             ],
             "thursday": [
                 { "time": "12H30", "course": "Grappling" },
@@ -87,7 +88,7 @@
             "saturday": [
                 { "time": "8h30", "course": "JJB Enfants" },
                 { "time": "9h30", "course": "JJB Kimono" },
-                { "time": "10h30", "course": "MMA Salle Makasi" }
+                { "time": "12h00", "course": "MMA Salle Makasi" }
             ]
         },
         "no_class": "Aucun cours prévu ce jour-là.",
@@ -113,7 +114,7 @@
             "family_jjb": "Forfaits Famille - JJB"
         },
         "plans": {
-            "adhesion": { "name": "JJB Enfants – Annuel", "price": "30 € / mois", "description": "1 fois par semaine", "info": "Assurance et licence incluses." },
+            "adhesion": { "name": "JJB Enfants – Annuel", "price": "30 € / mois", "description": "1 fois par semaine", "info": "Assurance et licence non incluses." },
             "kids_annual": { "name": "JJB Enfants – Annuel", "price": "40 € / mois", "description": "Meilleur prix !", "info": "2 fois par semaine." },
             "kids_premium": { "name": "JJB Enfants (2 enfants)", "price": "70 € / mois", "description": "", "info": "2 fois par semaine." },
             "student_annual": { "name": "JJB Étudiant/Jeune – Annuel", "price": "50 € / mois", "info": "" },
@@ -168,7 +169,7 @@
             "palmares_2025": { "year": "2025", "items": [{ "title": "Open Toulon", "result": "1er No-Gi" }, { "title": "Open Caraibes", "result": "1er No-Gi" }] },
             "palmares_2024": { "year": "2024", "items": [{ "title": "Championnat de France", "result": "3e Place" }, { "title": "Multiples podiums en circuit national", "result": "" }] },
             "palmares_2023": { "year": "2023", "items": [{ "title": "AJP Rome", "result": "1er Gi & No-Gi" }, { "title": "AJP Paris", "result": "1er Gi & No-Gi" }] },
-            "palmares_2022": { "year": "2022", "items": [{ "title": "Championnat d’Europe", "result": "1 Or, 2 Argent, 4 Bronze" }, { "title": "Exceptional multi-medal performance", "result": "" }] },
+            "palmares_2022": { "year": "2022", "items": [{ "title": "Championnat d’Europe", "result": "1 Or, 2 Argent, 4 Bronze" }, { "title": "Performance exceptionnelle multi-médailles", "result": "" }] },
              "gallery": [
                 { "src": "https://i.postimg.cc/W3TRQNjJ/prise88.jpg", "alt": "Handu Professeur" },
                 { "src": "https://i.postimg.cc/rmQY0dnb/Whats_App_Image_2026-01-26_at_01_41_12.jpg", "alt": "Handu en enseignement" },
@@ -182,10 +183,10 @@
                 "title": "Europe",
                 "items": [
                     { "achievement": "Championnat d'Europe 2026 (Paris) - Or", "description": "Jessica Gabriel remporte la médaille d'or en Jiu-Jitsu Brésilien." },
-                    { "achievement": "Championnat d'Europe 2023 (Rome)", "description": "Argent: Harold Beaugendre. Bronze: Sebastien Cnudde, Emerick, Yannis Joseph." },
+                    { "achievement": "Championnat d'Europe 2023 (Rome)", "description": "Argent: Harold Beaugendre. Bronze: Sebastien Cnudde, Emerick, Yannis." },
                     { "achievement": "Championnat d'Europe 2022 (Rome) - 6 médailles", "description": "Or: Harold Beaugendre. Argent: Erickson Lafeuille. Bronze: Diana Penalva, Cedrick, Mathieu Balagne, Geoffrey Marie Joseph." },
                     { "achievement": "AJP Paris 2022", "description": "Bronze: Jade Boisnard." },
-                    { "achievement": "AJP Paris 2021", "description": "Or: Joe, Mathieu Balange. Argent: Harold Beaugendre." }
+                    { "achievement": "AJP Paris 2021", "description": "Or: Geoffrey Marie Joseph, Mathieu Balange. Argent: Harold Beaugendre." }
                 ]
             },
             "south_america": {
@@ -206,22 +207,16 @@
             {
                 "name": "Erickson \"Bebê\" Lafeuille",
                 "title": "Champion de France 2025",
-                "description": "",
+                "description": "Débute le JJB en 2021 à l'âge de 12 ans. Progression fulgurante grâce à un travail acharné, il représente l'avenir du JJB en Guadeloupe.",
                 "image": "https://i.postimg.cc/mrxLGDwd/Whats_App_Image_2026_01_28_at_23_31_05.jpg", "alt": "Erickson \"Bebê\" Lafeuille", "ai_hint": "champion jjb",
-                "records": [
-                    { "achievement": "Son Parcours", "description": "Débute le JJB en 2021 à l'âge de 12 ans" },
-                    { "achievement": "Progression fulgurante", "description": "Grâce à un travail acharné" },
-                    { "achievement": "Avenir du JJB", "description": "Représente l'avenir du JJB en Guadeloupe" }
-                ]
+                "records": []
             },
             {
                 "name": "Mathieu Peraste",
-                "title": "Multiple Médaillé",
-                "description": "Un technicien redoutable connu pour son jeu de garde, Mathieu enchaîne les podiums internationaux.",
+                "title": "3ème championnat d'Europe 2025",
+                "description": "Un technicien redoutable connu pour son jeu de garde.",
                 "image": "https://i.postimg.cc/76nrBYBB/Whats_App_Image_2026-01-26_at_01_34_04.jpg", "alt": "Mathieu Peraste", "ai_hint": "athlete jjb",
-                "records": [
-                    { "achievement": "3ème championnat d'Europe 2025 (Lisbonne)", "description": "" }
-                ]
+                "records": []
             },
             {
                 "name": "Harold Beaugendre",
@@ -268,7 +263,7 @@
                 "name": "Geoffrey Marie Joseph",
                 "title": "Ceinture Violette",
                 "description": "Très engagé dans le groupe.",
-                "image": "",
+                "image": "https://i.postimg.cc/hjp3zJyk/Whats_App_Image_2026_01_26_at_02_33_57.jpg",
                 "alt": "Geoffrey Marie Joseph",
                 "ai_hint": "jjb athlete",
                 "records": [
@@ -285,7 +280,7 @@
         "alt_eriksson": "Eriksson 'Bebê' Lafeuille en compétition",
         "alt_harold1": "Harold Beaugendre en compétition",
         "alt_harold2": "Harold Beaugendre sur le podium",
-        "alt_joe": "Joe sur le podium",
+        "alt_joe": "Geoffrey Marie Joseph sur le podium",
         "alt1": "Athlète sur un podium",
         "alt2": "Combattant pendant un match"
     },

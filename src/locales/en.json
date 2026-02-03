@@ -73,7 +73,8 @@
             "wednesday": [
                 { "time": "12:30 PM", "course": "BJJ Gi" },
                 { "time": "3:30 PM", "course": "BJJ Kids" },
-                { "time": "5:00 PM", "course": "BJJ Gi (Teens)" }
+                { "time": "5:00 PM", "course": "BJJ Gi (Teens)" },
+                { "time": "6:00 PM", "course": "BJJ Gi" }
             ],
             "thursday": [
                 { "time": "12:30 PM", "course": "Grappling" },
@@ -87,7 +88,7 @@
             "saturday": [
                 { "time": "8:30 AM", "course": "BJJ Kids" },
                 { "time": "9:30 AM", "course": "BJJ Gi" },
-                { "time": "10:30 AM", "course": "MMA Makasi Gym" }
+                { "time": "12:00 PM", "course": "MMA Makasi Gym" }
             ]
         },
         "no_class": "No classes scheduled for this day.",
@@ -113,7 +114,7 @@
             "family_jjb": "Family Plans - BJJ"
         },
         "plans": {
-            "adhesion": { "name": "BJJ Kids - Annual", "price": "30 € / month", "description": "1 time a week", "info": "Insurance and license included." },
+            "adhesion": { "name": "BJJ Kids - Annual", "price": "30 € / month", "description": "1 time a week", "info": "Insurance and license not included." },
             "kids_annual": { "name": "BJJ Kids – Annual", "price": "40 € / month", "description": "Best price!", "info": "2 times a week." },
             "kids_premium": { "name": "BJJ Kids (2 children)", "price": "70 € / month", "description": "", "info": "2 times a week." },
             "student_annual": { "name": "BJJ Student – Annual", "price": "50 € / month", "info": "" },
@@ -182,10 +183,10 @@
                 "title": "Europe",
                 "items": [
                     { "achievement": "2026 European Championship (Paris) - Gold", "description": "Jessica Gabriel wins gold in Brazilian Jiu-Jitsu." },
-                    { "achievement": "2023 European Championship (Rome)", "description": "Silver: Harold Beaugendre. Bronze: Sebastien Cnudde, Emerick, Yannis Joseph." },
+                    { "achievement": "2023 European Championship (Rome)", "description": "Silver: Harold Beaugendre. Bronze: Sebastien Cnudde, Emerick, Yannis." },
                     { "achievement": "2022 European Championship (Rome) - 6 medals", "description": "Gold: Harold Beaugendre. Silver: Erickson Lafeuille. Bronze: Diana Penalva, Cedrick, Mathieu Balagne, Geoffrey Marie Joseph." },
                     { "achievement": "AJP Paris 2022", "description": "Bronze: Jade Boisnard." },
-                    { "achievement": "AJP Paris 2021", "description": "Gold: Joe, Mathieu Balange. Silver: Harold Beaugendre." }
+                    { "achievement": "AJP Paris 2021", "description": "Gold: Geoffrey Marie Joseph, Mathieu Balange. Silver: Harold Beaugendre." }
                 ]
             },
             "south_america": {
@@ -206,22 +207,16 @@
             {
                 "name": "Erickson \"Bebê\" Lafeuille",
                 "title": "Champion of France 2025",
-                "description": "",
+                "description": "Started BJJ in 2021 at age 12. Skyrocketed thanks to hard work, he represents the future of BJJ in Guadeloupe.",
                 "image": "https://i.postimg.cc/mrxLGDwd/Whats_App_Image_2026_01_28_at_23_31_05.jpg", "alt": "Erickson \"Bebê\" Lafeuille", "ai_hint": "champion jjb",
-                "records": [
-                    { "achievement": "His Journey", "description": "Started BJJ in 2021 at age 12" },
-                    { "achievement": "Rapid Progression", "description": "Skyrocketed thanks to hard work" },
-                    { "achievement": "Future of BJJ", "description": "Represents the future of BJJ in Guadeloupe" }
-                ]
+                "records": []
             },
             {
                 "name": "Mathieu Peraste",
-                "title": "Multiple Medalist",
-                "description": "A formidable technician known for his guard game, Mathieu consistently reaches international podiums.",
+                "title": "3rd place European Championship 2025",
+                "description": "A formidable technician known for his guard game.",
                 "image": "https://i.postimg.cc/76nrBYBB/Whats_App_Image_2026-01-26_at_01_34_04.jpg", "alt": "Mathieu Peraste", "ai_hint": "athlete jjb",
-                "records": [
-                    { "achievement": "3rd place European Championship 2025 (Lisbon)", "description": "" }
-                ]
+                "records": []
             },
             {
                 "name": "Harold Beaugendre",
@@ -268,7 +263,7 @@
                 "name": "Geoffrey Marie Joseph",
                 "title": "Purple Belt",
                 "description": "Very committed to the group.",
-                "image": "",
+                "image": "https://i.postimg.cc/hjp3zJyk/Whats_App_Image_2026_01_26_at_02_33_57.jpg",
                 "alt": "Geoffrey Marie Joseph",
                 "ai_hint": "jjb athlete",
                 "records": [
@@ -285,7 +280,7 @@
         "alt_eriksson": "Eriksson 'Bebê' Lafeuille in competition",
         "alt_harold1": "Harold Beaugendre in competition",
         "alt_harold2": "Harold Beaugendre on the podium",
-        "alt_joe": "Joe on the podium",
+        "alt_joe": "Geoffrey Marie Joseph on the podium",
         "alt1": "Athlete on a podium",
         "alt2": "Fighter during a match"
     },
@@ -325,5 +320,3 @@
         "made_by": "Created and designed by Croissance Digitale."
     }
 }
-
-    
