@@ -1,3 +1,4 @@
+
 'use client';
 import { useI18n } from '@/contexts/i18n-provider';
 import Image from 'next/image';
@@ -204,7 +205,7 @@ export default function TeamSection() {
                     <CardDescription className="text-primary font-semibold">{champion.title}</CardDescription>
                   </CardHeader>
                   <CardContent>
-                    <p className="text-muted-foreground mb-4 text-sm">{champion.description}</p>
+                    {champion.description && <p className="text-muted-foreground mb-4 text-sm">{champion.description}</p>}
                     {champion.records && champion.records.length > 0 && (
                       <>
                         <h4 className="font-semibold mb-3">{t('team.champion_records_title')}</h4>
