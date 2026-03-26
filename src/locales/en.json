@@ -88,7 +88,7 @@
             "saturday": [
                 { "time": "8:30 AM", "course": "BJJ Kids" },
                 { "time": "9:30 AM", "course": "BJJ Gi" },
-                { "time": "12:00 PM", "course": "MMA Makasi Gym" }
+                { "time": "12:00 PM", "course": "BJJ Gi Makasi Gym" }
             ]
         },
         "no_class": "No classes scheduled for this day.",
@@ -182,11 +182,11 @@
             "europe": {
                 "title": "Europe",
                 "items": [
-                    { "achievement": "2026 European Championship (Paris) - Gold", "description": "Jessica Gabriel wins gold in Brazilian Jiu-Jitsu." },
+                    { "achievement": "2026 European Championship (Lisbon) - Gold", "description": "Jessica Gabriel wins gold in Brazilian Jiu-Jitsu." },
                     { "achievement": "2023 European Championship (Rome)", "description": "Silver: Harold Beaugendre. Bronze: Sebastien Cnudde, Emerick, Yannis." },
                     { "achievement": "2022 European Championship (Rome) - 6 medals", "description": "Gold: Harold Beaugendre. Silver: Erickson Lafeuille. Bronze: Diana Penalva, Cedrick, Mathieu Balagne, Geoffrey Marie Joseph." },
                     { "achievement": "AJP Paris 2022", "description": "Bronze: Jade Boisnard." },
-                    { "achievement": "AJP Paris 2021", "description": "Gold: Geoffrey Marie Joseph, Mathieu Balange. Silver: Harold Beaugendre." }
+                    { "achievement": "AJP Paris 2021", "description": "Or: Geoffrey Marie Joseph, Mathieu Balange. Argent: Harold Beaugendre." }
                 ]
             },
             "south_america": {
@@ -250,12 +250,12 @@
             {
                 "name": "Jessica Gabriel",
                 "title": "European Champion 2026",
-                "description": "Gold medalist at the European BJJ Championship in January 2026. An incredible performance that confirms her status as a top-level athlete.",
+                "description": "Gold medalist at the European BJJ Championship in Lisbon in January 2026. An incredible performance that confirms her status as a top-level athlete.",
                 "image": "https://i.postimg.cc/zGWNnVMg/Whats_App_Image_2026_01_25_at_14_47_39.jpg",
                 "alt": "Jessica Gabriel",
                 "ai_hint": "female jjb champion",
                 "records": [
-                    { "achievement": "European Champion 2026", "description": "Gold Medal in Brazilian Jiu-Jitsu" },
+                    { "achievement": "European Champion 2026 (Lisbon)", "description": "Gold Medal in Brazilian Jiu-Jitsu" },
                     { "achievement": "Elite Competitor", "description": "Known for her technique and determination" }
                 ]
             },
@@ -291,9 +291,9 @@
         "upcoming2": { "date": "Early November 2026", "title": "Caribbean Open", "location": "Guadeloupe" },
         "upcoming3": { "date": "Spring 2026", "title": "Intensive Camp \"Advanced Submissions\"", "location": "Workshop with Handu" },
         "news_title": "Latest News",
+        "news3": { "date": "January 2026", "title": "Jessica Gabriel, European Champion in Lisbon!", "description": "Jessica Gabriel wins the gold medal at the European BJJ Championship in Lisbon. An incredible performance that confirms her status as a top-level athlete.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" },
         "news1": { "date": "March 2025", "title": "Bebê is French Champion!", "description": "Erickson \"Bebê\" Lafeuille wins the French Champion title with two gold medals. An exceptional performance!", "image": "https://i.postimg.cc/Y993Ym9Z/Whats_App_Image_2026-01-26-at_01_34_43.jpg" },
-        "news2": { "date": "May 2026", "title": "French Championship Prep", "description": "Our team is intensifying training for the upcoming French Championship. Extra technical sessions and high-level sparring on the agenda." },
-        "news3": { "date": "January 2026", "title": "Jessica Gabriel, European Champion!", "description": "Jessica Gabriel wins the gold medal at the European BJJ Championship. An incredible performance that confirms her status as a top-level athlete.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" }
+        "news2": { "date": "May 2026", "title": "French Championship Prep", "description": "Our team is intensifying training for the upcoming French Championship. Extra technical sessions and high-level sparring on the agenda." }
     },
     "contact": {
         "title": "Contact Us",

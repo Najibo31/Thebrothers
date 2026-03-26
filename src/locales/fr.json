@@ -88,7 +88,7 @@
             "saturday": [
                 { "time": "8h30", "course": "JJB Enfants" },
                 { "time": "9h30", "course": "JJB Kimono" },
-                { "time": "12h00", "course": "MMA Salle Makasi" }
+                { "time": "12h00", "course": "JJB Kimono Salle Makasi" }
             ]
         },
         "no_class": "Aucun cours prévu ce jour-là.",
@@ -182,7 +182,7 @@
             "europe": {
                 "title": "Europe",
                 "items": [
-                    { "achievement": "Championnat d'Europe 2026 (Paris) - Or", "description": "Jessica Gabriel remporte la médaille d'or en Jiu-Jitsu Brésilien." },
+                    { "achievement": "Championnat d'Europe 2026 (Lisbonne) - Or", "description": "Jessica Gabriel remporte la médaille d'or en Jiu-Jitsu Brésilien." },
                     { "achievement": "Championnat d'Europe 2023 (Rome)", "description": "Argent: Harold Beaugendre. Bronze: Sebastien Cnudde, Emerick, Yannis." },
                     { "achievement": "Championnat d'Europe 2022 (Rome) - 6 médailles", "description": "Or: Harold Beaugendre. Argent: Erickson Lafeuille. Bronze: Diana Penalva, Cedrick, Mathieu Balagne, Geoffrey Marie Joseph." },
                     { "achievement": "AJP Paris 2022", "description": "Bronze: Jade Boisnard." },
@@ -250,12 +250,12 @@
             {
                 "name": "Jessica Gabriel",
                 "title": "Championne d'Europe 2026",
-                "description": "Médaillée d'or au championnat d'Europe de JJB en janvier 2026. Une performance incroyable qui confirme son statut d'athlète de haut niveau.",
+                "description": "Médaillée d'or au championnat d'Europe de JJB à Lisbonne en janvier 2026. Une performance incroyable qui confirme son statut d'athlète de haut niveau.",
                 "image": "https://i.postimg.cc/zGWNnVMg/Whats_App_Image_2026_01_25_at_14_47_39.jpg",
                 "alt": "Jessica Gabriel",
                 "ai_hint": "compétitrice jjb femme",
                 "records": [
-                    { "achievement": "Championne d'Europe 2026", "description": "Médaille d'or en Jiu-Jitsu Brésilien" },
+                    { "achievement": "Championne d'Europe 2026 (Lisbonne)", "description": "Médaille d'or en Jiu-Jitsu Brésilien" },
                     { "achievement": "Compétitrice d'élite", "description": "Reconnue pour sa technique et sa détermination" }
                 ]
             },
@@ -291,9 +291,9 @@
         "upcoming2": { "date": "Début Novembre 2026", "title": "Open Caraïbes", "location": "Guadeloupe" },
         "upcoming3": { "date": "Printemps 2026", "title": "Stage Intensif \"Soumissions Avancées\"", "location": "Workshop avec Handu" },
         "news_title": "Dernières Actualités",
-        "news1": { "date": "Mars 2025", "title": "Bebê Champion de France !", "description": "Erickson \"Bebê\" Lafeuille remporte le titre de Champion de France 2025 avec deux médailles d'or. Une performance exceptionnelle !", "image": "https://i.postimg.cc/Y993Ym9Z/Whats_App_Image_2026-01-26-at_01_34_43.jpg" },
-        "news2": { "date": "Mai 2026", "title": "Préparation Championnat de France", "description": "Notre équipe intensifie les entraînements en vue du Championnat de France de juin. Sessions techniques supplémentaires et sparring de haut niveau au programme." },
-        "news3": { "date": "Janvier 2026", "title": "Jessica Gabriel, Championne d'Europe !", "description": "Jessica Gabriel remporte la médaille d'or au championnat d'Europe de JJB. Une performance incroyable qui confirme son statut d'athlète de haut niveau.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" }
+        "news3": { "date": "Janvier 2026", "title": "Jessica Gabriel, Championne d'Europe à Lisbonne !", "description": "Jessica Gabriel remporte la médaille d'or au championnat d'Europe de JJB à Lisbonne. Une performance incroyable qui confirme son statut d'athlète de haut niveau.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" },
+        "news1": { "date": "Mars 2025", "title": "Bebê Champion de France !", "description": "Erickson \"Bebê\" Lafeuille remporte le titre de Champion de France 2025 avec deux médailles d'or. Une performance exceptionnelle !", "image": "https://i.postimg.cc/Y993Ym9Z/Whats_App_Image_2026-01-26_at_01_34_43.jpg" },
+        "news2": { "date": "Mai 2026", "title": "Préparation Championnat de France", "description": "Notre équipe intensifie les entraînements en vue du Championnat de France de juin. Sessions techniques supplémentaires et sparring de haut niveau au programme." }
     },
     "contact": {
         "title": "Contactez-Nous",
