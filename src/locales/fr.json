@@ -1,322 +1,322 @@
 
 {
     "nav": {
-        "about": "Notre Club",
+        "about": "Our Club",
         "courses": "Disciplines",
-        "planning": "Planning",
-        "subscriptions": "Abonnements",
-        "shop": "Boutique",
-        "team": "Équipe",
-        "events": "Événements",
+        "planning": "Schedule",
+        "subscriptions": "Subscriptions",
+        "shop": "Shop",
+        "team": "Team",
+        "events": "Events",
         "contact": "Contact",
-        "open_menu": "Ouvrir le menu",
-        "close_menu": "Fermer le menu",
-        "menu_description": "Menu de navigation principal du site."
+        "open_menu": "Open menu",
+        "close_menu": "Close menu",
+        "menu_description": "Main site navigation menu."
     },
     "hero": {
-        "location": "Arts Martiaux · Guadeloupe",
+        "location": "Martial Arts · Guadeloupe",
         "brand": "HAND FIGHT — THE BROTHERS INTERNATIONAL",
-        "tagline": "Où la discipline rencontre la passion. Pour tous âges, tous niveaux.",
-        "cta_trial": "Essai Gratuit sur WhatsApp",
-        "cta_subscriptions": "Voir les Abonnements"
+        "tagline": "Where discipline meets passion. For all ages, all levels.",
+        "cta_trial": "Free Trial on WhatsApp",
+        "cta_subscriptions": "View Subscriptions"
     },
     "about": {
-        "welcome_title": "Bienvenue chez Hand Fight",
-        "welcome_text": "Notre club, dirigé par le champion international Handu (ceinture noire depuis 2019), forme des athlètes de tous âges dans les disciplines du Jiu-Jitsu Brésilien (JJB) et des Arts Martiaux Mixtes (MMA). Installé au Gosier, Guadeloupe depuis 2020, nous proposons un environnement d'entraînement professionnel où la discipline, le respect et l'excellence sont au cœur de notre approche pédagogique.",
-        "mission_title": "Notre Mission",
-        "mission1": "Former des athlètes complets sur le plan technique et mental",
-        "mission2": "Développer la confiance en soi et le respect des autres",
-        "mission3": "Préparer aux compétitions nationales et internationales",
-        "mission4": "Créer une communauté soudée autour des valeurs martiales"
+        "welcome_title": "Welcome to Hand Fight",
+        "welcome_text": "Our club, led by international champion Handu (black belt since 2019), trains athletes of all ages in the disciplines of Brazilian Jiu-Jitsu (BJJ) and Mixed Martial Arts (MMA). Based in Le Gosier, Guadeloupe, since 2020, we offer a professional training environment where discipline, respect, and excellence are at the heart of our teaching approach.",
+        "mission_title": "Our Mission",
+        "mission1": "Train technically and mentally complete athletes",
+        "mission2": "Develop self-confidence and respect for others",
+        "mission3": "Prepare for national and international competitions",
+        "mission4": "Create a strong community around martial values"
     },
     "disciplines": {
-        "title": "Nos Disciplines",
+        "title": "Our Disciplines",
         "jjb": {
-            "title": "Jiu-Jitsu Brésilien",
-            "description": "Le JJB est un art martial qui développe la coordination, la confiance en soi, le respect et la stratégie. Accessible à tous, il permet de maîtriser des techniques de contrôle et de soumission efficaces.",
-            "features_title": "Pour Qui ?",
-            "feature1": "Enfants (4–12 ans) : apprentissage ludique et développement psychomoteur",
-            "feature2": "Ados & Adultes : perfectionnement technique et préparation aux compétitions",
-            "feature3": "Loisir : pratique pour le plaisir, la forme et le bien-être"
+            "title": "Brazilian Jiu-Jitsu",
+            "description": "BJJ is a martial art that develops coordination, self-confidence, respect, and strategy. Accessible to everyone, it allows mastering effective control and submission techniques.",
+            "features_title": "For Whom?",
+            "feature1": "Kids (4–12 years): playful learning and psychomotor development",
+            "feature2": "Teens & Adults: technical improvement and competition preparation",
+            "feature3": "Recreational: practice for fun, fitness, and well-being"
         },
         "mma": {
             "title": "MMA (Mixed Martial Arts)",
-            "description": "Les Arts Martiaux Mixtes combinent frappes, projections et soumissions pour un combat complet. Notre programme MMA est conçu pour développer des athlètes polyvalents et préparés mentalement.",
-            "features_title": "Programme Complet",
-            "feature1": "Sparring contrôlé : sécurité et progression garanties",
-            "feature2": "Préparation physique : conditionnement et endurance",
-            "feature3": "Niveaux intermédiaires et avancés : technique et tactique avancées"
+            "description": "Mixed Martial Arts combine striking, takedowns, and submissions for a complete combat system. Our MMA program is designed to develop versatile and mentally prepared athletes.",
+            "features_title": "Complete Program",
+            "feature1": "Controlled sparring: safety and progression guaranteed",
+            "feature2": "Physical preparation: conditioning and endurance",
+            "feature3": "Intermediate and advanced levels: advanced technique and tactics"
         }
     },
     "planning": {
-        "title": "Planning des Entraînements",
-        "subtitle": "Nos cours sont organisés tout au long de la semaine pour s'adapter à vos disponibilités. Que vous soyez débutant ou confirmé, enfant ou adulte, vous trouverez le créneau qui vous convient.",
+        "title": "Training Schedule",
+        "subtitle": "Our classes are scheduled throughout the week to fit your availability. Whether you are a beginner or experienced, child or adult, you will find a slot that suits you.",
         "days": {
-            "monday": "Lundi",
-            "tuesday": "Mardi",
-            "wednesday": "Mercredi",
-            "thursday": "Jeudi",
-            "friday": "Vendredi",
-            "saturday": "Samedi"
+            "monday": "Monday",
+            "tuesday": "Tuesday",
+            "wednesday": "Wednesday",
+            "thursday": "Thursday",
+            "friday": "Friday",
+            "saturday": "Saturday"
         },
         "schedule": {
             "monday": [
-                { "time": "12h30", "course": "MMA Salle Makasi" },
-                { "time": "18h00", "course": "JJB Kimono" },
-                { "time": "19h00", "course": "MMA Salle Makasi" }
+                { "time": "12:30 PM", "course": "MMA Makasi Gym" },
+                { "time": "6:00 PM", "course": "BJJ Gi" },
+                { "time": "7:00 PM", "course": "MMA Makasi Gym" }
             ],
             "tuesday": [
-                { "time": "12H30", "course": "Grappling" },
-                { "time": "17h00", "course": "MMA" },
-                { "time": "18h00", "course": "Grappling" }
+                { "time": "12:30 PM", "course": "Grappling" },
+                { "time": "5:00 PM", "course": "MMA" },
+                { "time": "6:00 PM", "course": "Grappling" }
             ],
             "wednesday": [
-                { "time": "12H30", "course": "JJB Kimono" },
-                { "time": "15h30", "course": "JJB Enfants" },
-                { "time": "17h00", "course": "JJB Kimono Ado" },
-                { "time": "18h00", "course": "JJB Kimono" }
+                { "time": "12:30 PM", "course": "BJJ Gi" },
+                { "time": "3:30 PM", "course": "BJJ Kids" },
+                { "time": "5:00 PM", "course": "BJJ Gi (Teens)" },
+                { "time": "6:00 PM", "course": "BJJ Gi" }
             ],
             "thursday": [
-                { "time": "12H30", "course": "Grappling" },
-                { "time": "18h00", "course": "MMA & No-Gi" }
+                { "time": "12:30 PM", "course": "Grappling" },
+                { "time": "6:00 PM", "course": "MMA & No-Gi" }
             ],
             "friday": [
-                { "time": "12H30", "course": "JJB Kimono" },
-                { "time": "17h30", "course": "JJB Kimono Ado" },
-                { "time": "18h30", "course": "JJB Kimono" }
+                { "time": "12:30 PM", "course": "BJJ Gi" },
+                { "time": "5:30 PM", "course": "BJJ Gi (Teens)" },
+                { "time": "6:30 PM", "course": "BJJ Gi" }
             ],
             "saturday": [
-                { "time": "8h30", "course": "JJB Enfants" },
-                { "time": "9h30", "course": "JJB Kimono" },
-                { "time": "12h00", "course": "JJB Kimono Salle Makasi" }
+                { "time": "8:30 AM", "course": "BJJ Kids" },
+                { "time": "9:30 AM", "course": "BJJ Gi" },
+                { "time": "12:00 PM", "course": "BJJ Gi Makasi Gym" }
             ]
         },
-        "no_class": "Aucun cours prévu ce jour-là.",
-        "trial_title": "Séance d'essai gratuite !",
-        "trial_text": "Contactez-nous via WhatsApp pour réserver votre première séance sans engagement.",
-        "trial_button": "Réserver via WhatsApp"
+        "no_class": "No classes scheduled for this day.",
+        "trial_title": "Free trial session!",
+        "trial_text": "Contact us via WhatsApp to book your first session with no commitment.",
+        "trial_button": "Book via WhatsApp"
     },
     "subscriptions": {
-        "title": "Nos Abonnements",
-        "subtitle": "Rejoignez notre communauté et bénéficiez de tarifs adaptés à tous les profils. Choisissez la formule qui correspond à vos objectifs et engagez-vous dans votre parcours martial dès aujourd’hui.",
-        "payment_info": "Tous les paiements sont sécurisés via HelloAsso.",
-        "validity": "Validité : Toutes les adhésions sont valables jusqu’au 31/12/2031 (sauf offres courtes).",
-        "renewal": "Reconduit automatiquement 30 jours avant le démarrage de la nouvelle année.",
-        "help_title": "Besoin d’aide pour choisir ? Contactez-nous !",
-        "cta_button": "S'inscrire Maintenant",
-        "cta_contact": "Questions ? WhatsApp",
-        "cta_all_offers": "Voir Toutes les Offres",
+        "title": "Our Subscriptions",
+        "subtitle": "Join our community and benefit from rates suitable for all profiles. Choose the plan that matches your goals and commit to your martial journey today.",
+        "payment_info": "All payments are secured via HelloAsso.",
+        "validity": "Validity: All memberships are valid until 12/31/2031 (except for short-term offers).",
+        "renewal": "Automatically renewed 30 days before the start of the new year.",
+        "help_title": "Need help choosing? Contact us!",
+        "cta_button": "Sign Up Now",
+        "cta_contact": "Questions? WhatsApp",
+        "cta_all_offers": "See All Offers",
         "categories": {
-            "kids": "Enfants (4-12 ans)",
-            "students": "Étudiants & Jeunes (12-25 ans)",
-            "adults_jjb": "Adultes – JJB",
-            "mma_jjb": "MMA + JJB",
-            "family_jjb": "Forfaits Famille - JJB"
+            "kids": "Kids (4–12 years)",
+            "students": "Students (12-25 years)",
+            "adults_jjb": "Adults – BJJ",
+            "mma_jjb": "MMA + BJJ",
+            "family_jjb": "Family Plans - BJJ"
         },
         "plans": {
-            "adhesion": { "name": "JJB Enfants – Annuel", "price": "30 € / mois", "description": "1 fois par semaine", "info": "Assurance et licence non incluses." },
-            "kids_annual": { "name": "JJB Enfants – Annuel", "price": "40 € / mois", "description": "Meilleur prix !", "info": "2 fois par semaine." },
-            "kids_premium": { "name": "JJB Enfants (2 enfants)", "price": "70 € / mois", "description": "", "info": "2 fois par semaine." },
-            "student_annual": { "name": "JJB Étudiant/Jeune – Annuel", "price": "50 € / mois", "info": "" },
-            "student_info": "Tarif spécial pour les étudiants et jeunes. Un investissement accessible pour votre développement personnel.",
-            "adult_1m": { "name": "1 Mois", "price": "90 € / mois", "info": "" },
-            "adult_6m": { "name": "6 Mois", "price": "70 € / mois", "info": "" },
-            "adult_annual": { "name": "Annuel", "price": "60 € / mois", "description": "Offre la plus avantageuse !", "info": "" },
-            "adult_info": "Formules flexibles pour s’adapter à votre engagement et vos objectifs sportifs.",
-            "mma_only_annual": { "name": "MMA Seul – Annuel", "price": "60 € / mois", "info": "" },
-            "mma_jjb_annual": { "name": "MMA + JJB – Annuel", "price": "110 € / mois", "info": "" },
-            "mma_jjb_6m": { "name": "MMA + JJB – 6 Mois", "price": "135 € / mois", "info": "" },
-            "mma_info": "Combinez les disciplines pour devenir un combattant complet avec un excellent rapport qualité-prix.",
-            "family_2": { "name": "2 membres (1 adulte + 1 enfant)", "price": "92 € / mois", "info": "" },
-            "family_3": { "name": "3 membres (1 adulte + 2 enfants)", "price": "125 € / mois", "info": "" },
-            "family_info": "Partagez votre passion en famille avec des tarifs préférentiels. Entraînez-vous ensemble et progressez ensemble !"
+            "adhesion": { "name": "BJJ Kids - Annual", "price": "30 € / month", "description": "1 time a week", "info": "Insurance and license not included." },
+            "kids_annual": { "name": "BJJ Kids – Annual", "price": "40 € / month", "description": "Best price!", "info": "2 times a week." },
+            "kids_premium": { "name": "BJJ Kids (2 children)", "price": "70 € / month", "description": "", "info": "2 times a week." },
+            "student_annual": { "name": "BJJ Student – Annual", "price": "50 € / month", "info": "" },
+            "student_info": "Special rate for students. An accessible investment for your personal development.",
+            "adult_1m": { "name": "1 Month", "price": "90 € / month", "info": "" },
+            "adult_6m": { "name": "6 Months", "price": "70 € / month", "info": "" },
+            "adult_annual": { "name": "Annual", "price": "60 € / month", "description": "Most advantageous offer!", "info": "" },
+            "adult_info": "Flexible plans to adapt to your commitment and sports goals.",
+            "mma_only_annual": { "name": "MMA Only – Annual", "price": "60 € / month", "info": "" },
+            "mma_jjb_annual": { "name": "MMA + BJJ – Annual", "price": "110 € / month", "info": "" },
+            "mma_jjb_6m": { "name": "MMA + BJJ – 6 Months", "price": "135 € / month", "info": "" },
+            "mma_info": "Combine disciplines to become a complete fighter with excellent value for money.",
+            "family_2": { "name": "2 members (1 adult, 1 child)", "price": "92 € / month", "info": "" },
+            "family_3": { "name": "3 members (1 adult + 2 children)", "price": "125 € / month", "info": "" },
+            "family_info": "Share your passion with your family with our preferential rates. Train together and progress together!"
         }
     },
     "shop": {
-        "title": "Boutique Officielle",
-        "subtitle": "Équipez-vous avec nos produits officiels Hand Fight ! Tous les articles sont disponibles sur place au club ou sur commande via WhatsApp.",
-        "cta_button": "Commander via WhatsApp",
+        "title": "Official Shop",
+        "subtitle": "Get equipped with our official Hand Fight products! All items are available on-site at the club or by order via WhatsApp.",
+        "cta_button": "Order via WhatsApp",
         "products": [
-            { "name": "Leggings HANDFIGHT", "price": "40", "image": "https://i.postimg.cc/859nX5nr/pantalon.png", "hint": "legging sport", "description": "Style et performance pour les femmes." },
-            { "name": "Rashguard HANDFIGHT", "price": "40", "image": "https://i.postimg.cc/ZR2DsRDW/T_shirt2.png", "hint": "rashguard", "description": "Anti-frottement, séchage rapide pour le No-Gi." },
-            { "name": "T-Shirt Jiu-Jitsu", "price": "20", "image": "https://i.postimg.cc/1t2Y7tYq/T_shirt.png", "hint": "t-shirt sport", "description": "Affichez votre passion pour le JJB." },
-            { "name": "Short HANDFIGHT", "price": "40", "image": "https://i.postimg.cc/Ss3t1st8/short.png", "hint": "short sport", "description": "Confortable, résistant, design local Guadeloupe." },
-            { "name": "Ceinture", "price": "20", "image": "https://i.postimg.cc/SKjvV7C4/ceinture.png", "hint": "ceinture jjb", "description": "Ceinture de jiu-jitsu brésilien." },
-            { "name": "Kimono Enfant", "price": "80", "image": "https://i.postimg.cc/q7g5QXyJ/kimono.png", "hint": "kimono enfant", "description": "Disponible en noir, blanc et bleu." },
-            { "name": "Kimono Adulte", "price": "120", "image": "https://i.postimg.cc/q7g5QXyJ/kimono.png", "hint": "kimono adulte", "description": "Disponible en noir, blanc et bleu." }
+            { "name": "HANDFIGHT Leggings", "price": "40", "image": "https://i.postimg.cc/859nX5nr/pantalon.png", "hint": "legging sport", "description": "Stylish and high-performing for women." },
+            { "name": "HANDFIGHT Rashguard", "price": "40", "image": "https://i.postimg.cc/ZR2DsRDW/T_shirt2.png", "hint": "rashguard", "description": "Anti-chafing, quick-drying for No-Gi." },
+            { "name": "Jiu-Jitsu T-Shirt", "price": "20", "image": "https://i.postimg.cc/1t2Y7tYq/T_shirt.png", "hint": "t-shirt sport", "description": "Show your passion for BJJ." },
+            { "name": "HANDFIGHT Shorts", "price": "40", "image": "https://i.postimg.cc/Ss3t1st8/short.png", "hint": "short sport", "description": "Comfortable, durable, local Guadeloupe design." },
+            { "name": "Belt", "price": "20", "image": "https://i.postimg.cc/SKjvV7C4/ceinture.png", "hint": "jjb belt", "description": "Brazilian Jiu-Jitsu belt." },
+            { "name": "Kid's Kimono", "price": "80", "image": "https://i.postimg.cc/q7g5QXyJ/kimono.png", "hint": "kid kimono", "description": "Available in black, white, and blue." },
+            { "name": "Adult's Kimono", "price": "120", "image": "https://i.postimg.cc/q7g5QXyJ/kimono.png", "hint": "adult kimono", "description": "Available in black, white, and blue." }
         ],
-        "enlarged_view": "Vue agrandie de"
+        "enlarged_view": "Enlarged view of"
     },
     "team": {
         "handu": {
-            "name": "Handu — Professeur & Ceinture Noire",
-            "role": "Professeur & Ceinture Noire",
-            "bio": "Champion international, Handu a obtenu sa ceinture noire en 2019 et s'est installé en Guadeloupe en 2020 avec une mission claire : former des champions, sur le tatami et dans la vie. Avec plus de 20 ans d'expérience en compétition et en enseignement, il apporte une expertise technique de haut niveau et une approche pédagogique qui allie exigence et bienveillance.",
-            "philosophy_title": "Philosophie d'Entraînement",
-            "philosophy1": "Excellence technique et progression continue",
-            "philosophy2": "Développement de la confiance et du mental de champion",
-            "philosophy3": "Respect des valeurs martiales traditionnelles",
-            "philosophy4": "Préparation complète : physique, technique et psychologique",
-            "palmares_title": "Palmarès International de Handu",
-            "palmares_avant_2023": "AVANT 2023",
+            "name": "Handu — Professor & Black Belt",
+            "role": "Professor & Black Belt",
+            "bio": "An international champion, Handu earned his black belt in 2019 and settled in Guadeloupe in 2020 with a clear mission: to train champions, on the mat and in life. With over 20 years of experience in competition and teaching, he brings high-level technical expertise and a teaching approach that combines high standards with kindness.",
+            "philosophy_title": "Training Philosophy",
+            "philosophy1": "Technical excellence and continuous progression",
+            "philosophy2": "Development of confidence and a champion's mindset",
+            "philosophy3": "Respect for traditional martial values",
+            "philosophy4": "Complete preparation: physical, technical, and psychological",
+            "palmares_title": "Handu's International Record",
+            "palmares_avant_2023": "BEFORE 2023",
             "palmares_avant": [
-                { "year": "2019", "title": "Fortaleza Open IBJJF", "achievement": "1er Place Absoluto", "description": "Victoire toutes catégories au prestigieux tournoi de l'IBJJF au Brésil" },
-                { "year": "2018", "title": "Salvador Fall Open", "achievement": "1er Place Médio", "description": "Champion dans sa catégorie de poids à Salvador" },
-                { "year": "2017", "title": "European IBJJF No-Gi", "achievement": "3e Place", "description": "Médaille de bronze au Championnat d'Europe No-Gi" },
-                { "year": "2015-2019", "title": "Circuit Brésilien", "achievement": "Multiples titres", "description": "à São Paulo, Brasilia, Salvador et autres grandes compétitions nationales brésiliennes" }
+                { "year": "2019", "title": "Fortaleza Open IBJJF", "achievement": "1st Place Absolute", "description": "Victory in all categories at the prestigious IBJJF tournament in Brazil" },
+                { "year": "2018", "title": "Salvador Fall Open", "achievement": "1st Place Middleweight", "description": "Champion in his weight class in Salvador" },
+                { "year": "2017", "title": "European IBJJF No-Gi", "achievement": "3rd Place", "description": "Bronze medal at the No-Gi European Championship" },
+                { "year": "2015-2019", "title": "Brazilian Circuit", "achievement": "Multiple titles", "description": "in São Paulo, Brasilia, Salvador and other major Brazilian national competitions" }
             ],
-            "palmares_depuis_2022": "DEPUIS 2022 - EUROPE & CARAÏBES",
-            "palmares_2025": { "year": "2025", "items": [{ "title": "Open Toulon", "result": "1er No-Gi" }, { "title": "Open Caraibes", "result": "1er No-Gi" }] },
-            "palmares_2024": { "year": "2024", "items": [{ "title": "Championnat de France", "result": "3e Place" }, { "title": "Multiples podiums en circuit national", "result": "" }] },
-            "palmares_2023": { "year": "2023", "items": [{ "title": "AJP Rome", "result": "1er Gi & No-Gi" }, { "title": "AJP Paris", "result": "1er Gi & No-Gi" }] },
-            "palmares_2022": { "year": "2022", "items": [{ "title": "Championnat d’Europe", "result": "1 Or, 2 Argent, 4 Bronze" }, { "title": "Performance exceptionnelle multi-médailles", "result": "" }] },
-             "gallery": [
-                { "src": "https://i.postimg.cc/W3TRQNjJ/prise88.jpg", "alt": "Handu Professeur" },
-                { "src": "https://i.postimg.cc/rmQY0dnb/Whats_App_Image_2026-01-26_at_01_41_12.jpg", "alt": "Handu en enseignement" },
-                { "src": "https://i.postimg.cc/T11NrRFS/Whats_App_Image_2026_01_26_at-01_41_11.jpg", "alt": "Handu en compétition" },
-                { "src": "https://i.postimg.cc/T11NrRF4/handu.jpg", "alt": "Portrait de Handu" }
+            "palmares_depuis_2022": "SINCE 2022 - EUROPE & CARIBBEAN",
+            "palmares_2025": { "year": "2025", "items": [{ "title": "Open Toulon", "result": "1st No-Gi" }, { "title": "Open Caraibes", "result": "1st No-Gi" }] },
+            "palmares_2024": { "year": "2024", "items": [{ "title": "French Championship", "result": "3rd Place" }, { "title": "Multiple podiums in national circuit", "result": "" }] },
+            "palmares_2023": { "year": "2023", "items": [{ "title": "AJP Rome", "result": "1st Gi & No-Gi" }, { "title": "AJP Paris", "result": "1st Gi & No-Gi" }] },
+            "palmares_2022": { "year": "2022", "items": [{ "title": "European Championship", "result": "1 Gold, 2 Silver, 4 Bronze" }, { "title": "Exceptional multi-medal performance", "result": "" }] },
+            "gallery": [
+                { "src": "https://i.postimg.cc/W3TRQNjJ/prise88.jpg", "alt": "Handu Professor" },
+                { "src": "https://i.postimg.cc/rmQY0dnb/Whats_App_Image_2026-01-26_at_01_41_12.jpg", "alt": "Handu teaching" },
+                { "src": "https://i.postimg.cc/T11NrRFS/Whats_App_Image_2026_01_26_at-01_41_11.jpg", "alt": "Handu in competition" },
+                { "src": "https://i.postimg.cc/T11NrRF4/handu.jpg", "alt": "Handu portrait" }
             ]
         },
-        "team_records":{
-            "title": "Palmarès de l'Équipe",
+        "team_records": {
+            "title": "Team Achievements",
             "europe": {
                 "title": "Europe",
                 "items": [
-                    { "achievement": "Championnat d'Europe 2026 (Lisbonne) - Or", "description": "Jessica Gabriel remporte la médaille d'or en Jiu-Jitsu Brésilien." },
-                    { "achievement": "Championnat d'Europe 2023 (Rome)", "description": "Argent: Harold Beaugendre. Bronze: Sebastien Cnudde, Emerick, Yannis." },
-                    { "achievement": "Championnat d'Europe 2022 (Rome) - 6 médailles", "description": "Or: Harold Beaugendre. Argent: Erickson Lafeuille. Bronze: Diana Penalva, Cedrick, Mathieu Balagne, Geoffrey Marie Joseph." },
+                    { "achievement": "2026 European Championship (Lisbon) - Gold", "description": "Jessica Gabriel wins gold in Brazilian Jiu-Jitsu." },
+                    { "achievement": "2023 European Championship (Rome)", "description": "Silver: Harold Beaugendre. Bronze: Sebastien Cnudde, Emerick, Yannis." },
+                    { "achievement": "2022 European Championship (Rome) - 6 medals", "description": "Gold: Harold Beaugendre. Silver: Erickson Lafeuille. Bronze: Diana Penalva, Cedrick, Mathieu Balagne, Geoffrey Marie Joseph." },
                     { "achievement": "AJP Paris 2022", "description": "Bronze: Jade Boisnard." },
                     { "achievement": "AJP Paris 2021", "description": "Or: Geoffrey Marie Joseph, Mathieu Balange. Argent: Harold Beaugendre." }
                 ]
             },
             "south_america": {
-                "title": "Amérique du Sud",
+                "title": "South America",
                 "items": [
-                    { "achievement": "Sul Americano 2021 (São Paulo) - 3 médailles", "description": "Or (Gi & No-Gi): Kevin. Argent (Gi) & Bronze (No-Gi): Diana. Bronze (Gi & No-Gi): Cedrick Loe Sack Sioe." }
+                    { "achievement": "2021 Sul Americano (São Paulo) - 3 medals", "description": "Gold (Gi & No-Gi): Kevin. Silver (Gi) & Bronze (No-Gi): Diana. Bronze (Gi & No-Gi): Cedrick Loe Sack Sioe." }
                 ]
             },
             "caribbean": {
-                "achievement": "Championnat de la Caraïbe (CFJJB) - Meilleur Club",
-                "description": "Vainqueur du prix du Meilleur Club pour les saisons 2023, 2024 et 2025."
+                "achievement": "Caribbean Championship (CFJJB) - Best Club",
+                "description": "Winner of the Best Club award for the 2023, 2024, and 2025 seasons."
             }
         },
-        "champions_title": "Nos Élèves Champions",
-        "champions_subtitle": "Chez Hand Fight, nous sommes fiers de former la prochaine génération de champions. Nos élèves brillent sur les podiums nationaux et internationaux, prouvant l'excellence de notre méthode d'entraînement.",
-        "champion_records_title": "Palmarès Impressionnant",
+        "champions_title": "Our Student Champions",
+        "champions_subtitle": "At Hand Fight, we are proud to train the next generation of champions. Our students shine on national and international podiums, proving the excellence of our training method.",
+        "champion_records_title": "Impressive Record",
         "champions": [
             {
                 "name": "Erickson \"Bebê\" Lafeuille",
-                "title": "Champion de France 2025",
+                "title": "Champion of France 2025",
                 "description": "",
                 "image": "https://i.postimg.cc/mrxLGDwd/Whats_App_Image_2026_01_28_at_23_31_05.jpg", "alt": "Erickson \"Bebê\" Lafeuille", "ai_hint": "champion jjb",
                 "records": []
             },
             {
                 "name": "Mathieu Peraste",
-                "title": "3ème championnat d'Europe 2025",
+                "title": "3rd place European Championship 2025",
                 "description": "",
                 "image": "https://i.postimg.cc/76nrBYBB/Whats_App_Image_2026-01-26_at_01_34_04.jpg", "alt": "Mathieu Peraste", "ai_hint": "athlete jjb",
                 "records": []
             },
             {
                 "name": "Harold Beaugendre",
-                "title": "Multi médaillé du club",
-                "description": "Pilier de l'équipe, Harold est reconnu pour sa puissance et son palmarès impressionnant au niveau européen.",
-                "image": "https://i.postimg.cc/1XX7p92L/Whats_App_Image_2026_01_26_at_01_32_58.jpg", "alt": "Harold Beaugendre", "ai_hint": "compétiteur jjb",
+                "title": "Club's multi-medalist",
+                "description": "A pillar of the team, Harold is known for his power and his impressive track record at the European level.",
+                "image": "https://i.postimg.cc/1XX7p92L/Whats_App_Image_2026_01_26_at_01_32_58.jpg", "alt": "Harold Beaugendre", "ai_hint": "jjb competitor",
                 "records": [
-                    { "achievement": "Champion d'Europe 2022 (Rome)", "description": "" },
-                    { "achievement": "Médaillé d'argent AJP Paris 2021", "description": "" },
-                    { "achievement": "Médaillé d'argent Championnat d'Europe 2023", "description": "" }
+                    { "achievement": "2022 European Champion (Rome)", "description": "" },
+                    { "achievement": "2021 AJP Paris Silver Medalist", "description": "" },
+                    { "achievement": "2023 European Championship Silver Medalist", "description": "" }
                 ]
             },
             {
                 "name": "Diana Penalva",
-                "title": "Compétitrice Internationale",
-                "description": "Compétitrice aguerrie, Diana se distingue par sa technique et sa régularité sur le circuit international.",
-                "image": "https://i.postimg.cc/3Rnb4ySz/Whats_App_Image_2026-01-26_at_01_42_15.jpg", "alt": "Diana Penalva", "ai_hint": "compétitrice jjb femme",
+                "title": "International Competitor",
+                "description": "A seasoned competitor, Diana stands out for her technique and consistency on the international circuit.",
+                "image": "https://i.postimg.cc/3Rnb4ySz/Whats_App_Image_2026-01-26_at_01_42_15.jpg", "alt": "Diana Penalva", "ai_hint": "female jjb competitor",
                 "records": []
             },
             {
                 "name": "Anna Rolland",
-                "title": "Vice-Championne du Brésil 2025",
-                "description": "Une athlète prometteuse qui s'est déjà illustrée sur la scène internationale, prouvant sa technique et sa détermination.",
+                "title": "Brazil Vice-Champion 2025",
+                "description": "A promising athlete who has already made her mark on the international stage, proving her technique and determination.",
                 "image": "",
                 "alt": "Anna Rolland",
                 "ai_hint": "female jjb competitor",
                 "records": [
-                    { "achievement": "Vice-championne du Brésil 2025", "description": "" }
+                    { "achievement": "Brazil Vice-Champion 2025", "description": "" }
                 ]
             },
             {
                 "name": "Jessica Gabriel",
-                "title": "Championne d'Europe 2026",
-                "description": "Médaillée d'or au championnat d'Europe de JJB à Lisbonne en janvier 2026. Une performance incroyable qui confirme son statut d'athlète de haut niveau.",
+                "title": "European Champion 2026",
+                "description": "Gold medalist at the European BJJ Championship in Lisbon in January 2026. An incredible performance that confirms her status as a top-level athlete.",
                 "image": "https://i.postimg.cc/zGWNnVMg/Whats_App_Image_2026_01_25_at_14_47_39.jpg",
                 "alt": "Jessica Gabriel",
-                "ai_hint": "compétitrice jjb femme",
+                "ai_hint": "female jjb champion",
                 "records": [
-                    { "achievement": "Championne d'Europe 2026 (Lisbonne)", "description": "Médaille d'or en Jiu-Jitsu Brésilien" },
-                    { "achievement": "Compétitrice d'élite", "description": "Reconnue pour sa technique et sa détermination" }
+                    { "achievement": "European Champion 2026 (Lisbon)", "description": "Gold Medal in Brazilian Jiu-Jitsu" },
+                    { "achievement": "Elite Competitor", "description": "Known for her technique and determination" }
                 ]
             },
             {
                 "name": "Geoffrey Marie Joseph",
-                "title": "Ceinture Violette",
-                "description": "Très engagé dans le groupe.",
+                "title": "Purple Belt",
+                "description": "Very committed to the group.",
                 "image": "https://i.postimg.cc/DwP3KFsN/Whats-App-Image-2026-02-03-at-19-01-48.jpg",
                 "alt": "Geoffrey Marie Joseph",
                 "ai_hint": "jjb athlete",
                 "records": [
-                    { "achievement": "Or AJP Paris 2021", "description": "" },
-                    { "achievement": "Bronze Championnat d'Europe 2022 (Rome)", "description": "" }
+                    { "achievement": "Gold AJP Paris 2021", "description": "" },
+                    { "achievement": "Bronze European Championship 2022 (Rome)", "description": "" }
                 ]
             }
         ],
-        "cta_button": "Vous aussi, écrivez votre histoire !"
+        "cta_button": "You too, write your story!"
     },
     "gallery": {
-        "title": "Galerie des Compétitions",
-        "subtitle": "Revivez les moments forts de nos athlètes sur les podiums nationaux et internationaux. Ces images témoignent de l'excellence technique et de l'esprit combatif qui règnent au sein de Hand Fight.",
-        "alt_eriksson": "Eriksson 'Bebê' Lafeuille en compétition",
-        "alt_harold1": "Harold Beaugendre en compétition",
-        "alt_harold2": "Harold Beaugendre sur le podium",
-        "alt_joe": "Geoffrey Marie Joseph sur le podium",
-        "alt1": "Athlète sur un podium",
-        "alt2": "Combattant pendant un match"
+        "title": "Competition Gallery",
+        "subtitle": "Relive the highlights of our athletes on national and international podiums. These images testify to the technical excellence and fighting spirit that reign within Hand Fight.",
+        "alt_eriksson": "Eriksson 'Bebê' Lafeuille in competition",
+        "alt_harold1": "Harold Beaugendre in competition",
+        "alt_harold2": "Harold Beaugendre on the podium",
+        "alt_joe": "Geoffrey Marie Joseph on the podium",
+        "alt1": "Athlete on a podium",
+        "alt2": "Fighter during a match"
     },
     "events": {
-        "title": "Événements & Actualités",
-        "upcoming_title": "Prochains Événements Majeurs",
-        "upcoming1": { "date": "13–14 Juin 2026", "title": "Championnat de France JJB", "location": "Paris — Porte de Versailles" },
-        "upcoming2": { "date": "Début Novembre 2026", "title": "Open Caraïbes", "location": "Guadeloupe" },
-        "upcoming3": { "date": "Printemps 2026", "title": "Stage Intensif \"Soumissions Avancées\"", "location": "Workshop avec Handu" },
-        "news_title": "Dernières Actualités",
-        "news3": { "date": "Janvier 2026", "title": "Jessica Gabriel, Championne d'Europe à Lisbonne !", "description": "Jessica Gabriel remporte la médaille d'or au championnat d'Europe de JJB à Lisbonne. Une performance incroyable qui confirme son statut d'athlète de haut niveau.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" },
-        "news1": { "date": "Mars 2025", "title": "Bebê Champion de France !", "description": "Erickson \"Bebê\" Lafeuille remporte le titre de Champion de France 2025 avec deux médailles d'or. Une performance exceptionnelle !", "image": "https://i.postimg.cc/Y993Ym9Z/Whats_App_Image_2026-01-26_at_01_34_43.jpg" },
-        "news2": { "date": "Mai 2026", "title": "Préparation Championnat de France", "description": "Notre équipe intensifie les entraînements en vue du Championnat de France de juin. Sessions techniques supplémentaires et sparring de haut niveau au programme." }
+        "title": "Events & News",
+        "upcoming_title": "Upcoming Major Events",
+        "upcoming1": { "date": "June 13–14, 2026", "title": "French BJJ Championship", "location": "Paris — Porte de Versailles" },
+        "upcoming2": { "date": "Early November 2026", "title": "Caribbean Open", "location": "Guadeloupe" },
+        "upcoming3": { "date": "Spring 2026", "title": "Intensive Camp \"Advanced Submissions\"", "location": "Workshop with Handu" },
+        "news_title": "Latest News",
+        "news3": { "date": "January 2026", "title": "Jessica Gabriel, European Champion in Lisbon!", "description": "Jessica Gabriel wins the gold medal at the European BJJ Championship in Lisbon. An incredible performance that confirms her status as a top-level athlete.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" },
+        "news1": { "date": "March 2025", "title": "Bebê is French Champion!", "description": "Erickson \"Bebê\" Lafeuille wins the French Champion title with two gold medals. An exceptional performance!", "image": "https://i.postimg.cc/Y993Ym9Z/Whats_App_Image_2026-01-26-at_01_34_43.jpg" },
+        "news2": { "date": "May 2026", "title": "French Championship Prep", "description": "Our team is intensifying training for the upcoming French Championship. Extra technical sessions and high-level sparring on the agenda." }
     },
     "contact": {
-        "title": "Contactez-Nous",
-        "subtitle": "Prêt(e) pour un nouveau défi ? Contactez l'équipe Hand Fight pour le JJB ou le MMA. Démarrez votre aventure dès aujourd'hui !",
-        "get_in_touch": "Nous contacter",
-        "address_title": "Notre Adresse",
+        "title": "Contact Us",
+        "subtitle": "Ready for a new challenge? Contact the Hand Fight team for BJJ or MMA. Start your adventure today!",
+        "get_in_touch": "Get in touch",
+        "address_title": "Our Address",
         "address_line1": "Ancien Royal Riviera",
         "address_line2": "Riviera de Gosier, Poucet",
         "address_line3": "97190 Le Gosier, Guadeloupe",
-        "phone_title": "Téléphone",
-        "phone_number": "0691275351",
+        "phone_title": "Phone",
+        "phone_number": "+590 691 27 53 51",
         "whatsapp_title": "WhatsApp",
-        "whatsapp_action": "Message pour une réponse rapide",
+        "whatsapp_action": "Message us for a quick response",
         "email_title": "Email",
-        "email_action": "Email pour requêtes détaillées",
-        "socials_title": "Suivez nos actualités",
-        "map_alt": "Enfants du club de JJB"
+        "email_action": "Email us for detailed requests",
+        "socials_title": "Follow our news",
+        "map_alt": "Kids from the BJJ club"
     },
     "footer": {
         "association": "Association loi 1901",
-        "hq": "Siège social : Ancien Royal Riviera, 97190 Le Gosier",
-        "copyright": "Hand Fight — The Brothers International. Tous droits réservés.",
-        "editor": "Responsable éditorial",
-        "made_by": "Créé et imaginé par Croissance Digitale."
+        "hq": "Headquarters: Ancien Royal Riviera, 97190 Le Gosier",
+        "copyright": "Hand Fight — The Brothers International. All rights reserved.",
+        "editor": "Editorial manager",
+        "made_by": "Created and designed by Croissance Digitale."
     }
 }

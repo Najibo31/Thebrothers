@@ -66,7 +66,6 @@
                 { "time": "7:00 PM", "course": "MMA Makasi Gym" }
             ],
             "tuesday": [
-                { "time": "12:30 PM", "course": "Grappling" },
                 { "time": "5:00 PM", "course": "MMA" },
                 { "time": "6:00 PM", "course": "Grappling" }
             ],
@@ -74,6 +73,7 @@
                 { "time": "12:30 PM", "course": "BJJ Gi" },
                 { "time": "3:30 PM", "course": "BJJ Kids" },
                 { "time": "5:00 PM", "course": "BJJ Gi (Teens)" },
+                { "time": "5:00 PM", "course": "Open Mat / Grappling" },
                 { "time": "6:00 PM", "course": "BJJ Gi" }
             ],
             "thursday": [
@@ -88,7 +88,7 @@
             "saturday": [
                 { "time": "8:30 AM", "course": "BJJ Kids" },
                 { "time": "9:30 AM", "course": "BJJ Gi" },
-                { "time": "12:00 PM", "course": "BJJ Gi Makasi Gym" }
+                { "time": "12:00 PM", "course": "BJJ Gi" }
             ]
         },
         "no_class": "No classes scheduled for this day.",
@@ -165,7 +165,7 @@
                 { "year": "2017", "title": "European IBJJF No-Gi", "achievement": "3rd Place", "description": "Bronze medal at the No-Gi European Championship" },
                 { "year": "2015-2019", "title": "Brazilian Circuit", "achievement": "Multiple titles", "description": "in São Paulo, Brasilia, Salvador and other major Brazilian national competitions" }
             ],
-            "palmares_depuis_2022": "SINCE 2022 - EUROPE & CARIBBEAN",
+            "palmares_depuis_2022": "SINCE 2022 - EUROPE & CARAIBBEAN",
             "palmares_2025": { "year": "2025", "items": [{ "title": "Open Toulon", "result": "1st No-Gi" }, { "title": "Open Caraibes", "result": "1st No-Gi" }] },
             "palmares_2024": { "year": "2024", "items": [{ "title": "French Championship", "result": "3rd Place" }, { "title": "Multiple podiums in national circuit", "result": "" }] },
             "palmares_2023": { "year": "2023", "items": [{ "title": "AJP Rome", "result": "1st Gi & No-Gi" }, { "title": "AJP Paris", "result": "1st Gi & No-Gi" }] },
@@ -182,7 +182,7 @@
             "europe": {
                 "title": "Europe",
                 "items": [
-                    { "achievement": "2026 European Championship (Lisbon) - Gold", "description": "Jessica Gabriel wins gold in Brazilian Jiu-Jitsu." },
+                    { "achievement": "2026 European Championship (Lisbon) - Gold", "description": "Jessica Gabriel wins gold in Brazilian Jiu-Jitsu in Lisbon." },
                     { "achievement": "2023 European Championship (Rome)", "description": "Silver: Harold Beaugendre. Bronze: Sebastien Cnudde, Emerick, Yannis." },
                     { "achievement": "2022 European Championship (Rome) - 6 medals", "description": "Gold: Harold Beaugendre. Silver: Erickson Lafeuille. Bronze: Diana Penalva, Cedrick, Mathieu Balagne, Geoffrey Marie Joseph." },
                     { "achievement": "AJP Paris 2022", "description": "Bronze: Jade Boisnard." },
@@ -255,7 +255,7 @@
                 "alt": "Jessica Gabriel",
                 "ai_hint": "female jjb champion",
                 "records": [
-                    { "achievement": "European Champion 2026 (Lisbon)", "description": "Gold Medal in Brazilian Jiu-Jitsu" },
+                    { "achievement": "European Champion 2026 (Lisbonne)", "description": "Gold Medal in Brazilian Jiu-Jitsu" },
                     { "achievement": "Elite Competitor", "description": "Known for her technique and determination" }
                 ]
             },
@@ -292,7 +292,7 @@
         "upcoming3": { "date": "Spring 2026", "title": "Intensive Camp \"Advanced Submissions\"", "location": "Workshop with Handu" },
         "news_title": "Latest News",
         "news3": { "date": "January 2026", "title": "Jessica Gabriel, European Champion in Lisbon!", "description": "Jessica Gabriel wins the gold medal at the European BJJ Championship in Lisbon. An incredible performance that confirms her status as a top-level athlete.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" },
-        "news1": { "date": "March 2025", "title": "Bebê is French Champion!", "description": "Erickson \"Bebê\" Lafeuille wins the French Champion title with two gold medals. An exceptional performance!", "image": "https://i.postimg.cc/Y993Ym9Z/Whats_App_Image_2026-01-26-at_01_34_43.jpg" },
+        "news1": { "date": "March 2025", "title": "Bebê is French Champion!", "description": "Erickson \"Bebê\" Lafeuille wins the French Champion title with two gold medals. An exceptional performance!", "image": "https://i.postimg.cc/Y993Ym9Z/Whats_App_Image_2026-01-26_at_01_34_43.jpg" },
         "news2": { "date": "May 2026", "title": "French Championship Prep", "description": "Our team is intensifying training for the upcoming French Championship. Extra technical sessions and high-level sparring on the agenda." }
     },
     "contact": {
