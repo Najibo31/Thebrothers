@@ -1,3 +1,4 @@
+
 {
     "nav": {
         "about": "Notre Club",
@@ -113,7 +114,7 @@
             "family_jjb": "Forfaits Famille - JJB"
         },
         "plans": {
-            "adhesion": { "name": "JJB Enfants – Annuel", "price": "30 € / mois", "description": "1 fois par semaine", "info": "Assurance et licence non incluses." },
+            "adhesion": { "name": "JJB Enfants – Annuel", "price": "30 € / mois", "description": "1 fois par semaine", "info": "Assurance et licence incluses." },
             "kids_annual": { "name": "JJB Enfants – Annuel", "price": "40 € / mois", "description": "Meilleur prix !", "info": "2 fois par semaine." },
             "kids_premium": { "name": "JJB Enfants (2 enfants)", "price": "70 € / mois", "description": "", "info": "2 fois par semaine." },
             "student_annual": { "name": "JJB Étudiant/Jeune – Annuel", "price": "50 € / mois", "info": "" },
@@ -358,7 +359,7 @@
                     "Encadrement : 1 prof JJB diplômé + 1 assistant (Ratio max 1 pour 8)",
                     "Tap-Out : 3 tapes OU dire 'STOP' -> arrêt IMMÉDIAT obligatoire. Sanction si ignoré.",
                     "Techniques Interdites : Projections debout, clés jambes/colonne, torsions doigts, compression nuque.",
-                    "Hygiène : Tatamis désinfectés, ongles courts, cheveux attachés, gourdes nommées, pas d'échanges alimentaires.",
+                    "Hygiène : Tatamis désinfectés, ongles courts, gourdes nommées, pas d'échanges alimentaires.",
                     "Gestion Émotionnelle : Enfant qui pleure = pause immédiate + réconfort. Abandon sans conséquence possible."
                 ]
             }
