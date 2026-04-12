@@ -1,3 +1,4 @@
+
 'use client';
 
 import Link from 'next/link';
@@ -34,25 +35,6 @@ export default function Header() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const NavLinksContent = ({ onLinkClick }: { onLinkClick?: () => void }) => (
-    <>
-      {navLinks.map((link) => {
-        const isExternalPage = link.href.startsWith('/abonnements');
-        return (
-          <SheetClose key={link.href} asChild>
-            <Link
-              href={link.href}
-              onClick={onLinkClick}
-              className="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:text-primary focus:outline-none focus:text-primary"
-            >
-              {link.label}
-            </Link>
-          </SheetClose>
-        );
-      })}
-    </>
-  );
-
   return (
     <header
       className={cn(
@@ -83,12 +65,7 @@ export default function Header() {
           </nav>
           
           <div className="flex items-center gap-1">
-            <div className='hidden lg:flex items-center gap-1'>
-              <LanguageSwitcher />
-              <ThemeToggleButton />
-            </div>
-
-            <div className="flex items-center lg:hidden">
+            <div className='flex items-center gap-1'>
               <LanguageSwitcher />
               <ThemeToggleButton />
             </div>
@@ -123,7 +100,16 @@ export default function Header() {
                     </SheetClose>
                   </div>
                   <div className="flex flex-col gap-4 py-6">
-                    <NavLinksContent />
+                    {navLinks.map((link) => (
+                      <SheetClose key={link.href} asChild>
+                        <Link
+                          href={link.href}
+                          className="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:text-primary focus:outline-none focus:text-primary"
+                        >
+                          {link.label}
+                        </Link>
+                      </SheetClose>
+                    ))}
                   </div>
                   <div className="mt-auto pt-6 text-center text-xs text-muted-foreground">
                     <a href="https://www.croissancedigitale.pro/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 hover:text-primary transition-colors">
@@ -133,7 +119,6 @@ export default function Header() {
                          alt="Croissance Digitale Logo" 
                          width={20} 
                          height={20}
-                         className=""
                        />
                     </a>
                   </div>

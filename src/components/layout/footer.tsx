@@ -1,3 +1,4 @@
+
 'use client';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -42,7 +43,6 @@ export default function Footer() {
               alt="Croissance Digitale Logo" 
               width={20} 
               height={20}
-              className=""
             />
           </a>
           <p>{t('footer.editor')}: Diana Penalva Camacho</p>
