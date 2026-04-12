@@ -114,7 +114,7 @@
             "family_jjb": "Forfaits Famille - JJB"
         },
         "plans": {
-            "adhesion": { "name": "JJB Enfants – Annuel", "price": "30 € / mois", "description": "1 fois par semaine", "info": "Assurance et licence non incluses." },
+            "adhesion": { "name": "JJB Enfants – Annuel", "price": "30 € / mois", "description": "1 fois par semaine", "info": "Assurance et licence incluses." },
             "kids_annual": { "name": "JJB Enfants – Annuel", "price": "40 € / mois", "description": "Meilleur prix !", "info": "2 fois par semaine." },
             "kids_premium": { "name": "JJB Enfants (2 enfants)", "price": "70 € / mois", "description": "", "info": "2 fois par semaine." },
             "student_annual": { "name": "JJB Étudiant/Jeune – Annuel", "price": "50 € / mois", "info": "" },
@@ -371,7 +371,7 @@
         "news_title": "Dernières Actualités",
         "news3": { "date": "Janvier 2026", "title": "Jessica Gabriel, Championne d'Europe à Lisbonne !", "description": "Jessica Gabriel remporte la médaille d'or au championnat d'Europe de JJB à Lisbonne. Une performance incroyable qui confirme son statut d'athlète de haut niveau.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" },
         "news1": { "date": "Mars 2025", "title": "Bebê Champion de France !", "description": "Erickson \"Bebê\" Lafeuille remporte le titre de Champion de France 2025 avec deux médailles d'or. Une performance exceptionnelle !", "image": "https://i.postimg.cc/Y993Ym9Z/Whats_App_Image_2026-01-26_at_01_34_43.jpg" },
-        "news2": { "date": "Mai 2026", "title": "Préparation Championnat de France", "description": "Notre équipe intensifie les entraînements en vue du Championnat de France de juin. Sessions techniques supplémentaires et sparring de haut niveau au programme." }
+        "news2": { "date": "May 2026", "title": "Préparation Championnat de France", "description": "Notre équipe intensifie les entraînements en vue du Championnat de France de juin. Sessions techniques supplémentaires et sparring de haut niveau au programme." }
     },
     "contact": {
         "title": "Contactez-Nous",

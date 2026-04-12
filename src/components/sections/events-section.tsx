@@ -3,7 +3,7 @@
 import { useI18n } from '@/contexts/i18n-provider';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Calendar, Newspaper, Star, Clock, Users, ShieldCheck, Trophy, Phone, Info } from 'lucide-react';
+import { Calendar, Newspaper, Star, Clock, Users, ShieldCheck, Phone, Info } from 'lucide-react';
 import Image from 'next/image';
 import {
   Dialog,
@@ -95,65 +95,67 @@ export default function EventsSection() {
                       <Info className="mr-2 h-5 w-5" /> {details.cta_more}
                     </Button>
                   </DialogTrigger>
-                  <DialogContent className="max-w-4xl max-h-[90vh] overflow-hidden flex flex-col p-0">
-                    <DialogHeader className="p-6 pb-0">
+                  <DialogContent className="max-w-4xl max-h-[90vh] overflow-hidden flex flex-col p-0 bg-background/95 backdrop-blur-sm border-primary">
+                    <DialogHeader className="p-6 pb-0 flex-shrink-0">
                       <DialogTitle className="text-3xl font-headline text-primary">{details.modal_title}</DialogTitle>
                       <DialogDescription>{details.modal_description}</DialogDescription>
                     </DialogHeader>
                     
-                    <ScrollArea className="flex-grow p-6">
-                      <div className="space-y-10">
-                        {/* Structure Type */}
-                        <div>
-                          <h4 className="text-xl font-headline text-primary mb-4 flex items-center gap-2">
-                            <Clock className="h-5 w-5" /> {details.structure_title}
-                          </h4>
-                          <div className="grid sm:grid-cols-2 gap-x-8 gap-y-2 text-sm">
-                            {details.structure_items.map((item: string, i: number) => (
-                              <div key={i} className="flex items-center gap-3 p-2 rounded-md bg-secondary/50">
-                                <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0" />
-                                <span>{item}</span>
-                              </div>
-                            ))}
+                    <div className="flex-grow overflow-hidden mt-4">
+                      <ScrollArea className="h-full w-full px-6">
+                        <div className="space-y-10 pb-10">
+                          {/* Structure Type */}
+                          <div>
+                            <h4 className="text-2xl font-headline text-primary mb-4 flex items-center gap-2">
+                              <Clock className="h-6 w-6" /> {details.structure_title}
+                            </h4>
+                            <div className="grid sm:grid-cols-2 gap-x-8 gap-y-3 text-sm">
+                              {details.structure_items.map((item: string, i: number) => (
+                                <div key={i} className="flex items-center gap-3 p-3 rounded-md bg-secondary/50 border border-border">
+                                  <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0" />
+                                  <span className="font-medium">{item}</span>
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+
+                          <Separator />
+
+                          {/* Program Days */}
+                          <div>
+                            <h4 className="text-2xl font-headline text-primary mb-6 flex items-center gap-2">
+                              <Calendar className="h-6 w-6" /> {camp.days_title}
+                            </h4>
+                            <div className="space-y-6">
+                              {details.days.map((day: any, i: number) => (
+                                <div key={i} className="border-l-4 border-primary pl-4 py-2 bg-secondary/20 rounded-r-lg">
+                                  <p className="text-xs font-bold text-primary uppercase tracking-wider mb-1">{day.name}</p>
+                                  <h5 className="font-bold text-lg mb-2">{day.title}</h5>
+                                  <p className="text-sm text-muted-foreground leading-relaxed">{day.desc}</p>
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+
+                          <Separator />
+
+                          {/* Safety Rules */}
+                          <div className="bg-primary/5 p-6 rounded-lg border border-primary/20">
+                            <h4 className="text-2xl font-headline text-primary mb-4 flex items-center gap-2">
+                              <ShieldCheck className="h-6 w-6" /> {details.safety_title}
+                            </h4>
+                            <ul className="grid sm:grid-cols-2 gap-4 text-sm">
+                              {details.safety_items.map((item: string, i: number) => (
+                                <li key={i} className="flex items-start gap-3">
+                                  <Star className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
+                                  <span className="font-medium">{item}</span>
+                                </li>
+                              ))}
+                            </ul>
                           </div>
                         </div>
-
-                        <Separator />
-
-                        {/* Program Days */}
-                        <div>
-                          <h4 className="text-xl font-headline text-primary mb-6 flex items-center gap-2">
-                            <Calendar className="h-5 w-5" /> {camp.days_title}
-                          </h4>
-                          <div className="space-y-6">
-                            {details.days.map((day: any, i: number) => (
-                              <div key={i} className="border-l-4 border-primary pl-4 py-1">
-                                <p className="text-xs font-bold text-primary uppercase tracking-wider mb-1">{day.name}</p>
-                                <h5 className="font-bold text-lg mb-2">{day.title}</h5>
-                                <p className="text-sm text-muted-foreground leading-relaxed">{day.desc}</p>
-                              </div>
-                            ))}
-                          </div>
-                        </div>
-
-                        <Separator />
-
-                        {/* Safety Rules */}
-                        <div className="bg-primary/5 p-6 rounded-lg border border-primary/20">
-                          <h4 className="text-xl font-headline text-primary mb-4 flex items-center gap-2">
-                            <ShieldCheck className="h-5 w-5" /> {details.safety_title}
-                          </h4>
-                          <ul className="grid sm:grid-cols-2 gap-4 text-sm">
-                            {details.safety_items.map((item: string, i: number) => (
-                              <li key={i} className="flex items-start gap-3">
-                                <Star className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
-                                <span>{item}</span>
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      </div>
-                    </ScrollArea>
+                      </ScrollArea>
+                    </div>
                   </DialogContent>
                 </Dialog>
               </div>
@@ -184,7 +186,7 @@ export default function EventsSection() {
               {t('events.upcoming_title')}
             </h3>
             {upcomingEvents.map((event, index) => (
-              <Card key={index} className="flex items-center gap-4 p-4 shadow-md">
+              <Card key={index} className="flex items-center gap-4 p-4 shadow-md bg-background">
                 <div className="p-4 bg-primary/10 rounded-lg">
                    <Calendar className="h-8 w-8 text-primary" />
                 </div>
@@ -204,13 +206,13 @@ export default function EventsSection() {
               {t('events.news_title')}
             </h3>
             {latestNews.map((news: any, index) => (
-              <Card key={index} className="shadow-md overflow-hidden">
+              <Card key={index} className="shadow-md overflow-hidden bg-background">
                 <CardHeader>
                   <p className="text-sm font-semibold text-primary">{news.date}</p>
                   <CardTitle>{news.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription>{news.description}</CardDescription>
+                  <CardDescription className="text-muted-foreground">{news.description}</CardDescription>
                   {news.image && (
                     <div className="mt-4 relative aspect-video rounded-lg overflow-hidden bg-black">
                        <Image
