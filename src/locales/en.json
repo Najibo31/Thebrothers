@@ -165,8 +165,8 @@
                 { "year": "2017", "title": "European IBJJF No-Gi", "achievement": "3rd Place", "description": "Bronze medal at the No-Gi European Championship" },
                 { "year": "2015-2019", "title": "Brazilian Circuit", "achievement": "Multiple titles", "description": "in São Paulo, Brasilia, Salvador and other major Brazilian national competitions" }
             ],
-            "palmares_depuis_2022": "SINCE 2022 - EUROPE & CARAIBBEAN",
-            "palmares_2025": { "year": "2025", "items": [{ "title": "Open Toulon", "result": "1st No-Gi" }, { "title": "Open Caraibes", "result": "1st No-Gi" }] },
+            "palmares_depuis_2022": "SINCE 2022 - EUROPE & CARIBBEAN",
+            "palmares_2025": { "year": "2025", "items": [{ "title": "Open Toulon", "result": "1st No-Gi" }, { "title": "Open Caribbean", "result": "1st No-Gi" }] },
             "palmares_2024": { "year": "2024", "items": [{ "title": "French Championship", "result": "3rd Place" }, { "title": "Multiple podiums in national circuit", "result": "" }] },
             "palmares_2023": { "year": "2023", "items": [{ "title": "AJP Rome", "result": "1st Gi & No-Gi" }, { "title": "AJP Paris", "result": "1st Gi & No-Gi" }] },
             "palmares_2022": { "year": "2022", "items": [{ "title": "European Championship", "result": "1 Gold, 2 Silver, 4 Bronze" }, { "title": "Exceptional multi-medal performance", "result": "" }] },
@@ -186,7 +186,7 @@
                     { "achievement": "2023 European Championship (Rome)", "description": "Silver: Harold Beaugendre. Bronze: Sebastien Cnudde, Emerick, Yannis." },
                     { "achievement": "2022 European Championship (Rome) - 6 medals", "description": "Gold: Harold Beaugendre. Silver: Erickson Lafeuille. Bronze: Diana Penalva, Cedrick, Mathieu Balagne, Geoffrey Marie Joseph." },
                     { "achievement": "AJP Paris 2022", "description": "Bronze: Jade Boisnard." },
-                    { "achievement": "AJP Paris 2021", "description": "Or: Geoffrey Marie Joseph, Mathieu Balange. Argent: Harold Beaugendre." }
+                    { "achievement": "AJP Paris 2021", "description": "Gold: Geoffrey Marie Joseph, Mathieu Balange. Silver: Harold Beaugendre." }
                 ]
             },
             "south_america": {
@@ -255,7 +255,7 @@
                 "alt": "Jessica Gabriel",
                 "ai_hint": "female jjb champion",
                 "records": [
-                    { "achievement": "European Champion 2026 (Lisbonne)", "description": "Gold Medal in Brazilian Jiu-Jitsu" },
+                    { "achievement": "European Champion 2026 (Lisbon)", "description": "Gold Medal in Brazilian Jiu-Jitsu" },
                     { "achievement": "Elite Competitor", "description": "Known for her technique and determination" }
                 ]
             },

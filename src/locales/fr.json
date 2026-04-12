@@ -183,16 +183,16 @@
                 "title": "Europe",
                 "items": [
                     { "achievement": "Championnat d'Europe 2026 (Lisbonne) - Or", "description": "Jessica Gabriel remporte la médaille d'or en Jiu-Jitsu Brésilien à Lisbonne." },
-                    { "achievement": "Championnat d'Europe 2023 (Rome)", "description": "Argent: Harold Beaugendre. Bronze: Sebastien Cnudde, Emerick, Yannis." },
-                    { "achievement": "Championnat d'Europe 2022 (Rome) - 6 médailles", "description": "Or: Harold Beaugendre. Argent: Erickson Lafeuille. Bronze: Diana Penalva, Cedrick, Mathieu Balagne, Geoffrey Marie Joseph." },
-                    { "achievement": "AJP Paris 2022", "description": "Bronze: Jade Boisnard." },
-                    { "achievement": "AJP Paris 2021", "description": "Or: Geoffrey Marie Joseph, Mathieu Balange. Argent: Harold Beaugendre." }
+                    { "achievement": "Championnat d'Europe 2023 (Rome)", "description": "Argent : Harold Beaugendre. Bronze : Sebastien Cnudde, Emerick, Yannis." },
+                    { "achievement": "Championnat d'Europe 2022 (Rome) - 6 médailles", "description": "Or : Harold Beaugendre. Argent : Erickson Lafeuille. Bronze : Diana Penalva, Cedrick, Mathieu Balagne, Geoffrey Marie Joseph." },
+                    { "achievement": "AJP Paris 2022", "description": "Bronze : Jade Boisnard." },
+                    { "achievement": "AJP Paris 2021", "description": "Or : Geoffrey Marie Joseph, Mathieu Balange. Argent : Harold Beaugendre." }
                 ]
             },
             "south_america": {
                 "title": "Amérique du Sud",
                 "items": [
-                    { "achievement": "Sul Americano 2021 (São Paulo) - 3 médailles", "description": "Or (Gi & No-Gi): Kevin. Argent (Gi) & Bronze (No-Gi): Diana. Bronze (Gi & No-Gi): Cedrick Loe Sack Sioe." }
+                    { "achievement": "Sul Americano 2021 (São Paulo) - 3 médailles", "description": "Or (Gi & No-Gi) : Kevin. Argent (Gi) & Bronze (No-Gi) : Diana. Bronze (Gi & No-Gi) : Cedrick Loe Sack Sioe." }
                 ]
             },
             "caribbean": {
@@ -371,7 +371,7 @@
         "news_title": "Dernières Actualités",
         "news3": { "date": "Janvier 2026", "title": "Jessica Gabriel, Championne d'Europe à Lisbonne !", "description": "Jessica Gabriel remporte la médaille d'or au championnat d'Europe de JJB à Lisbonne. Une performance incroyable qui confirme son statut d'athlète de haut niveau.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" },
         "news1": { "date": "Mars 2025", "title": "Bebê Champion de France !", "description": "Erickson \"Bebê\" Lafeuille remporte le titre de Champion de France 2025 avec deux médailles d'or. Une performance exceptionnelle !", "image": "https://i.postimg.cc/Y993Ym9Z/Whats_App_Image_2026-01-26_at_01_34_43.jpg" },
-        "news2": { "date": "May 2026", "title": "Préparation Championnat de France", "description": "Notre équipe intensifie les entraînements en vue du Championnat de France de juin. Sessions techniques supplémentaires et sparring de haut niveau au programme." }
+        "news2": { "date": "Mai 2026", "title": "Préparation Championnat de France", "description": "Notre équipe intensifie les entraînements en vue du Championnat de France de juin. Sessions techniques supplémentaires et sparring de haut niveau au programme." }
     },
     "contact": {
         "title": "Contactez-Nous",

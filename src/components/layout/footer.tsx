@@ -34,9 +34,15 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-8 pt-6 border-t flex flex-col sm:flex-row justify-between items-center text-xs text-muted-foreground">
+        <div className="mt-8 pt-6 border-t flex flex-col sm:flex-row justify-between items-center text-xs text-muted-foreground gap-4">
           <p>&copy; {currentYear} {t('footer.copyright')}</p>
-          <a href="https://www.croissancedigitale.pro/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary transition-colors">
+          
+          <a 
+            href="https://www.croissancedigitale.pro/" 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="flex items-center gap-2 hover:text-primary transition-colors"
+          >
             <p>{t('footer.made_by')}</p>
             <Image 
               src="https://i.postimg.cc/J4dnF46r/Digitale-Recupere.png" 
@@ -45,6 +51,7 @@ export default function Footer() {
               height={20}
             />
           </a>
+          
           <p>{t('footer.editor')}: Diana Penalva Camacho</p>
         </div>
       </div>

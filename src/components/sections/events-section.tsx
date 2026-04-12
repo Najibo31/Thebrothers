@@ -13,7 +13,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { ScrollArea } from "@/components/ui/scroll-area";
+import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
 
 export default function EventsSection() {
@@ -36,7 +36,7 @@ export default function EventsSection() {
 
 
   return (
-    <section id="events" className="py-16 md:py-24 bg-secondary">
+    <section id="events" className="py-16 md:py-24 bg-secondary scroll-mt-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-headline text-primary">{t('events.title')}</h2>
@@ -95,67 +95,66 @@ export default function EventsSection() {
                       <Info className="mr-2 h-5 w-5" /> {details.cta_more}
                     </Button>
                   </DialogTrigger>
-                  <DialogContent className="max-w-4xl max-h-[90vh] overflow-hidden flex flex-col p-0 bg-background/95 backdrop-blur-sm border-primary">
-                    <DialogHeader className="p-6 pb-0 flex-shrink-0">
+                  <DialogContent className="max-w-4xl h-[90vh] flex flex-col p-0 bg-background/95 backdrop-blur-sm border-primary overflow-hidden">
+                    <DialogHeader className="p-6 pb-2 flex-shrink-0">
                       <DialogTitle className="text-3xl font-headline text-primary">{details.modal_title}</DialogTitle>
                       <DialogDescription>{details.modal_description}</DialogDescription>
                     </DialogHeader>
                     
-                    <div className="flex-grow overflow-hidden mt-4">
-                      <ScrollArea className="h-full w-full px-6">
-                        <div className="space-y-10 pb-10">
-                          {/* Structure Type */}
-                          <div>
-                            <h4 className="text-2xl font-headline text-primary mb-4 flex items-center gap-2">
-                              <Clock className="h-6 w-6" /> {details.structure_title}
-                            </h4>
-                            <div className="grid sm:grid-cols-2 gap-x-8 gap-y-3 text-sm">
-                              {details.structure_items.map((item: string, i: number) => (
-                                <div key={i} className="flex items-center gap-3 p-3 rounded-md bg-secondary/50 border border-border">
-                                  <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0" />
-                                  <span className="font-medium">{item}</span>
-                                </div>
-                              ))}
-                            </div>
-                          </div>
-
-                          <Separator />
-
-                          {/* Program Days */}
-                          <div>
-                            <h4 className="text-2xl font-headline text-primary mb-6 flex items-center gap-2">
-                              <Calendar className="h-6 w-6" /> {camp.days_title}
-                            </h4>
-                            <div className="space-y-6">
-                              {details.days.map((day: any, i: number) => (
-                                <div key={i} className="border-l-4 border-primary pl-4 py-2 bg-secondary/20 rounded-r-lg">
-                                  <p className="text-xs font-bold text-primary uppercase tracking-wider mb-1">{day.name}</p>
-                                  <h5 className="font-bold text-lg mb-2">{day.title}</h5>
-                                  <p className="text-sm text-muted-foreground leading-relaxed">{day.desc}</p>
-                                </div>
-                              ))}
-                            </div>
-                          </div>
-
-                          <Separator />
-
-                          {/* Safety Rules */}
-                          <div className="bg-primary/5 p-6 rounded-lg border border-primary/20">
-                            <h4 className="text-2xl font-headline text-primary mb-4 flex items-center gap-2">
-                              <ShieldCheck className="h-6 w-6" /> {details.safety_title}
-                            </h4>
-                            <ul className="grid sm:grid-cols-2 gap-4 text-sm">
-                              {details.safety_items.map((item: string, i: number) => (
-                                <li key={i} className="flex items-start gap-3">
-                                  <Star className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
-                                  <span className="font-medium">{item}</span>
-                                </li>
-                              ))}
-                            </ul>
+                    <ScrollArea className="flex-grow w-full px-6">
+                      <div className="space-y-10 pb-10">
+                        {/* Structure Type */}
+                        <div>
+                          <h4 className="text-2xl font-headline text-primary mb-4 flex items-center gap-2">
+                            <Clock className="h-6 w-6" /> {details.structure_title}
+                          </h4>
+                          <div className="grid sm:grid-cols-2 gap-x-8 gap-y-3 text-sm">
+                            {details.structure_items.map((item: string, i: number) => (
+                              <div key={i} className="flex items-center gap-3 p-3 rounded-md bg-secondary/50 border border-border">
+                                <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0" />
+                                <span className="font-medium">{item}</span>
+                              </div>
+                            ))}
                           </div>
                         </div>
-                      </ScrollArea>
-                    </div>
+
+                        <Separator />
+
+                        {/* Program Days */}
+                        <div>
+                          <h4 className="text-2xl font-headline text-primary mb-6 flex items-center gap-2">
+                            <Calendar className="h-6 w-6" /> {camp.days_title}
+                          </h4>
+                          <div className="space-y-6">
+                            {details.days.map((day: any, i: number) => (
+                              <div key={i} className="border-l-4 border-primary pl-4 py-2 bg-secondary/20 rounded-r-lg">
+                                <p className="text-xs font-bold text-primary uppercase tracking-wider mb-1">{day.name}</p>
+                                <h5 className="font-bold text-lg mb-2">{day.title}</h5>
+                                <p className="text-sm text-muted-foreground leading-relaxed">{day.desc}</p>
+                              </div>
+                            ))}
+                          </div>
+                        </div>
+
+                        <Separator />
+
+                        {/* Safety Rules */}
+                        <div className="bg-primary/5 p-6 rounded-lg border border-primary/20">
+                          <h4 className="text-2xl font-headline text-primary mb-4 flex items-center gap-2">
+                            <ShieldCheck className="h-6 w-6" /> {details.safety_title}
+                          </h4>
+                          <ul className="grid sm:grid-cols-2 gap-4 text-sm">
+                            {details.safety_items.map((item: string, i: number) => (
+                              <li key={i} className="flex items-start gap-3">
+                                <Star className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
+                                <span className="font-medium">{item}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      </div>
+                      <ScrollBar orientation="vertical" className="w-2.5" />
+                    </ScrollArea>
                   </DialogContent>
                 </Dialog>
               </div>
