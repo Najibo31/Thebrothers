@@ -26,7 +26,8 @@ export default function EventsSection() {
     { date: t('events.upcoming1.date'), title: t('events.upcoming1.title'), location: t('events.upcoming1.location') },
     { date: t('events.upcoming2.date'), title: t('events.upcoming2.title'), location: t('events.upcoming2.location') },
     { date: t('events.upcoming3.date'), title: t('events.upcoming3.title'), location: t('events.upcoming3.location') },
-  ];
+    { date: t('events.upcoming4.date'), title: t('events.upcoming4.title'), location: t('events.upcoming4.location') },
+  ].filter(event => event.title && event.title !== "events.upcoming4.title");
 
   const latestNews = [
     { date: t('events.news3.date'), title: t('events.news3.title'), description: t('events.news3.description'), image: 'https://i.postimg.cc/Hk5mQVK7/Jessica.jpg' },
@@ -34,9 +35,8 @@ export default function EventsSection() {
     { date: t('events.news2.date'), title: t('events.news2.title'), description: t('events.news2.description') },
   ].filter(item => item.date && item.title);
 
-
   return (
-    <section id="events" className="py-16 md:py-24 bg-secondary scroll-mt-20">
+    <section id="events" className="py-16 md:py-24 bg-secondary scroll-mt-24">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-headline text-primary">{t('events.title')}</h2>
@@ -101,8 +101,8 @@ export default function EventsSection() {
                       <DialogDescription>{details.modal_description}</DialogDescription>
                     </DialogHeader>
                     
-                    <ScrollArea className="flex-grow w-full px-6">
-                      <div className="space-y-10 pb-10">
+                    <ScrollArea className="flex-grow w-full">
+                      <div className="p-6 pt-0 space-y-10 pb-10">
                         {/* Structure Type */}
                         <div>
                           <h4 className="text-2xl font-headline text-primary mb-4 flex items-center gap-2">
@@ -153,7 +153,7 @@ export default function EventsSection() {
                           </ul>
                         </div>
                       </div>
-                      <ScrollBar orientation="vertical" className="w-2.5" />
+                      <ScrollBar orientation="vertical" />
                     </ScrollArea>
                   </DialogContent>
                 </Dialog>

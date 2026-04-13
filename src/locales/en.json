@@ -43,7 +43,7 @@
             "title": "MMA (Mixed Martial Arts)",
             "description": "Mixed Martial Arts combine striking, takedowns, and submissions for a complete combat system. Our MMA program is designed to develop versatile and mentally prepared athletes.",
             "features_title": "Complete Program",
-            "feature1": "Controlled sparring: safety and progression guaranteed",
+            "feature1": "Sparring controlled: safety and progression guaranteed",
             "feature2": "Physical preparation: conditioning and endurance",
             "feature3": "Intermediate and advanced levels: advanced technique and tactics"
         }
@@ -165,7 +165,7 @@
                 { "year": "2017", "title": "European IBJJF No-Gi", "achievement": "3rd Place", "description": "Bronze medal at the No-Gi European Championship" },
                 { "year": "2015-2019", "title": "Brazilian Circuit", "achievement": "Multiple titles", "description": "in São Paulo, Brasilia, Salvador and other major Brazilian national competitions" }
             ],
-            "palmares_depuis_2022": "SINCE 2022 - EUROPE & CARIBBEAN",
+            "palmares_depuis_2022": "SINCE 2022 - EUROPE & CARAÏBES",
             "palmares_2025": { "year": "2025", "items": [{ "title": "Open Toulon", "result": "1st No-Gi" }, { "title": "Open Caribbean", "result": "1st No-Gi" }] },
             "palmares_2024": { "year": "2024", "items": [{ "title": "French Championship", "result": "3rd Place" }, { "title": "Multiple podiums in national circuit", "result": "" }] },
             "palmares_2023": { "year": "2023", "items": [{ "title": "AJP Rome", "result": "1st Gi & No-Gi" }, { "title": "AJP Paris", "result": "1st Gi & No-Gi" }] },
@@ -255,7 +255,7 @@
                 "alt": "Jessica Gabriel",
                 "ai_hint": "female jjb champion",
                 "records": [
-                    { "achievement": "European Champion 2026 (Lisbon)", "description": "Gold Medal in Brazilian Jiu-Jitsu" },
+                    { "achievement": "European Champion 2026 (Lisbonne)", "description": "Gold Medal in Brazilian Jiu-Jitsu" },
                     { "achievement": "Elite Competitor", "description": "Known for her technique and determination" }
                 ]
             },
@@ -365,9 +365,10 @@
             }
         },
         "upcoming_title": "Upcoming Major Events",
-        "upcoming1": { "date": "June 13–14, 2026", "title": "French BJJ Championship", "location": "Paris — Porte de Versailles" },
-        "upcoming2": { "date": "Early November 2026", "title": "Caribbean Open", "location": "Guadeloupe" },
-        "upcoming3": { "date": "Spring 2026", "title": "Intensive Camp \"Advanced Submissions\"", "location": "Workshop with Handu" },
+        "upcoming1": { "date": "May 27, 2026", "title": "The KDR Show", "location": "Internal club event" },
+        "upcoming2": { "date": "June 13–14, 2026", "title": "French BJJ Championship", "location": "Paris — Porte de Versailles" },
+        "upcoming3": { "date": "July 2026", "title": "Kids Summer Camp", "location": "First 2 weeks of July" },
+        "upcoming4": { "date": "Early November 2026", "title": "Caribbean Open", "location": "Guadeloupe" },
         "news_title": "Latest News",
         "news3": { "date": "January 2026", "title": "Jessica Gabriel, European Champion in Lisbon!", "description": "Jessica Gabriel wins the gold medal at the European BJJ Championship in Lisbon. An incredible performance that confirms her status as a top-level athlete.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" },
         "news1": { "date": "March 2025", "title": "Bebê is French Champion!", "description": "Erickson \"Bebê\" Lafeuille wins the French Champion title with two gold medals. An exceptional performance!", "image": "https://i.postimg.cc/Y993Ym9Z/Whats_App_Image_2026-01-26_at_01_34_43.jpg" },
