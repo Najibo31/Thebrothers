@@ -29,9 +29,7 @@ export default function TeamSection() {
   const teamRecords = t('team.team_records');
 
   return (
-    <section id="team" className="py-16 md:py-24 bg-background">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-
+    <div id="full-team" className="space-y-24">
         {/* Handu Section */}
         <div className="flex flex-col items-center text-center gap-8 lg:gap-12 mb-24">
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 max-w-4xl mx-auto">
@@ -80,12 +78,12 @@ export default function TeamSection() {
             <div>
               <p className="font-semibold text-primary">{handu.role}</p>
               <h2 className="text-4xl md:text-5xl font-headline mt-1">{handu.name}</h2>
-              <p className="mt-4 text-lg text-muted-foreground text-left">{handu.bio}</p>
+              <p className="mt-4 text-lg text-muted-foreground text-left leading-relaxed">{handu.bio}</p>
             </div>
             
             <div>
               <h3 className="text-2xl font-headline text-primary mb-4">{handu.philosophy_title}</h3>
-              <ul className="space-y-2 text-left sm:columns-2">
+              <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-left">
                 <li className="flex items-center gap-3"><Trophy className="h-5 w-5 text-primary" /> {handu.philosophy1}</li>
                 <li className="flex items-center gap-3"><Shield className="h-5 w-5 text-primary" /> {handu.philosophy2}</li>
                 <li className="flex items-center gap-3"><Heart className="h-5 w-5 text-primary" /> {handu.philosophy3}</li>
@@ -126,7 +124,7 @@ export default function TeamSection() {
 
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                     {[handu.palmares_2025, handu.palmares_2024, handu.palmares_2023].map((record: any) => (
-                        <div key={record.year} className="p-6 border-2 border-primary/50 rounded-lg text-center flex flex-col justify-center">
+                        <div key={record.year} className="p-6 border-2 border-primary/50 rounded-lg text-center flex flex-col justify-center transition-all hover:border-primary">
                             <h4 className="font-bold text-2xl mb-4">{record.year}</h4>
                             <ul className="space-y-2">
                                 {record.items.map((item: any, i: number) => (
@@ -140,7 +138,7 @@ export default function TeamSection() {
                     ))}
                   </div>
 
-                  <div className="p-6 border-2 border-primary/50 rounded-lg text-center">
+                  <div className="p-6 border-2 border-primary/50 rounded-lg text-center transition-all hover:border-primary">
                       <h4 className="font-bold text-2xl mb-4">{handu.palmares_2022.year}</h4>
                       <ul className="space-y-2">
                           {handu.palmares_2022.items.map((item: any, i: number) => (
@@ -158,19 +156,19 @@ export default function TeamSection() {
               <SectionTitle>{teamRecords.title}</SectionTitle>
               <div className="grid sm:grid-cols-2 gap-8 text-left">
                 <div>
-                    <h4 className="font-bold mb-4 text-xl">{teamRecords.europe.title}</h4>
+                    <h4 className="font-bold mb-4 text-xl border-b pb-2">{teamRecords.europe.title}</h4>
                     <ul className="space-y-4">
                         {teamRecords.europe.items.map((record: any, i: number) => <RecordItem key={i} achievement={record.achievement}>{record.description}</RecordItem>)}
                     </ul>
                 </div>
                 <div>
-                    <h4 className="font-bold mb-4 text-xl">{teamRecords.south_america.title}</h4>
+                    <h4 className="font-bold mb-4 text-xl border-b pb-2">{teamRecords.south_america.title}</h4>
                     <ul className="space-y-4">
                         {teamRecords.south_america.items.map((record: any, i: number) => <RecordItem key={i} achievement={record.achievement}>{record.description}</RecordItem>)}
                     </ul>
                 </div>
               </div>
-              <div className="mt-8 text-center">
+              <div className="mt-8 text-center p-6 bg-secondary/30 rounded-lg">
                  <RecordItem achievement={teamRecords.caribbean.achievement}>{teamRecords.caribbean.description}</RecordItem>
               </div>
             </div>
@@ -183,18 +181,18 @@ export default function TeamSection() {
           <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">{t('team.champions_subtitle')}</p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
+        <div className="grid md:grid-cols-2 gap-8 lg:gap-12 pb-12">
           {champions.map((champion: any, index: number) => (
-            <Card key={index} className="shadow-xl overflow-hidden">
+            <Card key={index} className="shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
               <div className="grid md:grid-cols-5">
                 {champion.image && (
-                  <div className="md:col-span-2 relative bg-black">
+                  <div className="md:col-span-2 relative bg-black aspect-[3/4] md:aspect-auto">
                     <Image 
                         src={champion.image}
                         alt={champion.alt}
                         width={600}
                         height={800}
-                        className="w-full h-auto md:w-full md:h-full md:object-contain"
+                        className="w-full h-full object-contain"
                         data-ai-hint={champion.ai_hint}
                     />
                   </div>
@@ -205,22 +203,22 @@ export default function TeamSection() {
                     <CardDescription className="text-primary font-semibold">{champion.title}</CardDescription>
                   </CardHeader>
                   <CardContent>
-                    {champion.description && <p className="text-muted-foreground mb-4 text-sm">{champion.description}</p>}
+                    {champion.description && <p className="text-muted-foreground mb-4 text-sm leading-relaxed">{champion.description}</p>}
                     {champion.records && champion.records.length > 0 && (
-                      <>
-                        <h4 className="font-semibold mb-3">{t('team.champion_records_title')}</h4>
+                      <div className="animate-in fade-in duration-700">
+                        <h4 className="font-semibold mb-3 text-sm uppercase tracking-wider text-muted-foreground">{t('team.champion_records_title')}</h4>
                         <ul className="space-y-3">
                             {champion.records.map((record: any, i: number) => (
-                                <li key={i} className="flex items-start gap-3">
-                                  <Star className="h-5 w-5 text-primary flex-shrink-0 mt-1" />
+                                <li key={i} className="flex items-start gap-3 p-2 bg-secondary/20 rounded">
+                                  <Star className="h-4 w-4 text-primary flex-shrink-0 mt-1" />
                                   <div>
-                                    <p className="font-semibold">{record.achievement}</p>
-                                    {record.description && <p className="text-sm text-muted-foreground">{record.description}</p>}
+                                    <p className="font-semibold text-sm">{record.achievement}</p>
+                                    {record.description && <p className="text-xs text-muted-foreground">{record.description}</p>}
                                   </div>
                                 </li>
                             ))}
                         </ul>
-                      </>
+                      </div>
                     )}
                   </CardContent>
                 </div>
@@ -228,10 +226,6 @@ export default function TeamSection() {
             </Card>
           ))}
         </div>
-        <div className="text-center mt-12">
-            <Button size="lg">{t('team.cta_button')}</Button>
-        </div>
-      </div>
-    </section>
+    </div>
   );
 }

@@ -1,39 +1,24 @@
-
 'use client';
 import { useI18n } from '@/contexts/i18n-provider';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Calendar, Newspaper, Star, Clock, Users, ShieldCheck, Phone, Info } from 'lucide-react';
+import { Calendar, Newspaper, Star, Clock, Users, ShieldCheck, Phone, Info, Link as LinkIcon } from 'lucide-react';
 import Image from 'next/image';
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
-import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
-import { Separator } from "@/components/ui/separator";
+import { cn } from '@/lib/utils';
 
 export default function EventsSection() {
   const { t } = useI18n();
 
-  const camp = t('events.camp');
-  const details = camp.camp_details;
-  
   const upcomingEvents = [
+    { date: t('events.upcoming_summer.date'), title: t('events.upcoming_summer.title'), location: t('events.upcoming_summer.location'), cta: t('events.upcoming_summer.cta'), highlight: true },
     { date: t('events.upcoming1.date'), title: t('events.upcoming1.title'), location: t('events.upcoming1.location') },
     { date: t('events.upcoming2.date'), title: t('events.upcoming2.title'), location: t('events.upcoming2.location') },
-    { date: t('events.upcoming3.date'), title: t('events.upcoming3.title'), location: t('events.upcoming3.location') },
     { date: t('events.upcoming4.date'), title: t('events.upcoming4.title'), location: t('events.upcoming4.location') },
-  ].filter(event => event.title && event.title !== "events.upcoming4.title");
+  ].filter(event => event.title && event.title.length > 0 && event.title !== 'events.upcoming_summer.title');
 
   const latestNews = [
-    { date: t('events.news3.date'), title: t('events.news3.title'), description: t('events.news3.description'), image: 'https://i.postimg.cc/Hk5mQVK7/Jessica.jpg' },
-    { date: t('events.news1.date'), title: t('events.news1.title'), description: t('events.news1.description'), image: 'https://i.postimg.cc/Y993Ym9Z/Whats_App_Image_2026-01-26_at_01_34_43.jpg' },
-    { date: t('events.news2.date'), title: t('events.news2.title'), description: t('events.news2.description') },
-  ].filter(item => item.date && item.title);
+    { date: t('events.news_france.date'), title: t('events.news_france.title'), description: t('events.news_france.description') },
+  ].filter(item => item.date && item.title && item.title.length > 0 && !item.title.startsWith('events.'));
 
   return (
     <section id="events" className="py-16 md:py-24 bg-secondary scroll-mt-24">
@@ -41,141 +26,6 @@ export default function EventsSection() {
         <div className="text-center mb-12">
           <h2 className="text-4xl md:text-5xl font-headline text-primary">{t('events.title')}</h2>
         </div>
-
-        {/* Featured Camp Event */}
-        <Card className="mb-24 border-primary border-2 shadow-2xl overflow-hidden bg-background">
-          <div className="grid lg:grid-cols-2">
-            <div className="p-8 md:p-12 flex flex-col justify-center">
-              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-sm font-bold mb-6">
-                <Star className="h-4 w-4" />
-                {camp.featured_title}
-              </div>
-              <h3 className="text-4xl font-headline mb-4">{camp.title}</h3>
-              <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                {camp.subtitle}
-              </p>
-              
-              <div className="grid sm:grid-cols-2 gap-6 mb-8">
-                <div className="flex items-start gap-3">
-                  <Calendar className="h-6 w-6 text-primary flex-shrink-0" />
-                  <div>
-                    <p className="font-bold">{camp.dates}</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <Clock className="h-6 w-6 text-primary flex-shrink-0" />
-                  <div>
-                    <p className="font-bold">{camp.hours}</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <Users className="h-6 w-6 text-primary flex-shrink-0" />
-                  <div>
-                    <p className="font-bold">{camp.public}</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <ShieldCheck className="h-6 w-6 text-primary flex-shrink-0" />
-                  <div>
-                    <p className="font-bold">{camp.priority || t('about.mission2')}</p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button size="lg" className="w-full sm:w-auto" asChild>
-                  <a href="https://wa.me/590691275351" target="_blank" rel="noopener noreferrer">
-                    <Phone className="mr-2 h-5 w-5" /> {camp.cta}
-                  </a>
-                </Button>
-
-                <Dialog>
-                  <DialogTrigger asChild>
-                    <Button variant="outline" size="lg" className="w-full sm:w-auto border-primary text-primary hover:bg-primary/10">
-                      <Info className="mr-2 h-5 w-5" /> {details.cta_more}
-                    </Button>
-                  </DialogTrigger>
-                  <DialogContent className="max-w-4xl h-[90vh] flex flex-col p-0 bg-background/95 backdrop-blur-sm border-primary overflow-hidden">
-                    <DialogHeader className="p-6 pb-2 flex-shrink-0">
-                      <DialogTitle className="text-3xl font-headline text-primary">{details.modal_title}</DialogTitle>
-                      <DialogDescription>{details.modal_description}</DialogDescription>
-                    </DialogHeader>
-                    
-                    <ScrollArea className="flex-grow w-full">
-                      <div className="p-6 pt-0 space-y-10 pb-10">
-                        {/* Structure Type */}
-                        <div>
-                          <h4 className="text-2xl font-headline text-primary mb-4 flex items-center gap-2">
-                            <Clock className="h-6 w-6" /> {details.structure_title}
-                          </h4>
-                          <div className="grid sm:grid-cols-2 gap-x-8 gap-y-3 text-sm">
-                            {details.structure_items.map((item: string, i: number) => (
-                              <div key={i} className="flex items-center gap-3 p-3 rounded-md bg-secondary/50 border border-border">
-                                <div className="h-2 w-2 rounded-full bg-primary flex-shrink-0" />
-                                <span className="font-medium">{item}</span>
-                              </div>
-                            ))}
-                          </div>
-                        </div>
-
-                        <Separator />
-
-                        {/* Program Days */}
-                        <div>
-                          <h4 className="text-2xl font-headline text-primary mb-6 flex items-center gap-2">
-                            <Calendar className="h-6 w-6" /> {camp.days_title}
-                          </h4>
-                          <div className="space-y-6">
-                            {details.days.map((day: any, i: number) => (
-                              <div key={i} className="border-l-4 border-primary pl-4 py-2 bg-secondary/20 rounded-r-lg">
-                                <p className="text-xs font-bold text-primary uppercase tracking-wider mb-1">{day.name}</p>
-                                <h5 className="font-bold text-lg mb-2">{day.title}</h5>
-                                <p className="text-sm text-muted-foreground leading-relaxed">{day.desc}</p>
-                              </div>
-                            ))}
-                          </div>
-                        </div>
-
-                        <Separator />
-
-                        {/* Safety Rules */}
-                        <div className="bg-primary/5 p-6 rounded-lg border border-primary/20">
-                          <h4 className="text-2xl font-headline text-primary mb-4 flex items-center gap-2">
-                            <ShieldCheck className="h-6 w-6" /> {details.safety_title}
-                          </h4>
-                          <ul className="grid sm:grid-cols-2 gap-4 text-sm">
-                            {details.safety_items.map((item: string, i: number) => (
-                              <li key={i} className="flex items-start gap-3">
-                                <Star className="h-4 w-4 text-primary mt-0.5 flex-shrink-0" />
-                                <span className="font-medium">{item}</span>
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      </div>
-                      <ScrollBar orientation="vertical" />
-                    </ScrollArea>
-                  </DialogContent>
-                </Dialog>
-              </div>
-            </div>
-            
-            <div className="relative h-96 lg:h-auto min-h-[500px]">
-              <Image 
-                src="https://i.postimg.cc/hj7TxBNp/entrainement2.jpg" 
-                alt={camp.title}
-                fill
-                className="object-cover"
-                data-ai-hint="enfants club jjb"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent lg:bg-gradient-to-l"></div>
-              <div className="absolute bottom-8 left-8 right-8 text-white">
-                <p className="text-sm font-bold uppercase tracking-widest text-primary-foreground mb-2">{camp.structure_title}</p>
-                <p className="text-lg font-medium max-w-sm">{camp.structure_text}</p>
-              </div>
-            </div>
-          </div>
-        </Card>
 
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Upcoming Events */}
@@ -185,15 +35,27 @@ export default function EventsSection() {
               {t('events.upcoming_title')}
             </h3>
             {upcomingEvents.map((event, index) => (
-              <Card key={index} className="flex items-center gap-4 p-4 shadow-md bg-background">
-                <div className="p-4 bg-primary/10 rounded-lg">
-                   <Calendar className="h-8 w-8 text-primary" />
+              <Card key={index} className={cn(
+                "flex flex-col sm:flex-row items-center gap-4 p-4 shadow-md bg-background transition-all hover:shadow-lg",
+                event.highlight && "border-primary border-2 shadow-primary/20"
+              )}>
+                <div className={cn(
+                    "p-4 rounded-lg flex-shrink-0",
+                    event.highlight ? "bg-primary text-white" : "bg-primary/10 text-primary"
+                )}>
+                   <Calendar className="h-8 w-8" />
                 </div>
-                <div>
+                <div className="flex-grow text-center sm:text-left">
                   <p className="text-sm font-semibold text-primary">{event.date}</p>
-                  <h4 className="font-bold">{event.title}</h4>
+                  <h4 className="font-bold text-lg">{event.title}</h4>
                   <p className="text-sm text-muted-foreground">{event.location}</p>
                 </div>
+                {event.cta && (
+                    <Button variant={event.highlight ? "default" : "outline"} size="sm" className="mt-2 sm:mt-0" disabled>
+                        <LinkIcon className="h-4 w-4 mr-2" />
+                        {event.cta}
+                    </Button>
+                )}
               </Card>
             ))}
           </div>
@@ -204,27 +66,29 @@ export default function EventsSection() {
               <Newspaper className="h-8 w-8 text-primary/80" />
               {t('events.news_title')}
             </h3>
-            {latestNews.map((news: any, index) => (
-              <Card key={index} className="shadow-md overflow-hidden bg-background">
+            {latestNews.length > 0 ? latestNews.map((news, index) => (
+              <Card key={index} className="shadow-md overflow-hidden bg-background border-l-4 border-l-primary hover:shadow-lg transition-shadow">
                 <CardHeader>
                   <p className="text-sm font-semibold text-primary">{news.date}</p>
                   <CardTitle>{news.title}</CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <CardDescription className="text-muted-foreground">{news.description}</CardDescription>
+                  <CardDescription className="text-muted-foreground text-base">{news.description}</CardDescription>
                   {news.image && (
-                    <div className="mt-4 relative aspect-video rounded-lg overflow-hidden bg-black">
+                    <div className="mt-4 relative aspect-video rounded-lg overflow-hidden bg-black group">
                        <Image
                           src={news.image}
                           alt={news.title}
                           fill
-                          className="object-contain"
+                          className="object-contain transition-transform group-hover:scale-105"
                         />
                     </div>
                   )}
                 </CardContent>
               </Card>
-            ))}
+            )) : (
+              <p className="text-muted-foreground italic">{t('events.no_news') || "Aucune actualité récente."}</p>
+            )}
           </div>
         </div>
 

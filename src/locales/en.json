@@ -148,6 +148,11 @@
         "enlarged_view": "Enlarged view of"
     },
     "team": {
+        "page_title": "Hand Fight Team",
+        "page_subtitle": "Meet the experts and champions driving martial excellence every day.",
+        "preview_title": "Hand Fight Excellence",
+        "preview_text": "Discover the inspiring journeys of our athletes and the values that drive our club. Our team is composed of passionate individuals and high-level competitors.",
+        "view_full_team": "Discover Full Team",
         "handu": {
             "name": "Handu — Professor & Black Belt",
             "role": "Professor & Black Belt",
@@ -286,6 +291,12 @@
     },
     "events": {
         "title": "Events & News",
+        "popup": {
+            "title": "BJJ & English Summer Camp",
+            "subtitle": "Early July 2026 — 2 weeks",
+            "cta": "Learn More",
+            "footer": "Link coming soon"
+        },
         "camp": {
             "featured_title": "SPECIAL EVENT: BJJ KIDS CAMP",
             "title": "BJJ Kids Camp - April 2026",
@@ -365,14 +376,13 @@
             }
         },
         "upcoming_title": "Upcoming Major Events",
+        "upcoming_summer": { "date": "Early July 2026 — 2 weeks", "title": "BJJ & English Summer Camp", "location": "Le Gosier, Guadeloupe", "cta": "Link coming soon" },
         "upcoming1": { "date": "May 27, 2026", "title": "The KDR Show", "location": "Internal club event" },
         "upcoming2": { "date": "June 13–14, 2026", "title": "French BJJ Championship", "location": "Paris — Porte de Versailles" },
-        "upcoming3": { "date": "July 2026", "title": "Kids Summer Camp", "location": "First 2 weeks of July" },
         "upcoming4": { "date": "Early November 2026", "title": "Caribbean Open", "location": "Guadeloupe" },
         "news_title": "Latest News",
-        "news3": { "date": "January 2026", "title": "Jessica Gabriel, European Champion in Lisbon!", "description": "Jessica Gabriel wins the gold medal at the European BJJ Championship in Lisbon. An incredible performance that confirms her status as a top-level athlete.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" },
-        "news1": { "date": "March 2025", "title": "Bebê is French Champion!", "description": "Erickson \"Bebê\" Lafeuille wins the French Champion title with two gold medals. An exceptional performance!", "image": "https://i.postimg.cc/Y993Ym9Z/Whats_App_Image_2026-01-26_at_01_34_43.jpg" },
-        "news2": { "date": "May 2026", "title": "French Championship Prep", "description": "Our team is intensifying training for the upcoming French Championship. Extra technical sessions and high-level sparring on the agenda." }
+        "news_france": { "date": "May 2026", "title": "French Championship Selected Participants", "description": "Brice, Thory, Emma, Hugo, Jo and Handuilo have been selected to participate in the French Championship." },
+        "news3": { "date": "January 2026", "title": "Jessica Gabriel, European Champion in Lisbon!", "description": "Jessica Gabriel wins the gold medal at the European BJJ Championship in Lisbon. An incredible performance that confirms her status as a top-level athlete.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" }
     },
     "contact": {
         "title": "Contact Us",

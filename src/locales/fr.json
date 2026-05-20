@@ -1,4 +1,3 @@
-
 {
     "nav": {
         "about": "Notre Club",
@@ -148,6 +147,11 @@
         "enlarged_view": "Vue agrandie de"
     },
     "team": {
+        "page_title": "L'Équipe Hand Fight",
+        "page_subtitle": "Découvrez les experts et les champions qui font vivre l'excellence martiale au quotidien.",
+        "preview_title": "L'Excellence Hand Fight",
+        "preview_text": "Découvrez les parcours inspirants de nos athlètes et les valeurs qui animent notre club. Notre équipe est composée de passionnés et de compétiteurs de haut niveau.",
+        "view_full_team": "Découvrir toute l'équipe",
         "handu": {
             "name": "Handu — Professeur & Ceinture Noire",
             "role": "Professeur & Ceinture Noire",
@@ -183,7 +187,7 @@
                 "title": "Europe",
                 "items": [
                     { "achievement": "Championnat d'Europe 2026 (Lisbonne) - Or", "description": "Jessica Gabriel remporte la médaille d'or en Jiu-Jitsu Brésilien à Lisbonne." },
-                    { "achievement": "Championnat d'Europe 2023 (Rome)", "description": "Argent : Harold Beaugendre. Bronze : Sebastien Cnudde, Emerick, Yannis." },
+                    { "achievement": "Championnat d'Europe 2023 (Rome)", "description": "Argent : Harold Beaugendre. Bronze : Sebastien Cnudde, Yannis." },
                     { "achievement": "Championnat d'Europe 2022 (Rome) - 6 médailles", "description": "Or : Harold Beaugendre. Argent : Erickson Lafeuille. Bronze : Diana Penalva, Cedrick, Mathieu Balagne, Geoffrey Marie Joseph." },
                     { "achievement": "AJP Paris 2022", "description": "Bronze : Jade Boisnard." },
                     { "achievement": "AJP Paris 2021", "description": "Or : Geoffrey Marie Joseph, Mathieu Balange. Argent : Harold Beaugendre." }
@@ -286,93 +290,20 @@
     },
     "events": {
         "title": "Événements & Actualités",
-        "camp": {
-            "featured_title": "ÉVÉNEMENT SPÉCIAL : STAGE JJB ENFANTS",
-            "title": "Stage JJB Enfants - Avril 2026",
-            "subtitle": "Une semaine immersive de sport, de plaisir et de progression pour les 4-12 ans.",
-            "dates": "Du Lundi 13 au Samedi 18 Avril 2026",
-            "hours": "Chaque jour de 9h00 à 15h30 (Samedi : 9h00 - 11h00)",
-            "public": "Public : Enfants de 4 à 12 ans",
-            "description": "Un programme complet alternant apprentissage technique, jeux éducatifs et valeurs martiales. Priorité au plaisir, à la sécurité et à la progression.",
-            "structure_title": "Structure Type de la Journée",
-            "structure_text": "Chaque journée suit un rythme alternant phases actives (ateliers techniques, jeux de préhension) et temps calmes (repas, culture JJB, retour au calme).",
-            "days_title": "Programme de la Semaine",
-            "days": {
-                "monday": "Lundi 13 : Découverte & Équilibre (GI) - Bienvenue dans la Jungle",
-                "tuesday": "Mardi 14 : Mouvements & Chutes (NO-GI) - Deviens un Ninja du Sol",
-                "wednesday": "Mercredi 15 : Positions & Contrôle (GI) - Le Royaume du Contrôle",
-                "thursday": "Jeudi 16 : Soumissions & Sécurité (NO-GI) - Le Code du Tap-Out",
-                "friday": "Vendredi 17 : Stratégie & Jeux (NO-GI) - L'Arène des Stratèges",
-                "saturday": "Samedi 18 : Tournoi Ludique & Cérémonie des Champions"
-            },
-            "cta": "Inscrire mon enfant via WhatsApp",
-            "camp_details": {
-                "cta_more": "En savoir plus",
-                "modal_title": "Guide Pédagogique - Stage JJB Enfants",
-                "modal_description": "Détails complets de l'organisation et du planning de la semaine.",
-                "structure_title": "Rythme de la Journée",
-                "structure_items": [
-                    "09h00 - 09h30 : Accueil + échauffement ludique + consignes",
-                    "09h30 - 10h30 : Atelier technique différencié (4-7 ans / 8-12 ans)",
-                    "10h30 - 10h45 : Pause hydratation / toilettes",
-                    "10h45 - 12h00 : Jeux de préhension, parcours, défis adaptés",
-                    "12h00 - 13h00 : Repas tiré du sac + temps calme",
-                    "13h00 - 14h00 : Activité transversale (coordination, culture JJB, coopération)",
-                    "14h00 - 14h15 : Pause",
-                    "14h15 - 15h15 : Mise en situation / roulement / défis collectifs",
-                    "15h15 - 15h30 : Retour au calme, bilan du jour, départ"
-                ],
-                "days": [
-                    {
-                        "name": "Lundi 13 Avril (GI)",
-                        "title": "Découverte & Équilibre - Bienvenue dans la Jungle",
-                        "desc": "Première journée : créer un climat de confiance et découvrir les positions de base (Garde, Mount, Side). Jeux & Défis : Choré des Animaux, Tortue Invincible, Roi de la Colline."
-                    },
-                    {
-                        "name": "Mardi 14 Avril (NO-GI)",
-                        "title": "Mouvements & Chutes - Deviens un Ninja du Sol",
-                        "desc": "Deuxième journée dédiée aux déplacements au sol (Shrimping), aux chutes sécurisées (Ukemi) et à la fluidité corporelle. Jeux : Boule de Neige, Course des Crabes, Chat Glacé JJB."
-                    },
-                    {
-                        "name": "Mercredi 15 Avril (GI)",
-                        "title": "Positions & Contrôle - Le Royaume du Contrôle",
-                        "desc": "Cette journée est consacrée aux passages de garde et au maintien des positions. On apprend à contrôler sans brutaliser. Jeux : Ouvre la Porte, Défi 30s, Garde Ton Trésor."
-                    },
-                    {
-                        "name": "Jeudi 16 Avril (NO-GI)",
-                        "title": "Soumissions & Sécurité - Le Code du Tap-Out",
-                        "desc": "Journée cruciale consacrée à la culture de la sécurité : tap-out, mot STOP et responsabilité du pratiquant. Zéro soumission réelle pour les plus jeunes."
-                    },
-                    {
-                        "name": "Vendredi 17 Avril (NO-GI)",
-                        "title": "Stratégie & Jeux - L'Arène des Stratèges",
-                        "desc": "Avant-dernière journée : créativité, anticipation et coopération. Les confirmés deviennent capitaines pédagogiques pour valoriser l'intelligence collective."
-                    },
-                    {
-                        "name": "Samedi 18 Avril (GI)",
-                        "title": "Tournoi Ludique & Cérémonie - La Grande Fête des Champions",
-                        "desc": "Matinée spéciale de 9h à 11h. Format court, dynamique et bienveillant, avec remise des attestations de stage pour tous les enfants."
-                    }
-                ],
-                "safety_title": "Règles de Sécurité & Encadrement",
-                "safety_items": [
-                    "Encadrement : 1 prof JJB diplômé + 1 assistant (Ratio max 1 pour 8)",
-                    "Tap-Out : 3 tapes OU dire 'STOP' -> arrêt IMMÉDIAT obligatoire. Sanction si ignoré.",
-                    "Techniques Interdites : Projections debout, clés jambes/colonne, torsions doigts, compression nuque.",
-                    "Hygiène : Tatamis désinfectés, ongles courts, cheveux attachés, gourdes nommées, pas d'échanges alimentaires.",
-                    "Gestion Émotionnelle : Enfant qui pleure = pause immédiate + réconfort. Abandon sans conséquence possible."
-                ]
-            }
+        "popup": {
+            "title": "Stage d’été BJJ & English Summer Camp",
+            "subtitle": "Début juillet 2026 — 2 semaines",
+            "cta": "En savoir plus",
+            "footer": "Lien à venir"
         },
         "upcoming_title": "Prochains Événements Majeurs",
+        "upcoming_summer": { "date": "Début juillet 2026 — 2 semaines", "title": "Stage d’été BJJ & English Summer Camp", "location": "Le Gosier, Guadeloupe", "cta": "Lien à venir" },
         "upcoming1": { "date": "27 Mai 2026", "title": "Le KDR Show", "location": "Événement interne au club" },
         "upcoming2": { "date": "13–14 Juin 2026", "title": "Championnat de France JJB", "location": "Paris — Porte de Versailles" },
-        "upcoming3": { "date": "Juillet 2026", "title": "Stage d'été Enfants", "location": "2 premières semaines de juillet" },
         "upcoming4": { "date": "Début Novembre 2026", "title": "Open Caraïbes", "location": "Guadeloupe" },
         "news_title": "Dernières Actualités",
-        "news3": { "date": "Janvier 2026", "title": "Jessica Gabriel, Championne d'Europe à Lisbonne !", "description": "Jessica Gabriel remporte la médaille d'or au championnat d'Europe de JJB à Lisbonne. Une performance incroyable qui confirme son statut d'athlète de haut niveau.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" },
-        "news1": { "date": "Mars 2025", "title": "Bebê Champion de France !", "description": "Erickson \"Bebê\" Lafeuille remporte le titre de Champion de France 2025 avec deux médailles d'or. Une performance exceptionnelle !", "image": "https://i.postimg.cc/Y993Ym9Z/Whats_App_Image_2026-01-26_at_01_34_43.jpg" },
-        "news2": { "date": "May 2026", "title": "Préparation Championnat de France", "description": "Notre équipe intensifie les entraînements en vue du Championnat de France de juin. Sessions techniques supplémentaires et sparring de haut niveau au programme." }
+        "news_france": { "date": "Mai 2026", "title": "Participants sélectionnés pour le Championnat de France", "description": "Brice, Thory, Emma, Hugo, Jo et Handuilo ont été sélectionnés pour participer au Championnat de France." },
+        "connect_button": "Nous contacter sur WhatsApp"
     },
     "contact": {
         "title": "Contactez-Nous",

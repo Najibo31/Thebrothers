@@ -1,4 +1,3 @@
-
 'use client';
 
 import Link from 'next/link';
@@ -14,17 +13,6 @@ import { cn } from '@/lib/utils';
 
 export default function Header() {
   const { t } = useI18n();
-  const navLinks = [
-    { href: '/#about', label: t('nav.about') },
-    { href: '/#disciplines', label: t('nav.courses') },
-    { href: '/#planning', label: t('nav.planning') },
-    { href: '/abonnements', label: t('nav.subscriptions') },
-    { href: '/#shop', label: t('nav.shop') },
-    { href: '/#team', label: t('nav.team') },
-    { href: '/#events', label: t('nav.events') },
-    { href: '/#contact', label: t('nav.contact') },
-  ];
-
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -34,6 +22,17 @@ export default function Header() {
     window.addEventListener('scroll', handleScroll, { passive: true });
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  const navLinks = [
+    { href: '/#about', label: t('nav.about') },
+    { href: '/#disciplines', label: t('nav.courses') },
+    { href: '/#planning', label: t('nav.planning') },
+    { href: '/abonnements', label: t('nav.subscriptions') },
+    { href: '/#shop', label: t('nav.shop') },
+    { href: '/equipe', label: t('nav.team') },
+    { href: '/#events', label: t('nav.events') },
+    { href: '/#contact', label: t('nav.contact') },
+  ];
 
   return (
     <header
@@ -58,14 +57,18 @@ export default function Header() {
 
           <nav className="hidden lg:flex items-center gap-1">
             {navLinks.map((link) => (
-              <Link key={link.href} href={link.href} className="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:text-primary focus:outline-none focus:text-primary">
+              <Link 
+                key={link.href} 
+                href={link.href} 
+                className="px-3 py-2 rounded-md text-sm font-medium transition-colors hover:text-primary focus:outline-none focus:text-primary"
+              >
                 {link.label}
               </Link>
             ))}
           </nav>
           
           <div className="flex items-center gap-1">
-            <div className='flex items-center gap-1'>
+            <div className="flex items-center gap-1">
               <LanguageSwitcher />
               <ThemeToggleButton />
             </div>
@@ -113,7 +116,7 @@ export default function Header() {
                   </div>
                   <div className="mt-auto pt-6 text-center text-xs text-muted-foreground">
                     <a href="https://www.croissancedigitale.pro/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 hover:text-primary transition-colors">
-                       <p>{t('footer.made_by')}</p>
+                       <span>{t('footer.made_by')}</span>
                        <Image 
                          src="https://i.postimg.cc/J4dnF46r/Digitale-Recupere.png" 
                          alt="Croissance Digitale Logo" 
