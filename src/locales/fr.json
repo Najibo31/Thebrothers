@@ -1,3 +1,4 @@
+
 {
     "nav": {
         "about": "Notre Club",
@@ -291,19 +292,59 @@
     "events": {
         "title": "Événements & Actualités",
         "popup": {
-            "title": "Stage d’été BJJ & English Summer Camp",
-            "subtitle": "Début juillet 2026 — 2 semaines",
+            "title": "Summer Camp JJB — Gi & No-Gi",
+            "subtitle": "Juillet & Août 2026",
+            "description": "Sport, Culture & Langues pour les 4-16 ans.",
             "cta": "En savoir plus",
-            "footer": "Lien à venir"
+            "footer": "Places limitées — Inscrivez-vous vite !"
         },
         "upcoming_title": "Prochains Événements Majeurs",
-        "upcoming_summer": { "date": "Début juillet 2026 — 2 semaines", "title": "Stage d’été BJJ & English Summer Camp", "location": "Le Gosier, Guadeloupe", "cta": "Lien à venir" },
+        "upcoming_summer": { 
+          "date": "Juillet & Août 2026", 
+          "title": "Summer Camp JJB — Gi & No-Gi", 
+          "location": "Le Gosier, Guadeloupe", 
+          "cta": "S'inscrire (HelloAsso)",
+          "learn_more": "Guide Pédagogique",
+          "modal": {
+            "title": "Summer Camp 2026 — Guide Pédagogique",
+            "languages_label": "Langues :",
+            "languages": "Français · Anglais · Portugais · Espagnol",
+            "weeks_label": "Semaines disponibles :",
+            "weeks": ["6-10 Juillet", "13-17 Juillet", "3-7 Août", "24-28 Août"],
+            "hours_label": "Horaires :",
+            "hours": "8h45 ➔ 15h30",
+            "program_label": "Programme par âge :",
+            "program": [
+              "4-7 ans : Jeux & Découverte",
+              "8-12 ans : Technique & Équipe",
+              "13-16 ans : Entraînement & Techniques"
+            ],
+            "rates_label": "Tarifs (par semaine) :",
+            "rates": [
+              "Adhérent : 100 €",
+              "Externe : 120 €"
+            ],
+            "footer": "Encadrants gradés & expérimentés. 1 thème par jour — Sport, Culture & Langues.",
+            "rhythm_title": "Structure Type de la Journée",
+            "rhythm": [
+                "09:00 - 09:30 : Accueil + échauffement ludique",
+                "09:30 - 10:30 : Atelier technique différencié",
+                "10:30 - 10:45 : Pause hydratation",
+                "10:45 - 12:00 : Jeux de préhension & parcours",
+                "12:00 - 13:00 : Repas + temps calme",
+                "13:00 - 14:00 : Activité transversale",
+                "14:15 - 15:15 : Mise en situation & défis",
+                "15:15 - 15:30 : Retour au calme & bilan"
+            ]
+          }
+        },
         "upcoming1": { "date": "27 Mai 2026", "title": "Le KDR Show", "location": "Événement interne au club" },
         "upcoming2": { "date": "13–14 Juin 2026", "title": "Championnat de France JJB", "location": "Paris — Porte de Versailles" },
         "upcoming4": { "date": "Début Novembre 2026", "title": "Open Caraïbes", "location": "Guadeloupe" },
         "news_title": "Dernières Actualités",
         "news_france": { "date": "Mai 2026", "title": "Participants sélectionnés pour le Championnat de France", "description": "Brice, Thory, Emma, Hugo, Jo et Handuilo ont été sélectionnés pour participer au Championnat de France." },
-        "connect_button": "Nous contacter sur WhatsApp"
+        "connect_button": "Nous contacter sur WhatsApp",
+        "no_news": "Aucune actualité récente."
     },
     "contact": {
         "title": "Contactez-Nous",

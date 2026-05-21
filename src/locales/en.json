@@ -292,97 +292,59 @@
     "events": {
         "title": "Events & News",
         "popup": {
-            "title": "BJJ & English Summer Camp",
-            "subtitle": "Early July 2026 — 2 weeks",
-            "cta": "Learn More",
-            "footer": "Link coming soon"
-        },
-        "camp": {
-            "featured_title": "SPECIAL EVENT: BJJ KIDS CAMP",
-            "title": "BJJ Kids Camp - April 2026",
-            "subtitle": "An immersive week of sport, fun, and progression for children aged 4-12.",
-            "dates": "From Monday 13 to Saturday 18 April 2026",
-            "hours": "Daily from 9:00 AM to 3:30 PM (Saturday: 9:00 AM - 11:00 AM)",
-            "public": "Public: Children aged 4 to 12 years",
-            "description": "A complete program alternating technical learning, educational games, and martial values. Priority on fun, safety, and progression.",
-            "structure_title": "Typical Daily Structure",
-            "structure_text": "Each day follows a rhythm alternating active phases (technical workshops, grappling games) and quiet times (meals, BJJ culture, cooling down).",
-            "days_title": "Weekly Program",
-            "days": {
-                "monday": "Monday 13: Discovery & Balance (GI) - Welcome to the Jungle",
-                "tuesday": "Tuesday 14: Movement & Falls (NO-GI) - Become a Ground Ninja",
-                "wednesday": "Wednesday 15: Positions & Control (GI) - The Kingdom of Control",
-                "thursday": "Thursday 16: Submissions & Safety (NO-GI) - The Tap-Out Code",
-                "friday": "Friday 17: Strategy & Games (NO-GI) - The Strategists' Arena",
-                "saturday": "Saturday 18: Fun Tournament & Champions Ceremony"
-            },
-            "cta": "Enroll my child via WhatsApp",
-            "camp_details": {
-                "cta_more": "Learn More",
-                "modal_title": "Pedagogical Guide - BJJ Kids Camp",
-                "modal_description": "Full details on the week's organization and planning.",
-                "structure_title": "Daily Rhythm",
-                "structure_items": [
-                    "09:00 AM - 09:30 AM: Welcome + fun warm-up + briefing",
-                    "09:30 AM - 10:30 AM: Differentiated technical workshop (4-7 yrs / 8-12 yrs)",
-                    "10:30 AM - 10:45 AM: Hydration / restroom break",
-                    "10:45 AM - 12:00 PM: Grappling games, courses, adapted challenges",
-                    "12:00 PM - 01:00 PM: Packed lunch + quiet time",
-                    "01:00 PM - 02:00 PM: Transversal activity (coordination, BJJ culture, cooperation)",
-                    "02:00 PM - 02:15 PM: Break",
-                    "02:15 PM - 03:15 PM: Practical sessions / rolling / group challenges",
-                    "03:15 PM - 03:30 PM: Cooling down, daily wrap-up, departure"
-                ],
-                "days": [
-                    {
-                        "name": "Monday 13 April (GI)",
-                        "title": "Discovery & Balance - Welcome to the Jungle",
-                        "desc": "First day: creating trust and discovering basic positions (Guard, Mount, Side). Games: Animal Dance, Invincible Turtle, King of the Hill."
-                    },
-                    {
-                        "name": "Tuesday 14 April (NO-GI)",
-                        "title": "Movement & Falls - Become a Ground Ninja",
-                        "desc": "Second day dedicated to ground movements (Shrimping), safe falls (Ukemi), and body fluidity. Games: Snowball, Crab Race, BJJ Frozen Tag."
-                    },
-                    {
-                        "name": "Wednesday 15 April (GI)",
-                        "title": "Positions & Control - The Kingdom of Control",
-                        "desc": "This day is dedicated to guard passing and maintaining positions. Learning to control without brutality. Games: Open the Door, 30s Challenge, Guard Your Treasure."
-                    },
-                    {
-                        "name": "Thursday 16 April (NO-GI)",
-                        "title": "Submissions & Safety - The Tap-Out Code",
-                        "desc": "Crucial day dedicated to the culture of safety: tap-out, STOP word, and student responsibility. Zero real submissions for the youngest."
-                    },
-                    {
-                        "name": "Friday 17 April (NO-GI)",
-                        "title": "Strategy & Games - The Strategists' Arena",
-                        "desc": "Penultimate day: creativity, anticipation, and cooperation. Experienced students become pedagogical captains to value collective intelligence."
-                    },
-                    {
-                        "name": "Saturday 18 April (GI)",
-                        "title": "Fun Tournament & Ceremony - The Champions' Great Party",
-                        "desc": "Special morning from 9am to 11am. Short, dynamic, and caring format, with stage certificates for all children."
-                    }
-                ],
-                "safety_title": "Safety Rules & Supervision",
-                "safety_items": [
-                    "Supervision: 1 certified BJJ coach + 1 assistant (Max ratio 1 per 8)",
-                    "Tap-Out: 3 taps OR saying 'STOP' -> immediate mandatory stop. Sanction if ignored.",
-                    "Forbidden Techniques: Standing throws, leg/spine locks, finger twisting, neck compression.",
-                    "Hygiene: Sanitized mats, short nails, named water bottles, no food sharing.",
-                    "Emotional Management: Crying child = immediate break + comfort. Quitting without consequence possible."
-                ]
-            }
+          "title": "BJJ Summer Camp — Gi & No-Gi",
+          "subtitle": "July & August 2026",
+          "description": "Sport, Culture & Languages for ages 4-16.",
+          "cta": "Learn More",
+          "footer": "Limited spots — Sign up fast!"
         },
         "upcoming_title": "Upcoming Major Events",
-        "upcoming_summer": { "date": "Early July 2026 — 2 weeks", "title": "BJJ & English Summer Camp", "location": "Le Gosier, Guadeloupe", "cta": "Link coming soon" },
+        "upcoming_summer": { 
+          "date": "July & August 2026", 
+          "title": "BJJ Summer Camp — Gi & No-Gi", 
+          "location": "Le Gosier, Guadeloupe", 
+          "cta": "Sign Up (HelloAsso)",
+          "learn_more": "Pedagogical Guide",
+          "modal": {
+            "title": "Summer Camp 2026 — Pedagogical Guide",
+            "languages_label": "Languages:",
+            "languages": "French · English · Portuguese · Spanish",
+            "weeks_label": "Available weeks:",
+            "weeks": ["July 6-10", "July 13-17", "August 3-7", "August 24-28"],
+            "hours_label": "Hours:",
+            "hours": "8:45 AM ➔ 3:30 PM",
+            "program_label": "Program by age:",
+            "program": [
+              "4-7 years: Games & Discovery",
+              "8-12 years: Technique & Team",
+              "13-16 years: Training & Techniques"
+            ],
+            "rates_label": "Rates (per week):",
+            "rates": [
+              "Member: 100 €",
+              "Non-member: 120 €"
+            ],
+            "footer": "Certified & experienced instructors. 1 theme per day — Sport, Culture & Languages.",
+            "rhythm_title": "Daily Structure",
+            "rhythm": [
+                "09:00 - 09:30 : Welcome + warm-up",
+                "09:30 - 10:30 : Differentiated workshop",
+                "10:30 - 10:45 : Water break",
+                "10:45 - 12:00 : Drills & parcours",
+                "12:00 - 13:00 : Lunch + quiet time",
+                "13:00 - 14:00 : Cross-activity",
+                "14:15 - 15:15 : Sparring & challenges",
+                "15:15 - 15:30 : Wrap-up & departure"
+            ]
+          }
+        },
         "upcoming1": { "date": "May 27, 2026", "title": "The KDR Show", "location": "Internal club event" },
         "upcoming2": { "date": "June 13–14, 2026", "title": "French BJJ Championship", "location": "Paris — Porte de Versailles" },
         "upcoming4": { "date": "Early November 2026", "title": "Caribbean Open", "location": "Guadeloupe" },
         "news_title": "Latest News",
         "news_france": { "date": "May 2026", "title": "French Championship Selected Participants", "description": "Brice, Thory, Emma, Hugo, Jo and Handuilo have been selected to participate in the French Championship." },
-        "news3": { "date": "January 2026", "title": "Jessica Gabriel, European Champion in Lisbon!", "description": "Jessica Gabriel wins the gold medal at the European BJJ Championship in Lisbon. An incredible performance that confirms her status as a top-level athlete.", "image": "https://i.postimg.cc/Hk5mQVK7/Jessica.jpg" }
+        "connect_button": "Contact us on WhatsApp",
+        "no_news": "No recent news."
     },
     "contact": {
         "title": "Contact Us",

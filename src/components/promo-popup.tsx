@@ -1,3 +1,4 @@
+
 'use client';
 
 import React, { useState, useEffect } from 'react';
@@ -5,8 +6,9 @@ import { useI18n } from '@/contexts/i18n-provider';
 import { Button } from '@/components/ui/button';
 import { X, Calendar, Sparkles } from 'lucide-react';
 import { cn } from '@/lib/utils';
+import Link from 'next/link';
 
-const POPUP_STORAGE_KEY = 'handfight-promo-popup-timestamp';
+const POPUP_STORAGE_KEY = 'handfight-promo-popup-timestamp-v2';
 const COOLDOWN_HOURS = 5;
 
 export default function PromoPopup() {
@@ -64,12 +66,14 @@ export default function PromoPopup() {
 
         <div className="p-8 text-center space-y-6">
           <p className="text-muted-foreground">
-            Préparez votre été avec Hand Fight ! Un stage exceptionnel combinant Jiu-Jitsu et apprentissage de l'anglais.
+            {t('events.popup.description')}
           </p>
           
           <div className="flex flex-col gap-3">
-            <Button size="lg" className="w-full font-bold shadow-lg shadow-primary/20" disabled>
-              {t('events.popup.cta')}
+            <Button size="lg" className="w-full font-bold shadow-lg shadow-primary/20" asChild onClick={() => setIsOpen(false)}>
+              <Link href="/#events">
+                {t('events.popup.cta')}
+              </Link>
             </Button>
             <p className="text-xs text-muted-foreground italic">
                 {t('events.popup.footer')}
