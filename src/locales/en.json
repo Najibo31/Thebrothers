@@ -1,4 +1,3 @@
-
 {
     "nav": {
         "about": "Our Club",
@@ -282,12 +281,12 @@
     "gallery": {
         "title": "Competition Gallery",
         "subtitle": "Relive the highlights of our athletes on national and international podiums. These images testify to the technical excellence and fighting spirit that reign within Hand Fight.",
-        "alt_eriksson": "Eriksson 'Bebê' Lafeuille in competition",
-        "alt_harold1": "Harold Beaugendre in competition",
-        "alt_harold2": "Harold Beaugendre on the podium",
-        "alt_joe": "Geoffrey Marie Joseph on the podium",
-        "alt1": "Athlete on a podium",
-        "alt2": "Fighter during a match"
+        "alt_new1": "BJJ combat in competition",
+        "alt_new2": "Hand Fight athlete on podium",
+        "alt_new3": "Ground control technique",
+        "alt_new4": "Victory celebration",
+        "alt_new5": "Dynamic combat phase",
+        "alt_new6": "Hand Fight team gathered"
     },
     "events": {
         "title": "Events & News",

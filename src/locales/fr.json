@@ -1,4 +1,3 @@
-
 {
     "nav": {
         "about": "Notre Club",
@@ -282,12 +281,12 @@
     "gallery": {
         "title": "Galerie des Compétitions",
         "subtitle": "Revivez les moments forts de nos athlètes sur les podiums nationaux et internationaux. Ces images témoignent de l'excellence technique et de l'esprit combatif qui règnent au sein de Hand Fight.",
-        "alt_eriksson": "Eriksson 'Bebê' Lafeuille en compétition",
-        "alt_harold1": "Harold Beaugendre en compétition",
-        "alt_harold2": "Harold Beaugendre sur le podium",
-        "alt_joe": "Geoffrey Marie Joseph sur le podium",
-        "alt1": "Athlète sur un podium",
-        "alt2": "Combattant pendant un match"
+        "alt_new1": "Combat de JJB en compétition",
+        "alt_new2": "Athlète Hand Fight sur le podium",
+        "alt_new3": "Technique de contrôle au sol",
+        "alt_new4": "Célébration de victoire",
+        "alt_new5": "Phase de combat dynamique",
+        "alt_new6": "L'équipe Hand Fight réunie"
     },
     "events": {
         "title": "Événements & Actualités",

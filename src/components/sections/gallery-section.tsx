@@ -1,4 +1,3 @@
-
 'use client';
 import { useI18n } from '@/contexts/i18n-provider';
 import Image from 'next/image';
@@ -7,10 +6,12 @@ export default function GallerySection() {
   const { t } = useI18n();
 
   const images = [
-    { src: 'https://i.postimg.cc/J00Yb1vF/Whats_App_Image_2026_01_26_at_01_40_27.jpg', alt: t('gallery.alt_harold1'), hint: 'Harold Beaugendre' },
-    { src: 'https://i.postimg.cc/PJJVmt99/Whats_App_Image_2026_01_26_at_01_39_37.jpg', alt: t('gallery.alt_harold2'), hint: 'Harold Beaugendre podium' },
-    { src: 'https://i.postimg.cc/KYZSWcmK/tournoi.jpg', alt: t('gallery.alt1'), hint: 'tournoi jjb' },
-    { src: 'https://i.postimg.cc/Pqts7fdw/podium.jpg', alt: t('gallery.alt2'), hint: 'podium victoire' },
+    { src: 'https://i.postimg.cc/zvsv0kND/IMG-20260622-WA0001.jpg', alt: t('gallery.alt_new1'), hint: 'combat jjb compétition' },
+    { src: 'https://i.postimg.cc/sxkxwJz2/IMG-20260622-WA0002.jpg', alt: t('gallery.alt_new2'), hint: 'podium victoire club' },
+    { src: 'https://i.postimg.cc/hvkvp0nD/IMG-20260622-WA0003.jpg', alt: t('gallery.alt_new3'), hint: 'action technique jjb' },
+    { src: 'https://i.postimg.cc/GtWtqjRc/IMG-20260622-WA0004.jpg', alt: t('gallery.alt_new4'), hint: 'médaille compétition' },
+    { src: 'https://i.postimg.cc/3NsNnZhR/motion-photo-6433779559853723242.jpg', alt: t('gallery.alt_new5'), hint: 'combat dynamique' },
+    { src: 'https://i.postimg.cc/2ysy2xYV/motion-photo-8953167880361739255.jpg', alt: t('gallery.alt_new6'), hint: 'groupe compétition jjb' },
   ];
 
   return (
