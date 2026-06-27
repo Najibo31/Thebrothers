@@ -1,3 +1,4 @@
+
 {
     "nav": {
         "about": "Notre Club",
@@ -337,8 +338,8 @@
             ]
           }
         },
-        "upcoming1": { "date": "27 Mai 2026", "title": "Le KDR Show", "location": "Événement interne au club" },
-        "upcoming2": { "date": "13–14 Juin 2026", "title": "Championnat de France JJB", "location": "Paris — Porte de Versailles" },
+        "upcoming1": { "date": "", "title": "", "location": "" },
+        "upcoming2": { "date": "", "title": "", "location": "" },
         "upcoming4": { "date": "Début Novembre 2026", "title": "Open Caraïbes", "location": "Guadeloupe" },
         "news_title": "Dernières Actualités",
         "news_france": { "date": "Mai 2026", "title": "Participants sélectionnés pour le Championnat de France", "description": "Brice, Thory, Emma, Hugo, Jo et Handuilo ont été sélectionnés pour participer au Championnat de France." },
