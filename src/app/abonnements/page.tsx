@@ -1,3 +1,4 @@
+
 'use client';
 import { useI18n } from '@/contexts/i18n-provider';
 import Header from '@/components/layout/header';
@@ -5,7 +6,6 @@ import Footer from '@/components/layout/footer';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Check, Star, User, Users, GraduationCap, Building, Briefcase } from 'lucide-react';
-import Link from 'next/link';
 
 const PlanCard = ({ title, price, description, features, highlight, cta, info, href }: { title: string, price: string, description?: string, features?: string[], highlight?: boolean, cta: string, info: string, href: string }) => (
     <Card className={`flex flex-col ${highlight ? 'border-primary border-2 shadow-primary/20' : ''}`}>
@@ -78,7 +78,7 @@ export default function SubscriptionsPage() {
                             description={plans.adhesion.description}
                             info={plans.adhesion.info}
                             cta={t('subscriptions.cta_button')}
-                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/enfants-jjb-4-ans-jusqu-a-12-ans-inclus-1-semaine"
+                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/enfants-jjb-4-ans-jusqu-a-12-ans-inclus-1"
                         />
                          <PlanCard 
                             title={plans.kids_annual.name}
@@ -105,7 +105,7 @@ export default function SubscriptionsPage() {
                             price={plans.student_annual.price}
                             info={plans.student_info}
                             cta={t('subscriptions.cta_button')}
-                             href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/etudiant-jjb-annuel-1"
+                             href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/etudiant-jjb-annuel-2"
                         />
                     </Section>
 
@@ -116,7 +116,7 @@ export default function SubscriptionsPage() {
                             description={plans.adult_annual.description}
                              info={plans.adult_info}
                             cta={t('subscriptions.cta_button')}
-                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/jjb"
+                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/jjb-annuel"
                             highlight
                         />
                          <PlanCard 
@@ -124,7 +124,7 @@ export default function SubscriptionsPage() {
                             price={plans.adult_6m.price}
                              info={plans.adult_info}
                             cta={t('subscriptions.cta_button')}
-                             href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/jjb-6-mois"
+                             href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/jjb-6-mois-1"
                         />
                         <PlanCard 
                             title={plans.adult_1m.name}
@@ -141,7 +141,7 @@ export default function SubscriptionsPage() {
                             price={plans.mma_jjb_annual.price}
                             info={plans.mma_info}
                             cta={t('subscriptions.cta_button')}
-                             href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/mma-jjb"
+                             href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/mma-jjb-annuelle"
                             highlight
                         />
                          <PlanCard 
@@ -149,14 +149,28 @@ export default function SubscriptionsPage() {
                             price={plans.mma_jjb_6m.price}
                             info={plans.mma_info}
                             cta={t('subscriptions.cta_button')}
-                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/mma-jjb-6-mois"
+                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/mma-jjb-6-mois-1"
                         />
-                        <PlanCard 
+                         <PlanCard 
                             title={plans.mma_only_annual.name}
                             price={plans.mma_only_annual.price}
                             info={plans.mma_info}
                             cta={t('subscriptions.cta_button')}
-                             href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/mma-annuel-2"
+                             href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/mma-anuel"
+                        />
+                         <PlanCard 
+                            title={plans.mma_only_6m.name}
+                            price={plans.mma_only_6m.price}
+                            info={plans.mma_info}
+                            cta={t('subscriptions.cta_button')}
+                             href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/mma-6-mois-1"
+                        />
+                        <PlanCard 
+                            title={plans.mma_only_1m.name}
+                            price={plans.mma_only_1m.price}
+                            info={plans.mma_info}
+                            cta={t('subscriptions.cta_button')}
+                             href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/mma-mensuel"
                         />
                     </Section>
 
@@ -166,14 +180,14 @@ export default function SubscriptionsPage() {
                             price={plans.family_2.price}
                             info={plans.family_info}
                             cta={t('subscriptions.cta_button')}
-                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/jjb-family-2-2"
+                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/jjb-family-2membres"
                         />
                          <PlanCard 
                             title={plans.family_3.name}
                             price={plans.family_3.price}
                             info={plans.family_info}
                             cta={t('subscriptions.cta_button')}
-                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/jjb-family-3"
+                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/jjb-family-2membres"
                         />
                     </Section>
 
