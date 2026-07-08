@@ -121,7 +121,7 @@
             "student_info": "Tarif spécial pour les étudiants et jeunes. Un investissement accessible pour votre développement personnel.",
             "adult_1m": { "name": "1 Mois", "price": "90 € / mois", "info": "" },
             "adult_6m": { "name": "6 Mois", "price": "75 € / mois", "info": "" },
-            "adult_annual": { "name": "Annuel", "price": "60 € / mois", "description": "Offre la plus avantageuse !", "info": "" },
+            "adult_annual": { "name": "Annuel", "price": "65 € / mois", "description": "Offre la plus avantageuse !", "info": "" },
             "adult_info": "Formules flexibles pour s’adapter à votre engagement et vos objectifs sportifs.",
             "mma_only_annual": { "name": "MMA Seul – Annuel", "price": "65 € / mois", "info": "" },
             "mma_only_6m": { "name": "MMA Seul – 6 Mois", "price": "75 € / mois", "info": "" },
@@ -368,7 +368,7 @@
     "footer": {
         "association": "Association loi 1901",
         "hq": "Siège social : Ancien Royal Riviera, 97190 Le Gosier",
-        "copyright": "Hand Fight — The Brothers International. Tous droits réservés.",
+        "copyright": "Hand Fight — Tous droits réservés.",
         "editor": "Responsable éditorial",
         "made_by": "Créé et imaginé par Croissance Digitale."
     }

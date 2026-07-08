@@ -109,8 +109,8 @@
         "categories": {
             "kids": "Kids (4–12 years)",
             "students": "Students (12-25 years)",
-            "adults_jjb": "Adults – BJJ",
-            "mma_jjb": "MMA + BJJ",
+            "adults_jjb": "Adultes – JJB",
+            "mma_jjb": "MMA + JJB",
             "family_jjb": "Family Plans - BJJ"
         },
         "plans": {
@@ -121,7 +121,7 @@
             "student_info": "Special rate for students. An accessible investment for your personal development.",
             "adult_1m": { "name": "1 Month", "price": "90 € / month", "info": "" },
             "adult_6m": { "name": "6 Months", "price": "75 € / month", "info": "" },
-            "adult_annual": { "name": "Annual", "price": "60 € / month", "description": "Most advantageous offer!", "info": "" },
+            "adult_annual": { "name": "Annual", "price": "65 € / month", "description": "Most advantageous offer!", "info": "" },
             "adult_info": "Flexible plans to adapt to your commitment and sports goals.",
             "mma_only_annual": { "name": "MMA Only – Annual", "price": "65 € / month", "info": "" },
             "mma_only_6m": { "name": "MMA Only – 6 Months", "price": "75 € / month", "info": "" },
@@ -368,7 +368,7 @@
     "footer": {
         "association": "Association loi 1901",
         "hq": "Headquarters: Ancien Royal Riviera, 97190 Le Gosier",
-        "copyright": "Hand Fight — The Brothers International. All rights reserved.",
+        "copyright": "Hand Fight — All rights reserved.",
         "editor": "Editorial manager",
         "made_by": "Created and designed by Croissance Digitale."
     }
