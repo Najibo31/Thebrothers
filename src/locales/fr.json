@@ -62,7 +62,7 @@
         "schedule": {
             "monday": [
                 { "time": "12h30", "course": "MMA Salle Makasi" },
-                { "time": "18h00", "course": "JJB Kimono" },
+                { "time": "17h30 - 18h30", "course": "JJB Ados (Tous les groupes)" },
                 { "time": "19h00", "course": "MMA Salle Makasi" }
             ],
             "tuesday": [
@@ -70,24 +70,25 @@
                 { "time": "18h00", "course": "Grappling" }
             ],
             "wednesday": [
-                { "time": "12H30", "course": "JJB Kimono" },
-                { "time": "15h30", "course": "JJB Enfants" },
-                { "time": "17h00", "course": "JJB Kimono Ado" },
-                { "time": "17h00", "course": "Open Mat / Grappling" },
-                { "time": "18h00", "course": "JJB Kimono" }
+                { "time": "09h00 - 10h00", "course": "Baby JJB" },
+                { "time": "12h30", "course": "JJB Kimono" },
+                { "time": "15h30 - 16h30", "course": "JJB Enfants" },
+                { "time": "16h30 - 17h30", "course": "JJB Ados (Débutants)" },
+                { "time": "17h30 - 18h30", "course": "JJB Ados (Avancé / Compétition)" },
+                { "time": "18h30", "course": "JJB Kimono" }
             ],
             "thursday": [
-                { "time": "12H30", "course": "Grappling" },
+                { "time": "12h30", "course": "Grappling" },
                 { "time": "18h00", "course": "MMA & No-Gi" }
             ],
             "friday": [
-                { "time": "12H30", "course": "JJB Kimono" },
-                { "time": "17h30", "course": "JJB Kimono Ado" },
+                { "time": "12h30", "course": "JJB Kimono" },
+                { "time": "17h30 - 18h30", "course": "JJB Ados (Tous les groupes)" },
                 { "time": "18h30", "course": "JJB Kimono" }
             ],
             "saturday": [
-                { "time": "8h30", "course": "JJB Enfants" },
-                { "time": "9h30", "course": "JJB Kimono" },
+                { "time": "09h00 - 10h00", "course": "JJB Enfants" },
+                { "time": "10h00", "course": "JJB Kimono" },
                 { "time": "12h00", "course": "JJB Kimono" }
             ]
         },

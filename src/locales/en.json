@@ -62,19 +62,20 @@
         "schedule": {
             "monday": [
                 { "time": "12:30 PM", "course": "MMA Makasi Gym" },
-                { "time": "6:00 PM", "course": "BJJ Gi" },
-                { "time": "7:00 PM", "course": "MMA Makasi Gym" }
+                { "time": "05:30 PM - 06:30 PM", "course": "BJJ Teens (All groups)" },
+                { "time": "07:00 PM", "course": "MMA Makasi Gym" }
             ],
             "tuesday": [
                 { "time": "5:00 PM", "course": "MMA" },
                 { "time": "6:00 PM", "course": "Grappling" }
             ],
             "wednesday": [
+                { "time": "09:00 AM - 10:00 AM", "course": "Baby BJJ" },
                 { "time": "12:30 PM", "course": "BJJ Gi" },
-                { "time": "3:30 PM", "course": "BJJ Kids" },
-                { "time": "5:00 PM", "course": "BJJ Gi (Teens)" },
-                { "time": "5:00 PM", "course": "Open Mat / Grappling" },
-                { "time": "6:00 PM", "course": "BJJ Gi" }
+                { "time": "03:30 PM - 04:30 PM", "course": "BJJ Kids" },
+                { "time": "04:30 PM - 05:30 PM", "course": "BJJ Teens (Beginners)" },
+                { "time": "05:30 PM - 06:30 PM", "course": "BJJ Teens (Advanced / Competition)" },
+                { "time": "06:30 PM", "course": "BJJ Gi" }
             ],
             "thursday": [
                 { "time": "12:30 PM", "course": "Grappling" },
@@ -82,12 +83,12 @@
             ],
             "friday": [
                 { "time": "12:30 PM", "course": "BJJ Gi" },
-                { "time": "5:30 PM", "course": "BJJ Gi (Teens)" },
-                { "time": "6:30 PM", "course": "BJJ Gi" }
+                { "time": "05:30 PM - 06:30 PM", "course": "BJJ Teens (All groups)" },
+                { "time": "06:30 PM", "course": "BJJ Gi" }
             ],
             "saturday": [
-                { "time": "8:30 AM", "course": "BJJ Kids" },
-                { "time": "9:30 AM", "course": "BJJ Gi" },
+                { "time": "09:00 AM - 10:00 AM", "course": "BJJ Kids" },
+                { "time": "10:00 AM", "course": "BJJ Gi" },
                 { "time": "12:00 PM", "course": "BJJ Gi" }
             ]
         },
