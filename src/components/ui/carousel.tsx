@@ -12,7 +12,8 @@ import { ArrowLeft, ArrowRight } from "lucide-react"
 type CarouselApi = UseEmblaCarouselType[1]
 type UseCarouselParameters = Parameters<typeof useEmblaCarousel>
 type CarouselOptions = UseCarouselParameters[0]
-type CarouselPlugin = UseCarouselParameters[1]
+// Utilisation de 'any' pour éviter les erreurs de déclaration si les types ne sont pas trouvés
+type CarouselPlugin = any 
 
 type CarouselProps = {
   opts?: CarouselOptions

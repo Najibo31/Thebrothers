@@ -295,11 +295,11 @@
     "events": {
         "title": "Events & News",
         "popup": {
-            "title": "BJJ Summer Camp — Gi & No-Gi",
-            "subtitle": "July & August 2026",
-            "description": "Sport, Culture & Languages for ages 4-16.",
-            "cta": "Learn More",
-            "footer": "Limited spots — Sign up fast!"
+            "title": "BJJ Initiation Day",
+            "subtitle": "September 2nd, 2026",
+            "description": "Two BJJ sessions are organized on September 2nd at the Handfight club! Children can start at 3:30 PM, followed by teenagers at 5:00 PM. On the program: learn, have fun, progress and excel in a spirit of discipline, respect, trust, friendship, progression, pleasure, handfight and mastery. Don't hesitate to come and try!",
+            "cta": "Book on WhatsApp",
+            "footer": "Join us!"
         },
         "upcoming_title": "Upcoming Major Events",
         "upcoming_summer": { 
@@ -341,7 +341,7 @@
             ]
           }
         },
-        "upcoming1": { "date": "", "title": "", "location": "" },
+        "upcoming1": { "date": "September 2nd, 2026", "title": "BJJ Initiation Day", "location": "Handfight Club" },
         "upcoming2": { "date": "", "title": "", "location": "" },
         "upcoming4": { "date": "Early November 2026", "title": "Caribbean Open", "location": "Guadeloupe" },
         "news_title": "Latest News",

@@ -295,11 +295,11 @@
     "events": {
         "title": "Événements & Actualités",
         "popup": {
-            "title": "Summer Camp JJB — Gi & No-Gi",
-            "subtitle": "Juillet & Août 2026",
-            "description": "Sport, Culture & Langues pour les 4-16 ans.",
-            "cta": "En savoir plus",
-            "footer": "Places limitées — Inscrivez-vous vite !"
+            "title": "Journée d'Initiation JJB",
+            "subtitle": "2 Septembre 2026",
+            "description": "Deux séances de JJB sont organisées le 2 septembre au club Handfight ! Les enfants pourront s'initier dès 15h30, suivis par les adolescents à 17h00. Au programme : apprendre, s'amuser, progresser et se dépasser dans un esprit de discipline, respect, confiance, amitié, progression, plaisir, handfight et maîtrise. N'hésitez pas à venir essayer !",
+            "cta": "Réserver sur WhatsApp",
+            "footer": "Venez nombreux !"
         },
         "upcoming_title": "Prochains Événements Majeurs",
         "upcoming_summer": { 
@@ -341,7 +341,7 @@
             ]
           }
         },
-        "upcoming1": { "date": "", "title": "", "location": "" },
+        "upcoming1": { "date": "2 Septembre 2026", "title": "Journée d'Initiation JJB", "location": "Handfight Club" },
         "upcoming2": { "date": "", "title": "", "location": "" },
         "upcoming4": { "date": "Début Novembre 2026", "title": "Open Caraïbes", "location": "Guadeloupe" },
         "news_title": "Dernières Actualités",
