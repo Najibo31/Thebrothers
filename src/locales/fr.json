@@ -24,10 +24,10 @@
         "welcome_title": "Bienvenue chez Hand Fight",
         "welcome_text": "Notre club, dirigé par le champion international Handu (ceinture noire depuis 2019), forme des athlètes de tous âges dans les disciplines du Jiu-Jitsu Brésilien (JJB) et des Arts Martiaux Mixtes (MMA). Installé au Gosier, Guadeloupe depuis 2020, nous proposons un environnement d'entraînement professionnel où la discipline, le respect et l'excellence sont au cœur de notre approche pédagogique.",
         "mission_title": "Notre Mission",
-        "mission1": "Former des athlètes complets sur le plan technique et mental",
-        "mission2": "Développer la confiance en soi et le respect des autres",
-        "mission3": "Préparer aux compétitions nationales et internationales",
-        "mission4": "Créer une communauté soudée autour des valeurs martiales"
+        "mission1": "Formation technique et mentale",
+        "mission2": "Développement de la confiance",
+        "mission3": "Préparation aux compétitions",
+        "mission4": "Valeurs martiales et respect"
     },
     "disciplines": {
         "title": "Nos Disciplines",
@@ -61,11 +61,13 @@
         },
         "schedule": {
             "monday": [
-                { "time": "12h30", "course": "MMA Salle Makasi" },
+                { "time": "12h30", "course": "JJB" },
                 { "time": "17h30 - 18h30", "course": "JJB Ados (Tous les groupes)" },
+                { "time": "18h30", "course": "JJB Adultes" },
                 { "time": "19h00", "course": "MMA Salle Makasi" }
             ],
             "tuesday": [
+                { "time": "12h30", "course": "Grappling" },
                 { "time": "17h00", "course": "MMA" },
                 { "time": "18h00", "course": "Grappling" }
             ],
@@ -89,7 +91,7 @@
             "saturday": [
                 { "time": "09h00 - 10h00", "course": "JJB Enfants" },
                 { "time": "10h00", "course": "JJB Kimono" },
-                { "time": "12h00", "course": "JJB Kimono" }
+                { "time": "12h00", "course": "MMA" }
             ]
         },
         "no_class": "Aucun cours prévu ce jour-là.",
@@ -284,20 +286,20 @@
     },
     "gallery": {
         "title": "Galerie des Compétitions",
-        "subtitle": "Revivez les moments forts de nos athlètes sur les podiums nationaux et internationaux. Ces images témoignent de l'excellence technique et de l'esprit combatif qui règnent au sein de Hand Fight.",
-        "alt_new1": "Combat de JJB en compétition",
-        "alt_new2": "Athlète Hand Fight sur le podium",
-        "alt_new3": "Technique de contrôle au sol",
-        "alt_new4": "Célébration de victoire",
-        "alt_new5": "Phase de combat dynamique",
-        "alt_new6": "L'équipe Hand Fight réunie"
+        "subtitle": "Relive the highlights of our athletes on national and international podiums. These images testify to the technical excellence and fighting spirit that reign within Hand Fight.",
+        "alt_new1": "BJJ combat in competition",
+        "alt_new2": "Hand Fight athlete on podium",
+        "alt_new3": "Ground control technique",
+        "alt_new4": "Victory celebration",
+        "alt_new5": "Dynamic combat phase",
+        "alt_new6": "Hand Fight team gathered"
     },
     "events": {
         "title": "Événements & Actualités",
         "popup": {
-            "title": "Journée d'Initiation JJB",
+            "title": "C'est la rentrée du JJB !",
             "subtitle": "2 Septembre 2026",
-            "description": "Deux séances de JJB sont organisées le 2 septembre au club Handfight ! Les enfants pourront s'initier dès 15h30, suivis par les adolescents à 17h00. Au programme : apprendre, s'amuser, progresser et se dépasser dans un esprit de discipline, respect, confiance, amitié, progression, plaisir, handfight et maîtrise. N'hésitez pas à venir essayer !",
+            "description": "C'est la rentrée du JJB ! Trois séances sont organisées le 2 septembre au club Handfight. Les plus petits (Baby) pourront s'initier dès 9h00. Ils seront suivis par les enfants à 15h30, puis par les adolescents à 17h00. Au programme pour tous : apprendre, s'amuser, progresser et se dépasser dans un esprit de discipline, respect, confiance, amitié, progression, plaisir, handfight et maîtrise. N'hésitez pas à venir essayer !",
             "cta": "Réserver sur WhatsApp",
             "footer": "Venez nombreux !"
         },

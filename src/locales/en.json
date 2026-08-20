@@ -24,10 +24,10 @@
         "welcome_title": "Welcome to Hand Fight",
         "welcome_text": "Our club, led by international champion Handu (black belt since 2019), trains athletes of all ages in the disciplines of Brazilian Jiu-Jitsu (BJJ) and Mixed Martial Arts (MMA). Based in Le Gosier, Guadeloupe, since 2020, we offer a professional training environment where discipline, respect, and excellence are at the heart of our teaching approach.",
         "mission_title": "Our Mission",
-        "mission1": "Train technically and mentally complete athletes",
-        "mission2": "Develop self-confidence and respect for others",
-        "mission3": "Prepare for national and international competitions",
-        "mission4": "Create a strong community around martial values"
+        "mission1": "Train complete athletes technical & mental",
+        "mission2": "Develop confidence and respect",
+        "mission3": "Competition preparation",
+        "mission4": "Martial values and strong community"
     },
     "disciplines": {
         "title": "Our Disciplines",
@@ -61,13 +61,15 @@
         },
         "schedule": {
             "monday": [
-                { "time": "12:30 PM", "course": "MMA Makasi Gym" },
+                { "time": "12:30 PM", "course": "JJB" },
                 { "time": "05:30 PM - 06:30 PM", "course": "BJJ Teens (All groups)" },
+                { "time": "06:30 PM", "course": "BJJ Adults" },
                 { "time": "07:00 PM", "course": "MMA Makasi Gym" }
             ],
             "tuesday": [
-                { "time": "5:00 PM", "course": "MMA" },
-                { "time": "6:00 PM", "course": "Grappling" }
+                { "time": "12:30 PM", "course": "Grappling" },
+                { "time": "05:00 PM", "course": "MMA" },
+                { "time": "06:00 PM", "course": "Grappling" }
             ],
             "wednesday": [
                 { "time": "09:00 AM - 10:00 AM", "course": "Baby BJJ" },
@@ -79,7 +81,7 @@
             ],
             "thursday": [
                 { "time": "12:30 PM", "course": "Grappling" },
-                { "time": "6:00 PM", "course": "MMA & No-Gi" }
+                { "time": "06:00 PM", "course": "MMA & No-Gi" }
             ],
             "friday": [
                 { "time": "12:30 PM", "course": "BJJ Gi" },
@@ -89,7 +91,7 @@
             "saturday": [
                 { "time": "09:00 AM - 10:00 AM", "course": "BJJ Kids" },
                 { "time": "10:00 AM", "course": "BJJ Gi" },
-                { "time": "12:00 PM", "course": "BJJ Gi" }
+                { "time": "12:00 PM", "course": "MMA" }
             ]
         },
         "no_class": "No classes scheduled for this day.",
@@ -171,7 +173,7 @@
                 { "year": "2019", "title": "Fortaleza Open IBJJF", "achievement": "1st Place Absolute", "description": "Victory in all categories at the prestigious IBJJF tournament in Brazil" },
                 { "year": "2018", "title": "Salvador Fall Open", "achievement": "1st Place Middleweight", "description": "Champion in his weight class in Salvador" },
                 { "year": "2017", "title": "European IBJJF No-Gi", "achievement": "3rd Place", "description": "Bronze medal at the No-Gi European Championship" },
-                { "year": "2015-2019", "title": "Brazilian Circuit", "achievement": "Multiple titles", "description": "in São Paulo, Brasilia, Salvador and other major Brazilian national competitions" }
+                { "year": "2015-2019", "title": "Circuit Brazilian", "achievement": "Multiple titles", "description": "in São Paulo, Brasilia, Salvador and other major Brazilian national competitions" }
             ],
             "palmares_depuis_2022": "SINCE 2022 - EUROPE & CARAÏBES",
             "palmares_2025": { "year": "2025", "items": [{ "title": "Open Toulon", "result": "1st No-Gi" }, { "title": "Open Caribbean", "result": "1st No-Gi" }] },
@@ -295,9 +297,9 @@
     "events": {
         "title": "Events & News",
         "popup": {
-            "title": "BJJ Initiation Day",
+            "title": "BJJ is back!",
             "subtitle": "September 2nd, 2026",
-            "description": "Two BJJ sessions are organized on September 2nd at the Handfight club! Children can start at 3:30 PM, followed by teenagers at 5:00 PM. On the program: learn, have fun, progress and excel in a spirit of discipline, respect, trust, friendship, progression, pleasure, handfight and mastery. Don't hesitate to come and try!",
+            "description": "BJJ is back! Three sessions are organized on September 2nd at the Handfight club. The youngest ones (Baby) can start at 9:00 AM. They will be followed by children at 3:30 PM, then teenagers at 5:00 PM. On the program for everyone: learn, have fun, progress and excel in a spirit of discipline, respect, trust, friendship, progression, pleasure, handfight and mastery. Don't hesitate to come and try!",
             "cta": "Book on WhatsApp",
             "footer": "Join us!"
         },

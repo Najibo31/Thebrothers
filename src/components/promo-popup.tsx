@@ -1,3 +1,4 @@
+
 'use client';
 
 import React, { useState, useEffect } from 'react';
@@ -9,7 +10,7 @@ import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carouse
 import Autoplay from 'embla-carousel-autoplay';
 import Image from 'next/image';
 
-const POPUP_STORAGE_KEY = 'handfight-promo-popup-timestamp-v3';
+const POPUP_STORAGE_KEY = 'handfight-promo-popup-timestamp-v4';
 const COOLDOWN_HOURS = 5;
 
 export default function PromoPopup() {
@@ -36,6 +37,7 @@ export default function PromoPopup() {
   if (!isOpen) return null;
 
   const images = [
+    "https://i.postimg.cc/sx5V02vh/Flyer-Baby.jpg",
     "https://i.postimg.cc/LXvGsxHG/Gemini-Generated-Image-mdymdpmdymdpmdym.jpg",
     "https://i.postimg.cc/d1ng05qz/Gemini-Generated-Image-ay4zteay4zteay4z.jpg"
   ];
@@ -73,7 +75,7 @@ export default function PromoPopup() {
                   <div className="relative w-full h-full aspect-[4/3]">
                     <Image
                       src={src}
-                      alt="Initiation JJB"
+                      alt="Rentrée JJB Initiation"
                       fill
                       className="object-contain"
                       priority={index === 0}
