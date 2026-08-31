@@ -1,4 +1,3 @@
-
 'use client';
 import { useI18n } from '@/contexts/i18n-provider';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
@@ -60,13 +59,13 @@ export default function EventsSection() {
                         {bmfEvent.learn_more}
                       </Button>
                     </DialogTrigger>
-                    <DialogContent className="max-w-2xl bg-background border-primary max-h-[90vh] flex flex-col p-0">
-                      <DialogHeader className="p-6 border-b">
+                    <DialogContent className="max-w-2xl bg-background border-primary h-[80vh] flex flex-col p-0 overflow-hidden">
+                      <DialogHeader className="p-6 border-b flex-shrink-0">
                         <DialogTitle className="text-2xl font-headline text-primary">{bmfEvent.modal.title}</DialogTitle>
                         <DialogDescription className="sr-only">BMF Championship details for October 10th 2026</DialogDescription>
                       </DialogHeader>
-                      <ScrollArea className="flex-1 p-6">
-                        <div className="space-y-8">
+                      <ScrollArea className="flex-1 w-full">
+                        <div className="p-6 space-y-8 pr-10">
                            <p className="text-muted-foreground leading-relaxed">{bmfEvent.modal.intro}</p>
 
                            {/* Concept */}
@@ -149,13 +148,13 @@ export default function EventsSection() {
                         {summerCamp.learn_more}
                       </Button>
                     </DialogTrigger>
-                    <DialogContent className="max-w-2xl bg-background border-primary max-h-[90vh] flex flex-col p-0">
-                      <DialogHeader className="p-6 border-b">
+                    <DialogContent className="max-w-2xl bg-background border-primary h-[80vh] flex flex-col p-0 overflow-hidden">
+                      <DialogHeader className="p-6 border-b flex-shrink-0">
                         <DialogTitle className="text-2xl font-headline text-primary">{summerCamp.modal.title}</DialogTitle>
                         <DialogDescription className="sr-only">Pedagogical guide for Summer Camp 2026</DialogDescription>
                       </DialogHeader>
-                      <ScrollArea className="flex-1 p-6">
-                        <div className="space-y-8">
+                      <ScrollArea className="flex-1 w-full">
+                        <div className="p-6 space-y-8 pr-10">
                            {/* Info Grid */}
                            <div className="grid sm:grid-cols-2 gap-6">
                               <div className="space-y-2">
