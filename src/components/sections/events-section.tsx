@@ -3,9 +3,7 @@
 import { useI18n } from '@/contexts/i18n-provider';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Calendar, Newspaper, Star, Clock, Users, ShieldCheck, Phone, Info, Link as LinkIcon, Globe, MapPin, CheckCircle } from 'lucide-react';
-import Image from 'next/image';
-import { cn } from '@/lib/utils';
+import { Calendar, Newspaper, Star, Clock, Users, ShieldCheck, Phone, Info, Link as LinkIcon, Globe, MapPin, CheckCircle, Award } from 'lucide-react';
 import { Dialog, DialogContent, DialogTrigger, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
 import { ScrollArea } from '@/components/ui/scroll-area';
 
@@ -13,10 +11,10 @@ export default function EventsSection() {
   const { t } = useI18n();
 
   const summerCamp = t('events.upcoming_summer');
+  const bmfEvent = t('events.upcoming_bmf');
 
   const otherEvents = [
     { date: t('events.upcoming1.date'), title: t('events.upcoming1.title'), location: t('events.upcoming1.location') },
-    { date: t('events.upcoming2.date'), title: t('events.upcoming2.title'), location: t('events.upcoming2.location') },
     { date: t('events.upcoming4.date'), title: t('events.upcoming4.title'), location: t('events.upcoming4.location') },
   ].filter(event => event.title && event.title.length > 0);
 
@@ -39,6 +37,95 @@ export default function EventsSection() {
               {t('events.upcoming_title')}
             </h3>
             
+            {/* Featured BMF Event */}
+            <Card className="p-4 shadow-lg bg-background border-primary border-2 shadow-primary/20 transition-all hover:scale-[1.01]">
+              <div className="flex flex-col sm:flex-row items-center gap-4">
+                <div className="p-4 rounded-lg flex-shrink-0 bg-primary text-white">
+                   <Award className="h-8 w-8" />
+                </div>
+                <div className="flex-grow text-center sm:text-left">
+                  <p className="text-sm font-semibold text-primary">{bmfEvent.date}</p>
+                  <h4 className="font-bold text-xl uppercase">{bmfEvent.title}</h4>
+                  <p className="text-sm text-muted-foreground flex items-center justify-center sm:justify-start gap-1">
+                    <MapPin className="h-3 w-3" /> {bmfEvent.location}
+                  </p>
+                </div>
+              </div>
+              
+              <div className="mt-4 flex flex-wrap gap-2 justify-center sm:justify-start">
+                  <Dialog>
+                    <DialogTrigger asChild>
+                      <Button variant="outline" size="sm">
+                        <Info className="h-4 w-4 mr-2" />
+                        {bmfEvent.learn_more}
+                      </Button>
+                    </DialogTrigger>
+                    <DialogContent className="max-w-2xl bg-background border-primary max-h-[90vh] flex flex-col p-0">
+                      <DialogHeader className="p-6 border-b">
+                        <DialogTitle className="text-2xl font-headline text-primary">{bmfEvent.modal.title}</DialogTitle>
+                        <DialogDescription className="sr-only">BMF Championship details for October 10th 2026</DialogDescription>
+                      </DialogHeader>
+                      <ScrollArea className="flex-1 p-6">
+                        <div className="space-y-8">
+                           <p className="text-muted-foreground leading-relaxed">{bmfEvent.modal.intro}</p>
+
+                           {/* Concept */}
+                           <div className="space-y-2">
+                             <h5 className="font-bold flex items-center gap-2"><Star className="h-4 w-4 text-primary" /> {bmfEvent.modal.concept_title}</h5>
+                             <p className="text-sm text-muted-foreground">{bmfEvent.modal.concept_desc}</p>
+                           </div>
+
+                           {/* Programs Grid */}
+                           <div className="grid sm:grid-cols-2 gap-6">
+                              <div className="space-y-2 p-4 bg-secondary/20 rounded-lg border">
+                                <h5 className="font-bold text-primary">{bmfEvent.modal.kids_title}</h5>
+                                <p className="text-sm">{bmfEvent.modal.kids_desc}</p>
+                              </div>
+                              <div className="space-y-2 p-4 bg-secondary/20 rounded-lg border">
+                                <h5 className="font-bold text-primary">{bmfEvent.modal.adults_title}</h5>
+                                <p className="text-sm">{bmfEvent.modal.adults_desc}</p>
+                              </div>
+                           </div>
+
+                           {/* Technical Details */}
+                           <div className="space-y-3">
+                              <h5 className="font-bold border-b pb-1">{bmfEvent.modal.details_label}</h5>
+                              <p className="text-sm text-muted-foreground">{bmfEvent.modal.details}</p>
+                           </div>
+
+                           {/* Practical Info */}
+                           <div className="space-y-3">
+                              <h5 className="font-bold border-b pb-1">{bmfEvent.modal.location_label}</h5>
+                              <p className="text-sm text-muted-foreground">{bmfEvent.modal.location}</p>
+                              <div className="mt-4 p-3 bg-primary/10 border border-primary/30 rounded text-center">
+                                <p className="font-bold text-primary">{bmfEvent.modal.deadline}</p>
+                              </div>
+                           </div>
+
+                           <div className="p-4 bg-secondary/30 rounded-lg">
+                              <p className="text-sm italic font-semibold text-center">{bmfEvent.modal.footer}</p>
+                           </div>
+                        </div>
+                      </ScrollArea>
+                    </DialogContent>
+                  </Dialog>
+
+                  <Button variant="default" size="sm" asChild>
+                    <a href="https://www.helloasso.com/associations/the-brothers-handfight-international/evenements/inscriptions-bmf-championnat" target="_blank" rel="noopener noreferrer">
+                      <Award className="h-4 w-4 mr-2" />
+                      {bmfEvent.cta_adults}
+                    </a>
+                  </Button>
+                  
+                  <Button variant="secondary" size="sm" asChild>
+                    <a href="https://www.helloasso.com/associations/the-brothers-handfight-international/evenements/inscriptions-enfants-bmf-championnat" target="_blank" rel="noopener noreferrer">
+                      <Users className="h-4 w-4 mr-2" />
+                      {bmfEvent.cta_kids}
+                    </a>
+                  </Button>
+              </div>
+            </Card>
+
             {/* Featured Summer Camp */}
             <Card className="p-4 shadow-lg bg-background border-primary border-2 shadow-primary/20 transition-all hover:scale-[1.01]">
               <div className="flex flex-col sm:flex-row items-center gap-4">

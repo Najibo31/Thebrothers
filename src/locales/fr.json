@@ -64,7 +64,7 @@
                 { "time": "12h30", "course": "JJB" },
                 { "time": "17h30 - 18h30", "course": "JJB Ados (Tous les groupes)" },
                 { "time": "18h30", "course": "JJB Adultes" },
-                { "time": "19h00", "course": "MMA Salle Makasi" }
+                { "time": "19h00", "course": "MMA Makasi Gym" }
             ],
             "tuesday": [
                 { "time": "12h30", "course": "Grappling" },
@@ -286,13 +286,13 @@
     },
     "gallery": {
         "title": "Galerie des Compétitions",
-        "subtitle": "Relive the highlights of our athletes on national and international podiums. These images testify to the technical excellence and fighting spirit that reign within Hand Fight.",
-        "alt_new1": "BJJ combat in competition",
-        "alt_new2": "Hand Fight athlete on podium",
-        "alt_new3": "Ground control technique",
-        "alt_new4": "Victory celebration",
-        "alt_new5": "Dynamic combat phase",
-        "alt_new6": "Hand Fight team gathered"
+        "subtitle": "Revivez les moments forts de nos athlètes sur les podiums nationaux et internationaux. Ces images témoignent de l'excellence technique et de l'esprit de combat qui règnent au sein de Hand Fight.",
+        "alt_new1": "Combat de JJB en compétition",
+        "alt_new2": "Athlète Hand Fight sur podium",
+        "alt_new3": "Technique de contrôle au sol",
+        "alt_new4": "Célébration de victoire",
+        "alt_new5": "Phase de combat dynamique",
+        "alt_new6": "Équipe Hand Fight réunie"
     },
     "events": {
         "title": "Événements & Actualités",
@@ -304,6 +304,29 @@
             "footer": "Venez nombreux !"
         },
         "upcoming_title": "Prochains Événements Majeurs",
+        "upcoming_bmf": {
+            "date": "Samedi 10 Octobre 2026",
+            "title": "BMF – Championnat JJB & Kids",
+            "location": "L'Infini, Le Gosier",
+            "cta_kids": "Inscription Kids",
+            "cta_adults": "Inscription Adultes",
+            "learn_more": "En savoir plus",
+            "modal": {
+                "title": "BMF 2026 — Le BJJ prend le contrôle du Gosier",
+                "intro": "Une journée entièrement dédiée au Jiu-Jitsu Brésilien, organisée par The Brothers Handfight International.",
+                "concept_title": "Concept BMF",
+                "concept_desc": "« Qui est le gros poisson ? » : Mettre face à face les combattants de leur catégorie de ceinture pour déterminer le meilleur. Technique, cardio et mental feront la différence.",
+                "kids_title": "Championnat Kids (à partir de 10h)",
+                "kids_desc": "Catégories U7 à U15. Inscription Kids : 10 €. Entrée public gratuite en journée.",
+                "adults_title": "Tournoi Adultes (à partir de 19h)",
+                "adults_desc": "Catégories par ceintures. Inscription Adultes : 15 €. Entrée public : 15 € Early Bird / 20 € après le 30 sept.",
+                "details_label": "Détails Catégories :",
+                "details": "Kids répartis par âge et poids (Galo à Super Pesado). Inscriptions ouvertes jusqu'au 30 septembre 2026.",
+                "location_label": "Lieu :",
+                "location": "Complexe L'Infini, Le Gosier (Espace événementiel et restauration)",
+                "footer": "Rejoignez-nous pour découvrir qui sera le gros poisson de sa catégorie ! 🥋🔥"
+            }
+        },
         "upcoming_summer": { 
           "date": "Juillet & Août 2026", 
           "title": "Summer Camp JJB — Gi & No-Gi", 

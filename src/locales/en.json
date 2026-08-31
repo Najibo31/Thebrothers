@@ -304,6 +304,29 @@
             "footer": "Join us!"
         },
         "upcoming_title": "Upcoming Major Events",
+        "upcoming_bmf": {
+            "date": "Saturday, October 10, 2026",
+            "title": "BMF – BJJ & Kids Championship",
+            "location": "L'Infini, Le Gosier",
+            "cta_kids": "Kids Registration",
+            "cta_adults": "Adult Registration",
+            "learn_more": "Learn more",
+            "modal": {
+                "title": "BMF 2026 — BJJ Takes Control of Gosier",
+                "intro": "A day entirely dedicated to Brazilian Jiu-Jitsu, organized by The Brothers Handfight International.",
+                "concept_title": "BMF Concept",
+                "concept_desc": "« Who is the big fish? »: Match fighters from their belt category to determine the best. Technique, cardio, and mindset will make the difference.",
+                "kids_title": "Kids Championship (from 10 AM)",
+                "kids_desc": "U7 to U15 categories. Kids Registration: 10 €. Free public entry during the day.",
+                "adults_title": "Adult Tournament (from 7 PM)",
+                "adults_desc": "Belt categories. Adult Registration: 15 €. Public entry: 15 € Early Bird / 20 € after Sept 30.",
+                "details_label": "Category Details:",
+                "details": "Kids sorted by age and weight (Galo to Super Pesado). Registrations open until September 30, 2026.",
+                "location_label": "Location:",
+                "location": "L'Infini Complex, Le Gosier (Event space and catering available)",
+                "footer": "Join us to find out who will be the big fish in their category! 🥋🔥"
+            }
+        },
         "upcoming_summer": { 
           "date": "July & August 2026", 
           "title": "BJJ Summer Camp — Gi & No-Gi", 
