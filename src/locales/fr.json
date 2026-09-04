@@ -90,8 +90,7 @@
             ],
             "saturday": [
                 { "time": "09h00 - 10h00", "course": "JJB Enfants" },
-                { "time": "10h00", "course": "JJB Kimono" },
-                { "time": "12h00", "course": "MMA" }
+                { "time": "10h00", "course": "JJB Kimono" }
             ]
         },
         "no_class": "Aucun cours prévu ce jour-là.",
@@ -110,16 +109,17 @@
         "cta_contact": "Questions ? WhatsApp",
         "cta_all_offers": "Voir Toutes les Offres",
         "categories": {
-            "kids": "Enfants (4-12 ans)",
+            "kids": "Enfants (Baby à 12 ans)",
             "students": "Étudiants & Jeunes (12-25 ans)",
             "adults_jjb": "Adultes – JJB",
             "mma_jjb": "MMA + JJB",
             "family_jjb": "Forfaits Famille - JJB"
         },
         "plans": {
+            "baby_jjb": { "name": "Baby JJB", "price": "35 € / mois", "description": "Pour les plus petits", "info": "Initiation ludique et motricité." },
             "adhesion": { "name": "JJB Enfants (1x/semaine)", "price": "35 € / mois", "description": "1 fois par semaine", "info": "Assurance et licence non incluses." },
             "kids_annual": { "name": "JJB Enfants (2x/semaine)", "price": "45 € / mois", "description": "Meilleur prix !", "info": "2 fois par semaine." },
-            "kids_premium": { "name": "JJB Enfants (2 enfants)", "price": "75 € / mois", "description": "", "info": "2 fois par semaine." },
+            "kids_premium": { "name": "JJB Enfants (2 enfants)", "price": "75 € / mois", "description": "Offre duo", "info": "2 fois par semaine." },
             "student_annual": { "name": "JJB Étudiant/Jeune – Annuel", "price": "55 € / mois", "info": "" },
             "student_info": "Tarif spécial pour les étudiants et jeunes. Un investissement accessible pour votre développement personnel.",
             "adult_1m": { "name": "1 Mois", "price": "90 € / mois", "info": "" },
@@ -133,7 +133,7 @@
             "mma_jjb_6m": { "name": "MMA + JJB – 6 Mois", "price": "140 € / mois", "info": "" },
             "mma_info": "Combinez les disciplines pour devenir un combattant complet avec un excellent rapport qualité-prix.",
             "family_2": { "name": "2 membres (1 adulte + 1 enfant)", "price": "100 € / mois", "info": "" },
-            "family_3": { "name": "3 membres (1 adulte + 2 enfants)", "price": "125 € / mois", "info": "" },
+            "family_3": { "name": "3 membres (2 Adultes + 1 enfant)", "price": "125 € / mois", "info": "" },
             "family_info": "Partagez votre passion en famille avec des tarifs préférentiels. Entraînez-vous ensemble et progressez ensemble !"
         }
     },
@@ -176,6 +176,7 @@
                 { "year": "2015-2019", "title": "Circuit Brésilien", "achievement": "Multiples titres", "description": "à São Paulo, Brasilia, Salvador et autres grandes compétitions nationales brésiliennes" }
             ],
             "palmares_depuis_2022": "DEPUIS 2022 - EUROPE & CARAÏBES",
+            "palmares_2026": { "year": "2026", "items": [{ "title": "Championnat de France", "result": "3e Place" }] },
             "palmares_2025": { "year": "2025", "items": [{ "title": "Open Toulon", "result": "1er No-Gi" }, { "title": "Open Caraibes", "result": "1er No-Gi" }] },
             "palmares_2024": { "year": "2024", "items": [{ "title": "Championnat de France", "result": "3e Place" }, { "title": "Multiples podiums en circuit national", "result": "" }] },
             "palmares_2023": { "year": "2023", "items": [{ "title": "AJP Rome", "result": "1er Gi & No-Gi" }, { "title": "AJP Paris", "result": "1er Gi & No-Gi" }] },

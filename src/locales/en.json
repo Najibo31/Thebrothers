@@ -90,8 +90,7 @@
             ],
             "saturday": [
                 { "time": "09:00 AM - 10:00 AM", "course": "BJJ Kids" },
-                { "time": "10:00 AM", "course": "BJJ Gi" },
-                { "time": "12:00 PM", "course": "MMA" }
+                { "time": "10:00 AM", "course": "BJJ Gi" }
             ]
         },
         "no_class": "No classes scheduled for this day.",
@@ -110,16 +109,17 @@
         "cta_contact": "Questions? WhatsApp",
         "cta_all_offers": "See All Offers",
         "categories": {
-            "kids": "Kids (4–12 years)",
+            "kids": "Kids (Baby to 12 years)",
             "students": "Students (12-25 years)",
             "adults_jjb": "Adultes – JJB",
             "mma_jjb": "MMA + JJB",
             "family_jjb": "Family Plans - BJJ"
         },
         "plans": {
+            "baby_jjb": { "name": "Baby BJJ", "price": "35 € / month", "description": "For the youngest", "info": "Playful initiation and motor skills." },
             "adhesion": { "name": "BJJ Kids (1x/week)", "price": "35 € / month", "description": "1 time a week", "info": "Insurance and license not included." },
             "kids_annual": { "name": "BJJ Kids (2x/week)", "price": "45 € / month", "description": "Best price!", "info": "2 times a week." },
-            "kids_premium": { "name": "BJJ Kids (2 children)", "price": "75 € / month", "description": "", "info": "2 times a week." },
+            "kids_premium": { "name": "BJJ Kids (2 children)", "price": "75 € / month", "description": "Duo offer", "info": "2 times a week." },
             "student_annual": { "name": "BJJ Student – Annual", "price": "55 € / month", "info": "" },
             "student_info": "Special rate for students. An accessible investment for your personal development.",
             "adult_1m": { "name": "1 Month", "price": "90 € / month", "info": "" },
@@ -133,7 +133,7 @@
             "mma_jjb_6m": { "name": "MMA + BJJ – 6 Months", "price": "140 € / month", "info": "" },
             "mma_info": "Combine disciplines to become a complete fighter with excellent value for money.",
             "family_2": { "name": "2 members (1 adult, 1 child)", "price": "100 € / month", "info": "" },
-            "family_3": { "name": "3 members (1 adult + 2 children)", "price": "125 € / month", "info": "" },
+            "family_3": { "name": "3 members (2 Adults + 1 child)", "price": "125 € / month", "info": "" },
             "family_info": "Share your passion with your family with our preferential rates. Train together and progress together!"
         }
     },
@@ -299,7 +299,7 @@
         "popup": {
             "title": "BJJ is back!",
             "subtitle": "September 2nd, 2026",
-            "description": "BJJ is back! Three sessions are organized on September 2nd at the Handfight club. The youngest ones (Baby) can start at 9:00 AM. They will be followed by children at 3:30 PM, then teenagers at 5:00 PM. On the program for everyone: learn, have fun, progress and excel in a spirit of discipline, respect, trust, friendship, progression, pleasure, handfight and mastery. Don't hesitate to come and try!",
+            "description": "BJJ is back! Three sessions are organized on September 2nd at the Handfight club. The youngest ones (Baby) can start at 9:00 AM. They will be followed by children at 15:30 PM, then teenagers at 5:00 PM. On the program for everyone: learn, have fun, progress and excel in a spirit of discipline, respect, trust, friendship, progression, pleasure, handfight and mastery. Don't hesitate to come and try!",
             "cta": "Book on WhatsApp",
             "footer": "Join us!"
         },

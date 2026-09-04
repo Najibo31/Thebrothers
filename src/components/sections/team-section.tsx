@@ -28,6 +28,12 @@ export default function TeamSection() {
   const champions = t('team.champions');
   const teamRecords = t('team.team_records');
 
+  const recentPalmares = [
+    handu.palmares_2026,
+    handu.palmares_2025,
+    handu.palmares_2024
+  ].filter(Boolean);
+
   return (
     <div id="full-team" className="space-y-24">
         {/* Handu Section */}
@@ -116,14 +122,14 @@ export default function TeamSection() {
                   </div>
               </div>
 
-              {/* Grid "Depuis 2022" */}
+              {/* Grid "Dernières années" */}
               <div className="space-y-8">
                   <div className="text-center">
                       <span className="inline-block px-4 py-1 text-sm font-semibold border-2 border-primary text-primary rounded-md">{handu.palmares_depuis_2022}</span>
                   </div>
 
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-                    {[handu.palmares_2025, handu.palmares_2024, handu.palmares_2023].map((record: any) => (
+                    {recentPalmares.map((record: any) => (
                         <div key={record.year} className="p-6 border-2 border-primary/50 rounded-lg text-center flex flex-col justify-center transition-all hover:border-primary">
                             <h4 className="font-bold text-2xl mb-4">{record.year}</h4>
                             <ul className="space-y-2">
@@ -138,16 +144,29 @@ export default function TeamSection() {
                     ))}
                   </div>
 
-                  <div className="p-6 border-2 border-primary/50 rounded-lg text-center transition-all hover:border-primary">
-                      <h4 className="font-bold text-2xl mb-4">{handu.palmares_2022.year}</h4>
-                      <ul className="space-y-2">
-                          {handu.palmares_2022.items.map((item: any, i: number) => (
-                              <li key={i} className="font-semibold">
-                                  {item.title}
-                                  {item.result && <span className="text-primary font-bold block"> {item.result}</span>}
-                              </li>
-                          ))}
-                      </ul>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                      <div className="p-6 border-2 border-primary/50 rounded-lg text-center transition-all hover:border-primary">
+                          <h4 className="font-bold text-2xl mb-4">{handu.palmares_2023.year}</h4>
+                          <ul className="space-y-2">
+                              {handu.palmares_2023.items.map((item: any, i: number) => (
+                                  <li key={i} className="font-semibold">
+                                      {item.title}
+                                      {item.result && <span className="text-primary font-bold block"> {item.result}</span>}
+                                  </li>
+                              ))}
+                          </ul>
+                      </div>
+                      <div className="p-6 border-2 border-primary/50 rounded-lg text-center transition-all hover:border-primary">
+                          <h4 className="font-bold text-2xl mb-4">{handu.palmares_2022.year}</h4>
+                          <ul className="space-y-2">
+                              {handu.palmares_2022.items.map((item: any, i: number) => (
+                                  <li key={i} className="font-semibold">
+                                      {item.title}
+                                      {item.result && <span className="text-primary font-bold block"> {item.result}</span>}
+                                  </li>
+                              ))}
+                          </ul>
+                      </div>
                   </div>
               </div>
             </div>

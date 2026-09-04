@@ -73,6 +73,14 @@ export default function SubscriptionsPage() {
 
                     <Section title={t('subscriptions.categories.kids')} icon={Star}>
                          <PlanCard 
+                            title={plans.baby_jjb.name}
+                            price={plans.baby_jjb.price}
+                            description={plans.baby_jjb.description}
+                            info={plans.baby_jjb.info}
+                            cta={t('subscriptions.cta_button')}
+                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/baby-jjb?utm_source=app_ha&utm_campaign=share_campaign_button&utm_medium=android"
+                        />
+                         <PlanCard 
                             title={plans.adhesion.name}
                             price={plans.adhesion.price}
                             description={plans.adhesion.description}
@@ -86,7 +94,7 @@ export default function SubscriptionsPage() {
                             description={plans.kids_annual.description}
                             info={plans.kids_annual.info}
                             cta={t('subscriptions.cta_button')}
-                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/enfants-jjb-4-ans-jusqu-a-12-ans-inclus-1"
+                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/enfants-jjb-4-ans-jusqu-a-12-ans-inclus-2-fois-par-semaine-2"
                             highlight
                         />
                          <PlanCard 
@@ -170,7 +178,7 @@ export default function SubscriptionsPage() {
                             price={plans.mma_only_1m.price}
                             info={plans.mma_info}
                             cta={t('subscriptions.cta_button')}
-                             href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/mma-mensuel"
+                             href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/mma-1-mois"
                         />
                     </Section>
 
@@ -187,7 +195,7 @@ export default function SubscriptionsPage() {
                             price={plans.family_3.price}
                             info={plans.family_info}
                             cta={t('subscriptions.cta_button')}
-                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/jjb-family-2membres"
+                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/family-3-1-adulte-et-2-enfants"
                         />
                     </Section>
 
