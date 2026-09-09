@@ -298,11 +298,11 @@
     "events": {
         "title": "Événements & Actualités",
         "popup": {
-            "title": "BMF Championnat",
-            "subtitle": "10 au 18 Octobre 2026",
-            "description": "Le complexe L'Infini au Gosier accueille le BMF ! Une semaine intense de Jiu-Jitsu Brésilien pour petits et grands. Qui sera le gros poisson de sa catégorie ? Inscriptions ouvertes pour Kids et Adultes.",
-            "cta": "S'inscrire Maintenant",
-            "footer": "Relevez le défi !"
+            "title": "C'est la rentrée du JJB !",
+            "subtitle": "Lundi 2 Septembre 2026",
+            "description": "Trois séances sont organisées le 2 septembre au club Handfight. Les plus petits (Baby) pourront s'initier dès 9h00. Ils seront suivis par les enfants à 15h30, puis par les adolescents à 17h00. Au programme pour tous : apprendre, s'amuser, progresser et se dépasser dans un esprit de discipline, respect, confiance, amitié, progression, plaisir, handfight et maîtrise. N'hésitez pas à venir essayer !",
+            "cta": "Réserver via WhatsApp",
+            "footer": "Venez essayer gratuitement !"
         },
         "upcoming_title": "Prochains Événements Majeurs",
         "upcoming_bmf": {

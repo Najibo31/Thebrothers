@@ -298,11 +298,11 @@
     "events": {
         "title": "Events & News",
         "popup": {
-            "title": "BMF Championship",
-            "subtitle": "Oct 10th to 18th, 2026",
-            "description": "L'Infini Complex in Le Gosier hosts the BMF! An intense week of Brazilian Jiu-Jitsu for all ages. Who will be the big fish in their category? Register now for Kids and Adults.",
-            "cta": "Register Now",
-            "footer": "Take the challenge!"
+            "title": "BJJ Back to School!",
+            "subtitle": "Monday, September 2nd, 2026",
+            "description": "Three sessions are organized on September 2nd at the Handfight club. The youngest (Baby) can start at 9:00 AM. They will be followed by children at 3:30 PM, then by teenagers at 5:00 PM. On the program for all: learn, have fun, progress and excel in a spirit of discipline, respect, confidence, friendship, progression, pleasure, handfight and mastery. Don't hesitate to come and try!",
+            "cta": "Book via WhatsApp",
+            "footer": "Come and try for free!"
         },
         "upcoming_title": "Upcoming Major Events",
         "upcoming_bmf": {
