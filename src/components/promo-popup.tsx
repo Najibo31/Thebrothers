@@ -10,7 +10,7 @@ import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carouse
 import Autoplay from 'embla-carousel-autoplay';
 import Image from 'next/image';
 
-const POPUP_STORAGE_KEY = 'handfight-promo-popup-timestamp-v4';
+const POPUP_STORAGE_KEY = 'handfight-promo-popup-timestamp-v5';
 const COOLDOWN_HOURS = 5;
 
 export default function PromoPopup() {
@@ -37,9 +37,9 @@ export default function PromoPopup() {
   if (!isOpen) return null;
 
   const images = [
-    "https://i.postimg.cc/sx5V02vh/Flyer-Baby.jpg",
-    "https://i.postimg.cc/LXvGsxHG/Gemini-Generated-Image-mdymdpmdymdpmdym.jpg",
-    "https://i.postimg.cc/d1ng05qz/Gemini-Generated-Image-ay4zteay4zteay4z.jpg"
+    "https://i.postimg.cc/05Kd471c/Whats-App-Image-2026-09-08-at-18-36-55.jpg",
+    "https://i.postimg.cc/sfG9L5CK/Whats-App-Image-2026-09-08-at-18-37-26.jpg",
+    "https://i.postimg.cc/sx5V02vh/Flyer-Baby.jpg"
   ];
 
   return (
@@ -59,7 +59,7 @@ export default function PromoPopup() {
           <X className="h-6 w-6" />
         </Button>
 
-        {/* Image Carousel - Ratio 4:3 for Portrait images visibility */}
+        {/* Image Carousel - Ratio 4:3 with object-contain to fit portrait images without masking text */}
         <div className="relative w-full aspect-[4/3] bg-black">
           <Carousel
             plugins={[

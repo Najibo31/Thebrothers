@@ -86,7 +86,7 @@ export default function SubscriptionsPage() {
                             description={plans.adhesion.description}
                             info={plans.adhesion.info}
                             cta={t('subscriptions.cta_button')}
-                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/enfants-jjb-4-ans-jusqu-a-12-ans-inclus-1"
+                            href="https://www.helloasso.com/associations/the-brothers-handfight-international/adhesions/enfants-jjb-4-ans-jusqu-a-12-ans-inclus-1-semaine"
                         />
                          <PlanCard 
                             title={plans.kids_annual.name}

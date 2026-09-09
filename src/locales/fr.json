@@ -117,7 +117,7 @@
         },
         "plans": {
             "baby_jjb": { "name": "Baby JJB", "price": "35 € / mois", "description": "Pour les plus petits", "info": "Initiation ludique et motricité." },
-            "adhesion": { "name": "JJB Enfants (1x/semaine)", "price": "35 € / mois", "description": "1 fois par semaine", "info": "Assurance et licence non incluses." },
+            "adhesion": { "name": "JJB Enfants (4–12 ans)", "price": "35 € / mois", "description": "1 fois par semaine", "info": "Assurance et licence non incluses." },
             "kids_annual": { "name": "JJB Enfants (2x/semaine)", "price": "45 € / mois", "description": "Meilleur prix !", "info": "2 fois par semaine." },
             "kids_premium": { "name": "JJB Enfants (2 enfants)", "price": "75 € / mois", "description": "Offre duo", "info": "2 fois par semaine." },
             "student_annual": { "name": "JJB Étudiant/Jeune – Annuel", "price": "55 € / mois", "info": "" },
@@ -298,15 +298,15 @@
     "events": {
         "title": "Événements & Actualités",
         "popup": {
-            "title": "C'est la rentrée du JJB !",
-            "subtitle": "2 Septembre 2026",
-            "description": "C'est la rentrée du JJB ! Trois séances sont organisées le 2 septembre au club Handfight. Les plus petits (Baby) pourront s'initier dès 9h00. Ils seront suivis par les enfants à 15h30, puis par les adolescents à 17h00. Au programme pour tous : apprendre, s'amuser, progresser et se dépasser dans un esprit de discipline, respect, confiance, amitié, progression, plaisir, handfight et maîtrise. N'hésitez pas à venir essayer !",
-            "cta": "Réserver sur WhatsApp",
-            "footer": "Venez nombreux !"
+            "title": "BMF Championnat",
+            "subtitle": "10 au 18 Octobre 2026",
+            "description": "Le complexe L'Infini au Gosier accueille le BMF ! Une semaine intense de Jiu-Jitsu Brésilien pour petits et grands. Qui sera le gros poisson de sa catégorie ? Inscriptions ouvertes pour Kids et Adultes.",
+            "cta": "S'inscrire Maintenant",
+            "footer": "Relevez le défi !"
         },
         "upcoming_title": "Prochains Événements Majeurs",
         "upcoming_bmf": {
-            "date": "Samedi 10 Octobre 2026",
+            "date": "Du 10 au 18 Octobre 2026",
             "title": "BMF – Championnat JJB & Kids",
             "location": "L'Infini, Le Gosier",
             "cta_kids": "Inscription Kids",

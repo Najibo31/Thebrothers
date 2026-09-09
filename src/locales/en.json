@@ -117,7 +117,7 @@
         },
         "plans": {
             "baby_jjb": { "name": "Baby BJJ", "price": "35 € / month", "description": "For the youngest", "info": "Playful initiation and motor skills." },
-            "adhesion": { "name": "BJJ Kids (1x/week)", "price": "35 € / month", "description": "1 time a week", "info": "Insurance and license not included." },
+            "adhesion": { "name": "BJJ Kids (4–12 years)", "price": "35 € / month", "description": "1 time a week", "info": "Insurance and license not included." },
             "kids_annual": { "name": "BJJ Kids (2x/week)", "price": "45 € / month", "description": "Best price!", "info": "2 times a week." },
             "kids_premium": { "name": "BJJ Kids (2 children)", "price": "75 € / month", "description": "Duo offer", "info": "2 times a week." },
             "student_annual": { "name": "BJJ Student – Annual", "price": "55 € / month", "info": "" },
@@ -176,6 +176,7 @@
                 { "year": "2015-2019", "title": "Circuit Brazilian", "achievement": "Multiple titles", "description": "in São Paulo, Brasilia, Salvador and other major Brazilian national competitions" }
             ],
             "palmares_depuis_2022": "SINCE 2022 - EUROPE & CARAÏBES",
+            "palmares_2026": { "year": "2026", "items": [{ "title": "French Championship", "result": "3rd Place" }] },
             "palmares_2025": { "year": "2025", "items": [{ "title": "Open Toulon", "result": "1st No-Gi" }, { "title": "Open Caribbean", "result": "1st No-Gi" }] },
             "palmares_2024": { "year": "2024", "items": [{ "title": "French Championship", "result": "3rd Place" }, { "title": "Multiple podiums in national circuit", "result": "" }] },
             "palmares_2023": { "year": "2023", "items": [{ "title": "AJP Rome", "result": "1st Gi & No-Gi" }, { "title": "AJP Paris", "result": "1st Gi & No-Gi" }] },
@@ -297,15 +298,15 @@
     "events": {
         "title": "Events & News",
         "popup": {
-            "title": "BJJ is back!",
-            "subtitle": "September 2nd, 2026",
-            "description": "BJJ is back! Three sessions are organized on September 2nd at the Handfight club. The youngest ones (Baby) can start at 9:00 AM. They will be followed by children at 15:30 PM, then teenagers at 5:00 PM. On the program for everyone: learn, have fun, progress and excel in a spirit of discipline, respect, trust, friendship, progression, pleasure, handfight and mastery. Don't hesitate to come and try!",
-            "cta": "Book on WhatsApp",
-            "footer": "Join us!"
+            "title": "BMF Championship",
+            "subtitle": "Oct 10th to 18th, 2026",
+            "description": "L'Infini Complex in Le Gosier hosts the BMF! An intense week of Brazilian Jiu-Jitsu for all ages. Who will be the big fish in their category? Register now for Kids and Adults.",
+            "cta": "Register Now",
+            "footer": "Take the challenge!"
         },
         "upcoming_title": "Upcoming Major Events",
         "upcoming_bmf": {
-            "date": "Saturday, October 10, 2026",
+            "date": "October 10th to 18th, 2026",
             "title": "BMF – BJJ & Kids Championship",
             "location": "L'Infini, Le Gosier",
             "cta_kids": "Kids Registration",
