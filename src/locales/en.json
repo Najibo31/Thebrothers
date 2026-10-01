@@ -24,10 +24,10 @@
         "welcome_title": "Welcome to Hand Fight",
         "welcome_text": "Our club, led by international champion Handu (black belt since 2019), trains athletes of all ages in the disciplines of Brazilian Jiu-Jitsu (BJJ) and Mixed Martial Arts (MMA). Based in Le Gosier, Guadeloupe, since 2020, we offer a professional training environment where discipline, respect, and excellence are at the heart of our teaching approach.",
         "mission_title": "Our Mission",
-        "mission1": "Train complete athletes technical & mental",
-        "mission2": "Develop confidence and respect",
+        "mission1": "Technical & Mental training",
+        "mission2": "Confidence building",
         "mission3": "Competition preparation",
-        "mission4": "Martial values and strong community"
+        "mission4": "Martial values & respect"
     },
     "disciplines": {
         "title": "Our Disciplines",
@@ -72,7 +72,7 @@
                 { "time": "06:00 PM", "course": "Grappling" }
             ],
             "wednesday": [
-                { "time": "09:00 AM - 10:00 AM", "course": "Baby BJJ" },
+                { "time": "10:00 AM - 11:00 AM", "course": "Baby BJJ" },
                 { "time": "12:30 PM", "course": "BJJ Gi" },
                 { "time": "03:30 PM - 04:30 PM", "course": "BJJ Kids" },
                 { "time": "04:30 PM - 05:30 PM", "course": "BJJ Teens (Beginners)" },
@@ -94,6 +94,9 @@
             ]
         },
         "no_class": "No classes scheduled for this day.",
+        "terre_de_haut_title": "Terre-de-Haut Training",
+        "terre_de_haut_text": "Saturday 11 AM or Saturday 4 PM — BJJ Kimono",
+        "terre_de_haut_contact": "Contact Boris on WhatsApp",
         "trial_title": "Free trial session!",
         "trial_text": "Contact us via WhatsApp to book your first session with no commitment.",
         "trial_button": "Book via WhatsApp"
@@ -110,7 +113,7 @@
         "cta_all_offers": "See All Offers",
         "categories": {
             "kids": "Kids (Baby to 12 years)",
-            "students": "Students (12-25 years)",
+            "students": "Students & Youths (12-25 years)",
             "adults_jjb": "Adultes – JJB",
             "mma_jjb": "MMA + JJB",
             "family_jjb": "Family Plans - BJJ"
@@ -120,8 +123,8 @@
             "adhesion": { "name": "BJJ Kids (4–12 years)", "price": "35 € / month", "description": "1 time a week", "info": "Insurance and license not included." },
             "kids_annual": { "name": "BJJ Kids (2x/week)", "price": "45 € / month", "description": "Best price!", "info": "2 times a week." },
             "kids_premium": { "name": "BJJ Kids (2 children)", "price": "75 € / month", "description": "Duo offer", "info": "2 times a week." },
-            "student_annual": { "name": "BJJ Student – Annual", "price": "55 € / month", "info": "" },
-            "student_info": "Special rate for students. An accessible investment for your personal development.",
+            "student_annual": { "name": "BJJ Student/Youth – Annual", "price": "55 € / month", "info": "" },
+            "student_info": "Special rate for students and youths. An accessible investment for your personal development.",
             "adult_1m": { "name": "1 Month", "price": "90 € / month", "info": "" },
             "adult_6m": { "name": "6 Months", "price": "75 € / month", "info": "" },
             "adult_annual": { "name": "Annual", "price": "65 € / month", "description": "Most advantageous offer!", "info": "" },
@@ -132,7 +135,7 @@
             "mma_jjb_annual": { "name": "MMA + BJJ – Annual", "price": "115 € / month", "info": "" },
             "mma_jjb_6m": { "name": "MMA + BJJ – 6 Months", "price": "140 € / month", "info": "" },
             "mma_info": "Combine disciplines to become a complete fighter with excellent value for money.",
-            "family_2": { "name": "2 members (1 adult, 1 child)", "price": "100 € / month", "info": "" },
+            "family_2": { "name": "2 members (1 adult + 1 child)", "price": "100 € / month", "info": "" },
             "family_3": { "name": "3 members (2 Adults + 1 child)", "price": "125 € / month", "info": "" },
             "family_info": "Share your passion with your family with our preferential rates. Train together and progress together!"
         }
@@ -175,7 +178,7 @@
                 { "year": "2017", "title": "European IBJJF No-Gi", "achievement": "3rd Place", "description": "Bronze medal at the No-Gi European Championship" },
                 { "year": "2015-2019", "title": "Circuit Brazilian", "achievement": "Multiple titles", "description": "in São Paulo, Brasilia, Salvador and other major Brazilian national competitions" }
             ],
-            "palmares_depuis_2022": "SINCE 2022 - EUROPE & CARAÏBES",
+            "palmares_depuis_2022": "SINCE 2022 - EUROPE & CARIBBEAN",
             "palmares_2026": { "year": "2026", "items": [{ "title": "French Championship", "result": "3rd Place" }] },
             "palmares_2025": { "year": "2025", "items": [{ "title": "Open Toulon", "result": "1st No-Gi" }, { "title": "Open Caribbean", "result": "1st No-Gi" }] },
             "palmares_2024": { "year": "2024", "items": [{ "title": "French Championship", "result": "3rd Place" }, { "title": "Multiple podiums in national circuit", "result": "" }] },
@@ -266,7 +269,7 @@
                 "alt": "Jessica Gabriel",
                 "ai_hint": "female jjb champion",
                 "records": [
-                    { "achievement": "European Champion 2026 (Lisbonne)", "description": "Gold Medal in Brazilian Jiu-Jitsu" },
+                    { "achievement": "European Champion 2026 (Lisbon)", "description": "Gold Medal in Brazilian Jiu-Jitsu" },
                     { "achievement": "Elite Competitor", "description": "Known for her technique and determination" }
                 ]
             },
@@ -298,80 +301,76 @@
     "events": {
         "title": "Events & News",
         "popup": {
-            "title": "BJJ Back to School!",
-            "subtitle": "Monday, September 2nd, 2026",
-            "description": "Three sessions are organized on September 2nd at the Handfight club. The youngest (Baby) can start at 9:00 AM. They will be followed by children at 3:30 PM, then by teenagers at 5:00 PM. On the program for all: learn, have fun, progress and excel in a spirit of discipline, respect, confidence, friendship, progression, pleasure, handfight and mastery. Don't hesitate to come and try!",
-            "cta": "Book via WhatsApp",
-            "footer": "Come and try for free!"
+            "title": "ACTION VACATIONS WITH HANDFIGHT!",
+            "subtitle": "October Stages 2026",
+            "description": "Learn, progress, and prepare for your next competitions with HandFight! Toussaint Stage from Oct 19-23 (from age 4) and Prepa Open Caraïbes from Oct 26-31 (from age 6). Two weeks to forge your mental and be ready to give your best on the mat!",
+            "cta": "Sign Up (HelloAsso)",
+            "footer": "Take advantage of the vacations to level up!"
         },
         "upcoming_title": "Upcoming Major Events",
         "upcoming_bmf": {
-            "date": "October 10th to 18th, 2026",
-            "title": "BMF – BJJ & Kids Championship",
-            "location": "L'Infini, Le Gosier",
-            "cta_kids": "Kids Registration",
+            "date": "October 7th, 2026",
+            "title": "BMF – BJJ Adults Championship",
+            "location": "L'Instant, Les Abymes",
             "cta_adults": "Adult Registration",
             "learn_more": "Learn more",
             "modal": {
-                "title": "BMF 2026 — BJJ Takes Control of Gosier",
-                "intro": "A day entirely dedicated to Brazilian Jiu-Jitsu, organized by The Brothers Handfight International.",
+                "title": "BMF 2026 — BJJ at L'Instant",
+                "intro": "A day dedicated to Brazilian Jiu-Jitsu for Adults, organized by The Brothers Handfight International.",
                 "concept_title": "BMF Concept",
                 "concept_desc": "« Who is the big fish? »: Match fighters from their belt category to determine the best. Technique, cardio, and mindset will make the difference.",
-                "kids_title": "Kids Championship (from 10 AM)",
-                "kids_desc": "U7 to U15 categories. Kids Registration: 10 €. Free public entry during the day.",
                 "adults_title": "Adult Tournament (from 7 PM)",
                 "adults_desc": "Belt categories. Adult Registration: 15 €. Public entry: 15 € Early Bird / 20 € after Sept 30.",
                 "details_label": "Category Details:",
-                "details": "Kids sorted by age and weight (Galo to Super Pesado). Registrations open until September 30, 2026.",
+                "details": "Fighters sorted by belt category. Registrations open until September 30, 2026.",
                 "location_label": "Location:",
-                "location": "L'Infini Complex, Le Gosier (Event space and catering available)",
+                "location": "L'Instant, Rue Rolière Arnoux, Les Abymes (7F3F+XXP)",
                 "footer": "Join us to find out who will be the big fish in their category! 🥋🔥"
             }
         },
         "upcoming_summer": { 
-          "date": "July & August 2026", 
-          "title": "BJJ Summer Camp — Gi & No-Gi", 
+          "date": "October 19th - 31st, 2026", 
+          "title": "October Vacation Stages", 
           "location": "Le Gosier, Guadeloupe", 
           "cta": "Sign Up (HelloAsso)",
           "learn_more": "Pedagogical Guide",
           "modal": {
-            "title": "Summer Camp 2026 — Pedagogical Guide",
-            "languages_label": "Languages:",
-            "languages": "French · English · Portuguese · Spanish",
-            "weeks_label": "Available weeks:",
-            "weeks": ["July 6-10", "July 13-17", "August 3-7", "August 24-28"],
-            "hours_label": "Hours:",
-            "hours": "8:45 AM ➔ 3:30 PM",
-            "program_label": "Program by age:",
+            "title": "October Vacation Stages — Pedagogical Guide",
+            "languages_label": "HandFight Club:",
+            "languages": "Le Gosier, Guadeloupe",
+            "weeks_label": "Available sessions:",
+            "weeks": ["Oct 19-23: Toussaint Stage", "Oct 26-31: Prepa Open Caraïbes"],
+            "hours_label": "Public:",
+            "hours": "From age 4 (Stage) / From age 6 (Prepa)",
+            "program_label": "Stage Program (Oct 19-23):",
             "program": [
               "4-7 years: Games & Discovery",
-              "8-12 years: Technique & Team",
-              "13-16 years: Training & Techniques"
+              "8-12 years: Technique & Team Spirit",
+              "13-16 years: Training & Improvement"
             ],
-            "rates_label": "Rates (per week):",
+            "rates_label": "Open Prepa (Oct 26-31):",
             "rates": [
-              "Member: 100 €",
-              "Non-member: 120 €"
+              "Technical improvement & strategy",
+              "Sparring & Mental strengthening"
             ],
-            "footer": "Certified & experienced instructors. 1 theme per day — Sport, Culture & Languages.",
+            "footer": "Sign up now to take it to the next level!",
             "rhythm_title": "Daily Structure",
             "rhythm": [
-                "09:00 - 09:30 : Welcome + warm-up",
-                "09:30 - 10:30 : Differentiated workshop",
-                "10:30 - 10:45 : Water break",
-                "10:45 - 12:00 : Drills & parcours",
-                "12:00 - 13:00 : Lunch + quiet time",
-                "13:00 - 14:00 : Cross-activity",
-                "14:15 - 15:15 : Sparring & challenges",
-                "15:15 - 15:30 : Wrap-up & departure"
+                "Welcome & Dynamic warm-up",
+                "Differentiated technical workshops",
+                "Specific drills & tracks",
+                "Lunch & Quiet time",
+                "Combat situations",
+                "Sparring & Mental challenges",
+                "Wrap-up & Review"
             ]
           }
         },
-        "upcoming1": { "date": "September 2nd, 2026", "title": "BJJ Initiation Day", "location": "Handfight Club" },
+        "upcoming1": { "date": "Oct 10-18, 2026", "title": "BMF Week", "location": "Le Gosier" },
         "upcoming2": { "date": "", "title": "", "location": "" },
-        "upcoming4": { "date": "Early November 2026", "title": "Caribbean Open", "location": "Guadeloupe" },
+        "upcoming4": { "date": "Nov 1, 2026", "title": "Open Caribbean", "location": "Guadeloupe" },
         "news_title": "Latest News",
-        "news_france": { "date": "May 2026", "title": "Participants selected for the French Championship", "description": "Brice, Thory, Emma, Hugo, Jo and Handuilo have been selected to participate in the French Championship." },
+        "news_france": { "date": "November 2026", "title": "Open Caribbean - Registration Open", "description": "The major BJJ event in the Caribbean is back! Get ready to face the best Adult Gi fighters. Registration via CFJJB." },
         "connect_button": "Contact us on WhatsApp",
         "no_news": "No recent news."
     },
@@ -393,7 +392,7 @@
         "map_alt": "Kids from the BJJ club"
     },
     "footer": {
-        "association": "Association loi 1901",
+        "association": "Association law 1901",
         "hq": "Headquarters: Ancien Royal Riviera, 97190 Le Gosier",
         "copyright": "Hand Fight — All rights reserved.",
         "editor": "Editorial manager",

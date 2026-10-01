@@ -1,17 +1,13 @@
-
 'use client';
 
 import React, { useState, useEffect } from 'react';
 import { useI18n } from '@/contexts/i18n-provider';
 import { Button } from '@/components/ui/button';
-import { X, Calendar } from 'lucide-react';
+import { X, Calendar, Rocket, Star } from 'lucide-react';
 import { cn } from '@/lib/utils';
-import { Carousel, CarouselContent, CarouselItem } from '@/components/ui/carousel';
-import Autoplay from 'embla-carousel-autoplay';
-import Image from 'next/image';
 
-const POPUP_STORAGE_KEY = 'handfight-promo-popup-timestamp-v5';
-const COOLDOWN_HOURS = 5;
+const POPUP_STORAGE_KEY = 'handfight-promo-popup-timestamp-v8';
+const COOLDOWN_HOURS = 1;
 
 export default function PromoPopup() {
   const { t } = useI18n();
@@ -36,12 +32,6 @@ export default function PromoPopup() {
 
   if (!isOpen) return null;
 
-  const images = [
-    "https://i.postimg.cc/05Kd471c/Whats-App-Image-2026-09-08-at-18-36-55.jpg",
-    "https://i.postimg.cc/sfG9L5CK/Whats-App-Image-2026-09-08-at-18-37-26.jpg",
-    "https://i.postimg.cc/sx5V02vh/Flyer-Baby.jpg"
-  ];
-
   return (
     <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-in fade-in duration-300">
       <div 
@@ -54,61 +44,42 @@ export default function PromoPopup() {
           variant="ghost" 
           size="icon" 
           onClick={() => setIsOpen(false)}
-          className="absolute right-2 top-2 z-20 bg-black/20 hover:bg-black/40 text-white rounded-full"
+          className="absolute right-2 top-2 z-20 hover:bg-secondary text-muted-foreground rounded-full"
         >
           <X className="h-6 w-6" />
         </Button>
 
-        {/* Image Carousel - Ratio 4:3 with object-contain to fit portrait images without masking text */}
-        <div className="relative w-full aspect-[4/3] bg-black">
-          <Carousel
-            plugins={[
-              Autoplay({
-                delay: 3000,
-              }),
-            ]}
-            className="w-full h-full"
-          >
-            <CarouselContent>
-              {images.map((src, index) => (
-                <CarouselItem key={index}>
-                  <div className="relative w-full h-full aspect-[4/3]">
-                    <Image
-                      src={src}
-                      alt="Rentrée JJB Initiation"
-                      fill
-                      className="object-contain"
-                      priority={index === 0}
-                    />
-                  </div>
-                </CarouselItem>
-              ))}
-            </CarouselContent>
-          </Carousel>
-        </div>
-
-        <div className="p-6 text-center space-y-4">
-          <div className="space-y-2">
-            <h2 className="text-3xl font-headline text-primary leading-tight uppercase tracking-wide">
+        <div className="p-8 text-center space-y-6">
+          <div className="flex justify-center">
+            <div className="p-3 bg-primary/10 rounded-full">
+              <Star className="h-10 w-10 text-primary animate-pulse" />
+            </div>
+          </div>
+          
+          <div className="space-y-3">
+            <h2 className="text-3xl md:text-4xl font-headline text-primary leading-tight uppercase tracking-wide">
               {t('events.popup.title')}
             </h2>
-            <div className="flex items-center justify-center gap-2 text-muted-foreground font-semibold">
-              <Calendar className="h-5 w-5 text-primary" />
+            <div className="flex items-center justify-center gap-2 text-foreground font-bold text-lg">
+              <Calendar className="h-6 w-6 text-primary" />
               <span>{t('events.popup.subtitle')}</span>
             </div>
           </div>
 
-          <p className="text-sm text-muted-foreground leading-relaxed">
-            {t('events.popup.description')}
-          </p>
+          <div className="bg-secondary/30 p-4 rounded-lg border border-primary/10">
+            <p className="text-sm md:text-base text-muted-foreground leading-relaxed whitespace-pre-line">
+              {t('events.popup.description')}
+            </p>
+          </div>
           
           <div className="pt-2 flex flex-col gap-3">
-            <Button size="lg" className="w-full font-bold shadow-lg shadow-primary/20" asChild onClick={() => setIsOpen(false)}>
-              <a href="https://wa.me/590691275351" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="w-full font-bold shadow-lg shadow-primary/20 text-lg py-6" asChild onClick={() => setIsOpen(false)}>
+              <a href="https://www.helloasso.com/associations/the-brothers-handfight-international" target="_blank" rel="noopener noreferrer">
+                <Rocket className="mr-2 h-6 w-6" />
                 {t('events.popup.cta')}
               </a>
             </Button>
-            <p className="text-xs text-muted-foreground italic">
+            <p className="text-xs text-muted-foreground italic font-medium">
                 {t('events.popup.footer')}
             </p>
           </div>

@@ -72,7 +72,7 @@
                 { "time": "18h00", "course": "Grappling" }
             ],
             "wednesday": [
-                { "time": "09h00 - 10h00", "course": "Baby JJB" },
+                { "time": "10h00 - 11h00", "course": "Baby JJB" },
                 { "time": "12h30", "course": "JJB Kimono" },
                 { "time": "15h30 - 16h30", "course": "JJB Enfants" },
                 { "time": "16h30 - 17h30", "course": "JJB Ados (Débutants)" },
@@ -94,6 +94,9 @@
             ]
         },
         "no_class": "Aucun cours prévu ce jour-là.",
+        "terre_de_haut_title": "Entraînement Terre-de-Haut",
+        "terre_de_haut_text": "Samedi 11h ou Samedi 16h — JJB Kimono",
+        "terre_de_haut_contact": "Contactez Boris sur WhatsApp",
         "trial_title": "Séance d'essai gratuite !",
         "trial_text": "Contactez-nous via WhatsApp pour réserver votre première séance sans engagement.",
         "trial_button": "Réserver via WhatsApp"
@@ -298,80 +301,76 @@
     "events": {
         "title": "Événements & Actualités",
         "popup": {
-            "title": "C'est la rentrée du JJB !",
-            "subtitle": "Lundi 2 Septembre 2026",
-            "description": "Trois séances sont organisées le 2 septembre au club Handfight. Les plus petits (Baby) pourront s'initier dès 9h00. Ils seront suivis par les enfants à 15h30, puis par les adolescents à 17h00. Au programme pour tous : apprendre, s'amuser, progresser et se dépasser dans un esprit de discipline, respect, confiance, amitié, progression, plaisir, handfight et maîtrise. N'hésitez pas à venir essayer !",
-            "cta": "Réserver via WhatsApp",
-            "footer": "Venez essayer gratuitement !"
+            "title": "VACANCES À L’ACTION AVEC HANDFIGHT !",
+            "subtitle": "Stages Octobre 2026",
+            "description": "Apprendre, progresser, se perfectionner et préparer tes prochaines compétitions avec HandFight ! Stage Toussaint du 19 au 23 oct (dès 4 ans) et Prépa Open Caraïbes du 26 au 31 oct (dès 6 ans). Deux semaines pour forger ton mental et être prêt à donner le meilleur de toi-même sur le tatami !",
+            "cta": "S'inscrire (HelloAsso)",
+            "footer": "Profite des vacances pour passer au niveau supérieur !"
         },
         "upcoming_title": "Prochains Événements Majeurs",
         "upcoming_bmf": {
-            "date": "Du 10 au 18 Octobre 2026",
-            "title": "BMF – Championnat JJB & Kids",
-            "location": "L'Infini, Le Gosier",
-            "cta_kids": "Inscription Kids",
+            "date": "7 Octobre 2026",
+            "title": "BMF – Championnat JJB Adultes",
+            "location": "L'Instant, Les Abymes",
             "cta_adults": "Inscription Adultes",
             "learn_more": "En savoir plus",
             "modal": {
-                "title": "BMF 2026 — Le BJJ prend le contrôle du Gosier",
-                "intro": "Une journée entièrement dédiée au Jiu-Jitsu Brésilien, organisée par The Brothers Handfight International.",
+                "title": "BMF 2026 — Le BJJ à l'Instant",
+                "intro": "Une journée dédiée au Jiu-Jitsu Brésilien Adultes, organisée par The Brothers Handfight International.",
                 "concept_title": "Concept BMF",
                 "concept_desc": "« Qui est le gros poisson ? » : Mettre face à face les combattants de leur catégorie de ceinture pour déterminer le meilleur. Technique, cardio et mental feront la différence.",
-                "kids_title": "Championnat Kids (à partir de 10h)",
-                "kids_desc": "Catégories U7 à U15. Inscription Kids : 10 €. Entrée public gratuite en journée.",
                 "adults_title": "Tournoi Adultes (à partir de 19h)",
                 "adults_desc": "Catégories par ceintures. Inscription Adultes : 15 €. Entrée public : 15 € Early Bird / 20 € après le 30 sept.",
                 "details_label": "Détails Catégories :",
-                "details": "Kids répartis par âge et poids (Galo à Super Pesado). Inscriptions ouvertes jusqu'au 30 septembre 2026.",
+                "details": "Combattants répartis par catégorie de ceinture. Inscriptions ouvertes jusqu'au 30 septembre 2026.",
                 "location_label": "Lieu :",
-                "location": "Complexe L'Infini, Le Gosier (Espace événementiel et restauration)",
+                "location": "L'Instant, Rue Rolière Arnoux, Les Abymes (7F3F+XXP)",
                 "footer": "Rejoignez-nous pour découvrir qui sera le gros poisson de sa catégorie ! 🥋🔥"
             }
         },
         "upcoming_summer": { 
-          "date": "Juillet & Août 2026", 
-          "title": "Summer Camp JJB — Gi & No-Gi", 
+          "date": "19 au 31 Octobre 2026", 
+          "title": "Stages Vacances Toussaint", 
           "location": "Le Gosier, Guadeloupe", 
           "cta": "S'inscrire (HelloAsso)",
           "learn_more": "Guide Pédagogique",
           "modal": {
-            "title": "Summer Camp 2026 — Guide Pédagogique",
-            "languages_label": "Langues :",
-            "languages": "Français · Anglais · Portugais · Espagnol",
-            "weeks_label": "Semaines disponibles :",
-            "weeks": ["6-10 Juillet", "13-17 Juillet", "3-7 Août", "24-28 Août"],
-            "hours_label": "Horaires :",
-            "hours": "8h45 ➔ 15h30",
-            "program_label": "Programme par âge :",
+            "title": "Stages Vacances Octobre — Guide Pédagogique",
+            "languages_label": "HandFight Club :",
+            "languages": "Le Gosier, Guadeloupe",
+            "weeks_label": "Sessions disponibles :",
+            "weeks": ["19-23 Oct : Stage Toussaint", "26-31 Oct : Prépa Open Caraïbes"],
+            "hours_label": "Public :",
+            "hours": "Dès 4 ans (Stage) / Dès 6 ans (Prépa)",
+            "program_label": "Programme du Stage (19-23 oct) :",
             "program": [
               "4-7 ans : Jeux & Découverte",
-              "8-12 ans : Technique & Équipe",
-              "13-16 ans : Entraînement & Techniques"
+              "8-12 ans : Technique & Esprit d'équipe",
+              "13-16 ans : Entraînement & Perfectionnement"
             ],
-            "rates_label": "Tarifs (par semaine) :",
+            "rates_label": "Prépa Open (26-31 oct) :",
             "rates": [
-              "Adhérent : 100 €",
-              "Externe : 120 €"
+              "Perfectionnement technique & stratégie",
+              "Mises en situation & Renforcement mental"
             ],
-            "footer": "Encadrants gradés & expérimentés. 1 thème par jour — Sport, Culture & Langues.",
-            "rhythm_title": "Structure Type de la Journée",
+            "footer": "Inscris-toi dès maintenant pour passer au niveau supérieur !",
+            "rhythm_title": "Structure Type",
             "rhythm": [
-                "09:00 - 09:30 : Accueil + échauffement ludique",
-                "09:30 - 10:30 : Atelier technique différencié",
-                "10:30 - 10:45 : Pause hydratation",
-                "10:45 - 12:00 : Jeux de préhension & parcours",
-                "12:00 - 13:00 : Repas + temps calme",
-                "13:00 - 14:00 : Activité transversale",
-                "14:15 - 15:15 : Mise en situation & défis",
-                "15:15 - 15:30 : Retour au calme & bilan"
+                "Accueil & Échauffement dynamique",
+                "Ateliers techniques différenciés",
+                "Drills & Parcours spécifiques",
+                "Repas & Temps calme",
+                "Mises en situation de combat",
+                "Sparring & Défis mentaux",
+                "Retour au calme & Bilan"
             ]
           }
         },
-        "upcoming1": { "date": "2 Septembre 2026", "title": "Journée d'Initiation JJB", "location": "Handfight Club" },
+        "upcoming1": { "date": "10 au 18 Octobre 2026", "title": "BMF Week", "location": "Le Gosier" },
         "upcoming2": { "date": "", "title": "", "location": "" },
-        "upcoming4": { "date": "Début Novembre 2026", "title": "Open Caraïbes", "location": "Guadeloupe" },
+        "upcoming4": { "date": "1 Novembre 2026", "title": "Open Caraïbes", "location": "Guadeloupe" },
         "news_title": "Dernières Actualités",
-        "news_france": { "date": "Mai 2026", "title": "Participants sélectionnés pour le Championnat de France", "description": "Brice, Thory, Emma, Hugo, Jo et Handuilo ont été sélectionnés pour participer au Championnat de France." },
+        "news_france": { "date": "Novembre 2026", "title": "Open Caraïbes - Inscriptions Ouvertes", "description": "L'événement majeur du JJB dans la Caraïbe revient ! Préparez-vous à affronter les meilleurs combattants Gi Adultes. Inscriptions via CFJJB." },
         "connect_button": "Nous contacter sur WhatsApp",
         "no_news": "Aucune actualité récente."
     },

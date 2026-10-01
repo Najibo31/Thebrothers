@@ -1,12 +1,13 @@
+
 'use client';
 import { useI18n } from '@/contexts/i18n-provider';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Phone } from 'lucide-react';
+import { Phone, Anchor } from 'lucide-react';
 
 export default function PlanningSection() {
-  const { t, locale } = useI18n();
+  const { t } = useI18n();
   
   const schedule = t('planning.schedule');
 
@@ -59,6 +60,21 @@ export default function PlanningSection() {
             ))}
           </Tabs>
         </Card>
+
+        {/* Terre-de-Haut Section */}
+        <div className="mt-12 p-8 bg-primary/5 rounded-2xl border-2 border-primary/20 shadow-lg text-center transform hover:scale-[1.02] transition-transform duration-300">
+            <div className="flex justify-center mb-4">
+                <Anchor className="h-12 w-12 text-primary animate-pulse" />
+            </div>
+            <h3 className="text-2xl font-headline text-primary mb-3">{t('planning.terre_de_haut_title')}</h3>
+            <p className="text-xl font-bold mb-4">{t('planning.terre_de_haut_text')}</p>
+            <p className="text-muted-foreground mb-6 font-semibold">{t('planning.terre_de_haut_contact')}</p>
+            <Button asChild size="lg" className="shadow-primary/30 shadow-xl">
+                <a href="https://wa.me/590690351346" target="_blank" rel="noopener noreferrer">
+                    <Phone className="mr-2 h-5 w-5" /> WhatsApp Boris
+                </a>
+            </Button>
+        </div>
 
         <div className="text-center mt-12 p-6 bg-background rounded-lg border border-dashed">
             <h3 className="text-xl font-semibold mb-2">{t('planning.trial_title')}</h3>

@@ -1,15 +1,16 @@
+
 'use client';
 import { useI18n } from '@/contexts/i18n-provider';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Calendar, Newspaper, Star, Clock, Users, ShieldCheck, Phone, Info, Link as LinkIcon, Globe, MapPin, CheckCircle, Award } from 'lucide-react';
+import { Calendar, Newspaper, Star, Clock, Users, ShieldCheck, Phone, Info, Link as LinkIcon, Globe, MapPin, CheckCircle, Award, Rocket } from 'lucide-react';
 import { Dialog, DialogContent, DialogTrigger, DialogHeader, DialogTitle, DialogDescription } from '@/components/ui/dialog';
 import { ScrollArea } from '@/components/ui/scroll-area';
 
 export default function EventsSection() {
   const { t } = useI18n();
 
-  const summerCamp = t('events.upcoming_summer');
+  const stageEvent = t('events.upcoming_summer');
   const bmfEvent = t('events.upcoming_bmf');
 
   const otherEvents = [
@@ -18,7 +19,12 @@ export default function EventsSection() {
   ].filter(event => event.title && event.title.length > 0);
 
   const latestNews = [
-    { date: t('events.news_france.date'), title: t('events.news_france.title'), description: t('events.news_france.description') },
+    { 
+      date: t('events.news_france.date'), 
+      title: t('events.news_france.title'), 
+      description: t('events.news_france.description'),
+      link: "https://cfjjb.com/competitions/info/a88f9c46-d026-42cd-a228-d65d005cb29f/adulte-gi"
+    },
   ].filter(item => item.date && item.title && item.title.length > 0);
 
   return (
@@ -62,7 +68,7 @@ export default function EventsSection() {
                     <DialogContent className="max-w-2xl bg-background border-primary h-[80vh] flex flex-col p-0 overflow-hidden">
                       <DialogHeader className="p-6 border-b flex-shrink-0">
                         <DialogTitle className="text-2xl font-headline text-primary">{bmfEvent.modal.title}</DialogTitle>
-                        <DialogDescription className="sr-only">BMF Championship details for October 10th 2026</DialogDescription>
+                        <DialogDescription className="sr-only">BMF Championship details</DialogDescription>
                       </DialogHeader>
                       <ScrollArea className="flex-1 w-full">
                         <div className="p-6 space-y-8 pr-10">
@@ -74,16 +80,10 @@ export default function EventsSection() {
                              <p className="text-sm text-muted-foreground">{bmfEvent.modal.concept_desc}</p>
                            </div>
 
-                           {/* Programs Grid */}
-                           <div className="grid sm:grid-cols-2 gap-6">
-                              <div className="space-y-2 p-4 bg-secondary/20 rounded-lg border">
-                                <h5 className="font-bold text-primary">{bmfEvent.modal.kids_title}</h5>
-                                <p className="text-sm">{bmfEvent.modal.kids_desc}</p>
-                              </div>
-                              <div className="space-y-2 p-4 bg-secondary/20 rounded-lg border">
-                                <h5 className="font-bold text-primary">{bmfEvent.modal.adults_title}</h5>
-                                <p className="text-sm">{bmfEvent.modal.adults_desc}</p>
-                              </div>
+                           {/* Program */}
+                           <div className="space-y-2 p-4 bg-secondary/20 rounded-lg border">
+                             <h5 className="font-bold text-primary">{bmfEvent.modal.adults_title}</h5>
+                             <p className="text-sm">{bmfEvent.modal.adults_desc}</p>
                            </div>
 
                            {/* Technical Details */}
@@ -115,27 +115,20 @@ export default function EventsSection() {
                       {bmfEvent.cta_adults}
                     </a>
                   </Button>
-                  
-                  <Button variant="secondary" size="sm" asChild>
-                    <a href="https://www.helloasso.com/associations/the-brothers-handfight-international/evenements/inscriptions-enfants-bmf-championnat" target="_blank" rel="noopener noreferrer">
-                      <Users className="h-4 w-4 mr-2" />
-                      {bmfEvent.cta_kids}
-                    </a>
-                  </Button>
               </div>
             </Card>
 
-            {/* Featured Summer Camp */}
+            {/* Featured Stage Event */}
             <Card className="p-4 shadow-lg bg-background border-primary border-2 shadow-primary/20 transition-all hover:scale-[1.01]">
               <div className="flex flex-col sm:flex-row items-center gap-4">
                 <div className="p-4 rounded-lg flex-shrink-0 bg-primary text-white">
-                   <Star className="h-8 w-8" />
+                   <Rocket className="h-8 w-8" />
                 </div>
                 <div className="flex-grow text-center sm:text-left">
-                  <p className="text-sm font-semibold text-primary">{summerCamp.date}</p>
-                  <h4 className="font-bold text-xl">{summerCamp.title}</h4>
+                  <p className="text-sm font-semibold text-primary">{stageEvent.date}</p>
+                  <h4 className="font-bold text-xl">{stageEvent.title}</h4>
                   <p className="text-sm text-muted-foreground flex items-center justify-center sm:justify-start gap-1">
-                    <MapPin className="h-3 w-3" /> {summerCamp.location}
+                    <MapPin className="h-3 w-3" /> {stageEvent.location}
                   </p>
                 </div>
               </div>
@@ -145,33 +138,33 @@ export default function EventsSection() {
                     <DialogTrigger asChild>
                       <Button variant="outline" size="sm">
                         <Info className="h-4 w-4 mr-2" />
-                        {summerCamp.learn_more}
+                        {stageEvent.learn_more}
                       </Button>
                     </DialogTrigger>
                     <DialogContent className="max-w-2xl bg-background border-primary h-[80vh] flex flex-col p-0 overflow-hidden">
                       <DialogHeader className="p-6 border-b flex-shrink-0">
-                        <DialogTitle className="text-2xl font-headline text-primary">{summerCamp.modal.title}</DialogTitle>
-                        <DialogDescription className="sr-only">Pedagogical guide for Summer Camp 2026</DialogDescription>
+                        <DialogTitle className="text-2xl font-headline text-primary">{stageEvent.modal.title}</DialogTitle>
+                        <DialogDescription className="sr-only">Pedagogical guide for Stage Toussaint</DialogDescription>
                       </DialogHeader>
                       <ScrollArea className="flex-1 w-full">
                         <div className="p-6 space-y-8 pr-10">
                            {/* Info Grid */}
                            <div className="grid sm:grid-cols-2 gap-6">
                               <div className="space-y-2">
-                                <h5 className="font-bold flex items-center gap-2"><Globe className="h-4 w-4 text-primary" /> {summerCamp.modal.languages_label}</h5>
-                                <p className="text-sm text-muted-foreground">{summerCamp.modal.languages}</p>
+                                <h5 className="font-bold flex items-center gap-2"><MapPin className="h-4 w-4 text-primary" /> {stageEvent.modal.languages_label}</h5>
+                                <p className="text-sm text-muted-foreground">{stageEvent.modal.languages}</p>
                               </div>
                               <div className="space-y-2">
-                                <h5 className="font-bold flex items-center gap-2"><Clock className="h-4 w-4 text-primary" /> {summerCamp.modal.hours_label}</h5>
-                                <p className="text-sm text-muted-foreground">{summerCamp.modal.hours}</p>
+                                <h5 className="font-bold flex items-center gap-2"><Users className="h-4 w-4 text-primary" /> {stageEvent.modal.hours_label}</h5>
+                                <p className="text-sm text-muted-foreground">{stageEvent.modal.hours}</p>
                               </div>
                            </div>
 
                            {/* Weeks */}
                            <div className="space-y-3">
-                              <h5 className="font-bold border-b pb-1">{summerCamp.modal.weeks_label}</h5>
-                              <div className="grid grid-cols-2 gap-2">
-                                {summerCamp.modal.weeks.map((week: string, i: number) => (
+                              <h5 className="font-bold border-b pb-1">{stageEvent.modal.weeks_label}</h5>
+                              <div className="grid grid-cols-1 gap-2">
+                                {stageEvent.modal.weeks.map((week: string, i: number) => (
                                   <div key={i} className="text-sm p-2 bg-secondary/30 rounded border">{week}</div>
                                 ))}
                               </div>
@@ -179,9 +172,9 @@ export default function EventsSection() {
 
                            {/* Program */}
                            <div className="space-y-3">
-                              <h5 className="font-bold border-b pb-1">{summerCamp.modal.program_label}</h5>
+                              <h5 className="font-bold border-b pb-1">{stageEvent.modal.program_label}</h5>
                               <ul className="space-y-2">
-                                {summerCamp.modal.program.map((item: string, i: number) => (
+                                {stageEvent.modal.program.map((item: string, i: number) => (
                                   <li key={i} className="text-sm flex items-start gap-2">
                                     <CheckCircle className="h-4 w-4 text-primary mt-0.5" />
                                     <span>{item}</span>
@@ -192,28 +185,19 @@ export default function EventsSection() {
 
                             {/* Daily Schedule */}
                             <div className="space-y-3">
-                              <h5 className="font-bold border-b pb-1">{summerCamp.modal.rhythm_title}</h5>
-                              <div className="space-y-1">
-                                {summerCamp.modal.rhythm.map((item: string, i: number) => (
-                                  <div key={i} className="text-sm flex justify-between p-1 hover:bg-secondary/20">
-                                    {item}
+                              <h5 className="font-bold border-b pb-1">{stageEvent.modal.rates_label}</h5>
+                              <div className="space-y-2">
+                                {stageEvent.modal.rates.map((rate: string, i: number) => (
+                                  <div key={i} className="text-sm flex items-center gap-2">
+                                    <Star className="h-4 w-4 text-primary" />
+                                    <span>{rate}</span>
                                   </div>
                                 ))}
                               </div>
                            </div>
 
-                           {/* Rates */}
-                           <div className="space-y-3">
-                              <h5 className="font-bold border-b pb-1">{summerCamp.modal.rates_label}</h5>
-                              <div className="grid grid-cols-2 gap-4">
-                                {summerCamp.modal.rates.map((rate: string, i: number) => (
-                                  <div key={i} className="font-bold text-primary">{rate}</div>
-                                ))}
-                              </div>
-                           </div>
-
                            <div className="p-4 bg-primary/5 rounded-lg border border-primary/20">
-                              <p className="text-sm italic text-muted-foreground text-center">{summerCamp.modal.footer}</p>
+                              <p className="text-sm italic text-muted-foreground text-center">{stageEvent.modal.footer}</p>
                            </div>
                         </div>
                       </ScrollArea>
@@ -222,8 +206,8 @@ export default function EventsSection() {
 
                   <Button variant="default" size="sm" asChild>
                     <a href="https://www.helloasso.com/associations/the-brothers-handfight-international" target="_blank" rel="noopener noreferrer">
-                      <LinkIcon className="h-4 w-4 mr-2" />
-                      {summerCamp.cta}
+                      <Rocket className="h-4 w-4 mr-2" />
+                      {stageEvent.cta}
                     </a>
                   </Button>
               </div>
@@ -256,8 +240,14 @@ export default function EventsSection() {
                   <p className="text-sm font-semibold text-primary">{news.date}</p>
                   <CardTitle>{news.title}</CardTitle>
                 </CardHeader>
-                <CardContent>
+                <CardContent className="space-y-4">
                   <CardDescription className="text-muted-foreground text-base">{news.description}</CardDescription>
+                  <Button variant="outline" size="sm" className="w-full sm:w-auto" asChild>
+                    <a href="https://cfjjb.com/competitions/info/a88f9c46-d026-42cd-a228-d65d005cb29f/adulte-gi" target="_blank" rel="noopener noreferrer">
+                      <LinkIcon className="h-4 w-4 mr-2" />
+                      S'inscrire à l'Open Caraïbes
+                    </a>
+                  </Button>
                 </CardContent>
               </Card>
             )) : (
