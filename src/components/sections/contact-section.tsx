@@ -67,11 +67,11 @@ export default function ContactSection() {
 
             <div className="relative h-96 lg:h-full">
                  <Image 
-                    src="https://i.postimg.cc/fb3Pcm8n/enfant.jpg"
+                    src="https://i.postimg.cc/c4y8GD5Z/Whats-App-Image-2026-10-01-at-19-03-45.jpg"
                     alt={t('contact.map_alt')}
                     fill
                     className="object-cover"
-                    data-ai-hint="enfants club jjb"
+                    data-ai-hint="entrainement jjb"
                 />
             </div>
         </Card>
