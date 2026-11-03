@@ -1,3 +1,4 @@
+
 'use client';
 
 import React, { useState, useEffect } from 'react';
@@ -6,8 +7,8 @@ import { Button } from '@/components/ui/button';
 import { X, Calendar, Rocket, Star } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
-const POPUP_STORAGE_KEY = 'handfight-promo-popup-timestamp-v8';
-const COOLDOWN_HOURS = 1;
+const POPUP_STORAGE_KEY = 'handfight-promo-popup-timestamp-v9';
+const COOLDOWN_HOURS = 24;
 
 export default function PromoPopup() {
   const { t } = useI18n();
@@ -15,6 +16,12 @@ export default function PromoPopup() {
 
   useEffect(() => {
     const checkPopup = () => {
+      // Check if there is actual content to show
+      const title = t('events.popup.title');
+      if (!title || title === 'events.popup.title' || title.trim() === '') {
+        return;
+      }
+
       const lastShown = localStorage.getItem(POPUP_STORAGE_KEY);
       const now = Date.now();
       
@@ -28,7 +35,7 @@ export default function PromoPopup() {
     };
 
     checkPopup();
-  }, []);
+  }, [t]);
 
   if (!isOpen) return null;
 
@@ -60,10 +67,12 @@ export default function PromoPopup() {
             <h2 className="text-3xl md:text-4xl font-headline text-primary leading-tight uppercase tracking-wide">
               {t('events.popup.title')}
             </h2>
+            {t('events.popup.subtitle') && (
             <div className="flex items-center justify-center gap-2 text-foreground font-bold text-lg">
               <Calendar className="h-6 w-6 text-primary" />
               <span>{t('events.popup.subtitle')}</span>
             </div>
+            )}
           </div>
 
           <div className="bg-secondary/30 p-4 rounded-lg border border-primary/10">

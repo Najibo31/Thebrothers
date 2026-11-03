@@ -23,7 +23,6 @@ export default function EventsSection() {
       date: t('events.news_france.date'), 
       title: t('events.news_france.title'), 
       description: t('events.news_france.description'),
-      link: "https://cfjjb.com/competitions/info/a88f9c46-d026-42cd-a228-d65d005cb29f/adulte-gi"
     },
   ].filter(item => item.date && item.title && item.title.length > 0);
 
@@ -43,6 +42,7 @@ export default function EventsSection() {
             </h3>
             
             {/* Featured BMF Event */}
+            {bmfEvent && bmfEvent.title && (
             <Card className="p-4 shadow-lg bg-background border-primary border-2 shadow-primary/20 transition-all hover:scale-[1.01]">
               <div className="flex flex-col sm:flex-row items-center gap-4">
                 <div className="p-4 rounded-lg flex-shrink-0 bg-primary text-white">
@@ -65,44 +65,44 @@ export default function EventsSection() {
                         {bmfEvent.learn_more}
                       </Button>
                     </DialogTrigger>
-                    <DialogContent className="max-w-2xl bg-background border-primary h-[80vh] flex flex-col p-0 overflow-hidden">
+                    <DialogContent className="max-w-2xl bg-background border-primary flex flex-col p-0 overflow-hidden max-h-[90vh]">
                       <DialogHeader className="p-6 border-b flex-shrink-0">
-                        <DialogTitle className="text-2xl font-headline text-primary">{bmfEvent.modal.title}</DialogTitle>
+                        <DialogTitle className="text-2xl font-headline text-primary">{bmfEvent.modal?.title}</DialogTitle>
                         <DialogDescription className="sr-only">BMF Championship details</DialogDescription>
                       </DialogHeader>
-                      <ScrollArea className="flex-1 w-full">
+                      <ScrollArea className="flex-1 w-full min-h-0">
                         <div className="p-6 space-y-8 pr-10">
-                           <p className="text-muted-foreground leading-relaxed">{bmfEvent.modal.intro}</p>
+                           <p className="text-muted-foreground leading-relaxed">{bmfEvent.modal?.intro}</p>
 
                            {/* Concept */}
                            <div className="space-y-2">
-                             <h5 className="font-bold flex items-center gap-2"><Star className="h-4 w-4 text-primary" /> {bmfEvent.modal.concept_title}</h5>
-                             <p className="text-sm text-muted-foreground">{bmfEvent.modal.concept_desc}</p>
+                             <h5 className="font-bold flex items-center gap-2"><Star className="h-4 w-4 text-primary" /> {bmfEvent.modal?.concept_title}</h5>
+                             <p className="text-sm text-muted-foreground">{bmfEvent.modal?.concept_desc}</p>
                            </div>
 
                            {/* Program */}
                            <div className="space-y-2 p-4 bg-secondary/20 rounded-lg border">
-                             <h5 className="font-bold text-primary">{bmfEvent.modal.adults_title}</h5>
-                             <p className="text-sm">{bmfEvent.modal.adults_desc}</p>
+                             <h5 className="font-bold text-primary">{bmfEvent.modal?.adults_title}</h5>
+                             <p className="text-sm">{bmfEvent.modal?.adults_desc}</p>
                            </div>
 
                            {/* Technical Details */}
                            <div className="space-y-3">
-                              <h5 className="font-bold border-b pb-1">{bmfEvent.modal.details_label}</h5>
-                              <p className="text-sm text-muted-foreground">{bmfEvent.modal.details}</p>
+                              <h5 className="font-bold border-b pb-1">{bmfEvent.modal?.details_label}</h5>
+                              <p className="text-sm text-muted-foreground">{bmfEvent.modal?.details}</p>
                            </div>
 
                            {/* Practical Info */}
                            <div className="space-y-3">
-                              <h5 className="font-bold border-b pb-1">{bmfEvent.modal.location_label}</h5>
-                              <p className="text-sm text-muted-foreground">{bmfEvent.modal.location}</p>
+                              <h5 className="font-bold border-b pb-1">{bmfEvent.modal?.location_label}</h5>
+                              <p className="text-sm text-muted-foreground">{bmfEvent.modal?.location}</p>
                               <div className="mt-4 p-3 bg-primary/10 border border-primary/30 rounded text-center">
-                                <p className="font-bold text-primary">{bmfEvent.modal.deadline}</p>
+                                <p className="font-bold text-primary">{bmfEvent.modal?.deadline}</p>
                               </div>
                            </div>
 
                            <div className="p-4 bg-secondary/30 rounded-lg">
-                              <p className="text-sm italic font-semibold text-center">{bmfEvent.modal.footer}</p>
+                              <p className="text-sm italic font-semibold text-center">{bmfEvent.modal?.footer}</p>
                            </div>
                         </div>
                       </ScrollArea>
@@ -117,8 +117,10 @@ export default function EventsSection() {
                   </Button>
               </div>
             </Card>
+            )}
 
             {/* Featured Stage Event */}
+            {stageEvent && stageEvent.title && (
             <Card className="p-4 shadow-lg bg-background border-primary border-2 shadow-primary/20 transition-all hover:scale-[1.01]">
               <div className="flex flex-col sm:flex-row items-center gap-4">
                 <div className="p-4 rounded-lg flex-shrink-0 bg-primary text-white">
@@ -141,26 +143,27 @@ export default function EventsSection() {
                         {stageEvent.learn_more}
                       </Button>
                     </DialogTrigger>
-                    <DialogContent className="max-w-2xl bg-background border-primary h-[80vh] flex flex-col p-0 overflow-hidden">
+                    <DialogContent className="max-w-2xl bg-background border-primary flex flex-col p-0 overflow-hidden max-h-[90vh]">
                       <DialogHeader className="p-6 border-b flex-shrink-0">
-                        <DialogTitle className="text-2xl font-headline text-primary">{stageEvent.modal.title}</DialogTitle>
-                        <DialogDescription className="sr-only">Pedagogical guide for Stage Toussaint</DialogDescription>
+                        <DialogTitle className="text-2xl font-headline text-primary">{stageEvent.modal?.title}</DialogTitle>
+                        <DialogDescription className="sr-only">Pedagogical guide details</DialogDescription>
                       </DialogHeader>
-                      <ScrollArea className="flex-1 w-full">
+                      <ScrollArea className="flex-1 w-full min-h-0">
                         <div className="p-6 space-y-8 pr-10">
                            {/* Info Grid */}
                            <div className="grid sm:grid-cols-2 gap-6">
                               <div className="space-y-2">
-                                <h5 className="font-bold flex items-center gap-2"><MapPin className="h-4 w-4 text-primary" /> {stageEvent.modal.languages_label}</h5>
-                                <p className="text-sm text-muted-foreground">{stageEvent.modal.languages}</p>
+                                <h5 className="font-bold flex items-center gap-2"><MapPin className="h-4 w-4 text-primary" /> {stageEvent.modal?.languages_label}</h5>
+                                <p className="text-sm text-muted-foreground">{stageEvent.modal?.languages}</p>
                               </div>
                               <div className="space-y-2">
-                                <h5 className="font-bold flex items-center gap-2"><Users className="h-4 w-4 text-primary" /> {stageEvent.modal.hours_label}</h5>
-                                <p className="text-sm text-muted-foreground">{stageEvent.modal.hours}</p>
+                                <h5 className="font-bold flex items-center gap-2"><Users className="h-4 w-4 text-primary" /> {stageEvent.modal?.hours_label}</h5>
+                                <p className="text-sm text-muted-foreground">{stageEvent.modal?.hours}</p>
                               </div>
                            </div>
 
                            {/* Weeks */}
+                           {stageEvent.modal?.weeks && stageEvent.modal.weeks.length > 0 && (
                            <div className="space-y-3">
                               <h5 className="font-bold border-b pb-1">{stageEvent.modal.weeks_label}</h5>
                               <div className="grid grid-cols-1 gap-2">
@@ -169,8 +172,10 @@ export default function EventsSection() {
                                 ))}
                               </div>
                            </div>
+                           )}
 
                            {/* Program */}
+                           {stageEvent.modal?.program && stageEvent.modal.program.length > 0 && (
                            <div className="space-y-3">
                               <h5 className="font-bold border-b pb-1">{stageEvent.modal.program_label}</h5>
                               <ul className="space-y-2">
@@ -182,8 +187,10 @@ export default function EventsSection() {
                                 ))}
                               </ul>
                            </div>
+                           )}
 
                             {/* Daily Schedule */}
+                            {stageEvent.modal?.rates && stageEvent.modal.rates.length > 0 && (
                             <div className="space-y-3">
                               <h5 className="font-bold border-b pb-1">{stageEvent.modal.rates_label}</h5>
                               <div className="space-y-2">
@@ -195,9 +202,10 @@ export default function EventsSection() {
                                 ))}
                               </div>
                            </div>
+                           )}
 
                            <div className="p-4 bg-primary/5 rounded-lg border border-primary/20">
-                              <p className="text-sm italic text-muted-foreground text-center">{stageEvent.modal.footer}</p>
+                              <p className="text-sm italic text-muted-foreground text-center">{stageEvent.modal?.footer}</p>
                            </div>
                         </div>
                       </ScrollArea>
@@ -212,6 +220,7 @@ export default function EventsSection() {
                   </Button>
               </div>
             </Card>
+            )}
 
             {/* Other events */}
             {otherEvents.map((event, index) => (
@@ -226,6 +235,13 @@ export default function EventsSection() {
                 </div>
               </Card>
             ))}
+
+            {/* No Events Placeholder */}
+            {!bmfEvent?.title && !stageEvent?.title && otherEvents.length === 0 && (
+              <Card className="p-8 text-center border-dashed">
+                <p className="text-muted-foreground italic">{t('events.no_news')}</p>
+              </Card>
+            )}
           </div>
 
           {/* Latest News */}
@@ -242,12 +258,7 @@ export default function EventsSection() {
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <CardDescription className="text-muted-foreground text-base">{news.description}</CardDescription>
-                  <Button variant="outline" size="sm" className="w-full sm:w-auto" asChild>
-                    <a href="https://cfjjb.com/competitions/info/a88f9c46-d026-42cd-a228-d65d005cb29f/adulte-gi" target="_blank" rel="noopener noreferrer">
-                      <LinkIcon className="h-4 w-4 mr-2" />
-                      S'inscrire à l'Open Caraïbes
-                    </a>
-                  </Button>
+                  {/* Optionnel: bouton s'il y a un lien spécifique aux actus */}
                 </CardContent>
               </Card>
             )) : (

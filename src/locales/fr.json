@@ -301,78 +301,60 @@
     "events": {
         "title": "Événements & Actualités",
         "popup": {
-            "title": "VACANCES À L’ACTION AVEC HANDFIGHT !",
-            "subtitle": "Stages Octobre 2026",
-            "description": "Apprendre, progresser, se perfectionner et préparer tes prochaines compétitions avec HandFight ! Stage Toussaint du 19 au 23 oct (dès 4 ans) et Prépa Open Caraïbes du 26 au 31 oct (dès 6 ans). Deux semaines pour forger ton mental et être prêt à donner le meilleur de toi-même sur le tatami !",
-            "cta": "S'inscrire (HelloAsso)",
-            "footer": "Profite des vacances pour passer au niveau supérieur !"
+            "title": "",
+            "subtitle": "",
+            "description": "",
+            "cta": "",
+            "footer": ""
         },
-        "upcoming_title": "Prochains Événements Majeurs",
+        "upcoming_title": "Événements à Venir",
         "upcoming_bmf": {
-            "date": "7 Octobre 2026",
-            "title": "BMF – Championnat JJB Adultes",
-            "location": "L'Instant, Les Abymes",
-            "cta_adults": "Inscription Adultes",
-            "learn_more": "En savoir plus",
+            "date": "",
+            "title": "",
+            "location": "",
+            "cta_adults": "",
+            "learn_more": "",
             "modal": {
-                "title": "BMF 2026 — Le BJJ à l'Instant",
-                "intro": "Une journée dédiée au Jiu-Jitsu Brésilien Adultes, organisée par The Brothers Handfight International.",
-                "concept_title": "Concept BMF",
-                "concept_desc": "« Qui est le gros poisson ? » : Mettre face à face les combattants de leur catégorie de ceinture pour déterminer le meilleur. Technique, cardio et mental feront la différence.",
-                "adults_title": "Tournoi Adultes (à partir de 19h)",
-                "adults_desc": "Catégories par ceintures. Inscription Adultes : 15 €. Entrée public : 15 € Early Bird / 20 € après le 30 sept.",
-                "details_label": "Détails Catégories :",
-                "details": "Combattants répartis par catégorie de ceinture. Inscriptions ouvertes jusqu'au 30 septembre 2026.",
-                "location_label": "Lieu :",
-                "location": "L'Instant, Rue Rolière Arnoux, Les Abymes (7F3F+XXP)",
-                "footer": "Rejoignez-nous pour découvrir qui sera le gros poisson de sa catégorie ! 🥋🔥"
+                "title": "",
+                "intro": "",
+                "concept_title": "",
+                "concept_desc": "",
+                "adults_title": "",
+                "adults_desc": "",
+                "details_label": "",
+                "details": "",
+                "location_label": "",
+                "location": "",
+                "footer": ""
             }
         },
         "upcoming_summer": { 
-          "date": "19 au 31 Octobre 2026", 
-          "title": "Stages Vacances Toussaint", 
-          "location": "Le Gosier, Guadeloupe", 
-          "cta": "S'inscrire (HelloAsso)",
-          "learn_more": "Guide Pédagogique",
+          "date": "", 
+          "title": "", 
+          "location": "", 
+          "cta": "",
+          "learn_more": "",
           "modal": {
-            "title": "Stages Vacances Octobre — Guide Pédagogique",
-            "languages_label": "HandFight Club :",
-            "languages": "Le Gosier, Guadeloupe",
-            "weeks_label": "Sessions disponibles :",
-            "weeks": ["19-23 Oct : Stage Toussaint", "26-31 Oct : Prépa Open Caraïbes"],
-            "hours_label": "Public :",
-            "hours": "Dès 4 ans (Stage) / Dès 6 ans (Prépa)",
-            "program_label": "Programme du Stage (19-23 oct) :",
-            "program": [
-              "4-7 ans : Jeux & Découverte",
-              "8-12 ans : Technique & Esprit d'équipe",
-              "13-16 ans : Entraînement & Perfectionnement"
-            ],
-            "rates_label": "Prépa Open (26-31 oct) :",
-            "rates": [
-              "Perfectionnement technique & stratégie",
-              "Mises en situation & Renforcement mental"
-            ],
-            "footer": "Inscris-toi dès maintenant pour passer au niveau supérieur !",
-            "rhythm_title": "Structure Type",
-            "rhythm": [
-                "Accueil & Échauffement dynamique",
-                "Ateliers techniques différenciés",
-                "Drills & Parcours spécifiques",
-                "Repas & Temps calme",
-                "Mises en situation de combat",
-                "Sparring & Défis mentaux",
-                "Retour au calme & Bilan"
-            ]
+            "title": "",
+            "languages_label": "",
+            "languages": "",
+            "weeks_label": "",
+            "weeks": [],
+            "hours_label": "",
+            "hours": "",
+            "program_label": "",
+            "program": [],
+            "rates_label": "",
+            "rates": [],
+            "footer": ""
           }
         },
-        "upcoming1": { "date": "10 au 18 Octobre 2026", "title": "BMF Week", "location": "Le Gosier" },
-        "upcoming2": { "date": "", "title": "", "location": "" },
-        "upcoming4": { "date": "1 Novembre 2026", "title": "Open Caraïbes", "location": "Guadeloupe" },
+        "upcoming1": { "date": "", "title": "", "location": "" },
+        "upcoming4": { "date": "", "title": "", "location": "" },
         "news_title": "Dernières Actualités",
-        "news_france": { "date": "Novembre 2026", "title": "Open Caraïbes - Inscriptions Ouvertes", "description": "L'événement majeur du JJB dans la Caraïbe revient ! Préparez-vous à affronter les meilleurs combattants Gi Adultes. Inscriptions via CFJJB." },
+        "news_france": { "date": "", "title": "", "description": "" },
         "connect_button": "Nous contacter sur WhatsApp",
-        "no_news": "Aucune actualité récente."
+        "no_news": "Aucune actualité récente. Restez connectés pour les prochains événements !"
     },
     "contact": {
         "title": "Contactez-Nous",
