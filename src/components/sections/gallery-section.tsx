@@ -1,6 +1,8 @@
 'use client';
 import { useI18n } from '@/contexts/i18n-provider';
 import Image from 'next/image';
+import { Button } from '@/components/ui/button';
+import { ExternalLink } from 'lucide-react';
 
 export default function GallerySection() {
   const { t } = useI18n();
@@ -21,6 +23,7 @@ export default function GallerySection() {
             <h2 className="text-4xl md:text-5xl font-headline text-primary">{t('gallery.title')}</h2>
             <p className="mt-4 text-lg text-muted-foreground max-w-3xl mx-auto">{t('gallery.subtitle')}</p>
         </div>
+        
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-6xl mx-auto">
             {images.map((image, index) => (
                 <div key={index} className="relative overflow-hidden rounded-lg shadow-lg group bg-black aspect-[4/3]">
@@ -34,6 +37,15 @@ export default function GallerySection() {
                     <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                 </div>
             ))}
+        </div>
+
+        <div className="mt-12 text-center">
+            <Button size="lg" className="shadow-lg hover:shadow-primary/30 transition-all" asChild>
+                <a href="https://luniversprod.pixieset.com/opendescaraibes2026/" target="_blank" rel="noopener noreferrer">
+                    <ExternalLink className="mr-2 h-5 w-5" />
+                    {t('gallery.view_full_album')}
+                </a>
+            </Button>
         </div>
       </div>
     </section>
