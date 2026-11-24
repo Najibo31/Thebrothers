@@ -1,3 +1,4 @@
+
 {
     "nav": {
         "about": "Notre Club",
@@ -175,7 +176,7 @@
                 { "year": "2019", "title": "Fortaleza Open IBJJF", "achievement": "1er Place Absoluto", "description": "Victoire toutes catégories au prestigieux tournoi de l'IBJJF au Brésil" },
                 { "year": "2018", "title": "Salvador Fall Open", "achievement": "1er Place Médio", "description": "Champion dans sa catégorie de poids à Salvador" },
                 { "year": "2017", "title": "European IBJJF No-Gi", "achievement": "3e Place", "description": "Médaille de bronze au Championnat d'Europe No-Gi" },
-                { "year": "2015-2019", "title": "Circuit Brésilien", "achievement": "Multiples titres", "description": "à São Paulo, Brasilia, Salvador et autres grandes compétitions nationales brésiliennes" }
+                { "year": "2015-2019", "title": "Circuit Brésilien", "achievement": "Multiples titres", "description": "à São Paulo, Brasilia, Salvador et autres grandes compétitions nationales brlüsseliennes" }
             ],
             "palmares_depuis_2022": "DEPUIS 2022 - EUROPE & CARAÏBES",
             "palmares_2026": { "year": "2026", "items": [{ "title": "Championnat de France", "result": "3e Place" }] },
@@ -301,11 +302,12 @@
     "events": {
         "title": "Événements & Actualités",
         "popup": {
-            "title": "",
-            "subtitle": "",
-            "description": "",
-            "cta": "",
-            "footer": ""
+            "title": "STAGES JJB - VACANCES DE NOËL",
+            "subtitle": "21-24 Déc. & 28-31 Décembre",
+            "description": "Progressez, entraînez-vous et relevez le défi pendant les vacances de Noël avec HandFight !",
+            "cta": "Réserver ma place",
+            "footer": "Places limitées ! Inscrivez-vous dès maintenant.",
+            "image": "https://i.postimg.cc/85hSFr6j/Whats-App-Image-2026-11-03-at-13-14-14.jpg"
         },
         "upcoming_title": "Événements à Venir",
         "upcoming_bmf": {
@@ -329,24 +331,24 @@
             }
         },
         "upcoming_summer": { 
-          "date": "", 
-          "title": "", 
-          "location": "", 
-          "cta": "",
-          "learn_more": "",
+          "date": "21-24 Déc. & 28-31 Déc.", 
+          "title": "Stages JJB - Vacances de Noël", 
+          "location": "Club HandFight - Le Gosier", 
+          "cta": "Réserver ma place",
+          "learn_more": "En savoir plus",
           "modal": {
-            "title": "",
-            "languages_label": "",
-            "languages": "",
-            "weeks_label": "",
-            "weeks": [],
-            "hours_label": "",
-            "hours": "",
-            "program_label": "",
-            "program": [],
-            "rates_label": "",
-            "rates": [],
-            "footer": ""
+            "title": "Guide Pédagogique - Stages de Noël",
+            "languages_label": "Lieu & Dates",
+            "languages": "Club HandFight, Le Gosier. Session 1 : 21-24 Décembre. Session 2 : 28-31 Décembre.",
+            "weeks_label": "Sessions disponibles",
+            "weeks": ["Semaine 1 : Du lundi 21 au jeudi 24 décembre", "Semaine 2 : Du lundi 28 au jeudi 31 décembre"],
+            "hours_label": "Horaires",
+            "hours": "9h00 à 12h00 & 14h00 à 17h00",
+            "program_label": "Valeurs & Programme",
+            "program": ["Discipline & Respect", "Confiance & Amitié", "Progression & Plaisir", "Partage & Maîtrise"],
+            "rates_label": "Tarifs par session",
+            "rates": ["Adhérents HandFight : 80 €", "Externes : 90 €"],
+            "footer": "Réserve ta place ! Places limitées."
           }
         },
         "upcoming1": { "date": "", "title": "", "location": "" },
@@ -354,7 +356,7 @@
         "news_title": "Dernières Actualités",
         "news_france": { "date": "", "title": "", "description": "" },
         "connect_button": "Nous contacter sur WhatsApp",
-        "no_news": "Aucune actualité récente. Restez connectés pour les prochains événements !"
+        "no_news": "Restez connectés pour les prochains événements !"
     },
     "contact": {
         "title": "Contactez-Nous",

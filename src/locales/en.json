@@ -1,3 +1,4 @@
+
 {
     "nav": {
         "about": "Our Club",
@@ -301,11 +302,12 @@
     "events": {
         "title": "Events & News",
         "popup": {
-            "title": "",
-            "subtitle": "",
-            "description": "",
-            "cta": "",
-            "footer": ""
+            "title": "BJJ CAMPS - CHRISTMAS HOLIDAYS",
+            "subtitle": "Dec 21-24 & Dec 28-31",
+            "description": "Improve, train, and take on the challenge during the Christmas holidays with HandFight!",
+            "cta": "Book My Spot",
+            "footer": "Limited spots! Sign up now.",
+            "image": "https://i.postimg.cc/85hSFr6j/Whats-App-Image-2026-11-03-at-13-14-14.jpg"
         },
         "upcoming_title": "Upcoming Events",
         "upcoming_bmf": {
@@ -329,24 +331,24 @@
             }
         },
         "upcoming_summer": { 
-          "date": "", 
-          "title": "", 
-          "location": "", 
-          "cta": "",
-          "learn_more": "",
+          "date": "Dec 21-24 & Dec 28-31", 
+          "title": "BJJ Camps - Christmas Holidays", 
+          "location": "HandFight Club - Le Gosier", 
+          "cta": "Book My Spot",
+          "learn_more": "Learn More",
           "modal": {
-            "title": "",
-            "languages_label": "",
-            "languages": "",
-            "weeks_label": "",
-            "weeks": [],
-            "hours_label": "",
-            "hours": "",
-            "program_label": "",
-            "program": [],
-            "rates_label": "",
-            "rates": [],
-            "footer": ""
+            "title": "Pedagogical Guide - Christmas Camps",
+            "languages_label": "Location & Dates",
+            "languages": "HandFight Club, Le Gosier. Session 1: Dec 21-24. Session 2: Dec 28-31.",
+            "weeks_label": "Available Sessions",
+            "weeks": ["Week 1: Monday Dec 21 to Thursday Dec 24", "Week 2: Monday Dec 28 to Thursday Dec 31"],
+            "hours_label": "Schedule",
+            "hours": "9:00 AM to 12:00 PM & 2:00 PM to 5:00 PM",
+            "program_label": "Values & Program",
+            "program": ["Discipline & Respect", "Confidence & Friendship", "Progression & Pleasure", "Sharing & Mastery"],
+            "rates_label": "Rates per session",
+            "rates": ["HandFight Members: 80 €", "Non-members: 90 €"],
+            "footer": "Reserve your spot! Limited availability."
           }
         },
         "upcoming1": { "date": "", "title": "", "location": "" },
@@ -354,7 +356,7 @@
         "news_title": "Latest News",
         "news_france": { "date": "", "title": "", "description": "" },
         "connect_button": "Contact us on WhatsApp",
-        "no_news": "No recent news. Stay tuned for upcoming events!"
+        "no_news": "Stay tuned for upcoming events!"
     },
     "contact": {
         "title": "Contact Us",
