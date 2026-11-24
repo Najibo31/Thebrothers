@@ -178,7 +178,7 @@
                 { "year": "2017", "title": "European IBJJF No-Gi", "achievement": "3rd Place", "description": "Bronze medal at the No-Gi European Championship" },
                 { "year": "2015-2019", "title": "Circuit Brazilian", "achievement": "Multiple titles", "description": "in São Paulo, Brasilia, Salvador and other major Brazilian national competitions" }
             ],
-            "palmares_depuis_2022": "SINCE 2022 - EUROPE & CARIBBEAN",
+            "palmares_depuis_2022": "SINCE 2022 - EUROPE & CARAÏBES",
             "palmares_2026": { "year": "2026", "items": [{ "title": "French Championship", "result": "3rd Place" }] },
             "palmares_2025": { "year": "2025", "items": [{ "title": "Open Toulon", "result": "1st No-Gi" }, { "title": "Open Caribbean", "result": "1st No-Gi" }] },
             "palmares_2024": { "year": "2024", "items": [{ "title": "French Championship", "result": "3rd Place" }, { "title": "Multiple podiums in national circuit", "result": "" }] },
@@ -307,27 +307,27 @@
             "description": "Improve, train, and take on the challenge during the Christmas holidays with HandFight!",
             "cta": "Book My Spot",
             "footer": "Limited spots! Sign up now.",
-            "image": "https://i.postimg.cc/85hSFr6j/Whats-App-Image-2026-11-03-at-13-14-14.jpg"
+            "image": "https://i.postimg.cc/L8h2J0sF/Modele-de-visuel-modifiable.jpg"
         },
         "upcoming_title": "Upcoming Events",
         "upcoming_bmf": {
-            "date": "",
-            "title": "",
-            "location": "",
-            "cta_adults": "",
-            "learn_more": "",
+            "date": "October 7th, 2026",
+            "title": "BMF Championship - Adults",
+            "location": "L'Instant, Les Abymes",
+            "cta_adults": "Sign Up (Adults)",
+            "learn_more": "Learn More",
             "modal": {
-                "title": "",
-                "intro": "",
-                "concept_title": "",
-                "concept_desc": "",
-                "adults_title": "",
-                "adults_desc": "",
-                "details_label": "",
-                "details": "",
-                "location_label": "",
-                "location": "",
-                "footer": ""
+                "title": "BMF Championship - Details",
+                "intro": "The BMF is an exclusive tournament reserved for adult fighters looking to test themselves against the best.",
+                "concept_title": "Unique concept",
+                "concept_desc": "Who will be the 'big fish' in their category? Come and prove it on the mat.",
+                "adults_title": "Adult Category",
+                "adults_desc": "Intensive competition for white, blue, purple, and brown/black belts.",
+                "details_label": "Technical information",
+                "details": "IBJJF rules apply. Weigh-in on the same day.",
+                "location_label": "Location & Registration",
+                "location": "L'Instant, Les Abymes (7F3F+XXP, Rue Rolière Arnoux).",
+                "footer": "Registration required via HelloAsso."
             }
         },
         "upcoming_summer": { 
@@ -354,7 +354,11 @@
         "upcoming1": { "date": "", "title": "", "location": "" },
         "upcoming4": { "date": "", "title": "", "location": "" },
         "news_title": "Latest News",
-        "news_france": { "date": "", "title": "", "description": "" },
+        "news_france": { 
+          "date": "November 2026", 
+          "title": "Caribbean Open 2026", 
+          "description": "Get ready for the biggest Jiu-Jitsu event in the region! The Caribbean Open returns with fighters from all over the archipelago."
+        },
         "connect_button": "Contact us on WhatsApp",
         "no_news": "Stay tuned for upcoming events!"
     },

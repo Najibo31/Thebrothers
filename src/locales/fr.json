@@ -307,27 +307,27 @@
             "description": "Progressez, entraînez-vous et relevez le défi pendant les vacances de Noël avec HandFight !",
             "cta": "Réserver ma place",
             "footer": "Places limitées ! Inscrivez-vous dès maintenant.",
-            "image": "https://i.postimg.cc/85hSFr6j/Whats-App-Image-2026-11-03-at-13-14-14.jpg"
+            "image": "https://i.postimg.cc/L8h2J0sF/Modele-de-visuel-modifiable.jpg"
         },
         "upcoming_title": "Événements à Venir",
         "upcoming_bmf": {
-            "date": "",
-            "title": "",
-            "location": "",
-            "cta_adults": "",
-            "learn_more": "",
+            "date": "7 Octobre 2026",
+            "title": "Championnat BMF - Adultes",
+            "location": "L'Instant, Les Abymes",
+            "cta_adults": "S'inscrire (Adultes)",
+            "learn_more": "En savoir plus",
             "modal": {
-                "title": "",
-                "intro": "",
-                "concept_title": "",
-                "concept_desc": "",
-                "adults_title": "",
-                "adults_desc": "",
-                "details_label": "",
-                "details": "",
-                "location_label": "",
-                "location": "",
-                "footer": ""
+                "title": "Championnat BMF - Détails",
+                "intro": "Le BMF est un tournoi exclusif réservé aux combattants adultes cherchant à se mesurer aux meilleurs.",
+                "concept_title": "Concept unique",
+                "concept_desc": "Qui sera le gros poisson de sa catégorie ? Venez le prouver sur le tatami.",
+                "adults_title": "Catégorie Adultes",
+                "adults_desc": "Compétition intensive pour les ceintures blanches, bleues, violettes et marron/noires.",
+                "details_label": "Informations techniques",
+                "details": "Règlement IBJJF en vigueur. Pesée le jour même.",
+                "location_label": "Lieu & Inscriptions",
+                "location": "L'Instant, Les Abymes (7F3F+XXP, Rue Rolière Arnoux).",
+                "footer": "Inscriptions obligatoires via HelloAsso."
             }
         },
         "upcoming_summer": { 
@@ -354,7 +354,11 @@
         "upcoming1": { "date": "", "title": "", "location": "" },
         "upcoming4": { "date": "", "title": "", "location": "" },
         "news_title": "Dernières Actualités",
-        "news_france": { "date": "", "title": "", "description": "" },
+        "news_france": { 
+          "date": "Novembre 2026", 
+          "title": "Open Caraïbes 2026", 
+          "description": "Préparez-vous pour le plus grand événement de Jiu-Jitsu de la région ! L'Open Caraïbes revient avec des combattants de tout l'archipel."
+        },
         "connect_button": "Nous contacter sur WhatsApp",
         "no_news": "Restez connectés pour les prochains événements !"
     },
