@@ -51,6 +51,7 @@
     "planning": {
         "title": "Planning des Entraînements",
         "subtitle": "Nos cours sont organisés tout au long de la semaine pour s'adapter à vos disponibilités. Que vous soyez débutant ou confirmé, enfant ou adulte, vous trouverez le créneau qui vous convient.",
+        "alternating_note": "* La séance du vendredi 17h30 alterne une semaine sur deux entre JJB Ados et No-Gi Ados.",
         "days": {
             "monday": "Lundi",
             "tuesday": "Mardi",
@@ -85,7 +86,7 @@
             ],
             "friday": [
                 { "time": "12h30", "course": "JJB Kimono" },
-                { "time": "17h30 - 18h30", "course": "JJB Ados (Tous les groupes)" },
+                { "time": "17h30 - 18h30", "course": "DYNAMIC_FRIDAY_TEENS" },
                 { "time": "18h30", "course": "JJB Kimono" }
             ],
             "saturday": [
@@ -93,6 +94,8 @@
                 { "time": "10h00", "course": "JJB Kimono" }
             ]
         },
+        "friday_jjb": "JJB Ados (Tous les groupes)",
+        "friday_nogi": "No-Gi Ados (Tous les groupes)",
         "no_class": "Aucun cours prévu ce jour-là.",
         "terre_de_haut_title": "Entraînement Terre-de-Haut",
         "terre_de_haut_text": "Samedi 11h ou Samedi 16h — JJB Kimono",
@@ -307,7 +310,7 @@
             "description": "Progressez, entraînez-vous et relevez le défi pendant les vacances de Noël avec HandFight !",
             "cta": "Réserver ma place",
             "footer": "Places limitées ! Inscrivez-vous dès maintenant.",
-            "image": "https://i.postimg.cc/L8h2J0sF/Modele-de-visuel-modifiable.jpg"
+            "image": "https://i.postimg.cc/nV9x13js/Modele-de-visuel-modifiable-(1).jpg"
         },
         "upcoming_title": "Événements à Venir",
         "upcoming_bmf": {
@@ -343,7 +346,7 @@
             "weeks_label": "Sessions disponibles",
             "weeks": ["Semaine 1 : Du lundi 21 au jeudi 24 décembre", "Semaine 2 : Du lundi 28 au jeudi 31 décembre"],
             "hours_label": "Horaires",
-            "hours": "9h00 à 12h00 & 14h00 à 17h00",
+            "hours": "8h30 à 16h00",
             "program_label": "Valeurs & Programme",
             "program": ["Discipline & Respect", "Confiance & Amitié", "Progression & Plaisir", "Partage & Maîtrise"],
             "rates_label": "Tarifs par session",

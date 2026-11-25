@@ -1,5 +1,6 @@
 
 'use client';
+import React, { useMemo } from 'react';
 import { useI18n } from '@/contexts/i18n-provider';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
@@ -10,6 +11,16 @@ export default function PlanningSection() {
   const { t } = useI18n();
   
   const schedule = t('planning.schedule');
+
+  // Fonction pour déterminer si nous sommes dans une semaine de No-Gi pour les ados le vendredi
+  // On utilise une date de référence : Vendredi 6 Décembre 2024 comme semaine A (No-Gi par exemple)
+  const isNoGiWeek = useMemo(() => {
+    const referenceDate = new Date('2024-12-06T00:00:00').getTime();
+    const currentDate = new Date().getTime();
+    const msInWeek = 7 * 24 * 60 * 60 * 1000;
+    const weeksPassed = Math.floor((currentDate - referenceDate) / msInWeek);
+    return weeksPassed % 2 === 0;
+  }, []);
 
   const days = [
     { key: 'monday', label: t('planning.days.monday') },
@@ -43,12 +54,26 @@ export default function PlanningSection() {
                 <CardContent className="pt-6">
                   {schedule[day.key as keyof typeof schedule]?.length > 0 ? (
                     <div className="space-y-4">
-                      {schedule[day.key as keyof typeof schedule].map((session: any, index: number) => (
-                        <div key={index} className="flex flex-col items-center gap-2 text-center sm:flex-row sm:justify-between sm:text-left p-4 bg-background rounded-lg border">
-                          <p className="font-bold text-base sm:text-lg">{session.time}</p>
-                          <p className="text-primary font-semibold text-sm sm:text-base">{session.course}</p>
-                        </div>
-                      ))}
+                      {schedule[day.key as keyof typeof schedule].map((session: any, index: number) => {
+                        let courseName = session.course;
+                        
+                        // Logique spécifique pour le vendredi à 17h30 (alternance)
+                        if (day.key === 'friday' && session.course === 'DYNAMIC_FRIDAY_TEENS') {
+                          courseName = isNoGiWeek ? t('planning.friday_nogi') : t('planning.friday_jjb');
+                        }
+
+                        return (
+                          <div key={index} className="flex flex-col items-center gap-2 text-center sm:flex-row sm:justify-between sm:text-left p-4 bg-background rounded-lg border">
+                            <p className="font-bold text-base sm:text-lg">{session.time}</p>
+                            <p className="text-primary font-semibold text-sm sm:text-base">{courseName}</p>
+                          </div>
+                        );
+                      })}
+                      {day.key === 'friday' && (
+                        <p className="text-xs text-muted-foreground italic mt-4 text-center">
+                          {t('planning.alternating_note')}
+                        </p>
+                      )}
                     </div>
                   ) : (
                     <div className="text-center py-10">

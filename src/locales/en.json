@@ -51,6 +51,7 @@
     "planning": {
         "title": "Training Schedule",
         "subtitle": "Our classes are scheduled throughout the week to fit your availability. Whether you are a beginner or experienced, child or adult, you will find a slot that suits you.",
+        "alternating_note": "* The Friday 5:30 PM session alternates every other week between BJJ Teens and No-Gi Teens.",
         "days": {
             "monday": "Monday",
             "tuesday": "Tuesday",
@@ -85,7 +86,7 @@
             ],
             "friday": [
                 { "time": "12:30 PM", "course": "BJJ Gi" },
-                { "time": "05:30 PM - 06:30 PM", "course": "BJJ Teens (All groups)" },
+                { "time": "05:30 PM - 06:30 PM", "course": "DYNAMIC_FRIDAY_TEENS" },
                 { "time": "06:30 PM", "course": "BJJ Gi" }
             ],
             "saturday": [
@@ -93,6 +94,8 @@
                 { "time": "10:00 AM", "course": "BJJ Gi" }
             ]
         },
+        "friday_jjb": "BJJ Teens (All groups)",
+        "friday_nogi": "No-Gi Teens (All groups)",
         "no_class": "No classes scheduled for this day.",
         "terre_de_haut_title": "Terre-de-Haut Training",
         "terre_de_haut_text": "Saturday 11 AM or Saturday 4 PM — BJJ Kimono",
@@ -307,7 +310,7 @@
             "description": "Improve, train, and take on the challenge during the Christmas holidays with HandFight!",
             "cta": "Book My Spot",
             "footer": "Limited spots! Sign up now.",
-            "image": "https://i.postimg.cc/L8h2J0sF/Modele-de-visuel-modifiable.jpg"
+            "image": "https://i.postimg.cc/nV9x13js/Modele-de-visuel-modifiable-(1).jpg"
         },
         "upcoming_title": "Upcoming Events",
         "upcoming_bmf": {
@@ -343,7 +346,7 @@
             "weeks_label": "Available Sessions",
             "weeks": ["Week 1: Monday Dec 21 to Thursday Dec 24", "Week 2: Monday Dec 28 to Thursday Dec 31"],
             "hours_label": "Schedule",
-            "hours": "9:00 AM to 12:00 PM & 2:00 PM to 5:00 PM",
+            "hours": "8:30 AM to 4:00 PM",
             "program_label": "Values & Program",
             "program": ["Discipline & Respect", "Confidence & Friendship", "Progression & Pleasure", "Sharing & Mastery"],
             "rates_label": "Rates per session",
