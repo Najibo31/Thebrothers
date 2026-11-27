@@ -4,10 +4,15 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useI18n } from '@/contexts/i18n-provider';
 import { Instagram } from 'lucide-react';
+import { useState, useEffect } from 'react';
 
 export default function Footer() {
   const { t } = useI18n();
-  const currentYear = new Date().getFullYear();
+  const [currentYear, setCurrentYear] = useState<number | string>('');
+
+  useEffect(() => {
+    setCurrentYear(new Date().getFullYear());
+  }, []);
 
   return (
     <footer className="bg-background border-t">

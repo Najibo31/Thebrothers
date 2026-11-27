@@ -1,6 +1,6 @@
 
 'use client';
-import React, { useMemo } from 'react';
+import React, { useMemo, useState, useEffect } from 'react';
 import { useI18n } from '@/contexts/i18n-provider';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
@@ -9,17 +9,17 @@ import { Phone, Anchor } from 'lucide-react';
 
 export default function PlanningSection() {
   const { t } = useI18n();
+  const [isNoGiWeek, setIsNoGiWeek] = useState(false);
   
   const schedule = t('planning.schedule');
 
-  // Fonction pour déterminer si nous sommes dans une semaine de No-Gi pour les ados le vendredi
-  // On utilise une date de référence : Vendredi 6 Décembre 2024 comme semaine A (No-Gi par exemple)
-  const isNoGiWeek = useMemo(() => {
+  // Utilisation de useEffect pour éviter les erreurs d'hydratation (SSR mismatch)
+  useEffect(() => {
     const referenceDate = new Date('2024-12-06T00:00:00').getTime();
     const currentDate = new Date().getTime();
     const msInWeek = 7 * 24 * 60 * 60 * 1000;
     const weeksPassed = Math.floor((currentDate - referenceDate) / msInWeek);
-    return weeksPassed % 2 === 0;
+    setIsNoGiWeek(weeksPassed % 2 === 0);
   }, []);
 
   const days = [
